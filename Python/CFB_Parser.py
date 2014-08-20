@@ -1,13 +1,18 @@
-
+# ================================================================
 # ===== IMPORTS ==================================================
+# ================================================================
 import re
 import CONST
 
 
+# ================================================================
 # ===== CLASSES ==================================================
+# ================================================================
 
 # Holds the data for a passing play
 class Passing_Play:
+
+	# Constructor
 	def __init__(self, game_code, play_num, team_code, passer, receiver, completion, yards, touchdown, interception, first_down, dropped):
 		self.Game_Code = game_code
 		self.Play_Num = play_num
@@ -21,6 +26,9 @@ class Passing_Play:
 		self.Interception = interception
 		self.First_down = first_down
 		self.Dropped = dropped
+
+
+	# Returns an array of relavent information
 	def Compile_Play(self):
 		OutputArray = []
 		OutputArray.append(str(self.Game_Code))
@@ -38,7 +46,170 @@ class Passing_Play:
 		return OutputArray
 
 
+# Holds the data row from a play
+class Passing_Play_Info:
+
+	# Constructor
+	def __init__(self, info):
+		self.data = self.Set_Play_Ints(info)
+		self.play_num = 0
+		self.turnover = 0
+		self.completion = 0
+		self.touchdown = 0
+		self.interception = 0
+		self.first_down = 0
+
+
+	# Sets the appropriate cells in play info from /u/millsGT49 data to integers
+	def Set_Play_Ints(self, info):
+		for i in range(0, len(info)):
+			try:					# convert to int
+				info[i] = int(info[i])
+				continue
+			except:					# is a string
+				pass
+			if i == CONST.CLK:		# convert clock
+				info[i] = self.Set_Clock(info[i])
+		return info
+
+
+	# Finds the time in input string and sets the clock
+	def Set_Clock(self, input_clk):
+		if None == re.search(r"\d{1,2}:\d{1,2}", input_clk):
+			print "WARNING: Clock not set!\n"
+			return input_clk
+		else:
+			time = re.findall(r"\d{1,2}:\d{1,2}", input_clk)
+			time = time[0].split(":")
+			return 60*int(time[0]) + int(time[1])
+
+
+	# Checks for a turnover on a passing play
+	def Passing_Turnover_Occured(self, next_play):
+
+		# Play result is a fumble/interception. Make sure the defense got the ball.
+		if "Interception" == self.data[CONST.REST] or "Fumble" == self.data[CONST.REST]:
+			if next_play.data[CONST.OFF] == self.data[CONST.DEF] and self.data[CONST.CODE] == next_play.data[CONST.CODE]:	# looks like the defense got the ball
+				if self.data[CONST.QTR] == 2 and next_play.data[CONST.QTR] == 3:	# turnover occurred right at halftime. Mark as turnover and warn.
+					print "WARNING: Play " + str(self.data[CONST.P_NUM]) + " appears to have a turnover at halftime. Recovering team unknown. Marking as a turnover.\n"
+				self.turnover = 1
+			else:	# looks like the offense got the ball back
+				self.turnover = 0
+
+		# Play result is a touchdown. Check who got the touchdown by using the extra point/2 point conversion.
+		elif "Touchdown" == self.data[CONST.REST]:
+			if next_play.data[CONST.TYPE] == "Extra.Point" or next_play.data[CONST.TYPE] == "Two.Point.Attempt":	# next play is extra point
+				if self.Same_Offense(next_play):	# if the offense got a TD, no turnover occurred
+					self.turnover = 0
+				else:
+					self.turnover = 1
+			else:	# extra point not found, using INT
+				if None != re.search("intercept", self.data[CONST.P_REST], re.IGNORECASE):	# looks like an interception for touchdown
+					self.turnover = 1
+				else:
+					self.turnover = 0
+		else:
+			self.turnover = 0
+
+
+	# Determines whether a passing play was a completion
+	def Passing_Is_Completion(self, next_play):
+
+		# Obvious case
+		if "Completion" == self.data[CONST.REST]:
+			self.completion = 1
+
+		# If TD, check for a turnover. If none occurred, assume a completion
+		elif "Touchdown" == self.data[CONST.REST]:
+			if self.turnover == 1:
+				if None != re.search(r"(intercept)", self.data[CONST.P_REST]):	# if turnover was interception
+					self.completion = 0
+				elif None != re.search(r"(fumble)", self.data[CONST.P_REST]):	# if turnover was fumble, check if the ball was passed or the QB was sacked
+					if None != re.search(r"(sack)", self.data[CONST.P_REST]):	# on sack, assume QB fumbled
+						self.completion = 0
+					elif None != re.search(r"(pass)", self.data[CONST.P_REST]):	# if pass got off, assume receiver fumbled after completion
+						self.completion = 1
+			else:
+				self.completion = 1
+
+		# If Fumble, try to use the extra point / 2 pt conversion to determine who got the TD. If that doesn't work, assume offense got it.
+		elif "Fumble" == self.data[CONST.REST]:
+			if None != re.search(r"(sack)", self.data[CONST.P_REST]):	# on sack, assume QB fumbled
+				self.completion = 0
+			elif None != re.search(r"(pass)", self.data[CONST.P_REST]):	# if pass got off, assume receiver fumbled after completion
+				self.completion = 1
+		else:
+			self.completion = 0
+
+
+	# Checks if the next play has the same offense
+	def Same_Offense(self, next_play):
+		if next_play.data[CONST.OFF] == self.data[CONST.OFF]:
+			return 1
+		elif next_play.data[CONST.OFF] == self.data[CONST.DEF]:
+			return 0
+
+
+	# Determines whether a passing play was a touchdown (for the offense)
+	def Passing_Is_Touchdown(self):
+		if self.data[CONST.REST] == "Touchdown" and self.turnover == 0:
+			self.touchdown = 1
+		else:
+			self.touchdown = 0
+
+
+	# Determines whether a passing play was an interception
+	def Passing_Is_Interception(self):
+		if self.data[CONST.REST] == "Interception":	# obvious case
+			self.interception = 1
+		elif self.data[CONST.REST] == "Touchdown":	# touchdown may have been via interception
+			if None != re.search("intercept", self.data[CONST.P_REST], re.IGNORECASE):	# interception for touchdown
+				self.interception = 1
+			else:
+				self.interception = 0
+		else:
+			self.interception = 0
+
+
+	# Determines whether a passing play was an interception
+	def Passing_Is_1st_Down(self, next_play):
+
+		# Looks like a 1st down
+		if self.Same_Offense(next_play) and next_play.data[CONST.DOWN] == 1:
+			if self.data[CONST.DIST] <= self.data[CONST.Y_DESC]:	# make sure yards needed <= yards gained
+				self.first_down = 1
+			elif None != re.search(r"penal", self.data[CONST.P_REST], re.IGNORECASE):	# check for things that would explain anamoly
+				self.first_down = 0
+			else:
+				print "WARNING: Play " + str(self.data[CONST.P_NUM]) + " had a first down, but didn't get enough yards for one! Returning 0."
+				print self.data[CONST.P_REST]
+				print "Yards gained: " + str(self.data[CONST.Y_DESC])
+				print "Yards needed: " + str(self.data[CONST.DIST]) + "\n"
+				self.first_down = 0
+
+		# Yards gained > needed, but no 1st down
+		elif self.data[CONST.DIST] < self.data[CONST.Y_DESC]:
+			if (next_play.data[CONST.QTR] == 3 and self.data[CONST.QTR] == 2) or next_play.data[CONST.CODE] != self.data[CONST.CODE]:
+				self.first_down = 1 									# got a first down, but end of half/game
+			elif "Penalty" == next_play.data[CONST.TYPE]:	# next play penalty explains the anamoly
+				self.first_down = 0
+			elif 0 == self.data[CONST.DIST]:				# "And Goal" explains the anamoly
+				self.first_down = 0
+			elif None != re.search(r"(touchdown)|(inter)|(fumble)", self.data[CONST.P_REST], re.IGNORECASE):	# check for things that would explain anamoly
+				self.first_down = 1
+			else:
+				print "WARNING: Play " + str(self.data[CONST.P_NUM]) + " didn't have a first down, but got enough yards for one! Returning 0."
+				print self.data[CONST.P_REST]
+				print "Yards gained: " + str(self.data[CONST.Y_DESC])
+				print "Yards needed: " + str(self.data[CONST.DIST]) + "\n"
+				self.first_down = 0
+		else:
+			self.first_down = 0
+
+
+# ==================================================================
 # ===== FUNCTIONS ==================================================
+# ==================================================================
 
 # Returns the contents of a .csv file in an array
 def Read_CSV(file_name):
@@ -84,7 +255,7 @@ def Read_Team_Data():
 # Replaces the team name string with a numerical team code
 def Get_Team_Code(str_name, team_names, team_codes):
 	longest_match = 0
-	team_match = "NULL"
+	team_match = "NA"
 	code = "0"
 	str_name = re.sub("[\.()]", "", str_name)
 	for name in team_names:
@@ -94,7 +265,7 @@ def Get_Team_Code(str_name, team_names, team_codes):
 				code = team_codes[name]
 				team_match = re.sub("[\.()]", "", name)
 	if code == "0":
-		print "WARNING: Team \"" + str_name + "\" has an undefined code!"
+		print "WARNING: Team \"" + str_name + "\" has an undefined code!\n"
 		raw_input()
 	return code
 
@@ -129,140 +300,61 @@ def Replace_Team_Names(data, team_names, team_codes):
 def Get_Passing_Plays(data):
 
 	passing_plays = []
-	passing_plays.append(Play_Header())
-	prev_game_code = 0
+	passing_plays.append(Passing_Play_Header())
+	play_num = 0
 	for i in range(1, len(data)):
 
 		# Get previous play data
 		if i > 1:
-			prev_play = Set_Play_Ints(data[i-1])
+			prev_play = Passing_Play_Info(data[i-1])
 		else:
-			prev_play = [0] * len(data)
+			prev_play = Passing_Play_Info([0] * len(data[i]))
 
 		# Get this play
-		play_info = Set_Play_Ints(data[i])
+		play_info = Passing_Play_Info(data[i])
 
 		# Get next play
 		if i + 1 < len(data):
-			next_play = Set_Play_Ints(data[i+1])
+			next_play = Passing_Play_Info(data[i+1])
 		else:
-			next_play = [0] * len(data)
+			next_play = Passing_Play_Info([0] * len(data[i]))
 		
-		if None != re.search("Lafayette", str(play_info[6]) + str(play_info[7])):	# Ignore Lafayette game for now due to bug. *** REMOVE LATER ***
+		# Ignore Lafayette game for now due to bug. *** REMOVE LATER ***
+		if None != re.search("Lafayette", str(play_info.data[CONST.OFF]) + str(play_info.data[CONST.DEF])):
 			continue
 
-		if play_info[CONST.CODE] != prev_game_code:	# new game, reset play count
+		# New game, reset play count
+		if play_info.data[CONST.CODE] != prev_play.data[CONST.CODE]:
 			play_num = 1
 		else:
 			play_num += 1
-
-		prev_game_code = play_info[CONST.CODE]
+		play_info.play_num = play_num
 
 		# Found a passing play, parse the data to gather info
-		if None != re.search("pass", play_info[CONST.TYPE], re.IGNORECASE):
-			game_code = play_info[CONST.CODE]
-			team_code = play_info[CONST.OFF]
-			passer = "NULL"
-			receiver = "NULL"
-			completion = Passing_Is_Completion(prev_play, play_info, next_play)
-			yards = play_info[CONST.Y_DESC]
-			touchdown = Passing_Is_Touchdown(prev_play, play_info, next_play, completion)
-			interception = Passing_Is_Interception(prev_play, play_info, next_play)
-			first_down = Passing_Is_1st_Down(prev_play, play_info, next_play)
-			dropped = 0		# currently no drop data
-			play = Passing_Play(game_code, play_num, team_code, passer, receiver, completion, yards, touchdown, interception, first_down, dropped)
+		if "Pass" == play_info.data[CONST.TYPE]:
+			play_info.Passing_Turnover_Occured(next_play)
+			play_info.Passing_Is_Completion(next_play)
+			play_info.Passing_Is_Touchdown()
+			if play_info.turnover == 1:
+				play_info.Passing_Is_Interception()
+			play_info.Passing_Is_1st_Down(next_play)
+			# Finalize all the data for the play
+			game_code = play_info.data[CONST.CODE]
+			play_num = play_info.play_num
+			team_code = play_info.data[CONST.OFF]
+			completion = play_info.completion
+			yards = play_info.data[CONST.Y_DESC]
+			touchdown = play_info.touchdown
+			interception = play_info.interception
+			first_down = play_info.first_down
+			play = Passing_Play(game_code, play_num, team_code, "NA", "NA", completion, yards, touchdown, interception, first_down, 0)
 			passing_plays.append(play.Compile_Play())
 
 	return passing_plays
 
 
-# Determines whether a passing play was a completion
-def Passing_Is_Completion(prev_play, play_info, next_play):
-	if play_info[CONST.REST] == "Completion":
-		return 1
-	# If TD, try to use the extra point / 2 pt conversion to determine who got the TD. If that doesn't work, check for INT.
-	elif play_info[CONST.REST] == "Touchdown":
-		if next_play[CONST.TYPE] == "Extra.Point" or next_play[CONST.TYPE] == "Two.Point.Attempt":	# next play is extra point
-			return Same_Offense(play_info, next_play)
-		else:	# extra point not found, using INT
-			if None != re.search("intercept", play_info[CONST.P_REST], re.IGNORECASE):	# interception for touchdown
-				return 0
-			else:
-				return 1
-	# If Fumble, try to use the extra point / 2 pt conversion to determine who got the TD. If that doesn't work, assume offense got it.
-	elif play_info[CONST.REST] == "Fumble":
-		if next_play[CONST.TYPE] == "Extra.Point" or next_play[CONST.TYPE] == "Two.Point.Attempt":	# next play is extra point
-			return Same_Offense(play_info, next_play)
-		else:
-			return 1
-	else:
-		return 0
-
-
-# Determines whether a passing play was a touchdown (for the offense)
-def Passing_Is_Touchdown(prev_play, play_info, next_play, completion):
-	if play_info[CONST.REST] == "Touchdown" and completion == 1:
-		return 1
-	else:
-		return 0
-
-
-# Determines whether a passing play was an interception
-def Passing_Is_Interception(prev_play, play_info, next_play):
-	if play_info[CONST.REST] == "Interception":
-		return 1
-	elif play_info[CONST.REST] == "Touchdown":
-		if None != re.search("intercept", play_info[CONST.P_REST], re.IGNORECASE):	# interception for touchdown
-			return 1
-		else:
-			return 0
-	else:
-		return 0
-
-
-# Determines whether a passing play was an interception
-def Passing_Is_1st_Down(prev_play, play_info, next_play):
-	if Same_Offense(play_info, next_play) and next_play[CONST.DOWN] == 1:
-		if play_info[CONST.DIST] <= play_info[CONST.Y_DESC]:
-			return 1
-		elif None != re.search(r"penal", play_info[CONST.P_REST], re.IGNORECASE):	# check for things that would explain anamoly
-			return 0
-		else:
-			print "WARNING: Showing this team got a first down, but didn't get enough yards for one! Returning 0."
-			print play_info
-			print "Yards gained: " + str(play_info[CONST.Y_DESC])
-			print "Yards needed: " + str(play_info[CONST.DIST])
-			return 0
-	elif play_info[CONST.DIST] < play_info[CONST.Y_DESC]:	# yards gained > needed, but no 1st down
-		if next_play[CONST.QTR] > play_info[CONST.QTR] or next_play[CONST.CODE] != play_info[CONST.CODE]:	# got a first down, but end of half/game
-			return 1
-		elif next_play[CONST.TYPE] == "Penalty":	# next play penalty explains the anamoly
-			return 0
-		elif play_info[CONST.DIST] == 0:			# "And Goal" explains the anamoly
-			return 0
-		elif None != re.search(r"(touchdown)|(inter)|(fumble)", play_info[CONST.P_REST], re.IGNORECASE):	# check for things that would explain anamoly
-			return 1
-		else:
-			print "WARNING: Showing this team didn't get a first down, but got enough yards for one! Returning 0."
-			print "Yards gained: " + str(play_info[CONST.Y_DESC])
-			print "Yards needed: " + str(play_info[CONST.DIST])
-			print play_info
-			return 0
-
-	else:
-		return 0
-
-
-# Checks if the next play has the same offense
-def Same_Offense(play_info, next_play):
-	if next_play[CONST.OFF] == play_info[CONST.OFF]:
-		return 1
-	elif next_play[CONST.OFF] == play_info[CONST.DEF]:
-		return 0
-
-
 # Returns the header for a play type
-def Play_Header():
+def Passing_Play_Header():
 	OutputArray = []
 	OutputArray.append("Game Code")
 	OutputArray.append("Play Number")
@@ -279,32 +371,9 @@ def Play_Header():
 	return OutputArray
 
 
-# Sets the appropriate cells in play info from /u/millsGT49 data to integers
-def Set_Play_Ints(play_info):
-	not_int_list = [CONST.CLK, CONST.TYPE, CONST.REST, CONST.P_INFO, CONST.P_REST, CONST.H_TEAM, CONST.A_TEAM, CONST.CODE]
-	for i in range(0, len(play_info)):
-		try:					# convert to int
-			play_info[i] = int(play_info[i])
-			continue
-		except:					# is a string
-			pass
-		if i == CONST.CLK:		# convert clock
-			play_info[i] = Set_Clock(play_info[i])
-	return play_info
-
-
-# Finds the time in input string and sets the clock
-def Set_Clock(input_clk):
-	if None == re.search(r"\d{1,2}:\d{1,2}", input_clk):
-		print "WARNING: Clock not set!"
-		return input_clk
-	else:
-		time = re.findall(r"\d{1,2}:\d{1,2}", input_clk)
-		time = time[0].split(":")
-		return 60*int(time[0]) + int(time[1])
-
-
+# ======================================================================
 # ===== MAIN FUNCTION ==================================================
+# ======================================================================
 print "\n"
 
 # Get team data
@@ -322,6 +391,8 @@ passing_plays = Get_Passing_Plays(data)
 Write_CSV(file_name, passing_plays)
 
 
+# ====================================================================
 # ===== END PARSING ==================================================
+# ====================================================================
 print "Done! Press ENTER to continue."
 raw_input()

@@ -1,4 +1,5 @@
 # Constants for parsing /u/millsGT49
+P_NUM = 0
 DOWN = 1
 DIST = 2
 SPOT = 3
