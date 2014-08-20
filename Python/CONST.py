@@ -1,0 +1,23 @@
+# Constants for parsing /u/millsGT49
+DOWN = 1
+DIST = 2
+SPOT = 3
+CLK = 4
+QTR = 5
+OFF = 6
+DEF = 7
+O_PT = 8
+D_PT = 9
+TYPE = 10
+REST = 11
+H_PT = 12
+A_PT = 13
+P_INFO = 14
+P_REST = 15
+Y_SPOT = 16
+Y_DESC = 17
+DATE = 18
+H_TEAM = 19
+A_TEAM = 20
+CODE = 21
+WEEK = 22
