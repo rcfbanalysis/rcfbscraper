@@ -5,13 +5,8 @@ import re
 import CONST
 from Passing_Play import *
 from Passing_Play_Info import *
-
-
-# ========================================================================
-# ===== CLASSES UNDER DEVELOPMENT ========================================
-# ========================================================================
-
-
+from Rushing_Play import *
+from Rushing_Play_Info import *
 
 
 # ==================================================================
@@ -105,7 +100,6 @@ def Replace_Team_Names(data, team_names, team_codes):
 
 # Uses season data to find and compile a list of passing plays
 def Get_Passing_Plays(data):
-
 	passing_plays = []
 	passing_plays.append(Passing_Play_Header())
 	play_num = 0
@@ -139,13 +133,15 @@ def Get_Passing_Plays(data):
 
 		# Found a passing play, parse the data to gather info
 		if "Pass" == play_info.data[CONST.TYPE]:
-			play_info.Passing_Turnover_Occured(next_play)
-			play_info.Passing_Is_Completion(next_play)
-			play_info.Passing_Is_Touchdown()
+			play_info.Turnover_Occurred(next_play)
+			play_info.Completion(next_play)
+			play_info.Touchdown_Occurred()
 			if play_info.turnover == 1:
-				play_info.Passing_Is_Interception()
-			play_info.Passing_Is_1st_Down(next_play)
-			play_info.Passing_Is_Sack()
+				play_info.Interception()
+			play_info.First_Down(next_play)
+			play_info.Sack_Occurred()
+			if play_info.sack == 1:
+				play_info.Safety_Occurred(next_play)
 			# Finalize all the data for the play
 			game_code = play_info.data[CONST.CODE]
 			play_num = play_info.play_num
@@ -156,10 +152,66 @@ def Get_Passing_Plays(data):
 			interception = play_info.interception
 			first_down = play_info.first_down
 			sack = play_info.sack
-			play = Passing_Play(game_code, play_num, team_code, "NA", "NA", completion, yards, touchdown, interception, first_down, 0, sack)
+			safety = play_info.safety
+			play = Passing_Play(game_code, play_num, team_code, "NA", "NA", completion, yards, touchdown, interception, first_down, 0, sack, safety)
 			passing_plays.append(play.Compile_Play())
 
 	return passing_plays
+
+
+#
+def Get_Rushing_Plays(data):
+	rushing_plays = []
+	rushing_plays.append(Rushing_Play_Header())
+	play_num = 0
+	for i in range(1, len(data)):
+
+		# Get previous play data
+		if i > 1:
+			prev_play = Rushing_Play_Info(data[i-1])
+		else:
+			prev_play = Rushing_Play_Info([0] * len(data[i]))
+
+		# Get this play
+		play_info = Rushing_Play_Info(data[i])
+
+		# Get next play
+		if i + 1 < len(data):
+			next_play = Rushing_Play_Info(data[i+1])
+		else:
+			next_play = Rushing_Play_Info([0] * len(data[i]))
+		
+		# Ignore Lafayette game for now due to bug. *** REMOVE LATER ***
+		if None != re.search("Lafayette", str(play_info.data[CONST.OFF]) + str(play_info.data[CONST.DEF])):
+			continue
+
+		# New game, reset play count
+		if play_info.data[CONST.CODE] != prev_play.data[CONST.CODE]:
+			play_num = 1
+		else:
+			play_num += 1
+		play_info.play_num = play_num
+
+		# Found a rushing play, parse the data to gather info
+		if "Rush" == play_info.data[CONST.TYPE]:
+			play_info.Turnover_Occurred(next_play)
+			play_info.Touchdown_Occurred()
+			play_info.First_Down(next_play)
+			play_info.Safety_Occurred(next_play)
+			# Finalize all the data for the play
+			game_code = play_info.data[CONST.CODE]
+			play_num = play_info.play_num
+			team_code = play_info.data[CONST.OFF]
+			yards = play_info.data[CONST.Y_DESC]
+			touchdown = play_info.touchdown
+			first_down = play_info.first_down
+			fumble = play_info.fumble
+			fumble_lost = play_info.fumble_lost
+			safety = play_info.safety
+			play = Rushing_Play(game_code, play_num, team_code, "NA", yards, touchdown, first_down, fumble, fumble_lost, safety)
+			rushing_plays.append(play.Compile_Play())
+
+	return rushing_plays
 
 
 # Returns the header for a play type
@@ -178,6 +230,24 @@ def Passing_Play_Header():
 	OutputArray.append("1st Down")
 	OutputArray.append("Dropped")
 	OutputArray.append("Sack")
+	OutputArray.append("Safety")
+	return OutputArray
+
+
+# Returns the header for a play type
+def Rushing_Play_Header():
+	OutputArray = []
+	OutputArray.append("Game Code")
+	OutputArray.append("Play Number")
+	OutputArray.append("Team Code")
+	OutputArray.append("Rusher Player Code")
+	OutputArray.append("Attempt")
+	OutputArray.append("Yards")
+	OutputArray.append("Touchdown")
+	OutputArray.append("1st Down")
+	OutputArray.append("Fumble")
+	OutputArray.append("Fumble Lost")
+	OutputArray.append("Safety")
 	return OutputArray
 
 
@@ -199,6 +269,11 @@ Write_CSV("BowlGameData_alt.csv", data)
 file_name = "pass_new.csv"
 passing_plays = Get_Passing_Plays(data)
 Write_CSV(file_name, passing_plays)
+
+# Compile rushing plays and write to file
+file_name = "rush_new.csv"
+rushing_plays = Get_Rushing_Plays(data)
+Write_CSV(file_name, rushing_plays)
 
 
 # ====================================================================
