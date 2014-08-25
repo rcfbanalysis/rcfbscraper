@@ -15,7 +15,10 @@ class Rushing_Play_Info:
 		self.fumble = 0
 		self.fumble_lost = 0
 		self.first_down = 0
+		self.sack = 0
 		self.safety = 0
+		self.team_1 = self.data[CONST.OFF]
+		self.team_2 = self.data[CONST.DEF]
 
 
 	# Sets the appropriate cells in play info from /u/millsGT49 data to integers
@@ -131,11 +134,23 @@ class Rushing_Play_Info:
 			self.first_down = 0
 
 
+	# Determines whether or not a sack occurred
+	def Sack_Occurred(self):
+		# First check the play result (more rigorous/quicker)
+		if "Sack" == self.data[CONST.REST]:
+			self.sack = 1
+		# Next, look for 'sack' in the detailed play result
+		elif None != re.search(r"(sack)", self.data[CONST.P_REST]):
+			self.sack = 1
+		else:
+			self.sack = 0
+
+
 	# Determines whether or not a safety occurred
 	def Safety_Occurred(self, next_play):
 		# Check if it was the last play before halftime
 		if self.data[CONST.QTR] == 2 and next_play.data[CONST.QTR] == 3:
-			if self.data[CONST.DEF] == next_play.data[CONST.DEF]:	# find which team got the sack and check if they got 2 points
+			if self.data[CONST.DEF] == next_play.data[CONST.DEF]:	# check if the defense got 2 points
 				if self.data[CONST.D_PT] + 2 == next_play.data[CONST.D_PT]:
 					self.safety = 1
 				else:

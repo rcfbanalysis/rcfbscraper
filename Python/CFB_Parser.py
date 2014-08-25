@@ -7,6 +7,7 @@ from Passing_Play import *
 from Passing_Play_Info import *
 from Rushing_Play import *
 from Rushing_Play_Info import *
+from Team_Game_Stat import *
 
 
 # ==================================================================
@@ -101,7 +102,8 @@ def Replace_Team_Names(data, team_names, team_codes):
 # Uses season data to find and compile a list of passing plays
 def Get_Passing_Plays(data):
 	passing_plays = []
-	passing_plays.append(Passing_Play_Header())
+	passing_plays_print = []
+	passing_plays_print.append(Passing_Play_Header())
 	play_num = 0
 	for i in range(1, len(data)):
 
@@ -141,7 +143,8 @@ def Get_Passing_Plays(data):
 			play_info.First_Down(next_play)
 			play_info.Sack_Occurred()
 			if play_info.sack == 1:
-				play_info.Safety_Occurred(next_play)
+				continue	# putting sacks into rushing
+			play_info.Safety_Occurred(next_play)
 			# Finalize all the data for the play
 			game_code = play_info.data[CONST.CODE]
 			play_num = play_info.play_num
@@ -153,16 +156,20 @@ def Get_Passing_Plays(data):
 			first_down = play_info.first_down
 			sack = play_info.sack
 			safety = play_info.safety
-			play = Passing_Play(game_code, play_num, team_code, "NA", "NA", completion, yards, touchdown, interception, first_down, 0, sack, safety)
-			passing_plays.append(play.Compile_Play())
+			team_1 = play_info.team_1
+			team_2 = play_info.team_2
+			play = Passing_Play(game_code, play_num, team_code, "NA", "NA", completion, yards, touchdown, interception, first_down, 0, sack, safety, team_1, team_2)
+			passing_plays.append(play)
+			passing_plays_print.append(play.Compile_Play())
 
-	return passing_plays
+	return (passing_plays, passing_plays_print)
 
 
-#
+# Uses season data to find and compile a list of rushing plays
 def Get_Rushing_Plays(data):
 	rushing_plays = []
-	rushing_plays.append(Rushing_Play_Header())
+	rushing_plays_print = []
+	rushing_plays_print.append(Rushing_Play_Header())
 	play_num = 0
 	for i in range(1, len(data)):
 
@@ -193,7 +200,11 @@ def Get_Rushing_Plays(data):
 		play_info.play_num = play_num
 
 		# Found a rushing play, parse the data to gather info
-		if "Rush" == play_info.data[CONST.TYPE]:
+		if "Rush" == play_info.data[CONST.TYPE] or "Pass" == play_info.data[CONST.TYPE]:
+			# Only include passing plays which are sacks
+			play_info.Sack_Occurred()
+			if "Pass" == play_info.data[CONST.TYPE] and play_info.sack == 0:
+				continue
 			play_info.Turnover_Occurred(next_play)
 			play_info.Touchdown_Occurred()
 			play_info.First_Down(next_play)
@@ -207,11 +218,63 @@ def Get_Rushing_Plays(data):
 			first_down = play_info.first_down
 			fumble = play_info.fumble
 			fumble_lost = play_info.fumble_lost
+			sack = play_info.sack
 			safety = play_info.safety
-			play = Rushing_Play(game_code, play_num, team_code, "NA", yards, touchdown, first_down, fumble, fumble_lost, safety)
-			rushing_plays.append(play.Compile_Play())
+			team_1 = play_info.team_1
+			team_2 = play_info.team_2
+			play = Rushing_Play(game_code, play_num, team_code, "NA", yards, touchdown, first_down, fumble, fumble_lost, sack, safety, team_1, team_2)
+			rushing_plays.append(play)
+			rushing_plays_print.append(play.Compile_Play())
 
-	return rushing_plays
+	return (rushing_plays, rushing_plays_print)
+
+
+#
+def Get_Team_Game_Stats(passing_plays, rushing_plays):
+	team_games_stats = []
+	for i in range(0, len(passing_plays)):
+		play = passing_plays[i]
+
+		# Check if this is the same game
+		same_game = False
+		for game in team_games_stats:
+			if play.Game_Code == game.Game_Code:
+				same_game = True
+		if same_game:
+			continue
+
+		# Initialize the new games
+		new_game_1 = Team_Game_Stat(play.Game_Code, play.team_1)
+		new_game_2 = Team_Game_Stat(play.Game_Code, play.team_2)
+
+		# Add the passing plays to each team
+		row = i
+		while passing_plays[row].Game_Code == play.Game_Code:
+			if passing_plays[row].Team_Code == new_game_1.Team_Code:
+				new_game_1.Pass_Plays.append(passing_plays[row])
+			elif passing_plays[row].Team_Code == new_game_2.Team_Code:
+				new_game_2.Pass_Plays.append(passing_plays[row])
+			else:
+				print "WARNING: Team not found!"
+				print new_game_1.Team_Code
+				print new_game_2.Team_Code
+				print passing_plays[row].Team_Code
+				print "\n"
+			row += 1
+			if row >= len(passing_plays):
+				break
+
+		# Get totals and add them to the list
+		new_game_1.Get_Passing_Totals()
+		new_game_2.Get_Passing_Totals()
+		team_games_stats.append(new_game_1)
+		team_games_stats.append(new_game_2)
+
+	return_games = []
+	return_games.append(Team_Game_Stats_Header())
+	for game in team_games_stats:
+		return_games.append(game.Compile_Stats())
+	return return_games
 
 
 # Returns the header for a play type
@@ -247,7 +310,24 @@ def Rushing_Play_Header():
 	OutputArray.append("1st Down")
 	OutputArray.append("Fumble")
 	OutputArray.append("Fumble Lost")
+	OutputArray.append("Sack")
 	OutputArray.append("Safety")
+	return OutputArray
+
+
+# Returns the header for a play type
+def Team_Game_Stats_Header():
+	OutputArray = []
+	OutputArray.append("Game Code")
+	OutputArray.append("Team Code")
+	OutputArray.append("Attempts")
+	OutputArray.append("Completion")
+	OutputArray.append("Yards")
+	OutputArray.append("Touchdown")
+	OutputArray.append("Interception")
+	OutputArray.append("1st Down")
+	OutputArray.append("Safety")
+	OutputArray.append("Sack")
 	return OutputArray
 
 
@@ -267,13 +347,18 @@ Write_CSV("BowlGameData_alt.csv", data)
 
 #  Compile passing plays and write to file
 file_name = "pass_new.csv"
-passing_plays = Get_Passing_Plays(data)
-Write_CSV(file_name, passing_plays)
+(passing_plays, passing_plays_print) = Get_Passing_Plays(data)
+Write_CSV(file_name, passing_plays_print)
 
 # Compile rushing plays and write to file
 file_name = "rush_new.csv"
-rushing_plays = Get_Rushing_Plays(data)
-Write_CSV(file_name, rushing_plays)
+(rushing_plays, rushing_plays_print) = Get_Rushing_Plays(data)
+Write_CSV(file_name, rushing_plays_print)
+
+# Compile game stats and write to file
+file_name = "team-game-statistics_new.csv"
+team_game_stats = Get_Team_Game_Stats(passing_plays, rushing_plays)
+Write_CSV(file_name, team_game_stats)
 
 
 # ====================================================================

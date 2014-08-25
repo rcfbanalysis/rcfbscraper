@@ -16,6 +16,8 @@ class Passing_Play_Info:
 		self.first_down = 0
 		self.sack = 0
 		self.safety = 0
+		self.team_1 = self.data[CONST.OFF]
+		self.team_2 = self.data[CONST.DEF]
 
 
 	# Sets the appropriate cells in play info from /u/millsGT49 data to integers
@@ -177,7 +179,7 @@ class Passing_Play_Info:
 			self.sack = 0
 
 
-	# Determines whether or not a safety occurred (assuming there was a sack)
+	# Determines whether or not a safety occurred
 	def Safety_Occurred(self, next_play):
 		# Check if it was the last play before halftime
 		if self.data[CONST.QTR] == 2 and next_play.data[CONST.QTR] == 3:
@@ -193,9 +195,12 @@ class Passing_Play_Info:
 					self.safety = 0
 		# Check if it was the last play of the game
 		if self.data[CONST.CODE] != next_play.data[CONST.CODE]:
-			if self.data[CONST.SPOT] - self.data[CONST.Y_DESC] >= 100:	# if so, must rely on change in yardage
-				self.safety = 1
-			else:
+			try:
+				if self.data[CONST.SPOT] - self.data[CONST.Y_DESC] >= 100:	# if so, must rely on change in yardage
+					self.safety = 1
+				else:
+					self.safety = 0
+			except:
 				self.safety = 0
 		# Check for a sack under normal circumstances
 		if "Kickoff" == next_play.data[CONST.TYPE]:

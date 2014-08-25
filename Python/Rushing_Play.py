@@ -7,7 +7,7 @@ from Passing_Play_Info import *
 class Rushing_Play:
 
 	# Constructor
-	def __init__(self, game_code, play_num, team_code, rusher, yards, touchdown, first_down, fumble, fumble_lost, safety):
+	def __init__(self, game_code, play_num, team_code, rusher, yards, touchdown, first_down, fumble, fumble_lost, sack, safety, team_1, team_2):
 		self.Game_Code = game_code
 		self.Play_Num = play_num
 		self.Team_Code = team_code
@@ -18,7 +18,10 @@ class Rushing_Play:
 		self.First_down = first_down
 		self.Fumble = fumble
 		self.Fumble_Lost = fumble_lost
+		self.Sack = sack
 		self.Safety = safety
+		self.team_1 = team_1
+		self.team_2 = team_2
 
 
 	# Returns an array of relavent information
@@ -34,5 +37,6 @@ class Rushing_Play:
 		OutputArray.append(str(self.First_down))
 		OutputArray.append(str(self.Fumble))
 		OutputArray.append(str(self.Fumble_Lost))
+		OutputArray.append(str(self.Sack))
 		OutputArray.append(str(self.Safety))
 		return OutputArray

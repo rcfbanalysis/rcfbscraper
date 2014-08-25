@@ -6,7 +6,7 @@ from Passing_Play_Info import *
 class Passing_Play:
 
 	# Constructor
-	def __init__(self, game_code, play_num, team_code, passer, receiver, completion, yards, touchdown, interception, first_down, dropped, sack, safety):
+	def __init__(self, game_code, play_num, team_code, passer, receiver, completion, yards, touchdown, interception, first_down, dropped, sack, safety, team_1, team_2):
 		self.Game_Code = game_code
 		self.Play_Num = play_num
 		self.Team_Code = team_code
@@ -21,6 +21,8 @@ class Passing_Play:
 		self.Dropped = dropped
 		self.Sack = sack
 		self.Safety = safety
+		self.team_1 = team_1
+		self.team_2 = team_2
 
 
 	# Returns an array of relavent information
