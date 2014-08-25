@@ -232,10 +232,12 @@ def Get_Rushing_Plays(data):
 #
 def Get_Team_Game_Stats(passing_plays, rushing_plays):
 	team_games_stats = []
+
+	# Compile passing plays
 	for i in range(0, len(passing_plays)):
 		play = passing_plays[i]
 
-		# Check if this is the same game
+		# Check if this game has been done
 		same_game = False
 		for game in team_games_stats:
 			if play.Game_Code == game.Game_Code:
@@ -269,6 +271,26 @@ def Get_Team_Game_Stats(passing_plays, rushing_plays):
 		new_game_2.Get_Passing_Totals()
 		team_games_stats.append(new_game_1)
 		team_games_stats.append(new_game_2)
+
+	# Compile rushing plays
+	i = 0
+	while i < len(team_games_stats):
+		game = team_games_stats[i]
+
+		# First find the correct game
+		row = i
+		while rushing_plays[row].Game_Code != game.Game_Code:
+			row += 1
+
+		# Add rushing plays to this game
+		while rushing_plays[row].Game_Code == game.Game_Code:
+			if rushing_plays[row].Team_Code == game.Team_Code:
+				game.Rush_Plays.append(rushing_plays[row])
+			row += 1
+			if row >= len(rushing_plays):
+				break
+		game.Get_Rushing_Totals()
+		i += 1
 
 	return_games = []
 	return_games.append(Team_Game_Stats_Header())
@@ -318,16 +340,21 @@ def Rushing_Play_Header():
 # Returns the header for a play type
 def Team_Game_Stats_Header():
 	OutputArray = []
-	OutputArray.append("Game Code")
 	OutputArray.append("Team Code")
-	OutputArray.append("Attempts")
-	OutputArray.append("Completion")
-	OutputArray.append("Yards")
-	OutputArray.append("Touchdown")
-	OutputArray.append("Interception")
-	OutputArray.append("1st Down")
+	OutputArray.append("Game Code")
+	OutputArray.append("Rush Att")
+	OutputArray.append("Rush Yard")
+	OutputArray.append("Rush TD")
+	OutputArray.append("Pass Att")
+	OutputArray.append("Pass Comp")
+	OutputArray.append("Pass Yard")
+	OutputArray.append("Pass TD")
+	OutputArray.append("Pass Int")
 	OutputArray.append("Safety")
 	OutputArray.append("Sack")
+	OutputArray.append("Sack Yard")
+	OutputArray.append("1st Down Rush")
+	OutputArray.append("1st Down Pass")
 	return OutputArray
 
 

@@ -105,9 +105,9 @@ class Passing_Play_Info:
 	# Checks if the next play has the same offense
 	def Same_Offense(self, next_play):
 		if next_play.data[CONST.OFF] == self.data[CONST.OFF]:
-			return 1
+			return True
 		elif next_play.data[CONST.OFF] == self.data[CONST.DEF]:
-			return 0
+			return False
 
 
 	# Determines whether a passing play was a touchdown (for the offense)
@@ -148,7 +148,7 @@ class Passing_Play_Info:
 				self.first_down = 0
 
 		# Yards gained > needed, but no 1st down
-		elif self.data[CONST.DIST] < self.data[CONST.Y_DESC]:
+		elif self.Same_Offense(next_play) and self.data[CONST.DIST] < self.data[CONST.Y_DESC]:
 			if (next_play.data[CONST.QTR] == 3 and self.data[CONST.QTR] == 2) or next_play.data[CONST.CODE] != self.data[CONST.CODE]:
 				self.first_down = 1 									# got a first down, but end of half/game
 			elif "Penalty" == next_play.data[CONST.TYPE]:	# next play penalty explains the anamoly
