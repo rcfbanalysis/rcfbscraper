@@ -74,8 +74,6 @@ def Replace_Team_Names(data, team_names, team_codes):
 	prev_off_code = ""
 	prev_def_code = ""
 	for row in data[1:]:
-		if None != re.search("Lafayette", str(row[CONST.OFF]) + str(row[CONST.DEF])):	# Ignore Lafayette game for now due to bug. *** REMOVE LATER ***
-			continue
 		if row[6] == prev_off_str and row[7] == prev_def_str:
 			row[6] = prev_off_code
 			row[7] = prev_def_code
@@ -100,9 +98,6 @@ def Get_Team_Game_Stats(data):
 	# First seperate data into seperate games
 	i = 1
 	while i < len(data):
-		if None != re.search("Lafayette", str(data[i][CONST.OFF]) + str(data[i][CONST.DEF])):	# Ignore Lafayette game for now due to bug. *** REMOVE LATER ***
-			i += 1
-			continue
 		game = []
 		game.append(data[i])
 		i += 1
@@ -349,14 +344,15 @@ print "\n"
 (team_names, team_codes, team_confs) = Read_Team_Data()
 
 # Read data and replace team names with team codes
-file_name = "../Week 1/play-by-play.csv"
+week = "Week 2"
+file_name = "../" + week + "/play-by-play.csv"
 data = Read_CSV(file_name)
 data = Replace_Team_Names(data, team_names, team_codes)
-Write_CSV("../Week 1/play-by-play_team-nums.csv", data)
+Write_CSV("../" + week + "/play-by-play_team-nums.csv", data)
 
 # Compile game data using the play-by-play data
 (team_game_stats, team_games_stats_print) = Get_Team_Game_Stats(data)
-Write_CSV("../Week 1/team-game-stats.csv", team_games_stats_print)
+Write_CSV("../" + week + "/team-game-stats.csv", team_games_stats_print)
 
 
 # ====================================================================
