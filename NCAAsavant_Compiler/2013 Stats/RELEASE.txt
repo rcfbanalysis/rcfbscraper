@@ -1,0 +1,362 @@
+General
+- See the LICENSE.txt for the license for the data.  A plain language summary of the license can
+  be found at http://opendatacommons.org/licenses/by/summary.
+
+- For the sake of brevity, not every column of every file is described here.  Most of the
+  columns should be self-explanatory, but some columns are clarified/explained below.
+
+- Columns that end with "Code" (ConferenceCode, TeamCode, etc.) can be present in more than one
+  file.  This allows you to relate data from one file to another.  For instance, the team.csv file
+  contains a "ConferenceCode" column that references the conference of the team from the
+  conference.csv file.
+
+- The "Code" columns allow you to relate the conferences, teams, and players from one year to
+  another.  For example, a given player will (should) have the same Player Code for each season that
+  he played.
+  
+- Spot-related columns
+  The spot is the number that indicates how far the offensive team is from the opponent's goal line.
+  All spots are from the vantage point of the offensive team.  For example, if the offensive team
+  has the ball at its own 20 yard line, the spot will be 80.  At mid-field, the spot will be 50.
+  If an offensive team reaches its opponents goal line, the spot is zero.  The spot for the
+  offensive team's own goal line is 100.
+
+- The NCAA Football Statisticians Manual is referenced in these notes and can be found at:
+
+  http://fs.ncaa.org/Docs/stats/Stats_Manuals/Football/2012ez.pdf
+
+
+conference.csv
+--------------
+- Conference Code column: these are NCAA defined conference codes, which can be found in the files:
+  http://web1.ncaa.org/mfb/2012/Internet/team/FBS_team.pdf
+  http://web1.ncaa.org/mfb/2012/Internet/team/FCS_team.pdf
+
+
+team.csv
+--------
+- Team Code column: these are NCAA-defined team codes.  See ConferenceCode above.
+
+
+player.csv
+----------
+- Every team has a "team" player that has a first name and last name of "Team."  Statistics are
+  credited to the team in certain situations, and this "player" is credited in those situations.
+
+- Player Code column: prior to 2007, the NCAA player codes are used (for the most part).  Since
+  2007, the player information has been obtained from the school websites and new players have
+  been assigned player codes that do not match the NCAA codes.  The "Team" players still have the
+  NCAA player codes.
+
+- Height column: contains the player's height in inches
+
+- Home State column: the two-character state (United States) or province (Canada)
+
+- Home Country column: the ISO-defined country code.  The ISO codes are listed here:
+  http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+- Last School column: the last high school or college attended
+
+- Uniform Number column: some uniform numbers contain letters.
+
+
+game.csv
+--------
+- Site column: contains the value TEAM or NEUTRAL.  TEAM means that the game was played at the
+  home stadium of the home team.  NEUTRAL means that the game was played at a neutral site.  The
+  NCAA decides whether or not the game is considered a neutral site game or not.
+
+
+game-statistics.csv
+-------------------
+- Duration column: the duration of the game in minutes.
+
+
+team-game-statistics.csv
+------------------------
+- Pass Conv column: the number of two point pass attempts that were successful
+- Off 2XP Att column: the number of two point rush or pass plays were attempted
+- Off 2XP Made columns: the number of two point rush or pass plays that were successful.
+
+  The above three columns follow NCAA convention.  If a two-point rush or pass is attempted, then
+  it is credited in the Off 2XP Att column.  If a two-point rush is successful, the it is credited
+  in the Off 2XP Made column.  If a two-point pass is successful, then it is credited in both the
+  Off 2XP Made and Pass Conv columns, with the receiver (and points scored) credited in the
+  Off 2XP Made column and the player who threw the pass credited in the Pass Conv column (but
+  not credited with an points scored).
+
+- Fum Ret column: This column includes only fumbles that are returned and does not include those
+  fumble recoveries where the defensive player just fell on the ball.  Fumble recoveries will be
+  properly handled in a later release.
+
+- Misc Ret column
+- Misc Ret Yard
+- Misc Ret TD
+
+  By NCAA convention, returns of blocked field goal attempts are credited under "miscellaneous
+  returns."  Blocked field goal returns for touchdown are incorrectly credited as fumble return
+  touchdowns in the official game statistics when they should be a miscellaneous return for
+  touchdown.
+
+
+player-game-statistics.csv
+--------------------------
+- This file only contains data for players who are credited with statistics in a game.  If a
+  player participated in the game but did not record any statistics, then he will not be listed
+  in this file for that game.  Player participation will be handled in a later release.
+  
+- See the team-game-statistics.csv description above
+
+
+drive.csv
+---------
+- Game Code
+  The unique identifier for the game.
+
+- Drive Number
+  The sequential number of the drive within the game.
+
+- Team Code
+  The team code for the offense for the drive
+
+- Start Period
+  The quarter number in which the drive started, or "5" if the drive occurred in overtime.
+
+- Start Clock
+  The number of seconds remaining in the quarter at the start of the drive.  For drives that occur
+  in overtime, the value will be empty.
+
+- Start Spot
+  The starting spot of the drive.  See the General Notes above for information about spot columns.
+
+- Start Reason
+  The reason that that the drive started - KICKOFF, PUNT, INTERCEPTION, etc.  All overtime drives
+  have a start reason of POSSESSION.
+
+- End Period
+  The quarter number in which the drive started, or "5" if the drive occurred in overtime.
+
+- End Clock
+  The number of seconds remaining in the quarter at the end of the drive.  For drives that occur
+  in overtime, the value will be empty.
+
+- End Spot
+  The ending spot of the drive.  See the General Notes above for information about spot columns.
+
+- End Reason
+  The reason that that the drive ended - PUNT, TOUCHDOWN, INTERCEPTION, etc.
+
+- Plays
+  The number of plays credited as being part of the drive.  Whether or not a play is credited as
+  part of a drive is dictated by the NCAA Football Statisticians Manual.  See section 10 under
+  "Basic Interpretations."
+
+- Yards
+  The number of yards either gained or lost on a drive.  This should be the difference between the
+  starting spot and ending spot of the drive.
+
+- Time Of Possession
+  The time of possession of the drive, in seconds.  For drives that occur in overtime, the value
+  will be empty.
+
+- Red Zone Attempt
+  A value of zero or one that indicates whether or not the drive entered the red zone and therefore
+  is considered a red zone attempt.
+
+
+play.csv
+--------
+- Game Code
+  The unique identifier for the game.
+
+- Play Number
+  The sequential number of the play within the game.
+
+- Period Number
+  The quarter number in which the play occurred, or "5" if the play occurred in overtime.
+
+- Clock
+  The number of seconds remaining in the quarter at the start of the play, if known.  For most
+  plays, the play clock at the start of the play is not recorded.  There are some scorers that
+  record the play clock for each play, but they are a very small minority.  For
+  plays where the clock is unknown or for plays that occur in overtime, the value will be empty.  
+
+- Offense Team Code
+  The team code for the team in possession of the ball at the start of the play.  For kickoffs,
+  it will be the kicking team.
+
+- Defense Team Code
+  The team code for the team that is not in possession of the ball at the start of the play.  For
+  kickoffs, it will be the receiving team.
+  
+- Offense Points
+  The number of points for the offensive team at the start of the play.
+
+- Defense Points
+  The number of points for the defensive team at the start of the play.
+
+- Down
+  The down (1st, 2nd, etc.) at the start of the play.  For those plays where the down does not
+  apply (kickoffs and attempts), the value will be empty. 
+
+- Distance
+  The number of yards needed to gain a first down.  In a goal-to-go situation, it's the number of
+  yards need for a touchdown.
+
+- Spot
+  The spot of the ball at the start of the play, including kickoffs and extra point attempts.  For
+  scrimmage play goal-to-go situations, the distance value (see above) and spot value will be the
+  same.  See the General Notes above for information about spot columns.
+  
+- Play Type
+  The type of play, based on what occurred during the play.  For instance, if on 4th down the
+  punter rushes the ball instead of punting, the play type will be RUSH.  If the punter attempts
+  a punt that is blocked, and the kicking team advances the ball for a first down, the type of
+  play will still be PUNT.  The value of ATTEMPT is for either a one- or two- extra point
+  attempt.  Plays that were nullified by a penalty will have a play type of PENALTY.
+
+- Drive Number
+  The drive number in which the play occurred.  This relates to the Drive Number of the drive.csv
+  file.  If the play, such as a kickoff, was not part of a drive, the value will be empty.
+
+- Drive Play
+  A value of zero of one that indicates whether or not the play is considered in the the total
+  number of plays in the drive.  Whether or not a play is credited as part of a drive is dictated
+  by the NCAA Football Statisticians Manual.  See section 10 under "Basic Interpretations."
+
+
+rush.csv
+--------
+- Game Code
+  The unique identifier for the game.
+  
+- Play Number
+  The sequential number of the play within the game.  The combination of Game Code and Play Number
+  can be used to relate the rush to a play from the play.csv file.
+
+- Team Code
+  The team code of the player who is credited with a rush.  Relates to the team from the team.csv
+  file.
+    
+- Player Code
+  The player code of the player who is credited with a rush.  Relates to the player from the
+  player.csv file.
+  
+- Attempt
+  A value of zero of one that indicates whether or not the player was credited with a rush attempt
+  on the play.  A player will not be credited with a rush attempt if he advances a fumble by
+  another offensive player or if he advances the ball on a lateral.
+  
+- Yards
+  The number of yards advanced by rushing on the play.
+  
+- Touchdown
+  A value of zero of one that indicates whether or not the player scored a touchdown on the rush.
+  
+- 1st Down
+  A value of zero of one that indicates whether or not the player attained a first down on the rush.
+
+- Sack
+  A value of zero of one that indicates whether or not the rush was scored as a sack.
+  
+- Fumble
+  A value of zero of one that indicates whether or not the player fumbled on the rush.
+  
+- Fumble Lost
+  A value of zero of one that indicates whether or not the player's fumble was recovered by the
+  opposing team.  The value of this column cannot be one if the value in the Fumble column is zero.
+  
+- Safety
+  A value of zero of one that indicates whether or not the rush resulted in a safety.
+
+
+pass.csv
+--------
+- Game Code
+  The unique identifier for the game.
+  
+- Play Number
+  The sequential number of the play within the game.  The combination of Game Code and Play Number
+  can be used to relate the pass to a play from the play.csv file.
+
+- Team Code
+  The team code of the player who is credited with a pass.  Relates to the team from the team.csv
+  file.
+    
+- Passer Player Code
+  The player code of the player who is credited with the pass.  Relates to the player from the
+  player.csv file.
+
+- Receiver Player Code
+  On a completed pass, the player code of the player who caught the pass.  On an incomplete pass,
+  the player code of the intended receiver (the target), if known, otherwise it will be empty.  The
+  value will always be empty on an intercepted pass, as the intended receiver is not recorded.
+
+- Attempt
+  A value of 1 to indicate that a pass attempt was credited.
+  
+- Completion
+  A value of zero of one that indicates whether or not the pass was complete.
+
+- Yards
+  The total yards gained on the play by all receivers, not just the receiver that caught the pass.
+  
+- Touchdown
+  A value of zero of one that indicates whether or not a touchdown was scored, not just by the
+  receiver who caught the pass.
+  
+- Interception
+  A value of zero of one that indicates whether or not the pass was intercepted.
+
+- 1st Down
+  A value of zero of one that indicates whether or not a first down was attained on the play, not
+  just by the receiver who caught the pass.
+  
+- Dropped
+  A value of zero of one that indicates whether or not an incomplete pass was dropped by the
+  intended receiver, according to the play-by-play.  Be aware that it at the official scorer's
+  discretion to record a dropped pass, it is not an official statistic required by the NCAA.
+  Therefore, some number of passes that were actually dropped will have a value of zero because the
+  scorer decided not to record the drop.
+
+
+reception.csv
+-------------
+- Game Code
+  The unique identifier for the game.
+  
+- Play Number
+  The sequential number of the play within the game.  The combination of Game Code and Play Number
+  can be used to relate the reception to a play from the play.csv file.
+
+- Team Code
+  The team code of the player who is credited with a reception.  Relates to the team from the
+  team.csv file.
+    
+- Player Code
+  The player code of the player who is credited with a reception.  Relates to the player from the
+  player.csv file.
+
+- Reception
+  A value of zero of one that indicates whether or not the player was credited with a reception
+  on the play.  A player will not be credited with a reception if he advances a fumble by
+  another offensive player or if he advances the ball on a lateral.  However, a player can be
+  credited with reception yards even if he is not credited with a reception.
+
+- Touchdown
+  A value of zero of one that indicates whether or not the player scored a touchdown on the
+  reception.
+  
+- 1st Down
+  A value of zero of one that indicates whether or not the player attained a first down on the
+  reception.
+  
+- Fumble
+  A value of zero of one that indicates whether or not the player fumbled on the reception.
+  
+- Fumble Lost
+  A value of zero of one that indicates whether or not the player's fumble was recovered by the
+  opposing team.  The value of this column cannot be one if the value in the Fumble column is zero.
+  
+- Safety
+  A value of zero of one that indicates whether or not the reception resulted in a safety.

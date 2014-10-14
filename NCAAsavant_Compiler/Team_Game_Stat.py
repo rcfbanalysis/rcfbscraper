@@ -5,9 +5,9 @@ import C
 class Team_Game_Stat:
 
     # Constructor
-    def __init__(self, game_code, team_code):
-        self.Game_Code = game_code
-        self.Team_Code = team_code
+    def __init__(self, game_code, team_code, play):
+        self.Game_Code = int(game_code)
+        self.Team_Code = int(team_code)
         self.Rush_Att = 0
         self.Rush_Yard = 0
         self.Rush_TD = 0
@@ -75,27 +75,92 @@ class Team_Game_Stat:
         self.Red_Zone_TD = 0
         self.Red_Zone_Field_Goal = 0
 
+        # not included in file
+        self.Yard_Line = 0
+        self.Next_Yard_Line = 0
+        if self.Team_Code != 0:
+            self.Is_Home = self.Check_If_Home(play)
+
 
     # Gleans relevent data from a play
-    def Extract_Play_Data(self, play):
+    def Extract_Play_Data(self, play, next_play):
+
+        # Don't count bad plays
+        if play[C.DIR] == "ERROR":
+            return 1
 
         # Get play basics
         turnover = self.Check_Turnover(play)
         no_play = self.Check_No_Play(play)
+        self.Yard_Line = self.Convert_Yard_Line(play)
+        self.Next_Yard_Line = self.Convert_Yard_Line(next_play)
         ptype = play[C.TYPE]
 
         # Get rushing stats
         if ptype == "RUSH" and no_play == 0:
+            #print play[C.DESC]
             self.Rush_Att += 1
+            self.Rush_Yard += self.Add_Yards(ptype, play)
+            if turnover == 0:
+                self.Rush_TD += self.Check_TD(play)
 
+        # Get passing stats
+        if ptype == "PASS" and no_play == 0:
+            #print play[C.DESC]
+            self.Pass_Att += 1
+            self.Pass_Comp += self.Check_Completion(play)
+            self.Pass_Yard += self.Add_Yards(ptype, play)
+            if turnover == 0:
+                self.Pass_TD += self.Check_TD(play)
+            self.Pass_Int += self.Check_Interception(play)
+
+        # Check for score
+        score_loc = C.HSCR if self.Is_Home else C.VSCR
+        try:
+            score = int(play[score_loc])
+            self.Points = score if score > 0 else self.Points
+        except:
+            pass
+
+        return 0
+
+
+    # Converts 0-50-0 yard scale to 0-100
+    def Convert_Yard_Line(self, play):
+        try:
+            direction = int(play[C.DIR])
+            yard_line = int(play[C.YARD])
+        except:
+            return -1000
+        if self.Team_Code == direction:
+            return 100 - yard_line
+        else:
+            return yard_line
+
+
+    # Checks if this team is home or away
+    def Check_If_Home(self, play):
+        try:
+            if int(play[C.HOME]) == self.Team_Code:
+                return True
+            else:
+                return False
+        except:
+            print "WARNING: I can't tell if this team is home or away"
+            print "         Game Code: " + str(self.Game_Code)
+            print "         Team Code: " + str(self.Team_Code)
+            raw_input()
+            return False
 
 
     # Checks if a turnover occurred
     def Check_Turnover(self, play):
-        m = re.search(r"(?P<fum>FUMBLE)|(?P<int>INTERCEPT)", play)
-        if m.group("fum"):
+        m = re.search(r"(?P<fum>FUMBLE)|(?P<int>INTERCEPT)", play[C.DESC])
+        if None == m:           # no match
+            return 0
+        if m.group("fum"):      # fumble
             return 1
-        elif m.group("int"):
+        elif m.group("int"):    # interception
             return 1
         else:
             return 0
@@ -103,12 +168,85 @@ class Team_Game_Stat:
 
     # Checks if a turnover occurred
     def Check_No_Play(self, play):
-        if len(play[C.NOPLY]) == 0:
-            print 0
+        if len(play[C.NOPLY]) == 0:     # no field
             return 0
-        elif int(play[C.NOPLY]) == 1:
-            print 1
+        elif int(play[C.NOPLY]) == 0:   # 0
+            return 0
+        elif int(play[C.NOPLY]) == 1:   # 1
             return 1
+
+
+    # Checks if a pass play was complete occurred
+    def Check_Completion(self, play):
+        try:
+            return int(play[C.COMP])
+        except:
+            return 0
+
+
+    # Checks if a (rush/pass) play is a touchdown (assuming "no play" == 0)
+    def Check_TD(self, play):
+        try:
+            if int(play[C.ISTD]) == 1:
+                return 1
+            else:
+                return 0
+        except:
+            return 0
+
+
+    # Checks if a pass play was an interception (assuming "no play" == 0)
+    def Check_Interception(self, play):
+        m = re.search(r"INTERCEPTED", play[C.DESC])
+        if m:
+            return 1
+        else:
+            return 0
+
+
+    # Adds yards to (rush/pass) play
+    def Add_Yards(self, ptype, play):
+        if (ptype == "PASS" and play[C.COMP] == "1") or ptype == "RUSH":
+            try:
+                yards = int(play[C.GAIN])
+                return yards
+            except:
+                # try to manually parse yardage
+                m1 = re.search(r"for (?P<yards>-?\d{1,3}) (?:yards|yard)", play[C.DESC])
+                m2 = re.search(r"runs (?P<yards>\d{1,3}) (?:yards|yard) for a touchdown", play[C.DESC])
+                m3 = re.search(r"for no gain", play[C.DESC])
+                m4 = re.search(r"(?P<fum>FUMBLE)|(?P<oob>out of bounds)", play[C.DESC])
+                if m1:
+                    #print "WARNING: Manually parsed yardage, returning " + str(m1.group("yards"))
+                    #print "         " + play[C.DESC]
+                    #raw_input()
+                    return int(m1.group("yards"))
+                elif m2:
+                    #print "WARNING: Manually parsed yardage, returning " + str(m2.group("yards"))
+                    #print "         " + play[C.DESC]
+                    #raw_input()
+                    return int(m2.group("yards"))
+                elif m3:
+                    #print "WARNING: Manually parsed yardage, returning 0"
+                    #print "         " + play[C.DESC]
+                    #raw_input()
+                    return 0
+                elif m4:
+                    if self.Next_Yard_Line > -1000 and self.Yard_Line > -1000:
+                        gained = self.Yard_Line - self.Next_Yard_Line
+                    else:
+                        gained = 0
+                    #print "WARNING: Manually parsed yardage, returning " + str(gained)
+                    #print "         " + play[C.DESC]
+                    #raw_input()
+                    return gained
+                else:
+                    print "WARNING: No yards added to play"
+                    print "         " + play[C.DESC]
+                    raw_input()
+                    return 0
+        else:
+            return 0
 
 
     # Returns an array of relavent information
