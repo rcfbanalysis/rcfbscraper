@@ -1,0 +1,109 @@
+FIRST QUARTER,,BALL,ARMY
+,TD,11:05,"A.J. Schurr 1 Yd Run (Daniel Grochowski Kick)Drive info: 7 plays, 29 yds in 3:15",0,7
+,TD,6:44,"Jahwan Edwards 56 Yd Run (Scott Secor Kick)Drive info: 1 plays, 56 yds in 0:13",7,7
+,TD,4:13,"A.J. Schurr 1 Yd Run (Daniel Grochowski Kick)Drive info: 6 plays, 56 yds in 2:20",7,14
+SECOND QUARTER,,BALL,ARMY
+,FG,9:09,"Daniel Grochowski 43 Yd Field Goal  Drive info: 7 plays, 18 yds in 3:52",7,17
+,FG,2:16,"Scott Secor 22 Yd Field Goal  Drive info: 6 plays, 61 yds in 2:11",10,17
+,FG,0:07,"Daniel Grochowski 21 Yd Field Goal  Drive info: 6 plays, 72 yds in 2:09",10,20
+THIRD QUARTER,,BALL,ARMY
+,TD,3:02,"Aaron Kemper 9 Yd Run (Daniel Grochowski Kick)Drive info: 5 plays, 61 yds in 2:39",10,27
+FOURTH QUARTER,,BALL,ARMY
+,TD,14:53,"Jahwan Edwards 6 Yd Run (Scott Secor Kick)Drive info: 9 plays, 74 yds in 3:00",17,27
+,TD,8:35,"Dylan Curry 6 Yd pass from Ozzie Mann (Scott Secor Kick)Drive info: 9 plays, 71 yds in 4:11",24,27
+,TD,3:41,"Angel Santiago 11 Yd Run (Two-Point Pass Conversion Failed)Drive info: 10 plays, 75 yds in 4:54",24,33
+,,BALL,ARMY
+1st Downs,15,24
+3rd down efficiency,1-8,9-15
+4th down efficiency,1-2,0-1
+Total Yards,330,473
+Passing,173,48
+Comp-Att,18-26,2-5
+Yards per pass,6.7,9.6
+Rushing,157,425
+Rushing Attempts,25,69
+Yards per rush,6.3,6.2
+Penalties,4-36,1-15
+Turnovers,2,1
+Fumbles lost,1,1
+Interceptions thrown,1,0
+Possession,22:06,37:54
+Ball State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Ozzie Mann,18/26,173,6.7,1,1,26.0
+Team,18/26,173,6.7,1,1,--
+Army Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Angel Santiago,2/3,48,16.0,0,0,94.1
+A.J. Schurr,0/2,0,0.0,0,0,91.1
+Team,2/5,48,9.6,0,0,--
+Ball State Rushing
+,CAR,YDS,AVG,TD,LG
+Jahwan Edwards,12,142,11.8,2,56
+Horactio Banks,6,25,4.2,0,13
+Ozzie Mann,6,-10,-1.7,0,2
+Team,25,157,6.3,2,56
+Army Rushing
+,CAR,YDS,AVG,TD,LG
+Larry Dixon,28,188,6.7,0,40
+Angel Santiago,13,89,6.8,1,37
+Terry Baggett,5,64,12.8,0,39
+Tony Giovannelli,6,35,5.8,0,14
+Raymond Johnson-Maples,4,16,4.0,0,7
+A.J. Schurr,5,15,3.0,2,16
+Aaron Kemper,2,10,5.0,1,9
+Matt Giachinta,4,8,2.0,0,4
+Joe Walker,1,2,2.0,0,2
+Team,69,425,6.2,4,40
+Ball State Receiving
+,REC,YDS,AVG,TD,LG
+Jahwan Edwards,5,44,8.8,0,20
+KeVonn Mabon,4,44,11.0,0,24
+Chris Shillings,3,34,11.3,0,15
+Jordan Williams,3,31,10.3,0,11
+Corey Lacanaria,2,14,7.0,0,7
+Dylan Curry,1,6,6.0,1,6
+Team,18,173,9.6,1,24
+Army Receiving
+,REC,YDS,AVG,TD,LG
+Edgar Poe,1,37,37.0,0,37
+Raymond Johnson-Maples,1,11,11.0,0,11
+Team,2,48,24.0,0,37
+Ball State Interceptions
+,INT,YDS,TD
+No Interception Information
+Army Interceptions
+,INT,YDS,TD
+Jeremy Timpf,1,7,0
+Team,1,7,0
+Ball State Kick Returns
+,NO,YDS,AVG,LG,TD
+Eric Patterson,4,87,21.8,48,0
+Team,4,87,21.8,48,0
+Army Kick Returns
+,NO,YDS,AVG,LG,TD
+Josh Jenkins,1,39,39.0,39,0
+Team,1,39,39.0,39,0
+Ball State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Army Punt Returns
+,NO,YDS,AVG,LG,TD
+Josh Jenkins,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Ball State Kicking
+,FG,PCT,LG,XP,PTS
+Scott Secor,1/1,100.0,22,3/3,6
+Team,1/1,100.0,22,3/3,6
+Army Kicking
+,FG,PCT,LG,XP,PTS
+Daniel Grochowski,2/2,100.0,43,3/3,9
+Team,2/2,100.0,43,3/3,9
+Ball State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kyle Schmidt,4,184,46.0,0,2,54
+Team,4,184,46.0,0,2,54
+Army Punting
+,NO,YDS,AVG,TB,-20,LG
+Alex Tardie,3,102,34.0,0,1,42
+Team,3,102,34.0,0,1,42

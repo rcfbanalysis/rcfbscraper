@@ -1,0 +1,106 @@
+FIRST QUARTER,,OSU,MINN
+,TD,10:14,"J.T. Barrett 86 Yd Run (Sean Nuernberger Kick)Drive info: 3 plays, 95 yds in 1:17",7,0
+,TD,4:33,"Jalin Marshall 57 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 8 plays, 87 yds in 3:32",14,0
+SECOND QUARTER,,OSU,MINN
+,TD,14:27,"David Cobb 5 Yd Run (Ryan Santoso Kick)Drive info: 5 plays, 39 yds in 1:59",14,7
+,TD,1:24,"David Cobb 30 Yd Run (Ryan Santoso Kick)Drive info: 11 plays, 80 yds in 6:08",14,14
+,FG,0:00,"Sean Nuernberger 22 Yd Field Goal  Drive info: 10 plays, 57 yds in 1:24",17,14
+THIRD QUARTER,,OSU,MINN
+,TD,7:37,"Michael Thomas 30 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 6 plays, 65 yds in 2:55",24,14
+FOURTH QUARTER,,OSU,MINN
+,TD,10:08,"Evan Spencer 22 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 6 plays, 32 yds in 2:34",31,14
+,TD,7:08,"David Cobb 12 Yd Run (Ryan Santoso Kick)Drive info: 2 plays, 14 yds in 0:48",31,21
+,FG,1:19,"Ryan Santoso 34 Yd Field Goal  Drive info: 9 plays, 63 yds in 1:15",31,24
+,,OSU,MINN
+1st Downs,22,17
+3rd down efficiency,9-13,5-14
+4th down efficiency,0-0,1-1
+Total Yards,489,303
+Passing,200,85
+Comp-Att,15-25,7-20
+Yards per pass,8.0,4.3
+Rushing,289,218
+Rushing Attempts,38,44
+Yards per rush,7.6,5.0
+Penalties,4-49,7-54
+Turnovers,3,2
+Fumbles lost,2,0
+Interceptions thrown,1,2
+Possession,36:18,30:46
+Ohio State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+J.T. Barrett,15/25,200,8.0,3,1,95.4
+Team,15/25,200,8.0,3,1,--
+Minnesota Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Mitch Leidner,7/19,85,4.5,0,2,22.7
+Team,7/20,85,4.3,0,2,--
+Ohio State Rushing
+,CAR,YDS,AVG,TD,LG
+J.T. Barrett,17,189,11.1,1,86
+Ezekiel Elliott,18,91,5.1,0,22
+Jalin Marshall,1,12,12.0,0,12
+Team,38,289,7.6,1,86
+Minnesota Rushing
+,CAR,YDS,AVG,TD,LG
+David Cobb,27,145,5.4,3,30
+Mitch Leidner,12,56,4.7,0,31
+Donnell Kirkwood,2,13,6.5,0,12
+Kj Maye,3,4,1.3,0,8
+Team,44,218,5.0,3,31
+Ohio State Receiving
+,REC,YDS,AVG,TD,LG
+Jalin Marshall,5,95,19.0,1,57
+Michael Thomas,4,45,11.3,1,30
+Evan Spencer,1,22,22.0,1,22
+Ezekiel Elliott,2,19,9.5,0,11
+Nick Vannett,1,19,19.0,0,19
+Corey Smith,2,0,0.0,0,2
+Team,15,200,13.3,3,57
+Minnesota Receiving
+,REC,YDS,AVG,TD,LG
+Maxx Williams,3,47,15.7,0,36
+Isaac Fruechte,3,28,9.3,0,15
+Miles Thomas,1,10,10.0,0,10
+Team,7,85,12.1,0,36
+Ohio State Interceptions
+,INT,YDS,TD
+Doran Grant,1,28,0
+Vonn Bell,1,15,0
+Team,2,43,0
+Minnesota Interceptions
+,INT,YDS,TD
+Briean Boddy-Calhoun,1,56,0
+Team,1,56,0
+Ohio State Kick Returns
+,NO,YDS,AVG,LG,TD
+Curtis Samuel,3,77,25.7,38,0
+Team,3,77,25.7,38,0
+Minnesota Kick Returns
+,NO,YDS,AVG,LG,TD
+Jalen Myrick,4,92,23.0,31,0
+Kj Maye,1,4,4.0,4,0
+Team,4,96,24.0,31,0
+Ohio State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jalin Marshall,3,0,0.0,3,0
+Team,3,0,0.0,3,0
+Minnesota Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Ohio State Kicking
+,FG,PCT,LG,XP,PTS
+Sean Nuernberger,1/1,100.0,22,4/4,7
+Team,1/1,100.0,22,4/4,7
+Minnesota Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Santoso,1/2,50.0,34,3/3,6
+Team,1/2,50.0,34,3/3,6
+Ohio State Punting
+,NO,YDS,AVG,TB,-20,LG
+Cameron Johnston,4,147,36.8,1,1,46
+Team,4,147,36.8,1,1,46
+Minnesota Punting
+,NO,YDS,AVG,TB,-20,LG
+Peter Mortell,5,259,51.8,1,4,64
+Team,5,259,51.8,1,4,64

@@ -1,0 +1,116 @@
+FIRST QUARTER,,SJSU,SDSU
+,TD,8:17,"Donnel Pumphrey 20 Yd Run (Donny Hageman Kick)Drive info: 5 plays, 47 yds in 1:50",0,7
+SECOND QUARTER,,SJSU,SDSU
+,TD,14:21,"Donnel Pumphrey 1 Yd Run (Donny Hageman Kick)Drive info: 10 plays, 99 yds in 4:49",0,14
+,TD,7:37,"Chase Price 1 Yd Run (Donny Hageman Kick)Drive info: 11 plays, 54 yds in 5:24",0,21
+THIRD QUARTER,,SJSU,SDSU
+,TD,11:56,"Donnel Pumphrey 35 Yd Run (Donny Hageman Kick)Drive info: 4 plays, 64 yds in 1:31",0,28
+FOURTH QUARTER,,SJSU,SDSU
+,FG,9:02,"Donny Hageman 23 Yd Field Goal  Drive info: 8 plays, 38 yds in 4:13",0,31
+,TD,2:54,"Lucky Radley 11 Yd Run (Donny Hageman Kick)Drive info: 9 plays, 45 yds in 3:48",0,38
+,TD,0:57,"Andrew Vollert 34 Yd pass from Joe Gray (Austin Lopez Kick)Drive info: 7 plays, 63 yds in 1:57",7,38
+,,SJSU,SDSU
+1st Downs,12,21
+3rd down efficiency,5-16,9-17
+4th down efficiency,0-0,1-2
+Total Yards,231,427
+Passing,133,34
+Comp-Att,17-30,4-16
+Yards per pass,4.4,2.1
+Rushing,98,393
+Rushing Attempts,31,60
+Yards per rush,3.2,6.6
+Penalties,3-35,1-5
+Turnovers,2,0
+Fumbles lost,1,0
+Interceptions thrown,1,0
+Possession,25:30,36:15
+San Jos\xe9 State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Joe Gray,9/12,90,7.5,1,0,40.0
+Blake Jurich,7/15,43,2.9,0,1,26.7
+Chris Kearney,0/1,0,0.0,0,0,1.2
+Mitch Ravizza,1/2,0,0.0,0,0,97.1
+Team,17/30,133,4.4,1,1,--
+San Diego State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Quinn Kaehler,4/15,34,2.3,0,0,30.4
+Nick Bawden,0/1,0,0.0,0,0,1.2
+Team,4/16,34,2.1,0,0,--
+San Jos\xe9 State Rushing
+,CAR,YDS,AVG,TD,LG
+Tyler Ervin,17,83,4.9,0,31
+Mitch Ravizza,1,16,16.0,0,16
+Alvin Jelks,2,11,5.5,0,6
+Jarrod Lawson,4,6,1.5,0,5
+Blake Jurich,5,3,0.6,0,4
+Joe Gray,2,-21,-10.5,0,0
+Team,31,98,3.2,0,31
+San Diego State Rushing
+,CAR,YDS,AVG,TD,LG
+Donnel Pumphrey,21,261,12.4,3,61
+Chase Price,22,93,4.2,1,24
+Lucky Radley,5,28,5.6,1,11
+Dakota Gordon,3,10,3.3,0,4
+Marcus Stamps,2,9,4.5,0,10
+Chris Hokokian,1,8,8.0,0,8
+Quinn Kaehler,3,-12,-4.0,0,6
+Team,60,393,6.6,5,61
+San Jos\xe9 State Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Winston,6,39,6.5,0,12
+Andrew Vollert,1,34,34.0,1,34
+Chris Kearney,3,27,9.0,0,15
+Daniel Bradbury,2,15,7.5,0,9
+Tyler Ervin,1,8,8.0,0,8
+Hansell Wilson,2,6,3.0,0,6
+Alvin Jelks,1,3,3.0,0,3
+Billy Freeman,1,1,1.0,0,1
+Team,17,133,7.8,1,34
+San Diego State Receiving
+,REC,YDS,AVG,TD,LG
+Lloyd Mills,1,15,15.0,0,15
+Ezell Ruffin,2,12,6.0,0,9
+Donnel Pumphrey,1,7,7.0,0,7
+Team,4,34,8.5,0,15
+San Jos\xe9 State Interceptions
+,INT,YDS,TD
+No Interception Information
+San Diego State Interceptions
+,INT,YDS,TD
+Malik Smith,1,9,0
+Team,1,9,0
+San Jos\xe9 State Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Ervin,2,42,21.0,21,0
+Forrest Hightower,1,34,34.0,34,0
+Team,3,76,25.3,34,0
+San Diego State Kick Returns
+,NO,YDS,AVG,LG,TD
+Rashaad Penny,1,12,12.0,12,0
+Team,1,12,12.0,12,0
+San Jos\xe9 State Punt Returns
+,NO,YDS,AVG,LG,TD
+Maurice McKnight,1,-11,-11.0,-11,0
+Team,1,-11,-11.0,0,0
+San Diego State Punt Returns
+,NO,YDS,AVG,LG,TD
+Lloyd Mills,1,26,26.0,26,0
+Team,1,26,26.0,26,0
+San Jos\xe9 State Kicking
+,FG,PCT,LG,XP,PTS
+Michael Carrizosa,0/1,0.0,0,0/0,0
+Austin Lopez,0/0,0.0,0,1/1,1
+Team,0/1,0.0,0,1/1,1
+San Diego State Kicking
+,FG,PCT,LG,XP,PTS
+Donny Hageman,1/1,100.0,23,5/5,8
+Team,1/1,100.0,23,5/5,8
+San Jos\xe9 State Punting
+,NO,YDS,AVG,TB,-20,LG
+Michael Carrizosa,9,320,35.6,0,1,45
+Team,9,320,35.6,0,1,45
+San Diego State Punting
+,NO,YDS,AVG,TB,-20,LG
+Joel Alesi,5,138,27.6,0,2,36
+Team,5,138,27.6,0,2,36

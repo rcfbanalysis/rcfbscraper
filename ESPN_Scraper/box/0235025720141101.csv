@@ -1,0 +1,111 @@
+FIRST QUARTER,,FLA,UGA
+,TD,9:02,"Nick Chubb 39 Yd Run (Marshall Morgan Kick)Drive info: 9 plays, 85 yds in 2:43",0,7
+SECOND QUARTER,,FLA,UGA
+,TD,8:25,"Michael McNeely 21 Yd Run (Francisco Velez Kick)Drive info: 14 plays, 78 yds in 6:35",7,7
+,TD,5:06,"Kelvin Taylor 2 Yd Run (Francisco Velez Kick)Drive info: 5 plays, 64 yds in 1:57",14,7
+THIRD QUARTER,,FLA,UGA
+,TD,12:07,"Matt Jones 44 Yd Run (Francisco Velez Kick)Drive info: 6 plays, 73 yds in 2:53",21,7
+,FG,5:09,"Francisco Velez 21 Yd Field Goal  Drive info: 10 plays, 56 yds in 6:13",24,7
+FOURTH QUARTER,,FLA,UGA
+,TD,13:49,"Matt Jones 1 Yd Run (Austin Hardin Kick)Drive info: 5 plays, 26 yds in 1:57",31,7
+,TD,11:06,"Nick Chubb 10 Yd pass from Hutson Mason (Two-Point Pass Conversion Failed)Drive info: 8 plays, 68 yds in 2:43",31,13
+,TD,2:11,"Kelvin Taylor 65 Yd Run (Austin Hardin Kick)Drive info: 6 plays, 98 yds in 3:06",38,13
+,TD,0:03,"Brendan Douglas 1 Yd Run (Marshall Morgan Kick)Drive info: 10 plays, 75 yds in 2:08",38,20
+,,FLA,UGA
+1st Downs,19,21
+3rd down efficiency,7-14,8-16
+4th down efficiency,1-1,0-1
+Total Yards,445,460
+Passing,27,319
+Comp-Att,3-6,26-41
+Yards per pass,4.5,7.8
+Rushing,418,141
+Rushing Attempts,60,32
+Yards per rush,7.0,4.4
+Penalties,4-31,4-30
+Turnovers,1,1
+Fumbles lost,1,1
+Interceptions thrown,0,0
+Possession,32:41,27:19
+Florida Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Treon Harris,3/6,27,4.5,0,0,25.4
+Team,3/6,27,4.5,0,0,--
+Georgia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Hutson Mason,26/41,319,7.8,1,0,47.6
+Team,26/41,319,7.8,1,0,--
+Florida Rushing
+,CAR,YDS,AVG,TD,LG
+Kelvin Taylor,25,197,7.9,2,65
+Matt Jones,25,192,7.7,2,44
+Treon Harris,6,31,5.2,0,12
+Michael McNeely,1,21,21.0,1,21
+Andre Debose,1,-5,-5.0,0,0
+Team,60,418,7.0,5,65
+Georgia Rushing
+,CAR,YDS,AVG,TD,LG
+Nick Chubb,21,156,7.4,1,43
+Brendan Douglas,4,1,0.3,1,2
+Hutson Mason,6,-16,-2.7,0,4
+Team,32,141,4.4,2,43
+Florida Receiving
+,REC,YDS,AVG,TD,LG
+Latroy Pittman Jr.,1,13,13.0,0,13
+Matt Jones,1,12,12.0,0,12
+Brandon Powell,1,2,2.0,0,2
+Team,3,27,9.0,0,13
+Georgia Receiving
+,REC,YDS,AVG,TD,LG
+Michael Bennett,6,60,10.0,0,20
+Nick Chubb,5,59,11.8,1,18
+Malcolm Mitchell,7,55,7.9,0,15
+Chris Conley,3,49,16.3,0,25
+Jeb Blazevich,2,44,22.0,0,34
+Jordan Davis,1,24,24.0,0,24
+Reggie Davis,1,18,18.0,0,18
+Kenneth Towns,1,10,10.0,0,10
+Team,26,319,12.3,1,34
+Florida Interceptions
+,INT,YDS,TD
+No Interception Information
+Georgia Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida Kick Returns
+,NO,YDS,AVG,LG,TD
+Andre Debose,1,27,27.0,27,0
+Brandon Powell,1,20,20.0,20,0
+Hunter Joyer,1,0,0.0,0,0
+Team,3,47,15.7,27,0
+Georgia Kick Returns
+,NO,YDS,AVG,LG,TD
+Isaiah McKenzie,3,51,17.0,19,0
+Reggie Davis,2,41,20.5,29,0
+Team,5,92,18.4,29,0
+Florida Punt Returns
+,NO,YDS,AVG,LG,TD
+Andre Debose,2,38,19.0,38,0
+Team,2,38,19.0,38,0
+Georgia Punt Returns
+,NO,YDS,AVG,LG,TD
+Isaiah McKenzie,2,13,6.5,13,0
+Team,2,13,6.5,13,0
+Florida Kicking
+,FG,PCT,LG,XP,PTS
+Francisco Velez,1/1,100.0,21,3/3,6
+Austin Hardin,0/0,0.0,0,2/2,2
+Team,1/1,100.0,21,5/5,8
+Georgia Kicking
+,FG,PCT,LG,XP,PTS
+Marshall Morgan,0/1,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Florida Punting
+,NO,YDS,AVG,TB,-20,LG
+Kyle Christy,5,230,46.0,0,2,59
+Team,5,230,46.0,0,2,59
+Georgia Punting
+,NO,YDS,AVG,TB,-20,LG
+Adam Erickson,4,127,31.8,0,2,35
+Collin Barber,2,71,35.5,0,0,39
+Team,6,198,33.0,0,2,39

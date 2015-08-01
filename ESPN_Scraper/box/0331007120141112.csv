@@ -1,0 +1,115 @@
+FIRST QUARTER,,KENT,BGSU
+,TD,8:17,"Andre Givens 6 Yd Run (Tyler Tate Kick)Drive info: 7 plays, 58 yds in 2:00",0,7
+,TD,5:47,"Roger Lewis 82 Yd pass from James Knapke (Tyler Tate Kick)Drive info: 3 plays, 82 yds in 0:53",0,14
+,FG,0:30,"Tyler Tate 37 Yd Field Goal  Drive info: 7 plays, 16 yds in 2:26",0,17
+SECOND QUARTER,,KENT,BGSU
+,FG,11:15,"Tyler Tate 22 Yd Field Goal  Drive info: 9 plays, 75 yds in 3:24",0,20
+,TD,0:38,"Chris Humphrey 21 Yd pass from Colin Reardon (Anthony Melchiori Kick)Drive info: 11 plays, 92 yds in 5:51",7,20
+THIRD QUARTER,,KENT,BGSU
+,TD,6:09,"Chris Humphrey 4 Yd pass from Colin Reardon (Anthony Melchiori Kick)Drive info: 3 plays, 6 yds in 1:02",14,20
+FOURTH QUARTER,,KENT,BGSU
+,FG,11:59,"Tyler Tate 21 Yd Field Goal  Drive info: 15 plays, 65 yds in 5:04",14,23
+,TD,9:40,"Casey Pierce 14 Yd pass from Colin Reardon (Anthony Melchiori PAT failed)Drive info: 6 plays, 60 yds in 2:19",20,23
+,TD,7:47,"Andre Givens 2 Yd Run (Tyler Tate Kick)Drive info: 5 plays, 78 yds in 1:53",20,30
+,,KENT,BGSU
+1st Downs,21,27
+3rd down efficiency,3-11,12-22
+4th down efficiency,1-1,0-0
+Total Yards,328,522
+Passing,306,315
+Comp-Att,27-47,22-36
+Yards per pass,6.5,8.8
+Rushing,22,207
+Rushing Attempts,14,60
+Yards per rush,1.6,3.5
+Penalties,6-62,10-66
+Turnovers,5,2
+Fumbles lost,1,1
+Interceptions thrown,4,1
+Possession,37:19,34:03
+Kent State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Colin Reardon,24/37,284,7.7,3,4,51.5
+Nathan Strock,3/10,22,2.2,0,0,6.0
+Team,27/47,306,6.5,3,4,--
+Bowling Green Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+James Knapke,22/36,315,8.8,1,1,76.5
+Team,22/36,315,8.8,1,1,--
+Kent State Rushing
+,CAR,YDS,AVG,TD,LG
+Nick Holley,11,21,1.9,0,8
+Nathan Strock,2,1,0.5,0,6
+Colin Reardon,1,0,0.0,0,0
+Team,14,22,1.6,0,8
+Bowling Green Rushing
+,CAR,YDS,AVG,TD,LG
+Andre Givens,38,157,4.1,2,32
+Fred Coppet,8,34,4.3,0,9
+Ronnie Moore,1,10,10.0,0,10
+Chris Pohlman,5,9,1.8,0,4
+James Knapke,6,-1,-0.2,0,7
+Team,60,207,3.5,2,32
+Kent State Receiving
+,REC,YDS,AVG,TD,LG
+Chris Humphrey,8,132,16.5,2,28
+Casey Pierce,12,127,10.6,1,29
+Charles Chandler,2,22,11.0,0,15
+Ernest Calhoun,3,11,3.7,0,5
+Josh Boyle,1,8,8.0,0,8
+Nick Holley,1,6,6.0,0,6
+Team,27,306,11.3,3,29
+Bowling Green Receiving
+,REC,YDS,AVG,TD,LG
+Roger Lewis,3,116,38.7,1,82
+Ryan Burbrink,8,111,13.9,0,45
+Gehrig Dieter,6,78,13.0,0,33
+Heath Jackson,1,5,5.0,0,5
+Ronnie Moore,2,3,1.5,0,2
+Andre Givens,2,2,1.0,0,3
+Team,22,315,14.3,1,82
+Kent State Interceptions
+,INT,YDS,TD
+Jordan Italiano,1,0,0
+Team,1,0,0
+Bowling Green Interceptions
+,INT,YDS,TD
+Ryland Ward,1,13,0
+Gabe Martin,1,0,0
+Taylor Royster,1,0,0
+Clint Stephens,1,0,0
+Team,4,13,0
+Kent State Kick Returns
+,NO,YDS,AVG,LG,TD
+Ernest Calhoun,4,86,21.5,24,0
+Josh Boyle,1,21,21.0,21,0
+Team,5,107,21.4,24,0
+Bowling Green Kick Returns
+,NO,YDS,AVG,LG,TD
+Andre Givens,3,50,16.7,20,0
+Team,3,50,16.7,20,0
+Kent State Punt Returns
+,NO,YDS,AVG,LG,TD
+Ernest Calhoun,2,26,13.0,26,0
+Jerrell Foster,2,-5,-2.5,0,0
+Team,3,21,7.0,26,0
+Bowling Green Punt Returns
+,NO,YDS,AVG,LG,TD
+Teo Redding,2,7,3.5,5,0
+Team,2,7,3.5,5,0
+Kent State Kicking
+,FG,PCT,LG,XP,PTS
+Anthony Melchiori,0/0,0.0,0,2/3,2
+Team,0/0,0.0,0,2/3,2
+Bowling Green Kicking
+,FG,PCT,LG,XP,PTS
+Tyler Tate,3/4,75.0,37,3/3,12
+Team,3/4,75.0,37,3/3,12
+Kent State Punting
+,NO,YDS,AVG,TB,-20,LG
+Anthony Melchiori,7,291,41.6,0,5,49
+Team,7,291,41.6,0,5,49
+Bowling Green Punting
+,NO,YDS,AVG,TB,-20,LG
+Joe Davidson,6,249,41.5,0,2,45
+Team,6,249,41.5,0,2,45

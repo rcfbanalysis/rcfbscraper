@@ -1,0 +1,111 @@
+FIRST QUARTER,,RUTG,MD
+,TD,9:08,"C.J. Brown 1 Yd Run (Brad Craddock Kick)Drive info: 11 plays, 66 yds in 5:52",0,7
+,FG,0:48,"Kyle Federico 26 Yd Field Goal  Drive info: 10 plays, 66 yds in 5:27",3,7
+SECOND QUARTER,,RUTG,MD
+,TD,14:51,"Amba Etta-Tawo 71 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 3 plays, 75 yds in 0:57",3,14
+,TD,11:16,"Leonte Carroo 7 Yd pass from Gary Nova (Kyle Federico Kick)Drive info: 8 plays, 63 yds in 3:35",10,14
+,TD,9:19,"Brandon Ross 9 Yd Run (Brad Craddock Kick)Drive info: 7 plays, 82 yds in 1:57",10,21
+,TD,6:29,"Brandon Ross 40 Yd Run (Brad Craddock Kick)Drive info: 1 plays, 40 yds in 0:09",10,28
+,TD,2:52,"Deon Long 9 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 7 plays, 60 yds in 3:08",10,35
+,TD,0:09,"Andre Patton 1 Yd pass from Gary Nova (Kyle Federico Kick)Drive info: 13 plays, 77 yds in 2:43",17,35
+THIRD QUARTER,,RUTG,MD
+,TD,13:47,"Robert Martin 1 Yd Run (Kyle Federico Kick)Drive info: 3 plays, 25 yds in 1:13",24,35
+,TD,5:36,"Leonte Carroo 8 Yd pass from Gary Nova (Kyle Federico Kick)Drive info: 10 plays, 70 yds in 4:36",31,35
+,FG,3:59,"Brad Craddock 50 Yd Field Goal  Drive info: 5 plays, 44 yds in 1:37",31,38
+FOURTH QUARTER,,RUTG,MD
+,TD,14:55,"Andre Patton 10 Yd pass from Gary Nova (Kyle Federico Kick)Drive info: 7 plays, 71 yds in 4:04",38,38
+,FG,6:14,"Kyle Federico 25 Yd Field Goal  Drive info: 10 plays, 72 yds in 4:45",41,38
+,,RUTG,MD
+1st Downs,24,20
+3rd down efficiency,8-14,7-13
+4th down efficiency,0-1,0-1
+Total Yards,491,476
+Passing,347,195
+Comp-Att,28-42,14-24
+Yards per pass,8.3,8.1
+Rushing,144,281
+Rushing Attempts,35,36
+Yards per rush,4.1,7.8
+Penalties,7-60,10-72
+Turnovers,2,0
+Fumbles lost,2,0
+Interceptions thrown,0,0
+Possession,32:22,26:18
+Rutgers Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Gary Nova,28/42,347,8.3,4,0,85.9
+Team,28/42,347,8.3,4,0,--
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+C.J. Brown,14/24,195,8.1,2,0,90.1
+Team,14/24,195,8.1,2,0,--
+Rutgers Rushing
+,CAR,YDS,AVG,TD,LG
+Josh Hicks,16,69,4.3,0,25
+Robert Martin,13,57,4.4,1,12
+Janarion Grant,1,24,24.0,0,24
+Gary Nova,2,1,0.5,0,2
+Team,35,144,4.1,1,25
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Ross,10,108,10.8,2,44
+C.J. Brown,13,107,8.2,1,24
+Wes Brown,9,42,4.7,0,13
+Kenneth Goins Jr.,2,18,9.0,0,16
+Jacquille Veii,1,6,6.0,0,6
+Team,36,281,7.8,3,44
+Rutgers Receiving
+,REC,YDS,AVG,TD,LG
+Janarion Grant,8,105,13.1,0,38
+Leonte Carroo,6,104,17.3,2,42
+Andre Patton,8,101,12.6,2,22
+Tyler Kroft,3,28,9.3,0,17
+Robert Martin,1,4,4.0,0,4
+Carlton Agudosi,1,3,3.0,0,3
+Michael Burton,1,2,2.0,0,2
+Team,28,347,12.4,4,42
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Amba Etta-Tawo,1,71,71.0,1,71
+Deon Long,7,65,9.3,1,23
+Jacquille Veii,3,32,10.7,0,12
+Wes Brown,3,27,9.0,0,11
+Team,14,195,13.9,2,71
+Rutgers Interceptions
+,INT,YDS,TD
+No Interception Information
+Maryland Interceptions
+,INT,YDS,TD
+No Interception Information
+Rutgers Kick Returns
+,NO,YDS,AVG,LG,TD
+Janarion Grant,6,188,31.3,71,0
+Team,6,188,31.3,71,0
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+William Likely,4,77,19.3,32,0
+Jacquille Veii,2,36,18.0,30,0
+Team,6,113,18.8,32,0
+Rutgers Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+William Likely,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+Rutgers Kicking
+,FG,PCT,LG,XP,PTS
+Kyle Federico,2/2,100.0,26,5/5,11
+Team,2/2,100.0,26,5/5,11
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,1/2,50.0,50,5/5,8
+Team,1/2,50.0,50,5/5,8
+Rutgers Punting
+,NO,YDS,AVG,TB,-20,LG
+Joseph Roth,2,82,41.0,0,0,45
+Team,2,82,41.0,0,0,45
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,3,126,42.0,1,0,44
+Team,3,126,42.0,1,0,44

@@ -1,0 +1,118 @@
+FIRST QUARTER,,ARK,TAMU
+,TD,13:55,"Brandon Williams 13 Yd Run (Josh Lambo Kick)Drive info: 4 plays, 49 yds in 1:05",0,7
+,TD,9:06,"Jonathan Williams 9 Yd Run (John Henson Kick)Drive info: 8 plays, 76 yds in 4:49",7,7
+SECOND QUARTER,,ARK,TAMU
+,TD,13:21,"Alex Collins 50 Yd Run (John Henson Kick)Drive info: 5 plays, 72 yds in 3:00",14,7
+,TD,10:06,"Edward Pope 8 Yd pass from Kenny Hill (Josh Lambo Kick)Drive info: 9 plays, 65 yds in 3:15",14,14
+,TD,1:03,"Sam Irwin-Hill 51 Yd Run (John Henson Kick)Drive info: 8 plays, 78 yds in 1:24",21,14
+THIRD QUARTER,,ARK,TAMU
+,TD,5:02,"AJ Derby 44 Yd pass from Brandon Allen (John Henson Kick)Drive info: 7 plays, 78 yds in 4:09",28,14
+FOURTH QUARTER,,ARK,TAMU
+,TD,11:59,"Edward Pope 86 Yd pass from Kenny Hill (Josh Lambo Kick)Drive info: 2 plays, 88 yds in 0:43",28,21
+,TD,2:08,"Josh Reynolds 59 Yd pass from Kenny Hill (Josh Lambo Kick)Drive info: 2 plays, 73 yds in 0:21",28,28
+OVERTIME,,ARK,TAMU
+,TD,0:00,"Malcome Kennedy 25 Yd pass from Kenny Hill (Josh Lambo Kick)Drive info: 1 plays, 25 yds",28,35
+,,ARK,TAMU
+1st Downs,22,21
+3rd down efficiency,5-15,4-13
+4th down efficiency,1-2,0-1
+Total Yards,484,523
+Passing,199,386
+Comp-Att,15-27,21-41
+Yards per pass,7.4,9.4
+Rushing,285,137
+Rushing Attempts,47,27
+Yards per rush,6.1,5.1
+Penalties,8-76,9-70
+Turnovers,1,1
+Fumbles lost,1,0
+Interceptions thrown,0,1
+Possession,37:00,23:00
+Arkansas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brandon Allen,15/27,199,7.4,1,0,37.2
+Team,15/27,199,7.4,1,0,--
+Texas A&M Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kenny Hill,21/41,386,9.4,4,1,66.7
+Team,21/41,386,9.4,4,1,--
+Arkansas Rushing
+,CAR,YDS,AVG,TD,LG
+Alex Collins,21,131,6.2,1,50
+Jonathan Williams,18,95,5.3,1,17
+Sam Irwin-Hill,1,51,51.0,1,51
+Korliss Marshall,3,19,6.3,0,9
+Brandon Allen,2,-4,-2.0,0,0
+AJ Derby,1,-6,-6.0,0,0
+Team,47,285,6.1,3,51
+Texas A&M Rushing
+,CAR,YDS,AVG,TD,LG
+Tra Carson,8,55,6.9,0,24
+Kenny Hill,6,30,5.0,0,10
+Trey Williams,9,26,2.9,0,6
+Brandon Williams,2,19,9.5,1,13
+Speedy Noil,1,10,10.0,0,10
+Malcome Kennedy,1,-3,-3.0,0,0
+Team,27,137,5.1,1,24
+Arkansas Receiving
+,REC,YDS,AVG,TD,LG
+AJ Derby,3,58,19.3,1,44
+Hunter Henry,4,36,9.0,0,17
+Keon Hatcher,3,35,11.7,0,14
+Kendrick Edwards,1,28,28.0,0,28
+Jared Cornelius,2,22,11.0,0,15
+Jeremy Sprinkle,1,13,13.0,0,13
+Cody Hollister,1,7,7.0,0,7
+Team,15,199,13.3,1,44
+Texas A&M Receiving
+,REC,YDS,AVG,TD,LG
+Edward Pope,4,151,37.8,2,86
+Josh Reynolds,4,89,22.3,1,59
+Malcome Kennedy,3,44,14.7,1,25
+Sabian Holmes,2,38,19.0,0,29
+Ricky Seals-Jones,4,29,7.3,0,14
+Trey Williams,1,15,15.0,0,15
+Speedy Noil,1,8,8.0,0,8
+Tra Carson,1,6,6.0,0,6
+Jeremy Tabuyo,1,6,6.0,0,6
+Team,21,386,18.4,4,86
+Arkansas Interceptions
+,INT,YDS,TD
+Carroll Washington,1,0,0
+Team,1,0,0
+Texas A&M Interceptions
+,INT,YDS,TD
+No Interception Information
+Arkansas Kick Returns
+,NO,YDS,AVG,LG,TD
+Korliss Marshall,3,67,22.3,26,0
+Team,3,67,22.3,26,0
+Texas A&M Kick Returns
+,NO,YDS,AVG,LG,TD
+Trey Williams,3,68,22.7,51,0
+Speedy Noil,1,36,36.0,36,0
+Team,4,104,26.0,51,0
+Arkansas Punt Returns
+,NO,YDS,AVG,LG,TD
+D.J. Dean,1,7,7.0,7,0
+Team,1,7,7.0,7,0
+Texas A&M Punt Returns
+,NO,YDS,AVG,LG,TD
+Speedy Noil,1,-1,-1.0,0,0
+Team,1,-1,-1.0,0,0
+Arkansas Kicking
+,FG,PCT,LG,XP,PTS
+John Henson,0/1,0.0,0,4/4,4
+Team,0/1,0.0,0,4/4,4
+Texas A&M Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambo,0/1,0.0,0,5/5,5
+Team,0/1,0.0,0,5/5,5
+Arkansas Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Irwin-Hill,7,304,43.4,1,2,54
+Team,7,304,43.4,1,2,54
+Texas A&M Punting
+,NO,YDS,AVG,TB,-20,LG
+Drew Kaser,6,245,40.8,0,2,53
+Team,6,245,40.8,0,2,53

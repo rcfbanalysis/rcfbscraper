@@ -1,0 +1,130 @@
+FIRST QUARTER,,UK,LOU
+,FG,6:52,"Austin MacGinnis 22 Yd Field Goal  Drive info: 6 plays, 51 yds in 1:38",3,0
+,FG,1:07,"Austin MacGinnis 45 Yd Field Goal  Drive info: 10 plays, 26 yds in 3:18",6,0
+SECOND QUARTER,,UK,LOU
+,TD,12:39,"Stanley Williams 11 Yd Run (Austin MacGinnis Kick)Drive info: 6 plays, 37 yds in 2:32",13,0
+,TD,11:00,"DeVante Parker 45 Yd pass from Kyle Bolin (John Wallace Kick)Drive info: 4 plays, 58 yds in 1:39",13,7
+,TD,6:38,"Michael Dyer 3 Yd Run (John Wallace Kick)Drive info: 6 plays, 62 yds in 2:49",13,14
+,TD,3:30,Fred Tiller 40 Yd Interception Return (Austin MacGinnis Kick),20,14
+,TD,0:45,"Brandon Radcliff 1 Yd Run (John Wallace Kick)Drive info: 7 plays, 47 yds in 2:45",20,21
+THIRD QUARTER,,UK,LOU
+,TD,9:53,"DeVante Parker 33 Yd pass from Kyle Bolin (John Wallace Kick)Drive info: 7 plays, 81 yds in 2:07",20,28
+,FG,1:40,"Austin MacGinnis 40 Yd Field Goal  Drive info: 4 plays, -3 yds in 0:58",23,28
+FOURTH QUARTER,,UK,LOU
+,FG,9:48,"Austin MacGinnis 27 Yd Field Goal  Drive info: 8 plays, 75 yds in 3:43",26,28
+,TD,9:32,"Mike Douglas 30 Yd Fumble Return (Austin MacGinnis Kick)Drive info: 2 plays, -8 yds in 0:16",33,28
+,TD,7:58,"DeVante Parker 45 Yd pass from Kyle Bolin (Two-Point Pass Conversion Failed)Drive info: 6 plays, 96 yds in 1:34",33,34
+,FG,6:30,"John Wallace 36 Yd Field Goal  Drive info: 4 plays, 9 yds in 1:15",33,37
+,TD,5:31,"Stanley Williams 14 Yd Run (Austin MacGinnis Kick)Drive info: 3 plays, 75 yds in 0:59",40,37
+,TD,2:47,"Brandon Radcliff 4 Yd Run (John Wallace Kick)Drive info: 7 plays, 81 yds in 2:44",40,44
+,,UK,LOU
+1st Downs,14,22
+3rd down efficiency,3-16,7-15
+4th down efficiency,2-3,0-1
+Total Yards,327,472
+Passing,176,389
+Comp-Att,14-29,22-35
+Yards per pass,6.1,11.1
+Rushing,151,83
+Rushing Attempts,41,39
+Yards per rush,3.7,2.1
+Penalties,4-45,3-15
+Turnovers,2,4
+Fumbles lost,0,2
+Interceptions thrown,2,2
+Possession,28:54,31:06
+Kentucky Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Patrick Towles,14/29,176,6.1,0,2,24.3
+Team,14/29,176,6.1,0,2,--
+Louisville Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kyle Bolin,21/31,381,12.3,3,1,79.5
+Reggie Bonnafon,1/4,8,2.0,0,1,1.1
+Team,22/35,389,11.1,3,2,--
+Kentucky Rushing
+,CAR,YDS,AVG,TD,LG
+Stanley Williams,18,126,7.0,2,43
+Braylon Heard,6,14,2.3,0,6
+Patrick Towles,13,10,0.8,0,11
+Mikel Horton,2,3,1.5,0,2
+Demarco Robinson,1,0,0.0,0,0
+Jojo Kemp,1,-2,-2.0,0,0
+Team,41,151,3.7,2,43
+Louisville Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Radcliff,21,67,3.2,2,11
+Kyle Bolin,5,6,1.2,0,7
+Michael Dyer,7,6,0.9,1,4
+Ryan Johnson,1,4,4.0,0,4
+Reggie Bonnafon,5,0,0.0,0,8
+Team,39,83,2.1,3,11
+Kentucky Receiving
+,REC,YDS,AVG,TD,LG
+Demarco Robinson,2,59,29.5,0,50
+Joey Herrick,2,59,29.5,0,42
+Braylon Heard,1,21,21.0,0,21
+Stanley Williams,3,13,4.3,0,7
+Blake Bone,1,11,11.0,0,11
+Javess Blue,2,9,4.5,0,6
+Garrett Johnson,1,7,7.0,0,7
+Steven Borden,1,1,1.0,0,1
+Mikel Horton,1,-4,-4.0,0,0
+Team,14,176,12.6,0,50
+Louisville Receiving
+,REC,YDS,AVG,TD,LG
+DeVante Parker,6,180,30.0,3,45
+Eli Rogers,5,61,12.2,0,27
+James Quick,3,50,16.7,0,29
+Kai De La Cruz,3,35,11.7,0,22
+Michael Dyer,1,32,32.0,0,32
+Gerald Christian,2,20,10.0,0,17
+Charles Standberry,1,8,8.0,0,8
+Brandon Radcliff,1,3,3.0,0,3
+Team,22,389,17.7,3,45
+Kentucky Interceptions
+,INT,YDS,TD
+Fred Tiller,1,40,1
+A.J. Stamps,1,30,0
+Team,2,70,1
+Louisville Interceptions
+,INT,YDS,TD
+Gerod Holliman,1,65,0
+James Sample,1,7,0
+Team,2,72,0
+Kentucky Kick Returns
+,NO,YDS,AVG,LG,TD
+Demarco Robinson,1,20,20.0,20,0
+Garrett Johnson,1,17,17.0,17,0
+Team,2,37,18.5,20,0
+Louisville Kick Returns
+,NO,YDS,AVG,LG,TD
+L.J. Scott,1,26,26.0,26,0
+Charles Standberry,1,23,23.0,23,0
+Brandon Radcliff,1,19,19.0,19,0
+Team,3,68,22.7,26,0
+Kentucky Punt Returns
+,NO,YDS,AVG,LG,TD
+Demarco Robinson,2,5,2.5,3,0
+Javess Blue,1,0,0.0,0,0
+Team,3,5,1.7,3,0
+Louisville Punt Returns
+,NO,YDS,AVG,LG,TD
+Eli Rogers,3,20,6.7,10,0
+Team,3,20,6.7,10,0
+Kentucky Kicking
+,FG,PCT,LG,XP,PTS
+Austin MacGinnis,4/4,100.0,45,4/4,16
+Team,4/4,100.0,45,4/4,16
+Louisville Kicking
+,FG,PCT,LG,XP,PTS
+John Wallace,1/1,100.0,36,5/5,8
+Team,1/1,100.0,36,5/5,8
+Kentucky Punting
+,NO,YDS,AVG,TB,-20,LG
+Landon Foster,6,274,45.7,1,2,60
+Team,6,274,45.7,1,2,60
+Louisville Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Johnson,4,154,38.5,0,1,44
+Team,4,154,38.5,0,1,44

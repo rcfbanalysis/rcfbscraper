@@ -1,0 +1,122 @@
+FIRST QUARTER,,UCLA,COLO
+,TD,12:47,"u""Paul Perkins 92 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 1 plays, 85 yds in 0:23",7,0
+,TD,5:22,"u""Jordan Payton 20 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 8 plays, 55 yds in 2:50",14,0
+,FG,4:00,"u""Ka'imi Fairbairn 31 Yd Field Goal  "", Drive info: 4 plays, 7 yds in 0:48",17,0
+SECOND QUARTER,,UCLA,COLO
+,TD,6:12,"Tony Jones 1 Yd Run (Will Oliver Kick)Drive info: 12 plays, 70 yds in 4:40",17,7
+,TD,4:48,"u""Paul Perkins 24 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 6 plays, 75 yds in 1:24",24,7
+,TD,1:46,"Michael Adkins II 17 Yd Run (Will Oliver Kick)Drive info: 5 plays, 75 yds in 3:02",24,14
+THIRD QUARTER,,UCLA,COLO
+,TD,1:22,"u""Myles Jack 3 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 9 plays, 80 yds in 2:35",31,14
+FOURTH QUARTER,,UCLA,COLO
+,TD,12:59,"Bryce Bobo 38 Yd pass from Sefo Liufau (Will Oliver Kick)Drive info: 9 plays, 75 yds in 3:23",31,21
+,TD,7:52,"Bryce Bobo 3 Yd pass from Sefo Liufau (Will Oliver Kick)Drive info: 8 plays, 64 yds in 3:15",31,28
+,FG,0:36,"Will Oliver 35 Yd Field Goal  Drive info: 9 plays, 59 yds in 2:19",31,31
+OVERTIME,,UCLA,COLO
+,FG,0:00,"u""Ka'imi Fairbairn 28 Yd Field Goal  "", Drive info: 7 plays, 15 yds",34,31
+,FG,0:00,"Will Oliver 38 Yd Field Goal  Drive info: 5 plays, 4 yds",34,34
+2ND OVERTIME,,UCLA,COLO
+,FG,0:00,"Will Oliver 34 Yd Field Goal  Drive info: 4 plays, 9 yds",34,37
+,TD,0:00,"Brett Hundley 8 Yd Run  Drive info: 2 plays, 25 yds",40,37
+,,UCLA,COLO
+1st Downs,21,31
+3rd down efficiency,3-15,3-16
+4th down efficiency,0-1,2-2
+Total Yards,509,500
+Passing,200,267
+Comp-Att,24-39,28-46
+Yards per pass,5.1,5.8
+Rushing,309,233
+Rushing Attempts,37,45
+Yards per rush,8.4,5.2
+Penalties,14-121,6-50
+Turnovers,1,2
+Fumbles lost,1,0
+Interceptions thrown,0,2
+Possession,24:55,35:05
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,24/39,200,5.1,1,0,56.1
+Team,24/39,200,5.1,1,0,--
+Colorado Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sefo Liufa,27/45,246,5.5,2,2,37.3
+Shay Fields,1/1,21,21.0,0,0,99.4
+Team,28/46,267,5.8,2,2,--
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,19,180,9.5,2,92
+Brett Hundley,12,110,9.2,1,21
+JJ James,4,16,4.0,0,12
+Myles Jack,1,3,3.0,1,3
+Eddie Vanderdoes,1,0,0.0,0,0
+Team,37,309,8.4,4,92
+Colorado Rushing
+,CAR,YDS,AVG,TD,LG
+Michael Adkins II,17,107,6.3,1,19
+Tony Jones,17,68,4.0,1,27
+Sefo Liufa,6,26,4.3,0,11
+Phillip Lindsay,3,22,7.3,0,14
+Donovan Lee,2,10,5.0,0,9
+Team,45,233,5.2,2,27
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Payton,5,65,13.0,1,20
+Devin Fuller,7,41,5.9,0,12
+Mossi Johnson,3,33,11.0,0,16
+Devin Lucien,4,23,5.8,0,9
+Eldridge Massington,2,19,9.5,0,15
+Paul Perkins,2,12,6.0,0,9
+Ahmaad Harris,1,7,7.0,0,7
+Team,24,200,8.3,1,20
+Colorado Receiving
+,REC,YDS,AVG,TD,LG
+Nelson Spruce,6,63,10.5,0,28
+Bryce Bobo,4,54,13.5,2,38
+D.D. Goodson,5,53,10.6,0,21
+Tony Jones,5,36,7.2,0,20
+Tyler McCulloch,2,18,9.0,0,10
+Kyle Slavin,2,17,8.5,0,9
+Shay Fields,2,14,7.0,0,7
+Phillip Lindsay,2,12,6.0,0,9
+Team,28,267,9.5,2,38
+UCLA Interceptions
+,INT,YDS,TD
+Eric Kendricks,1,21,0
+Marcus Rios,1,9,0
+Team,2,30,0
+Colorado Interceptions
+,INT,YDS,TD
+No Interception Information
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,1,8,8.0,8,0
+Team,1,8,8.0,8,0
+Colorado Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,2,18,9.0,11,0
+Team,2,18,9.0,11,0
+Colorado Punt Returns
+,NO,YDS,AVG,LG,TD
+Shay Fields,2,5,2.5,5,0
+Team,2,5,2.5,5,0
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",2/2,100.0,31,4/4,10
+Team,2/2,100.0,31,4/4,10
+Colorado Kicking
+,FG,PCT,LG,XP,PTS
+Will Oliver,3/3,100.0,38,4/4,13
+Team,3/3,100.0,38,4/4,13
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Adam Searl,4,194,48.5,1,1,59
+Matt Mengel,4,166,41.5,0,1,49
+Team,8,360,45.0,1,2,59
+Colorado Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Darragh O'Neill""",8,319,39.9,0,3,48
+Team,8,319,39.9,0,3,48

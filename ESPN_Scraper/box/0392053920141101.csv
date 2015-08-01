@@ -1,0 +1,109 @@
+FIRST QUARTER,,MD,PSU
+,FG,10:56,"Sam Ficken 47 Yd Field Goal  Drive info: 9 plays, 36 yds in 4:04",0,3
+SECOND QUARTER,,MD,PSU
+,TD,13:52,"P.J. Gallo 2 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 7 plays, 43 yds in 3:23",7,3
+,FG,5:06,"Sam Ficken 25 Yd Field Goal  Drive info: 13 plays, 49 yds in 6:15",7,6
+,FG,1:30,"Sam Ficken 46 Yd Field Goal  Drive info: 7 plays, 16 yds in 1:34",7,9
+THIRD QUARTER,,MD,PSU
+,TD,3:18,"Jesse James 8 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 8 plays, 51 yds in 2:55",7,16
+FOURTH QUARTER,,MD,PSU
+,FG,13:11,"Brad Craddock 25 Yd Field Goal  Drive info: 7 plays, 48 yds in 2:46",10,16
+,TD,11:30,"Wes Brown 1 Yd Run (Brad Craddock Kick)Drive info: 4 plays, 24 yds in 1:41",17,16
+,FG,6:52,"Sam Ficken 48 Yd Field Goal  Drive info: 8 plays, 33 yds in 2:47",17,19
+,FG,0:51,"Brad Craddock 43 Yd Field Goal  Drive info: 5 plays, 17 yds in 1:25",20,19
+,,MD,PSU
+1st Downs,15,16
+3rd down efficiency,1-15,6-20
+4th down efficiency,0-0,1-2
+Total Yards,192,219
+Passing,161,177
+Comp-Att,18-38,18-42
+Yards per pass,4.2,4.2
+Rushing,31,42
+Rushing Attempts,31,41
+Yards per rush,1.0,1.0
+Penalties,6-87,8-64
+Turnovers,2,4
+Fumbles lost,2,3
+Interceptions thrown,0,1
+Possession,27:23,32:12
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+C.J. Brown,18/38,161,4.2,1,0,17.6
+Team,18/38,161,4.2,1,0,--
+Penn State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Christian Hackenberg,18/42,177,4.2,1,1,19.4
+Team,18/42,177,4.2,1,1,--
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+Wes Brown,10,24,2.4,1,15
+C.J. Brown,13,4,0.3,0,23
+Kenneth Goins Jr.,1,3,3.0,0,3
+Jacquille Veii,1,2,2.0,0,2
+Brandon Ross,5,-1,-0.2,0,8
+Team,31,31,1.0,1,23
+Penn State Rushing
+,CAR,YDS,AVG,TD,LG
+Akeel Lynch,21,51,2.4,0,8
+Bill Belton,8,14,1.8,0,8
+Christian Hackenberg,11,-22,-2.0,0,17
+Team,41,42,1.0,0,17
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Stefon Diggs,6,53,8.8,0,13
+Amba Etta-Tawo,2,31,15.5,0,25
+Deon Long,2,23,11.5,0,22
+Marcus Leak,2,23,11.5,0,14
+Wes Brown,1,13,13.0,0,13
+Brandon Ross,3,10,3.3,0,7
+Juwann Winfree,1,6,6.0,0,6
+P.J. Gallo,1,2,2.0,1,2
+Team,18,161,8.9,1,25
+Penn State Receiving
+,REC,YDS,AVG,TD,LG
+Geno Lewis,5,54,10.8,0,33
+Jesse James,5,48,9.6,1,20
+DaeSean Hamilton,5,42,8.4,0,14
+Kyle Carter,2,21,10.5,0,12
+Chris Godwin,1,12,12.0,0,12
+Team,18,177,9.8,1,33
+Maryland Interceptions
+,INT,YDS,TD
+William Likely,1,7,0
+Team,1,7,0
+Penn State Interceptions
+,INT,YDS,TD
+No Interception Information
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+Stefon Diggs,4,75,18.8,25,0
+Team,4,75,18.8,25,0
+Penn State Kick Returns
+,NO,YDS,AVG,LG,TD
+Grant Haley,4,76,19.0,23,0
+Team,4,76,19.0,23,0
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+William Likely,5,8,1.6,15,0
+Team,5,8,1.6,15,0
+Penn State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jesse Della Valle,3,8,2.7,6,0
+Team,3,8,2.7,6,0
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,2/2,100.0,43,2/2,8
+Team,2/2,100.0,43,2/2,8
+Penn State Kicking
+,FG,PCT,LG,XP,PTS
+Sam Ficken,4/4,100.0,48,1/1,13
+Team,4/4,100.0,48,1/1,13
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,11,487,44.3,1,3,53
+Team,11,487,44.3,1,3,53
+Penn State Punting
+,NO,YDS,AVG,TB,-20,LG
+Daniel Pasquariello,8,294,36.8,0,0,47
+Team,8,294,36.8,0,0,47

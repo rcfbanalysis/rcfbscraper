@@ -1,0 +1,121 @@
+FIRST QUARTER,,PITT,FIU
+,SF,3:58,Jeremiah McKinnon Safety,0,2
+,TD,3:22,"Alex McGough 3 Yd Run (Austin Taylor Kick)Drive info: 2 plays, 36 yds in 0:34",0,9
+,TD,1:19,"Glenn Coleman 57 Yd pass from Alex McGough (Austin Taylor Kick)Drive info: 2 plays, 58 yds in 0:20",0,16
+SECOND QUARTER,,PITT,FIU
+,TD,6:54,"Chad Voytik 32 Yd Run (Chris Blewitt Kick)Drive info: 3 plays, 45 yds in 1:03",7,16
+,TD,2:52,"Tyler Boyd 18 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 5 plays, 48 yds in 2:32",14,16
+THIRD QUARTER,,PITT,FIU
+,SF,10:34,Team Safety,16,16
+,TD,7:15,"James Conner 3 Yd Run (Chris Blewitt Kick)Drive info: 7 plays, 47 yds in 3:19",23,16
+,FG,3:51,"Chris Blewitt 34 Yd Field Goal Drive info: 7 plays, 18 yds in 2:58",26,16
+FOURTH QUARTER,,PITT,FIU
+,FG,12:46,"Austin Taylor 42 Yd Field Goal Drive info: 9 plays, 43 yds in 3:53",26,19
+,SF,7:55,Team Safety,28,19
+,TD,5:49,"James Conner 41 Yd Run (Chris Blewitt Kick)Drive info: 2 plays, 6 yds",35,19
+,TD,3:18,"Jonnu Smith 12 Yd pass from Alex McGough (  Run for Two-Point Conversion)Drive info: 2 plays, 6 yds",35,25
+,TD,2:35,"James Conner 11 Yd Run (Chris Blewitt Kick)Drive info: 2 plays, 6 yds",42,25
+,,PITT,FIU
+1st Downs,21,17
+3rd down efficiency,6-14,3-14
+4th down efficiency,1-1,0-2
+Total Yards,422,293
+Passing,101,236
+Comp-Att,11-19,17-35
+Yards per pass,5.3,6.7
+Rushing,321,57
+Rushing Attempts,54,33
+Yards per rush,5.9,1.7
+Penalties,5-40,8-68
+Turnovers,3,1
+Fumbles lost,2,1
+Interceptions thrown,1,0
+Possession,35:06,24:03
+Pittsburgh Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chad Voytik,9/17,89,5.2,1,1,67.9
+Trey Anderson,2/2,12,6.0,0,0,18.6
+Team,11/19,101,5.3,1,1,--
+Florida Intl Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Alex McGough,15/30,224,7.5,2,0,46.3
+E.J. Hilliard,2/5,12,2.4,0,0,9.3
+Team,17/35,236,6.7,2,0,--
+Pittsburgh Rushing
+,CAR,YDS,AVG,TD,LG
+James Conner,31,177,5.7,3,41
+Chad Voytik,12,114,9.5,1,40
+Isaac Bennett,6,38,6.3,0,9
+Rachid Ibrahim,1,5,5.0,0,5
+Trey Anderson,1,-4,-4.0,0,0
+Tyler Boyd,1,-7,-7.0,0,0
+Team,54,321,5.9,4,41
+Florida Intl Rushing
+,CAR,YDS,AVG,TD,LG
+Alex Gardner,12,44,3.7,0,15
+E.J. Hilliard,5,26,5.2,0,16
+Lamarq Caldwell,3,22,7.3,0,12
+Anthon Samuel,2,1,0.5,0,1
+Alex McGough,8,0,0.0,1,8
+Team,33,57,1.7,1,16
+Pittsburgh Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Boyd,4,50,12.5,1,19
+Manasseh Garner,3,23,7.7,0,9
+J.P. Holtz,1,13,13.0,0,13
+Ronald Jones,1,7,7.0,0,7
+Isaac Bennett,1,5,5.0,0,5
+Rachid Ibrahim,1,3,3.0,0,3
+Team,11,101,9.2,1,19
+Florida Intl Receiving
+,REC,YDS,AVG,TD,LG
+Glenn Coleman,2,76,38.0,1,57
+T.J. Lowder,4,73,18.3,0,33
+Jonnu Smith,7,62,8.9,1,16
+Alex Gardner,2,9,4.5,0,5
+"u""Ya'Keem Griner""",1,9,9.0,0,9
+Dennis Turner,1,7,7.0,0,7
+Team,17,236,13.9,2,57
+Pittsburgh Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida Intl Interceptions
+,INT,YDS,TD
+Wilkenson Myrtil,1,0,0
+Team,1,0,0
+Pittsburgh Kick Returns
+,NO,YDS,AVG,LG,TD
+Rachid Ibrahim,2,30,15.0,15,0
+Kevin Weatherspoon,1,18,18.0,18,0
+Jaymar Parrish,1,14,14.0,14,0
+Avonte Maddox,1,5,5.0,5,0
+Team,5,67,13.4,18,0
+Florida Intl Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Pittsburgh Punt Returns
+,NO,YDS,AVG,LG,TD
+Ronald Jones,1,2,2.0,2,0
+Tyler Boyd,1,-5,-5.0,-5,0
+Team,2,-3,-1.5,2,0
+Florida Intl Punt Returns
+,NO,YDS,AVG,LG,TD
+Richard Leonard,1,11,11.0,11,0
+Team,1,11,11.0,11,0
+Pittsburgh Kicking
+,FG,PCT,LG,XP,PTS
+Chris Blewitt,1/1,100.0,34,5/5,8
+Team,1/1,100.0,34,5/5,8
+Florida Intl Kicking
+,FG,PCT,LG,XP,PTS
+Austin Taylor,1/1,100.0,42,2/2,5
+Team,1/1,100.0,42,2/2,5
+Pittsburgh Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Winslow,5,199,39.8,0,2,48
+Team,5,199,39.8,0,2,48
+Florida Intl Punting
+,NO,YDS,AVG,TB,-20,LG
+Chris Ayers,6,198,33.0,0,1,54
+Jose Laphitzondo,1,40,40.0,0,0,40
+Team,7,238,34.0,0,1,54

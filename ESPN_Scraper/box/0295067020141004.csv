@@ -1,0 +1,115 @@
+FIRST QUARTER,,IDHO,TXST
+,FG,10:17,"Austin Rehkow 29 Yd Field Goal  Drive info: 13 plays, 62 yds in 4:43",3,0
+,TD,3:13,"Terrence Franks 70 Yd Run (Will Johnson Kick)Drive info: 1 plays, 70 yds in 0:10",3,7
+SECOND QUARTER,,IDHO,TXST
+,TD,14:01,"Terrence Franks 95 Yd Run (Will Johnson Kick)Drive info: 1 plays, 95 yds in 0:13",3,14
+,TD,0:46,"Bradley Miller 1 Yd pass from Tyler Jones (Will Johnson Kick)Drive info: 10 plays, 56 yds in 1:36",3,21
+THIRD QUARTER,,IDHO,TXST
+,TD,5:15,"Richard Montgomery 5 Yd Run (Austin Rehkow Kick)Drive info: 15 plays, 84 yds in 6:15",10,21
+,TD,0:35,"Elijhaa Penny 6 Yd Run (Two-Point Pass Conversion Failed)Drive info: 5 plays, 40 yds in 1:28",16,21
+FOURTH QUARTER,,IDHO,TXST
+,TD,14:48,"Terrence Franks 70 Yd Run (Will Johnson Kick)Drive info: 3 plays, 75 yds in 0:47",16,28
+,TD,12:31,"Aaron Duckworth 7 Yd Run (Austin Rehkow Kick)Drive info: 6 plays, 75 yds in 2:17",23,28
+,TD,9:25,"Tyler Jones 27 Yd Run (Will Johnson Kick)Drive info: 9 plays, 68 yds in 3:02",23,35
+,TD,3:00,"Elijhaa Penny 1 Yd Run (Austin Rehkow Kick)Drive info: 16 plays, 75 yds in 6:25",30,35
+,,IDHO,TXST
+1st Downs,33,14
+3rd down efficiency,8-21,7-14
+4th down efficiency,5-5,1-1
+Total Yards,523,466
+Passing,347,76
+Comp-Att,33-52,11-20
+Yards per pass,6.7,3.8
+Rushing,176,390
+Rushing Attempts,53,37
+Yards per rush,3.3,10.5
+Penalties,4-35,3-18
+Turnovers,2,4
+Fumbles lost,0,2
+Interceptions thrown,2,2
+Possession,41:01,22:03
+Idaho Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Matt Linehan,33/52,347,6.7,0,2,33.0
+Team,33/52,347,6.7,0,2,--
+Texas State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyler Jones,11/20,76,3.8,1,2,58.6
+Team,11/20,76,3.8,1,2,--
+Idaho Rushing
+,CAR,YDS,AVG,TD,LG
+Kristoffer Olugbode,13,80,6.2,0,12
+Aaron Duckworth,12,63,5.3,1,27
+Elijhaa Penny,11,41,3.7,2,7
+Richard Montgomery,2,15,7.5,1,10
+Matt Linehan,15,-23,-1.5,0,16
+Team,53,176,3.3,4,27
+Texas State Rushing
+,CAR,YDS,AVG,TD,LG
+Terrence Franks,15,284,18.9,3,95
+Tyler Jones,7,58,8.3,1,27
+Robert Lowe,12,43,3.6,0,10
+C.J. Best,1,7,7.0,0,7
+Team,37,390,10.5,4,95
+Idaho Receiving
+,REC,YDS,AVG,TD,LG
+Joshua McCain,9,125,13.9,0,33
+Justin Podrabsky,7,62,8.9,0,14
+Kristoffer Olugbode,3,43,14.3,0,25
+Richard Montgomery,6,37,6.2,0,12
+Jacob Sannon,2,35,17.5,0,23
+Elijhaa Penny,1,20,20.0,0,20
+Deon Watson,3,18,6.0,0,11
+Jake Manley,2,7,3.5,0,7
+Team,33,347,10.5,0,33
+Texas State Receiving
+,REC,YDS,AVG,TD,LG
+Brandon Smith,2,43,21.5,0,38
+C.J. Best,2,10,5.0,0,6
+Bradley Miller,3,7,2.3,1,4
+Demun Mercer,1,7,7.0,0,7
+Ben Ijah,1,5,5.0,0,5
+Terrence Franks,2,4,2.0,0,3
+Team,11,76,6.9,1,38
+Idaho Interceptions
+,INT,YDS,TD
+Bradley Njok,1,0,0
+Russell Siavii,1,0,0
+Team,2,0,0
+Texas State Interceptions
+,INT,YDS,TD
+Germod Williams,2,5,0
+Team,2,5,0
+Idaho Kick Returns
+,NO,YDS,AVG,LG,TD
+Jayshawn Jordan,2,39,19.5,21,0
+Team,2,39,19.5,21,0
+Texas State Kick Returns
+,NO,YDS,AVG,LG,TD
+Brandon Smith,1,28,28.0,28,0
+David Lewis,2,22,11.0,12,0
+Team,3,50,16.7,28,0
+Idaho Punt Returns
+,NO,YDS,AVG,LG,TD
+Joshua McCain,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+Texas State Punt Returns
+,NO,YDS,AVG,LG,TD
+Craig Mager,2,50,25.0,43,0
+Team,2,50,25.0,43,0
+Idaho Kicking
+,FG,PCT,LG,XP,PTS
+Austin Rehkow,1/3,33.3,29,3/3,6
+Team,1/3,33.3,29,3/3,6
+Texas State Kicking
+,FG,PCT,LG,XP,PTS
+Will Johnson,0/0,0.0,0,5/5,5
+Team,0/0,0.0,0,5/5,5
+Idaho Punting
+,NO,YDS,AVG,TB,-20,LG
+Austin Rehkow,5,241,48.2,0,2,57
+Team,5,241,48.2,0,2,57
+Texas State Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Johnson,5,197,39.4,0,2,47
+Team,5,197,39.4,0,2,47

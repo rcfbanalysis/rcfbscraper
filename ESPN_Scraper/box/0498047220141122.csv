@@ -1,0 +1,114 @@
+FIRST QUARTER,,ULM,NMSU
+,FG,6:03,"Justin Manton 28 Yd Field Goal  Drive info: 8 plays, 77 yds in 3:08",3,0
+,TD,3:27,"Centarius Donald 1 Yd Run (Justin Manton Kick)Drive info: 2 plays, 5 yds in 0:35",10,0
+SECOND QUARTER,,ULM,NMSU
+,TD,14:53,"Larry Rose III 37 Yd Run (Maxwell Johnson Kick)Drive info: 3 plays, 46 yds in 0:49",10,7
+,FG,7:30,"Maxwell Johnson 32 Yd Field Goal Drive info: 14 plays, 71 yds in 4:48",10,10
+,TD,4:16,"Rashon Ceaser 3 Yd pass from Pete Thomas (Justin Manton Kick)Drive info: 9 plays, 75 yds in 3:14",17,10
+,TD,2:47,"Larry Rose III 64 Yd Run (Maxwell Johnson Kick)Drive info: 4 plays, 75 yds in 1:29",17,17
+,FG,0:00,"Justin Manton 22 Yd Field Goal  Drive info: 6 plays, 46 yds in 0:32",20,17
+THIRD QUARTER,,ULM,NMSU
+,TD,1:46,Mitch Lane 1 Yd Return of Blocked Punt (Justin Manton Kick),27,17
+FOURTH QUARTER,,ULM,NMSU
+,FG,12:05,"Justin Manton 21 Yd Field Goal  Drive info: 9 plays, 66 yds in 3:29",30,17
+,,ULM,NMSU
+1st Downs,19,19
+3rd down efficiency,5-16,5-19
+4th down efficiency,0-0,2-5
+Total Yards,420,378
+Passing,350,102
+Comp-Att,35-50,15-32
+Yards per pass,7.0,3.2
+Rushing,70,276
+Rushing Attempts,27,51
+Yards per rush,2.6,5.4
+Penalties,4-40,3-21
+Turnovers,2,2
+Fumbles lost,1,1
+Interceptions thrown,1,1
+Possession,29:03,30:57
+Louisiana Monroe Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Pete Thomas,35/50,350,7.0,1,1,60.4
+Team,35/50,350,7.0,1,1,--
+New Mexico State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyler Rogers,15/32,102,3.2,0,1,6.6
+Team,15/32,102,3.2,0,1,--
+Louisiana Monroe Rushing
+,CAR,YDS,AVG,TD,LG
+Centarius Donald,13,35,2.7,1,6
+Pete Thomas,7,16,2.3,0,7
+Tyler Cain,5,11,2.2,0,8
+Ajalen Holley,1,9,9.0,0,9
+Team,27,70,2.6,1,9
+New Mexico State Rushing
+,CAR,YDS,AVG,TD,LG
+Larry Rose III,35,229,6.5,2,64
+Tyler Rogers,11,42,3.8,0,27
+Andrew Allen,3,3,1.0,0,10
+Marquette Washington,1,1,1.0,0,1
+Derek Ibekwe,1,1,1.0,0,1
+Team,51,276,5.4,2,64
+Louisiana Monroe Receiving
+,REC,YDS,AVG,TD,LG
+Kenzee Jackson,13,108,8.3,0,16
+Rashon Ceaser,6,91,15.2,1,45
+Ajalen Holley,9,81,9.0,0,21
+Centarius Donald,1,30,30.0,0,30
+Tyler Cain,4,27,6.8,0,14
+Alec Osborne,2,13,6.5,0,10
+Team,35,350,10.0,1,45
+New Mexico State Receiving
+,REC,YDS,AVG,TD,LG
+Teldrick Morgan,4,41,10.3,0,14
+Joshua Bowen,2,16,8.0,0,13
+Adam Shapiro,2,13,6.5,0,8
+Jerrel Brown,2,12,6.0,0,6
+Andrew Dean,1,8,8.0,0,8
+Joseph Matthews,1,5,5.0,0,5
+Gregory Hogan,2,5,2.5,0,3
+Larry Rose III,1,2,2.0,0,2
+Team,15,102,6.8,0,14
+Louisiana Monroe Interceptions
+,INT,YDS,TD
+Trey Caldwell,1,9,0
+Team,1,9,0
+New Mexico State Interceptions
+,INT,YDS,TD
+Winston Rose,1,-4,0
+Team,1,-4,0
+Louisiana Monroe Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Cain,2,44,22.0,25,0
+Team,2,44,22.0,25,0
+New Mexico State Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Louisiana Monroe Punt Returns
+,NO,YDS,AVG,LG,TD
+Rashon Ceaser,1,51,51.0,51,0
+Alex Johnson,1,27,27.0,27,0
+Mitch Lane,1,1,1.0,1,1
+Team,2,79,39.5,51,1
+New Mexico State Punt Returns
+,NO,YDS,AVG,LG,TD
+Gregory Hogan,1,15,15.0,15,0
+Team,1,15,15.0,15,0
+Louisiana Monroe Kicking
+,FG,PCT,LG,XP,PTS
+Justin Manton,3/4,75.0,28,3/3,12
+Team,3/4,75.0,28,3/3,12
+New Mexico State Kicking
+,FG,PCT,LG,XP,PTS
+Maxwell Johnson,1/1,100.0,32,2/2,5
+Team,1/1,100.0,32,2/2,5
+Louisiana Monroe Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Manton,7,332,47.4,3,2,62
+Team,7,332,47.4,3,2,62
+New Mexico State Punting
+,NO,YDS,AVG,TB,-20,LG
+Alex Louthan,5,181,36.2,0,2,45
+Kelly Kingseed,2,89,44.5,0,1,56
+Team,7,270,38.6,0,3,56

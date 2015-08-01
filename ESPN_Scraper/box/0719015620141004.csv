@@ -1,0 +1,123 @@
+FIRST QUARTER,,TLSA,CSU
+,TD,12:36,"Dee Hart 14 Yd Run (Jared Roberts Kick)Drive info: 6 plays, 75 yds in 2:24",0,7
+,TD,6:59,"Rashard Higgins 28 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 2 plays, 46 yds in 0:34",0,14
+SECOND QUARTER,,TLSA,CSU
+,TD,13:11,"Rashard Higgins 31 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 5 plays, 86 yds in 2:49",0,21
+,TD,4:54,"Rashard Higgins 73 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 3 plays, 80 yds in 1:08",0,28
+,TD,3:20,"Dane Evans 1 Yd Run (Carl Salazar Kick)Drive info: 4 plays, 75 yds in 1:34",7,28
+THIRD QUARTER,,TLSA,CSU
+,TD,9:19,"Dee Hart 13 Yd Run (Jared Roberts Kick)Drive info: 4 plays, 75 yds in 1:56",7,35
+,FG,0:21,"Carl Salazar 25 Yd Field Goal  Drive info: 11 plays, 66 yds in 5:02",10,35
+FOURTH QUARTER,,TLSA,CSU
+,TD,12:50,"Keevan Lucas 62 Yd pass from Dane Evans (Carl Salazar Kick)Drive info: 5 plays, 77 yds in 1:23",17,35
+,TD,5:02,"Rashard Higgins 36 Yd pass from Nick Stevens (Jared Roberts Kick)Drive info: 6 plays, 48 yds in 2:41",17,42
+,,TLSA,CSU
+1st Downs,19,17
+3rd down efficiency,7-19,8-15
+4th down efficiency,1-2,0-0
+Total Yards,390,532
+Passing,263,298
+Comp-Att,18-35,16-26
+Yards per pass,7.5,11.5
+Rushing,127,234
+Rushing Attempts,45,31
+Yards per rush,2.8,7.5
+Penalties,4-30,7-74
+Turnovers,3,2
+Fumbles lost,1,1
+Interceptions thrown,2,1
+Possession,37:35,25:39
+Tulsa Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Dane Evans,16/29,222,7.7,1,2,14.5
+Joseph Calcagni,2/6,41,6.8,0,0,31.3
+Team,18/35,263,7.5,1,2,--
+Colorado State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Garrett Grayson,12/18,236,13.1,3,1,83.1
+Nick Stevens,4/8,62,7.8,1,0,21.9
+Team,16/26,298,11.5,4,1,--
+Tulsa Rushing
+,CAR,YDS,AVG,TD,LG
+Zack Langer,16,72,4.5,0,18
+Dane Evans,16,22,1.4,1,12
+James Flanders,6,19,3.2,0,5
+Bishop Louie,1,10,10.0,0,10
+Joseph Calcagni,3,5,1.7,0,5
+"u""D'Angelo Brewer""",1,2,2.0,0,2
+Tavarreon Dickerson,2,-3,-1.5,0,0
+Team,45,127,2.8,1,18
+Colorado State Rushing
+,CAR,YDS,AVG,TD,LG
+Dee Hart,11,143,13.0,2,53
+Jasen Oden Jr.,12,90,7.5,0,63
+Garrett Grayson,5,3,0.6,0,15
+Eric Williams,1,2,2.0,0,2
+Deron Thompson,2,-4,-2.0,0,0
+Team,31,234,7.5,2,63
+Tulsa Receiving
+,REC,YDS,AVG,TD,LG
+Keevan Lucas,7,101,14.4,1,62
+Derek Patterson,2,87,43.5,0,65
+Bishop Louie,2,26,13.0,0,20
+Joshua Atkinson,4,22,5.5,0,10
+"u""D'Angelo Brewer""",1,21,21.0,0,21
+Conner Floyd,1,8,8.0,0,8
+Tavarreon Dickerson,1,-2,-2.0,0,0
+Team,18,263,14.6,1,65
+Colorado State Receiving
+,REC,YDS,AVG,TD,LG
+Rashard Higgins,6,178,29.7,4,73
+Charles Lovett,2,70,35.0,0,62
+Nolan Peralta,2,14,7.0,0,9
+Eric Williams,1,9,9.0,0,9
+Xavier Williams,1,9,9.0,0,9
+Joe Hansley,1,8,8.0,0,8
+Deionte Gaines,1,4,4.0,0,4
+Steven Walker,1,4,4.0,0,4
+Dee Hart,1,2,2.0,0,2
+Team,16,298,18.6,4,73
+Tulsa Interceptions
+,INT,YDS,TD
+Kerwin Thomas,1,40,0
+Team,1,40,0
+Colorado State Interceptions
+,INT,YDS,TD
+Preston Hodges,1,12,0
+Trent Matthews,1,0,0
+Team,2,12,0
+Tulsa Kick Returns
+,NO,YDS,AVG,LG,TD
+"u""D'Angelo Brewer""",1,22,22.0,22,0
+Zack Langer,1,18,18.0,18,0
+Team,2,40,20.0,22,0
+Colorado State Kick Returns
+,NO,YDS,AVG,LG,TD
+Deionte Gaines,1,28,28.0,28,0
+Jasen Oden Jr.,2,24,12.0,15,0
+Team,3,52,17.3,28,0
+Tulsa Punt Returns
+,NO,YDS,AVG,LG,TD
+Bishop Louie,2,26,13.0,19,0
+Conner Floyd,2,11,5.5,9,0
+Team,4,37,9.3,19,0
+Colorado State Punt Returns
+,NO,YDS,AVG,LG,TD
+Dee Hart,4,20,5.0,11,0
+Team,4,20,5.0,11,0
+Tulsa Kicking
+,FG,PCT,LG,XP,PTS
+Carl Salazar,1/1,100.0,25,2/2,5
+Team,1/1,100.0,25,2/2,5
+Colorado State Kicking
+,FG,PCT,LG,XP,PTS
+Jared Roberts,0/1,0.0,0,6/6,6
+Team,0/1,0.0,0,6/6,6
+Tulsa Punting
+,NO,YDS,AVG,TB,-20,LG
+Dalton Parks,8,327,40.9,1,3,62
+Team,8,327,40.9,1,3,62
+Colorado State Punting
+,NO,YDS,AVG,TB,-20,LG
+Hayden Hunt,6,299,49.8,0,2,63
+Team,6,299,49.8,0,2,63

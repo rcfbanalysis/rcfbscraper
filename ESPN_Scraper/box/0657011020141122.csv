@@ -1,0 +1,117 @@
+FIRST QUARTER,,USC,UCLA
+,TD,11:53,Anthony Sarao 17 Yd Interception Return (Andre Heidari Kick),7,0
+,TD,8:40,"u""Devin Lucien 10 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 3 plays, 8 yds in 1:19",7,7
+,TD,8:01,"u""Thomas Duarte 57 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 1 plays, 57 yds in 0:10",7,14
+SECOND QUARTER,,USC,UCLA
+,TD,11:07,"Justin Davis 2 Yd pass from Cody Kessler (Andre Heidari Kick)Drive info: 7 plays, 46 yds in 2:26",14,14
+,FG,5:54,"u""Ka'imi Fairbairn 32 Yd Field Goal  "", Drive info: 13 plays, 62 yds in 5:13",14,17
+,TD,0:14,"u""Eldridge Massington 13 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 11 plays, 68 yds in 3:54",14,24
+THIRD QUARTER,,USC,UCLA
+,TD,11:48,"u""Paul Perkins 10 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 9 plays, 84 yds in 3:12",14,31
+,TD,9:22,"u""Brett Hundley 15 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 4 plays, 66 yds in 1:00",14,38
+FOURTH QUARTER,,USC,UCLA
+,TD,3:08,"Javorius Allen 3 Yd Run (Two-Point Pass Conversion Failed)Drive info: 14 plays, 93 yds in 5:36",20,38
+,,USC,UCLA
+1st Downs,16,24
+3rd down efficiency,8-17,9-16
+4th down efficiency,0-1,0-0
+Total Yards,276,461
+Passing,214,326
+Comp-Att,22-34,22-31
+Yards per pass,6.3,10.5
+Rushing,62,135
+Rushing Attempts,33,43
+Yards per rush,1.9,3.1
+Penalties,5-49,7-63
+Turnovers,2,2
+Fumbles lost,1,1
+Interceptions thrown,1,1
+Possession,29:24,30:36
+USC Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cody Kessler,22/34,214,6.3,1,1,18.9
+Team,22/34,214,6.3,1,1,--
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,22/31,326,10.5,3,1,67.2
+Team,22/31,326,10.5,3,1,--
+USC Rushing
+,CAR,YDS,AVG,TD,LG
+Buck Allen,14,60,4.3,1,12
+Justin Davis,9,37,4.1,0,11
+"u""Adoree' Jackson""",1,5,5.0,0,5
+Soma Vainuk,1,0,0.0,0,0
+Cody Kessler,8,-40,-5.0,0,2
+Team,33,62,1.9,1,12
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,24,93,3.9,1,11
+Nate Starks,4,18,4.5,0,8
+JJ James,5,13,2.6,0,5
+Mossi Johnson,1,5,5.0,0,5
+Myles Jack,2,4,2.0,0,8
+Brett Hundley,7,2,0.3,1,15
+Team,43,135,3.1,2,15
+USC Receiving
+,REC,YDS,AVG,TD,LG
+JuJu Smith,4,79,19.8,0,31
+Buck Allen,7,42,6.0,0,13
+Justin Davis,4,25,6.3,1,16
+Nelson Agholor,3,24,8.0,0,11
+George Farmer,2,21,10.5,0,17
+Bryce Dixon,1,12,12.0,0,12
+Darreus Rogers,1,11,11.0,0,11
+Team,22,214,9.7,1,31
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Thomas Duarte,2,95,47.5,1,57
+Devin Fuller,5,63,12.6,0,31
+Mossi Johnson,5,60,12.0,0,21
+Jordan Payton,3,31,10.3,0,14
+Nate Starks,1,25,25.0,0,25
+Devin Lucien,2,20,10.0,1,10
+Eldridge Massington,1,13,13.0,1,13
+Ahmaad Harris,1,9,9.0,0,9
+Myles Jack,1,8,8.0,0,8
+Nate Iese,1,2,2.0,0,2
+Team,22,326,14.8,3,57
+USC Interceptions
+,INT,YDS,TD
+Anthony Sarao,1,17,1
+Team,1,17,1
+UCLA Interceptions
+,INT,YDS,TD
+Eric Kendricks,1,0,0
+Team,1,0,0
+USC Kick Returns
+,NO,YDS,AVG,LG,TD
+"u""Adoree' Jackson""",3,54,18.0,21,0
+Team,3,54,18.0,21,0
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,3,52,17.3,18,0
+Team,3,52,17.3,18,0
+USC Punt Returns
+,NO,YDS,AVG,LG,TD
+Nelson Agholor,4,-5,-1.3,10,0
+Team,3,-5,-1.7,10,0
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+USC Kicking
+,FG,PCT,LG,XP,PTS
+Andre Heidari,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",1/1,100.0,32,5/5,8
+Team,1/1,100.0,32,5/5,8
+USC Punting
+,NO,YDS,AVG,TB,-20,LG
+Kris Albarado,6,259,43.2,0,3,52
+Cody Kessler,1,38,38.0,0,1,38
+Team,7,297,42.4,0,4,52
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,6,198,33.0,0,2,48
+Team,6,198,33.0,0,2,48

@@ -1,0 +1,121 @@
+FIRST QUARTER,,SMU,UCF
+,TD,10:10,"Dontravious Wilson 1 Yd Run (Two-Point Run Conversion Failed)Drive info: 11 plays, 78 yds in 4:50",0,6
+,TD,7:05,"Dontravious Wilson 11 Yd Run (Rodrigo Quirarte Kick)Drive info: 7 plays, 70 yds in 2:49",0,13
+,TD,2:08,"J.J. Worton 58 Yd pass from Justin Holman (Rodrigo Quirarte Kick)Drive info: 1 plays, 58 yds in 0:11",0,20
+,TD,1:09,"Breshad Perriman 18 Yd pass from Justin Holman (Rodrigo Quirarte Kick)Drive info: 3 plays, 20 yds in 0:51",0,27
+SECOND QUARTER,,SMU,UCF
+,TD,14:24,"Matt Davis 5 Yd Run (Cody Rademacher Kick)Drive info: 4 plays, 30 yds in 1:45",7,27
+,TD,14:09,Michael Easton 96 Yd Kickoff Return (Rodrigo Quirarte Kick),7,34
+,FG,0:12,"Rodrigo Quirarte 31 Yd Field Goal  Drive info: 8 plays, 29 yds in 3:11",7,37
+THIRD QUARTER,,SMU,UCF
+,FG,5:15,"Shawn Moffitt 34 Yd Field Goal  Drive info: 13 plays, 68 yds in 6:19",7,40
+,FG,2:28,"Shawn Moffitt 38 Yd Field Goal  Drive info: 5 plays, 17 yds in 2:10",7,43
+FOURTH QUARTER,,SMU,UCF
+,FG,11:28,"Shawn Moffitt 20 Yd Field Goal  Drive info: 6 plays, 23 yds in 1:59",7,46
+,TD,3:18,"Nick Patti 1 Yd Run (Shawn Moffitt Kick)Drive info: 12 plays, 48 yds in 6:30",7,53
+,,SMU,UCF
+1st Downs,4,27
+3rd down efficiency,3-11,9-17
+4th down efficiency,0-0,1-2
+Total Yards,116,490
+Passing,50,254
+Comp-Att,9-22,17-26
+Yards per pass,2.3,9.8
+Rushing,66,236
+Rushing Attempts,20,59
+Yards per rush,3.3,4.0
+Penalties,8-39,6-66
+Turnovers,5,2
+Fumbles lost,3,0
+Interceptions thrown,2,2
+Possession,26:24,40:16
+SMU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Matt Davis,6/15,44,2.9,0,1,9.7
+Garrett Krstich,3/7,6,0.9,0,1,1.5
+Team,9/22,50,2.3,0,2,--
+UCF Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Holman,15/22,228,10.4,2,2,86.0
+Nick Patti,2/4,26,6.5,0,0,62.2
+Team,17/26,254,9.8,2,2,--
+SMU Rushing
+,CAR,YDS,AVG,TD,LG
+Matt Davis,7,40,5.7,1,17
+K.C. Nlemchi,5,14,2.8,0,8
+Prescott Line,5,8,1.6,0,4
+Luke Seeker,2,4,2.0,0,3
+Garrett Krstich,1,0,0.0,0,0
+Team,20,66,3.3,1,17
+UCF Rushing
+,CAR,YDS,AVG,TD,LG
+Micah Reed,26,112,4.3,0,12
+Dontravious Wilson,15,80,5.3,2,12
+Justin Holman,6,17,2.8,0,14
+Cedric Thompson,8,16,2.0,0,8
+Nick Patti,3,9,3.0,1,5
+Rannell Hall,1,2,2.0,0,2
+Team,59,236,4.0,3,14
+SMU Receiving
+,REC,YDS,AVG,TD,LG
+Deion Sanders Jr.,4,38,9.5,0,16
+Darius Joseph,2,6,3.0,0,6
+Shelby Walker,1,5,5.0,0,5
+Stephen Nelson,2,1,0.5,0,5
+Team,9,50,5.6,0,16
+UCF Receiving
+,REC,YDS,AVG,TD,LG
+J.J. Worton,2,64,32.0,1,58
+Breshad Perriman,2,43,21.5,1,25
+Micah Reed,3,39,13.0,0,26
+Rannell Hall,3,39,13.0,0,16
+Dontravious Wilson,3,22,7.3,0,12
+Taylor Oldham,1,19,19.0,0,19
+Josh Reese,1,13,13.0,0,13
+Cedric Thompson,1,8,8.0,0,8
+Kevin Miller,1,7,7.0,0,7
+Team,17,254,14.9,2,58
+SMU Interceptions
+,INT,YDS,TD
+Horace Richardson,1,0,0
+Darrion Richardson,1,0,0
+Team,2,0,0
+UCF Interceptions
+,INT,YDS,TD
+Shaquill Griffin,1,20,0
+Jacoby Glenn,1,-4,0
+Team,2,16,0
+SMU Kick Returns
+,NO,YDS,AVG,LG,TD
+Deion Sanders Jr.,10,203,20.3,64,0
+Team,10,203,20.3,64,0
+UCF Kick Returns
+,NO,YDS,AVG,LG,TD
+Michael Easton,1,96,96.0,96,1
+J.J. Worton,1,22,22.0,22,0
+Team,2,118,59.0,96,1
+SMU Punt Returns
+,NO,YDS,AVG,LG,TD
+Daijuan Stewart,2,18,9.0,11,0
+Team,2,18,9.0,11,0
+UCF Punt Returns
+,NO,YDS,AVG,LG,TD
+Jackie Williams,4,35,8.8,14,0
+Team,4,35,8.8,14,0
+SMU Kicking
+,FG,PCT,LG,XP,PTS
+Cody Rademacher,0/0,0.0,0,1/1,1
+Team,0/0,0.0,0,1/1,1
+UCF Kicking
+,FG,PCT,LG,XP,PTS
+Shawn Moffitt,3/3,100.0,38,1/1,10
+Rodrigo Quirarte,1/1,100.0,31,4/4,7
+Team,4/4,100.0,38,5/5,17
+SMU Punting
+,NO,YDS,AVG,TB,-20,LG
+Jackson Koonce,8,338,42.3,0,2,46
+Team,8,338,42.3,0,2,46
+UCF Punting
+,NO,YDS,AVG,TB,-20,LG
+Caleb Houston,2,90,45.0,0,0,47
+Team,2,90,45.0,0,0,47

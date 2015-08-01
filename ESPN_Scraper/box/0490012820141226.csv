@@ -1,0 +1,114 @@
+FIRST QUARTER,,NCST,UCF
+,FG,10:06,"Shawn Moffitt 40 Yd Field Goal  Drive info: 12 plays, 52 yds in 4:54",0,3
+,TD,6:11,"Jaylen Samuels 18 Yd pass from Shadrach Thornton (Niklas Sade Kick)Drive info: 9 plays, 75 yds in 3:55",7,3
+SECOND QUARTER,,NCST,UCF
+,TD,12:34,"Josh Reese 6 Yd pass from Justin Holman (Shawn Moffitt Kick)Drive info: 10 plays, 67 yds in 3:25",7,10
+,TD,9:05,"Johnathan Alston 37 Yd pass from Jacoby Brissett (Niklas Sade Kick)Drive info: 8 plays, 78 yds in 3:29",14,10
+,FG,3:16,"Niklas Sade 19 Yd Field Goal  Drive info: 9 plays, 74 yds in 4:52",17,10
+THIRD QUARTER,,NCST,UCF
+,TD,11:55,"Matt Dayes 24 Yd Run (Niklas Sade Kick)Drive info: 9 plays, 75 yds in 3:05",24,10
+,FG,5:45,"Shawn Moffitt 36 Yd Field Goal  Drive info: 8 plays, 15 yds in 3:03",24,13
+,TD,3:05,"Matt Dayes 15 Yd Run (Niklas Sade Kick)Drive info: 7 plays, 75 yds in 2:40",31,13
+FOURTH QUARTER,,NCST,UCF
+,FG,12:37,"Niklas Sade 45 Yd Field Goal  Drive info: 5 plays, 23 yds in 1:29",34,13
+,TD,11:01,"Josh Reese 14 Yd pass from Justin Holman (Shawn Moffitt Kick)Drive info: 5 plays, 75 yds in 1:36",34,20
+,TD,1:44,"Josh Reese 2 Yd pass from Justin Holman (Shawn Moffitt Kick)Drive info: 10 plays, 70 yds in 1:12",34,27
+,,NCST,UCF
+1st Downs,26,21
+3rd down efficiency,6-15,7-20
+4th down efficiency,0-0,3-4
+Total Yards,487,373
+Passing,300,291
+Comp-Att,17-28,23-53
+Yards per pass,10.7,5.5
+Rushing,187,82
+Rushing Attempts,49,28
+Yards per rush,3.8,2.9
+Penalties,6-34,3-30
+Turnovers,1,1
+Fumbles lost,1,0
+Interceptions thrown,0,1
+Possession,33:51,26:09
+NC State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jacoby Brissett,15/26,262,10.1,1,0,72.2
+Bo Hines,1/1,20,20.0,0,0,94.2
+Shadrach Thornton,1/1,18,18.0,1,0,100.0
+Team,17/28,300,10.7,2,0,--
+UCF Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Holman,23/53,291,5.5,3,1,49.7
+Team,23/53,291,5.5,3,1,--
+NC State Rushing
+,CAR,YDS,AVG,TD,LG
+Shadrach Thornton,17,96,5.6,0,24
+Matt Dayes,13,78,6.0,2,24
+Jacoby Brissett,14,31,2.2,0,11
+Jaylen Samuels,1,0,0.0,0,0
+Bryan Underwood,1,-14,-14.0,0,0
+Team,49,187,3.8,2,24
+UCF Rushing
+,CAR,YDS,AVG,TD,LG
+William Stanback,12,38,3.2,0,14
+Justin Holman,9,27,3.0,0,10
+Dontravious Wilson,3,9,3.0,0,4
+Josh Reese,1,6,6.0,0,6
+Rannell Hall,3,2,0.7,0,10
+Team,28,82,2.9,0,14
+NC State Receiving
+,REC,YDS,AVG,TD,LG
+Bo Hines,3,79,26.3,0,45
+Johnathan Alston,3,58,19.3,1,37
+Jaylen Samuels,3,41,13.7,1,18
+"u""Bra'Lon Cherry""",2,35,17.5,0,26
+David J. Grinnage,2,27,13.5,0,18
+Jacoby Brissett,1,20,20.0,0,20
+Matt Dayes,1,18,18.0,0,18
+Marquez Valdes-Scantling,1,13,13.0,0,13
+Tyler Purvis,1,9,9.0,0,9
+Team,17,300,17.6,2,45
+UCF Receiving
+,REC,YDS,AVG,TD,LG
+Breshad Perriman,9,138,15.3,0,33
+Rannell Hall,7,78,11.1,0,34
+Josh Reese,6,75,12.5,3,24
+Justin Tukes,1,0,0.0,0,0
+Team,23,291,12.7,3,34
+NC State Interceptions
+,INT,YDS,TD
+Josh Jones,1,36,0
+Team,1,36,0
+UCF Interceptions
+,INT,YDS,TD
+No Interception Information
+NC State Kick Returns
+,NO,YDS,AVG,LG,TD
+Dakwa Nichols,1,22,22.0,22,0
+Team,1,22,22.0,22,0
+UCF Kick Returns
+,NO,YDS,AVG,LG,TD
+Jordan Akins,1,27,27.0,27,0
+Team,1,27,27.0,27,0
+NC State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+UCF Punt Returns
+,NO,YDS,AVG,LG,TD
+Josh Reese,1,-2,-2.0,-2,0
+Team,1,-2,-2.0,0,0
+NC State Kicking
+,FG,PCT,LG,XP,PTS
+Niklas Sade,2/3,66.7,45,4/4,10
+Team,2/3,66.7,45,4/4,10
+UCF Kicking
+,FG,PCT,LG,XP,PTS
+Shawn Moffitt,2/2,100.0,40,3/3,9
+Team,2/2,100.0,40,3/3,9
+NC State Punting
+,NO,YDS,AVG,TB,-20,LG
+Wil Baumann,4,186,46.5,1,1,54
+Team,4,186,46.5,1,1,54
+UCF Punting
+,NO,YDS,AVG,TB,-20,LG
+Caleb Houston,6,257,42.8,1,2,47
+Team,6,257,42.8,1,2,47

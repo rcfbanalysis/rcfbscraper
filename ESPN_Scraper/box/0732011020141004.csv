@@ -1,0 +1,113 @@
+FIRST QUARTER,,UTAH,UCLA
+,TD,5:51,Tevin Carter 27 Yd Interception Return (Andy Phillips Kick),7,0
+SECOND QUARTER,,UTAH,UCLA
+,TD,13:45,"Dres Anderson 42 Yd pass from Kendal Thompson (Andy Phillips Kick)Drive info: 9 plays, 87 yds in 3:15",14,0
+,TD,10:28,"u""Paul Perkins 4 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 10 plays, 82 yds in 3:17",14,7
+,FG,0:02,"Andy Phillips 48 Yd Field Goal  Drive info: 11 plays, 49 yds in 3:50",17,7
+THIRD QUARTER,,UTAH,UCLA
+,TD,5:45,"u""Eddie Vanderdoes 1 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 12 plays, 80 yds in 4:44",17,14
+,TD,0:22,"Devontae Booker 6 Yd Run (Andy Phillips Kick)Drive info: 12 plays, 75 yds in 5:23",24,14
+FOURTH QUARTER,,UTAH,UCLA
+,TD,12:22,"u""Devin Fuller 93 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 2 plays, 94 yds in 0:41",24,21
+,FG,6:21,"Andy Phillips 45 Yd Field Goal  Drive info: 4 plays, 8 yds in 1:56",27,21
+,TD,4:50,"u""Eldridge Massington 40 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 5 plays, 63 yds in 1:31",27,28
+,FG,0:34,"Andy Phillips 29 Yd Field Goal  Drive info: 10 plays, 63 yds in 4:16",30,28
+,,UTAH,UCLA
+1st Downs,18,24
+3rd down efficiency,7-18,5-12
+4th down efficiency,0-0,0-0
+Total Yards,342,406
+Passing,100,269
+Comp-Att,12-18,16-22
+Yards per pass,5.6,12.2
+Rushing,242,137
+Rushing Attempts,55,50
+Yards per rush,4.4,2.7
+Penalties,4-40,3-29
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,32:55,27:05
+Utah Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kendal Thompson,10/13,95,7.3,1,0,55.6
+Travis Wilson,2/5,5,1.0,0,0,6.1
+Team,12/18,100,5.6,1,0,--
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,16/21,269,12.8,2,1,40.6
+Team,16/22,269,12.2,2,1,--
+Utah Rushing
+,CAR,YDS,AVG,TD,LG
+Devontae Booker,33,156,4.7,1,15
+Kendal Thompson,19,83,4.4,0,18
+Kaelin Clay,2,3,1.5,0,2
+Travis Wilson,1,0,0.0,0,0
+Team,55,242,4.4,1,18
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,17,99,5.8,1,22
+JJ James,11,50,4.5,0,15
+Nate Starks,4,9,2.3,0,8
+Ishmael Adams,1,2,2.0,0,2
+Eddie Vanderdoes,1,1,1.0,1,1
+Brett Hundley,16,-24,-1.5,0,11
+Team,50,137,2.7,2,22
+Utah Receiving
+,REC,YDS,AVG,TD,LG
+Kaelin Clay,5,38,7.6,0,15
+Dres Anderson,2,38,19.0,1,42
+Devontae Booker,3,15,5.0,0,8
+Delshawn McClellon,1,6,6.0,0,6
+Kenneth Scott,1,3,3.0,0,3
+Team,12,100,8.3,1,42
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Devin Fuller,3,95,31.7,1,93
+Jordan Payton,7,74,10.6,0,28
+Eldridge Massington,2,54,27.0,1,40
+Devin Lucien,2,32,16.0,0,17
+Nate Iese,2,14,7.0,0,8
+Team,16,269,16.8,2,93
+Utah Interceptions
+,INT,YDS,TD
+Tevin Carter,1,27,1
+Team,1,27,1
+UCLA Interceptions
+,INT,YDS,TD
+No Interception Information
+Utah Kick Returns
+,NO,YDS,AVG,LG,TD
+Kaelin Clay,1,13,13.0,13,0
+Team,1,13,13.0,13,0
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Jayon Brown,3,29,9.7,16,0
+Mossi Johnson,2,25,12.5,15,0
+Ishmael Adams,1,18,18.0,18,0
+Team,6,72,12.0,18,0
+Utah Punt Returns
+,NO,YDS,AVG,LG,TD
+Kaelin Clay,2,22,11.0,12,0
+Team,2,22,11.0,12,0
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Utah Kicking
+,FG,PCT,LG,XP,PTS
+Andy Phillips,3/3,100.0,48,3/3,12
+Team,3/3,100.0,48,3/3,12
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",0/1,0.0,0,4/4,4
+Team,0/1,0.0,0,4/4,4
+Utah Punting
+,NO,YDS,AVG,TB,-20,LG
+Tom Hackett,8,394,49.3,1,4,59
+Team,8,394,49.3,1,4,59
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,6,273,45.5,0,1,52
+Adam Searl,1,35,35.0,0,1,35
+Team,7,308,44.0,0,2,52

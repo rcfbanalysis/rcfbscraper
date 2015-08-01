@@ -1,0 +1,114 @@
+FIRST QUARTER,,WVU,ALA
+,FG,10:58,"Josh Lambert 20 Yd Field Goal  Drive info: 14 plays, 79 yds in 4:02",3,0
+,FG,8:18,"Adam Griffith 47 Yd Field Goal  Drive info: 7 plays, 45 yds in 2:40",3,3
+SECOND QUARTER,,WVU,ALA
+,TD,14:11,"T.J. Yeldon 15 Yd Run (Adam Griffith Kick)Drive info: 14 plays, 95 yds in 6:57",3,10
+,TD,11:58,"Kevin White 19 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 9 plays, 75 yds in 2:13",10,10
+,TD,1:57,"T.J. Yeldon 1 Yd Run (Adam Griffith Kick)Drive info: 13 plays, 88 yds in 6:20",10,17
+,TD,1:43,Mario Alford 100 Yd Kickoff Return (Josh Lambert Kick),17,17
+,FG,0:00,"Adam Griffith 41 Yd Field Goal  Drive info: 7 plays, 50 yds in 1:31",17,20
+THIRD QUARTER,,WVU,ALA
+,TD,7:44,"Derrick Henry 19 Yd Run (Adam Griffith Kick)Drive info: 6 plays, 70 yds in 1:50",17,27
+,FG,4:59,"Josh Lambert 42 Yd Field Goal  Drive info: 9 plays, 66 yds in 2:37",20,27
+,FG,1:27,"Adam Griffith 27 Yd Field Goal  Drive info: 9 plays, 64 yds in 3:27",20,30
+FOURTH QUARTER,,WVU,ALA
+,FG,13:37,"Josh Lambert 41 Yd Field Goal  Drive info: 9 plays, 51 yds in 2:50",23,30
+,FG,8:07,"Adam Griffith 45 Yd Field Goal  Drive info: 11 plays, 60 yds in 4:16",23,33
+,,WVU,ALA
+1st Downs,22,30
+3rd down efficiency,5-14,9-16
+4th down efficiency,0-1,0-1
+Total Yards,393,538
+Passing,365,250
+Comp-Att,29-45,24-33
+Yards per pass,8.1,7.6
+Rushing,28,288
+Rushing Attempts,24,49
+Yards per rush,1.2,5.9
+Penalties,6-55,7-49
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,22:13,37:47
+West Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Clint Trickett,29/45,365,8.1,1,0,61.5
+Team,29/45,365,8.1,1,0,--
+Alabama Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Blake Sims,24/33,250,7.6,0,1,77.1
+Team,24/33,250,7.6,0,1,--
+West Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Rushel Shell,10,38,3.8,0,14
+Dreamius Smith,3,9,3.0,0,5
+Wendell Smallwood,5,9,1.8,0,4
+Dustin Garrison,1,2,2.0,0,2
+Clint Trickett,4,-11,-2.8,0,14
+Team,24,28,1.2,0,14
+Alabama Rushing
+,CAR,YDS,AVG,TD,LG
+T.J. Yeldon,23,126,5.5,2,26
+Derrick Henry,17,113,6.6,1,19
+Blake Sims,6,42,7.0,0,21
+Kenyan Drake,3,7,2.3,0,6
+Team,49,288,5.9,3,26
+West Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Kevin White,9,143,15.9,1,29
+Wendell Smallwood,6,73,12.2,0,21
+Jordan Thompson,5,62,12.4,0,32
+Mario Alford,5,54,10.8,0,16
+Rushel Shell,2,19,9.5,0,19
+Elijah Wellman,1,10,10.0,0,10
+Shelton Gibson,1,4,4.0,0,4
+Team,29,365,12.6,1,32
+Alabama Receiving
+,REC,YDS,AVG,TD,LG
+Amari Cooper,12,130,10.8,0,24
+DeAndrew White,6,73,12.2,0,38
+Christion Jones,3,31,10.3,0,22
+Chris Black,1,8,8.0,0,8
+Jalston Fowler,1,7,7.0,0,7
+T.J. Yeldon,1,1,1.0,0,1
+Team,24,250,10.4,0,38
+West Virginia Interceptions
+,INT,YDS,TD
+Daryl Worley,1,4,0
+Team,1,4,0
+Alabama Interceptions
+,INT,YDS,TD
+No Interception Information
+West Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+Mario Alford,3,145,48.3,100,1
+Rushel Shell,1,7,7.0,7,0
+Team,4,152,38.0,100,1
+Alabama Kick Returns
+,NO,YDS,AVG,LG,TD
+Christion Jones,4,99,24.8,26,0
+Team,4,99,24.8,26,0
+West Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Jordan Thompson,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,0,0
+Alabama Punt Returns
+,NO,YDS,AVG,LG,TD
+Christion Jones,1,-1,-1.0,0,0
+Team,1,-1,-1.0,0,0
+West Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambert,3/4,75.0,42,2/2,11
+Team,3/4,75.0,42,2/2,11
+Alabama Kicking
+,FG,PCT,LG,XP,PTS
+Adam Griffith,4/4,100.0,47,3/3,15
+Team,4/4,100.0,47,3/3,15
+West Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Nick O'Toole""",4,175,43.8,0,4,58
+Team,4,175,43.8,0,4,58
+Alabama Punting
+,NO,YDS,AVG,TB,-20,LG
+JK Scott,2,101,50.5,0,1,62
+Team,2,101,50.5,0,1,62

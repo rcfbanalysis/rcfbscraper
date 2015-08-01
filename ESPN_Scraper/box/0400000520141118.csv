@@ -1,0 +1,110 @@
+FIRST QUARTER,,UMASS,AKR
+,FG,6:15,"Robert Stein 26 Yd Field Goal  Drive info: 10 plays, 43 yds in 4:18",0,3
+,TD,2:37,"L.T. Smith 7 Yd pass from Kyle Pohl (Robert Stein Kick)Drive info: 5 plays, 49 yds in 1:34",0,10
+SECOND QUARTER,,UMASS,AKR
+,FG,8:25,"Robert Stein 24 Yd Field Goal  Drive info: 11 plays, 72 yds in 4:06",0,13
+,TD,0:25,"Conor Hundley 12 Yd pass from Kyle Pohl (Robert Stein Kick)Drive info: 3 plays, 29 yds in 0:54",0,20
+THIRD QUARTER,,UMASS,AKR
+,TD,12:06,"Jean Sifrin 1 Yd pass from Austin Whipple (Logan Laurent PAT failed)Drive info: 2 plays, 73 yds in 0:24",6,20
+,TD,2:54,"Conor Hundley 12 Yd Run (Robert Stein Kick)Drive info: 2 plays, 13 yds in 1:06",6,27
+FOURTH QUARTER,,UMASS,AKR
+,FG,11:20,"Robert Stein 31 Yd Field Goal  Drive info: 8 plays, 43 yds in 3:40",6,30
+,,UMASS,AKR
+1st Downs,11,26
+3rd down efficiency,2-10,4-12
+4th down efficiency,0-2,0-0
+Total Yards,235,411
+Passing,168,277
+Comp-Att,13-21,26-39
+Yards per pass,8.0,7.1
+Rushing,67,134
+Rushing Attempts,30,37
+Yards per rush,2.2,3.6
+Penalties,5-45,4-40
+Turnovers,4,2
+Fumbles lost,1,2
+Interceptions thrown,3,0
+Possession,24:38,34:16
+Massachusetts Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Austin Whipple,12/20,157,7.9,1,3,9.0
+Bernard Davis,1/1,11,11.0,0,0,95.8
+Team,13/21,168,8.0,1,3,--
+Akron Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kyle Pohl,26/39,277,7.1,2,0,74.5
+Team,26/39,277,7.1,2,0,--
+Massachusetts Rushing
+,CAR,YDS,AVG,TD,LG
+Shadrach Abrokwah,16,50,3.1,0,14
+Lorenzo Woodley,11,22,2.0,0,18
+Elgin Long,1,0,0.0,0,0
+Austin Whipple,2,-5,-2.5,0,1
+Team,30,67,2.2,0,18
+Akron Rushing
+,CAR,YDS,AVG,TD,LG
+Chiz Chisholm,19,78,4.1,0,31
+Conor Hundley,15,68,4.5,1,18
+Kyle Pohl,2,-10,-5.0,0,0
+Team,37,134,3.6,1,31
+Massachusetts Receiving
+,REC,YDS,AVG,TD,LG
+Rodney Mills,1,72,72.0,0,72
+Tajae Sharpe,5,41,8.2,0,13
+Jean Sifrin,2,23,11.5,1,22
+Shadrach Abrokwah,3,19,6.3,0,16
+Marken Michel,2,13,6.5,0,7
+Team,13,168,12.9,1,72
+Akron Receiving
+,REC,YDS,AVG,TD,LG
+"u""Zach D'Orazio""",10,121,12.1,0,18
+Andrew Pratt,5,50,10.0,0,22
+L.T. Smith,2,39,19.5,1,32
+Keith Sconiers,3,23,7.7,0,11
+Tyler Williams,4,19,4.8,0,10
+Chiz Chisholm,1,13,13.0,0,13
+Conor Hundley,1,12,12.0,1,12
+Team,26,277,10.7,2,32
+Massachusetts Interceptions
+,INT,YDS,TD
+John Robinson-Woodgett,1,43,0
+No Interception Information
+Akron Interceptions
+,INT,YDS,TD
+Devonte Morgan,1,44,0
+Martel Durant,1,0,0
+Team,3,87,0
+Massachusetts Kick Returns
+,NO,YDS,AVG,LG,TD
+Khary Bailey-Smith,3,71,23.7,42,0
+Andrew Libby,1,18,18.0,18,0
+Peter Angeh,1,3,3.0,3,0
+Team,5,92,18.4,42,0
+Akron Kick Returns
+,NO,YDS,AVG,LG,TD
+L.T. Smith,2,37,18.5,23,0
+Drew Phillips,1,17,17.0,17,0
+Team,3,54,18.0,23,0
+Massachusetts Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Akron Punt Returns
+,NO,YDS,AVG,LG,TD
+Imani Davis,1,-2,-2.0,-2,0
+Team,1,-2,-2.0,0,0
+Massachusetts Kicking
+,FG,PCT,LG,XP,PTS
+Logan Laurent,0/0,0.0,0,0/1,0
+Team,0/0,0.0,0,0/1,0
+Akron Kicking
+,FG,PCT,LG,XP,PTS
+Robert Stein,3/3,100.0,31,3/3,12
+Team,3/3,100.0,31,3/3,12
+Massachusetts Punting
+,NO,YDS,AVG,TB,-20,LG
+Brian McDonald,5,149,29.8,0,1,40
+Team,5,149,29.8,0,1,40
+Akron Punting
+,NO,YDS,AVG,TB,-20,LG
+Zach Paul,4,125,31.3,1,0,52
+Team,4,125,31.3,1,0,52

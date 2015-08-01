@@ -1,0 +1,110 @@
+FIRST QUARTER,,ELON,DUKE
+,TD,8:55,"Issac Blakeney 4 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 11 plays, 61 yds in 4:22",0,7
+,FG,3:06,"John Gallagher 36 Yd Field Goal  Drive info: 13 plays, 61 yds in 5:43",3,7
+SECOND QUARTER,,ELON,DUKE
+,TD,14:39,"Jamison Crowder 46 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 1 plays, 46 yds in 0:07",3,14
+,TD,8:08,"Shaquille Powell 2 Yd Run (Ross Martin Kick)Drive info: 12 plays, 80 yds in 3:57",3,21
+,FG,4:24,"John Gallagher 35 Yd Field Goal  Drive info: 11 plays, 51 yds in 3:36",6,21
+,TD,1:01,"Issac Blakeney 19 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 9 plays, 79 yds in 3:17",6,28
+THIRD QUARTER,,ELON,DUKE
+,TD,11:32,"Jamison Crowder 13 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 12 plays, 75 yds in 3:28",6,35
+,FG,4:33,"Ross Martin 49 Yd Field Goal  Drive info: 6 plays, 24 yds in 2:03",6,38
+FOURTH QUARTER,,ELON,DUKE
+,TD,13:21,"Thomas Sirk 15 Yd Run (Ross Martin Kick)Drive info: 9 plays, 82 yds in 3:03",6,45
+,TD,10:23,"B.J. Bennett 2 Yd Run (John Gallagher Kick)Drive info: 8 plays, 75 yds in 2:57",13,45
+,TD,7:16,"Thomas Sirk 1 Yd Run (Ross Martin Kick)Drive info: 8 plays, 37 yds in 2:55",13,52
+,,ELON,DUKE
+1st Downs,17,31
+3rd down efficiency,4-14,3-12
+4th down efficiency,1-2,5-6
+Total Yards,328,567
+Passing,190,292
+Comp-Att,19-38,28-42
+Yards per pass,5.0,7.0
+Rushing,138,275
+Rushing Attempts,31,44
+Yards per rush,4.5,6.3
+Penalties,4-21,2-15
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,27:20,32:40
+Elon Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Mike Quinn,19/38,190,5.0,0,0,--
+Team,19/38,190,5.0,0,0,--
+Duke Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Anthony Boone,22/33,247,7.5,4,0,93.4
+Thomas Sirk,5/7,40,5.7,0,0,100.0
+Parker Boehme,1/2,5,2.5,0,0,75.8
+Team,28/42,292,7.0,4,0,--
+Elon Rushing
+,CAR,YDS,AVG,TD,LG
+B.J. Bennett,13,87,6.7,1,28
+Tracey Coppedge,15,65,4.3,0,14
+Mike Quinn,3,-14,-4.7,0,0
+Team,31,138,4.5,1,28
+Duke Rushing
+,CAR,YDS,AVG,TD,LG
+Josh Snead,12,74,6.2,0,14
+Shaun Wilson,6,71,11.8,0,26
+Thomas Sirk,8,54,6.8,2,20
+Shaquille Powell,11,54,4.9,1,11
+Parker Boehme,3,14,4.7,0,9
+Joseph Ajeigbe,4,8,2.0,0,5
+Team,44,275,6.3,3,26
+Elon Receiving
+,REC,YDS,AVG,TD,LG
+Kierre Brown,5,70,14.0,0,34
+Andre Davis,4,42,10.5,0,12
+Demitri Allison,5,36,7.2,0,14
+Tre Lennon,2,19,9.5,0,10
+R.J. Pearsall,2,18,9.0,0,9
+Doug Warrick,1,5,5.0,0,5
+Team,19,190,10.0,0,34
+Duke Receiving
+,REC,YDS,AVG,TD,LG
+Jamison Crowder,7,93,13.3,2,46
+Max McCaffrey,5,65,13.0,0,26
+Issac Blakeney,4,45,11.3,2,19
+David Reeves,3,25,8.3,0,18
+Anthony Nash,2,16,8.0,0,14
+Joseph Ajeigbe,1,14,14.0,0,14
+Johnell Barnes,2,10,5.0,0,5
+Josh Snead,1,9,9.0,0,9
+Shaquille Powell,1,9,9.0,0,9
+Davis Koppenhaver,1,5,5.0,0,5
+Shaun Wilson,1,1,1.0,0,1
+Team,28,292,10.4,4,46
+Elon Interceptions
+,INT,YDS,TD
+No Interception Information
+Duke Interceptions
+,INT,YDS,TD
+No Interception Information
+Elon Kick Returns
+,NO,YDS,AVG,LG,TD
+Kierre Brown,7,174,24.9,47,0
+Team,7,174,24.9,47,0
+Duke Kick Returns
+,NO,YDS,AVG,LG,TD
+Johnell Barnes,1,60,60.0,60,0
+DeVon Edwards,2,38,19.0,19,0
+Team,3,98,32.7,60,0
+Elon Kicking
+,FG,PCT,LG,XP,PTS
+John Gallagher,2/2,100.0,36,1/1,7
+Team,2/2,100.0,36,1/1,7
+Duke Kicking
+,FG,PCT,LG,XP,PTS
+Ross Martin,1/1,100.0,49,7/7,10
+Team,1/1,100.0,49,7/7,10
+Elon Punting
+,NO,YDS,AVG,TB,-20,LG
+David Petroni,6,190,31.7,0,0,40
+Team,6,190,31.7,0,0,40
+Duke Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Monday,2,103,51.5,1,0,59
+Team,2,103,51.5,1,0,59

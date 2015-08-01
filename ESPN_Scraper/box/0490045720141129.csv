@@ -1,0 +1,110 @@
+FIRST QUARTER,,NCST,UNC
+,TD,11:02,"Jacoby Brissett 17 Yd Run (Niklas Sade Kick)Drive info: 9 plays, 79 yds in 3:58",7,0
+SECOND QUARTER,,NCST,UNC
+,TD,9:52,"David Grinnage 2 Yd pass from Jacoby Brissett (Niklas Sade Kick)Drive info: 7 plays, 80 yds in 3:35",14,0
+,TD,4:44,"Shadrach Thornton 4 Yd Run (Niklas Sade Kick)Drive info: 4 plays, 72 yds in 2:02",21,0
+THIRD QUARTER,,NCST,UNC
+,TD,4:21,"Tyler Purvis 3 Yd pass from Jacoby Brissett (Niklas Sade Kick)Drive info: 12 plays, 80 yds in 7:12",28,0
+FOURTH QUARTER,,NCST,UNC
+,TD,11:18,"Tyler Purvis 2 Yd pass from Jacoby Brissett (Niklas Sade Kick)Drive info: 11 plays, 60 yds in 6:58",35,0
+,TD,1:48,"Quinshad Davis 13 Yd pass from Mitch Trubisky (Thomas Moore Kick)Drive info: 9 plays, 86 yds in 2:58",35,7
+,,NCST,UNC
+1st Downs,20,18
+3rd down efficiency,9-15,6-14
+4th down efficiency,0-0,0-0
+Total Yards,454,207
+Passing,66,177
+Comp-Att,9-11,17-35
+Yards per pass,6.0,5.1
+Rushing,388,30
+Rushing Attempts,58,28
+Yards per rush,6.7,1.1
+Penalties,6-81,6-49
+Turnovers,0,2
+Fumbles lost,0,0
+Interceptions thrown,0,2
+Possession,38:49,21:11
+NC State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jacoby Brissett,9/11,66,6.0,3,0,99.7
+Team,9/11,66,6.0,3,0,--
+North Carolina Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Marquise Williams,11/22,97,4.4,0,1,19.4
+Mitch Trubisky,6/13,80,6.2,1,1,6.6
+Team,17/35,177,5.1,1,2,--
+NC State Rushing
+,CAR,YDS,AVG,TD,LG
+Jacoby Brissett,14,167,11.9,1,60
+Shadrach Thornton,28,161,5.8,1,58
+Matt Dayes,5,26,5.2,0,17
+Tony Creecy,8,22,2.8,0,7
+Jaylen Samuels,2,13,6.5,0,12
+Team,58,388,6.7,2,60
+North Carolina Rushing
+,CAR,YDS,AVG,TD,LG
+Romar Morris,4,20,5.0,0,12
+T.J. Logan,5,12,2.4,0,4
+Marquise Williams,16,11,0.7,0,12
+Elijah Hood,1,-2,-2.0,0,0
+Mitch Trubisky,2,-11,-5.5,0,0
+Team,28,30,1.1,0,12
+NC State Receiving
+,REC,YDS,AVG,TD,LG
+Bo Hines,2,24,12.0,0,20
+David J. Grinnage,3,22,7.3,1,12
+Jaylen Samuels,1,10,10.0,0,10
+Tyler Purvis,3,10,3.3,2,5
+Team,9,66,7.3,3,20
+North Carolina Receiving
+,REC,YDS,AVG,TD,LG
+Bug Howard,4,79,19.8,0,28
+Quinshad Davis,3,31,10.3,1,13
+Ryan Switzer,5,31,6.2,0,13
+T.J. Thorpe,1,15,15.0,0,15
+Romar Morris,1,11,11.0,0,11
+Austin Proehl,1,6,6.0,0,6
+Mack Hollins,1,5,5.0,0,5
+T.J. Logan,1,-1,-1.0,0,0
+Team,17,177,10.4,1,28
+NC State Interceptions
+,INT,YDS,TD
+Josh Jones,1,1,0
+Juston Burris,1,0,0
+Team,2,1,0
+North Carolina Interceptions
+,INT,YDS,TD
+No Interception Information
+NC State Kick Returns
+,NO,YDS,AVG,LG,TD
+Dakwa Nichols,1,21,21.0,21,0
+Matt Dayes,1,5,5.0,5,0
+Team,2,26,13.0,21,0
+North Carolina Kick Returns
+,NO,YDS,AVG,LG,TD
+Brian Walker,1,23,23.0,23,0
+Team,1,23,23.0,23,0
+NC State Punt Returns
+,NO,YDS,AVG,LG,TD
+Bo Hines,2,-1,-0.5,0,0
+Team,2,-1,-0.5,0,0
+North Carolina Punt Returns
+,NO,YDS,AVG,LG,TD
+Ryan Switzer,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+NC State Kicking
+,FG,PCT,LG,XP,PTS
+Niklas Sade,0/0,0.0,0,5/5,5
+Team,0/0,0.0,0,5/5,5
+North Carolina Kicking
+,FG,PCT,LG,XP,PTS
+Thomas Moore,0/1,0.0,0,1/1,1
+Team,0/1,0.0,0,1/1,1
+NC State Punting
+,NO,YDS,AVG,TB,-20,LG
+Wil Baumann,4,156,39.0,0,2,49
+Team,4,156,39.0,0,2,49
+North Carolina Punting
+,NO,YDS,AVG,TB,-20,LG
+Tommy Hibbard,6,251,41.8,0,3,49
+Team,6,251,41.8,0,3,49

@@ -1,0 +1,122 @@
+FIRST QUARTER,,STAN,CAL
+,TD,12:38,"Remound Wright 1 Yd Run (Jordan Williamson Kick)Drive info: 6 plays, 75 yds in 2:22",7,0
+,FG,6:26,"Jordan Williamson 24 Yd Field Goal  Drive info: 11 plays, 61 yds in 4:55",10,0
+SECOND QUARTER,,STAN,CAL
+,TD,14:26,"Stephen Anderson 10 Yd pass from Jared Goff (James Langford Kick)Drive info: 4 plays, 47 yds in 1:08",10,7
+,TD,7:59,"Remound Wright 5 Yd Run (Jordan Williamson Kick)Drive info: 11 plays, 69 yds in 6:20",17,7
+,TD,1:22,"Kevin Hogan 5 Yd Run (Jordan Williamson Kick)Drive info: 3 plays, 12 yds in 1:32",24,7
+THIRD QUARTER,,STAN,CAL
+,TD,9:16,"R. Wright run for 2 yds for a TD, (J. Williamson KICK)Drive info: 9 plays, 40 yds in 4:03",31,7
+,TD,9:16,"Remound Wright 2 Yd Run (Jordan Williamson Kick)Drive info: 8 plays, 74 yds in 3:54",31,7
+,FG,1:21,"James Langford 38 Yd Field Goal  Drive info: 6 plays, 10 yds in 1:49",31,10
+FOURTH QUARTER,,STAN,CAL
+,TD,7:36,"Remound Wright 5 Yd Run (Jordan Williamson Kick)Drive info: 9 plays, 78 yds in 4:48",38,10
+,TD,2:40,"Daniel Lasco 12 Yd Run (James Langford Kick)Drive info: 6 plays, 38 yds in 1:36",38,17
+,,STAN,CAL
+1st Downs,25,23
+3rd down efficiency,5-10,6-14
+4th down efficiency,0-0,0-1
+Total Yards,418,410
+Passing,214,231
+Comp-Att,15-21,21-40
+Yards per pass,10.2,5.8
+Rushing,204,179
+Rushing Attempts,47,36
+Yards per rush,4.3,5.0
+Penalties,4-21,12-113
+Turnovers,1,5
+Fumbles lost,0,1
+Interceptions thrown,1,4
+Possession,32:50,26:59
+Stanford Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kevin Hogan,15/20,214,10.7,0,1,95.9
+Evan Crower,0/1,0,0.0,0,0,0.2
+Team,15/21,214,10.2,0,1,--
+California Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jared Goff,16/31,182,5.9,1,2,28.2
+Luke Rubenzer,5/9,49,5.4,0,2,31.3
+Team,21/40,231,5.8,1,4,--
+Stanford Rushing
+,CAR,YDS,AVG,TD,LG
+Remound Wright,23,92,4.0,4,30
+Kevin Hogan,7,46,6.6,1,24
+Michael Rector,1,23,23.0,0,23
+Christian McCaffrey,3,19,6.3,0,12
+Kelsey Young,4,13,3.3,0,5
+Ricky Seale,5,11,2.2,0,3
+Barry Sanders,2,2,1.0,0,2
+- Team,2,-2,-1.0,0,0
+Team,47,204,4.3,5,30
+California Rushing
+,CAR,YDS,AVG,TD,LG
+Daniel Lasco,18,103,5.7,1,14
+Luke Rubenzer,12,60,5.0,0,17
+Jared Goff,4,9,2.3,0,10
+Khalfani Muhammad,1,4,4.0,0,4
+Chris Harper,1,3,3.0,0,3
+Team,36,179,5.0,1,17
+Stanford Receiving
+,REC,YDS,AVG,TD,LG
+Devon Cajuste,3,51,17.0,0,21
+Austin Hooper,3,47,15.7,0,18
+Francis Owus,4,46,11.5,0,18
+Christian McCaffrey,2,34,17.0,0,27
+Kelsey Young,1,18,18.0,0,18
+Ty Montgomery,1,14,14.0,0,14
+Michael Rector,1,4,4.0,0,4
+Team,15,214,14.3,0,27
+California Receiving
+,REC,YDS,AVG,TD,LG
+Kenny Lawler,5,73,14.6,0,28
+Stephen Anderson,5,52,10.4,1,15
+Bryce Treggs,3,51,17.0,0,22
+Chris Harper,3,22,7.3,0,9
+Trevor Davis,1,17,17.0,0,17
+Maurice Harris,2,9,4.5,0,6
+Darius Powe,1,7,7.0,0,7
+Daniel Lasco,1,0,0.0,0,0
+Team,21,231,11.0,1,28
+Stanford Interceptions
+,INT,YDS,TD
+Blake Martinez,2,2,0
+Terrence Alexander,1,46,0
+Jordan Richards,1,0,0
+Team,4,48,0
+California Interceptions
+,INT,YDS,TD
+Darius White,1,0,0
+Team,1,0,0
+Stanford Kick Returns
+,NO,YDS,AVG,LG,TD
+Kelsey Young,1,30,30.0,30,0
+Team,1,30,30.0,30,0
+California Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Stanford Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+California Punt Returns
+,NO,YDS,AVG,LG,TD
+Chris Harper,2,27,13.5,27,0
+Trevor Davis,1,16,16.0,16,0
+Team,2,43,21.5,27,0
+Stanford Kicking
+,FG,PCT,LG,XP,PTS
+Jordan Williamson,1/1,100.0,24,5/5,8
+Team,1/1,100.0,24,5/5,8
+California Kicking
+,FG,PCT,LG,XP,PTS
+James Langford,1/1,100.0,38,2/2,5
+Team,1/1,100.0,38,2/2,5
+Stanford Punting
+,NO,YDS,AVG,TB,-20,LG
+Ben Rhyne,3,142,47.3,0,0,51
+- Team,1,1,1.0,0,0,1
+Team,4,143,35.8,0,0,51
+California Punting
+,NO,YDS,AVG,TB,-20,LG
+Cole Leininger,4,131,32.8,0,0,40
+Team,4,131,32.8,0,0,40

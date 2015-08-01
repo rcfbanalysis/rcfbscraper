@@ -1,0 +1,122 @@
+FIRST QUARTER,,TENN,UGA
+,FG,11:39,"Aaron Medley 46 Yd Field Goal  Drive info: 9 plays, 43 yds in 3:21",3,0
+,TD,5:04,"Jalen Hurd 1 Yd Run (Aaron Medley Kick)Drive info: 9 plays, 72 yds in 3:04",10,0
+,TD,1:07,"Hutson Mason 3 Yd Run (Marshall Morgan Kick)Drive info: 4 plays, 32 yds in 1:03",10,7
+SECOND QUARTER,,TENN,UGA
+,TD,8:45,"Todd Gurley 1 Yd Run (Marshall Morgan Kick)Drive info: 11 plays, 87 yds in 4:16",10,14
+,TD,1:17,"Nick Chubb 20 Yd pass from Hutson Mason (Marshall Morgan Kick)Drive info: 11 plays, 81 yds in 4:14",10,21
+,TD,0:18,"Jason Croom 23 Yd pass from Justin Worley (Aaron Medley Kick)Drive info: 7 plays, 83 yds in 0:59",17,21
+FOURTH QUARTER,,TENN,UGA
+,TD,9:31,"Todd Gurley 51 Yd Run (Marshall Morgan Kick)Drive info: 5 plays, 77 yds in 1:38",17,28
+,TD,8:07,"Pig Howard 31 Yd pass from Justin Worley (Justin Worley Pass to Daniel Helm for Two-Point Conversion)Drive info: 4 plays, 52 yds in 1:24",25,28
+,TD,4:27,Josh Dawson 0 Yd Fumble Return (Marshall Morgan Kick),25,35
+,TD,2:14,"Marquez North 6 Yd pass from Justin Worley (Aaron Medley Kick)Drive info: 7 plays, 58 yds in 2:13",32,35
+,,TENN,UGA
+1st Downs,22,25
+3rd down efficiency,6-17,1-10
+4th down efficiency,0-0,2-2
+Total Yards,401,436
+Passing,284,147
+Comp-Att,27-44,16-25
+Yards per pass,6.5,5.9
+Rushing,117,289
+Rushing Attempts,34,53
+Yards per rush,3.4,5.5
+Penalties,7-49,7-57
+Turnovers,2,2
+Fumbles lost,2,0
+Interceptions thrown,0,2
+Possession,27:49,31:19
+Tennessee Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Worley,23/35,264,7.5,3,0,73.0
+Nathan Peterman,4/9,20,2.2,0,0,3.6
+Team,27/44,284,6.5,3,0,--
+Georgia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Hutson Mason,16/25,147,5.9,1,2,30.5
+Team,16/25,147,5.9,1,2,--
+Tennessee Rushing
+,CAR,YDS,AVG,TD,LG
+Jalen Hurd,24,119,5.0,1,19
+Josh Malone,1,20,20.0,0,20
+Pig Howard,1,8,8.0,0,8
+Marlin Lane,5,1,0.2,0,4
+Nathan Peterman,1,-14,-14.0,0,0
+Justin Worley,2,-17,-8.5,0,0
+Team,34,117,3.4,1,20
+Georgia Rushing
+,CAR,YDS,AVG,TD,LG
+Todd Gurley,28,208,7.4,2,51
+Nick Chubb,11,32,2.9,0,9
+Hutson Mason,10,30,3.0,1,12
+Sony Michel,3,17,5.7,0,9
+Quayvon Hicks,1,2,2.0,0,2
+Team,53,289,5.5,3,51
+Tennessee Receiving
+,REC,YDS,AVG,TD,LG
+Ethan Wolf,5,69,13.8,0,24
+Jason Croom,4,60,15.0,1,25
+Pig Howard,4,46,11.5,1,31
+Josh Malone,5,43,8.6,0,14
+Johnathon Johnson,1,24,24.0,0,24
+Jalen Hurd,3,19,6.3,0,18
+Marquez North,3,15,5.0,1,6
+Devrin Young,1,6,6.0,0,6
+Jashon Robertson,1,2,2.0,0,2
+Team,27,284,10.5,3,31
+Georgia Receiving
+,REC,YDS,AVG,TD,LG
+Michael Bennett,4,31,7.8,0,18
+Todd Gurley,4,30,7.5,0,11
+Chris Conley,3,30,10.0,0,17
+Nick Chubb,1,20,20.0,1,20
+Sony Michel,1,16,16.0,0,16
+Reggie Davis,2,14,7.0,0,8
+Taylor Maxey,1,6,6.0,0,6
+Team,16,147,9.2,1,20
+Tennessee Interceptions
+,INT,YDS,TD
+Cameron Sutton,1,0,0
+Todd Kelly Jr.,1,0,0
+Team,2,0,0
+Georgia Interceptions
+,INT,YDS,TD
+No Interception Information
+Tennessee Kick Returns
+,NO,YDS,AVG,LG,TD
+Devrin Young,3,79,26.3,39,0
+Justus Pickett,1,23,23.0,23,0
+Team,4,102,25.5,39,0
+Georgia Kick Returns
+,NO,YDS,AVG,LG,TD
+Todd Gurley,2,47,23.5,27,0
+Isaiah McKenzie,1,14,14.0,14,0
+Taylor Maxey,1,13,13.0,13,0
+Quayvon Hicks,1,12,12.0,12,0
+Team,5,86,17.2,27,0
+Tennessee Punt Returns
+,NO,YDS,AVG,LG,TD
+Cameron Sutton,1,4,4.0,4,0
+Team,1,4,4.0,4,0
+Georgia Punt Returns
+,NO,YDS,AVG,LG,TD
+Isaiah McKenzie,3,40,13.3,29,0
+Reggie Davis,2,1,0.5,1,0
+Team,5,41,8.2,29,0
+Tennessee Kicking
+,FG,PCT,LG,XP,PTS
+Aaron Medley,1/1,100.0,46,3/3,6
+Team,1/1,100.0,46,3/3,6
+Georgia Kicking
+,FG,PCT,LG,XP,PTS
+Marshall Morgan,0/0,0.0,0,5/5,5
+Team,0/0,0.0,0,5/5,5
+Tennessee Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Darr,8,357,44.6,0,4,54
+Team,8,357,44.6,0,4,54
+Georgia Punting
+,NO,YDS,AVG,TB,-20,LG
+Collin Barber,7,294,42.0,0,2,53
+Team,7,294,42.0,0,2,53

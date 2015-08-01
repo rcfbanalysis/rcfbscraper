@@ -1,0 +1,115 @@
+FIRST QUARTER,,CLEM,GT
+,FG,6:30,"Ammon Lakip 27 Yd Field Goal  Drive info: 11 plays, 41 yds in 4:33",3,0
+,TD,0:22,Jamal Golden 85 Yd Interception Return (Two-Point Run Conversion Failed),3,6
+SECOND QUARTER,,CLEM,GT
+,FG,9:07,"Harrison Butker 25 Yd Field Goal  Drive info: 8 plays, 70 yds in 4:06",3,9
+THIRD QUARTER,,CLEM,GT
+,TD,12:45,"DeAndre Smelter 5 Yd pass from Justin Thomas (Harrison Butker Kick)Drive info: 4 plays, 75 yds in 2:15",3,16
+,FG,9:14,"Harrison Butker 32 Yd Field Goal  Drive info: 6 plays, 29 yds in 3:24",3,19
+,FG,5:47,"Ammon Lakip 32 Yd Field Goal  Drive info: 8 plays, 57 yds in 3:27",6,19
+,TD,1:23,Chris Milton 62 Yd Interception Return (Two-Point Run Conversion Failed),6,25
+FOURTH QUARTER,,CLEM,GT
+,FG,8:25,"Harrison Butker 41 Yd Field Goal  Drive info: 7 plays, 45 yds in 4:24",6,28
+,,CLEM,GT
+1st Downs,10,16
+3rd down efficiency,3-13,7-14
+4th down efficiency,0-0,0-1
+Total Yards,190,353
+Passing,59,102
+Comp-Att,11-21,8-11
+Yards per pass,2.8,9.3
+Rushing,131,251
+Rushing Attempts,33,50
+Yards per rush,4.0,5.0
+Penalties,3-21,2-10
+Turnovers,3,2
+Fumbles lost,0,2
+Interceptions thrown,3,0
+Possession,24:37,34:55
+Clemson Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Deshaun Watson,4/6,21,3.5,0,0,78.5
+Cole Stoudt,3/11,19,1.7,0,3,0.0
+Nick Schuessler,4/4,19,4.8,0,0,12.0
+Team,11/21,59,2.8,0,3,--
+Georgia Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Thomas,8/11,102,9.3,1,0,79.7
+Team,8/11,102,9.3,1,0,--
+Clemson Rushing
+,CAR,YDS,AVG,TD,LG
+Wayne Gallman,15,88,5.9,0,34
+Deshaun Watson,7,40,5.7,0,12
+Cole Stoudt,3,11,3.7,0,5
+Artavis Scott,1,7,7.0,0,7
+C.J. Davidson,3,1,0.3,0,3
+Nick Schuessler,4,-16,-4.0,0,3
+Team,33,131,4.0,0,34
+Georgia Tech Rushing
+,CAR,YDS,AVG,TD,LG
+Synjyn Days,20,89,4.5,0,22
+Broderick Snoddy,2,51,25.5,0,46
+Justin Thomas,11,46,4.2,0,65
+Dennis Andrews,2,34,17.0,0,30
+Zach Laskey,4,13,3.3,0,9
+Charles Perkins,3,11,3.7,0,4
+Deon Hill,1,6,6.0,0,6
+Tony Zenon,5,5,1.0,0,7
+B.J. Bostic,1,-1,-1.0,0,0
+Team,50,251,5.0,0,65
+Clemson Receiving
+,REC,YDS,AVG,TD,LG
+Artavis Scott,3,19,6.3,0,8
+Charone Peake,1,11,11.0,0,11
+Wayne Gallman,3,8,2.7,0,4
+Jordan Leggett,1,8,8.0,0,8
+Stanton Seckinger,2,7,3.5,0,5
+Adam Humphries,1,6,6.0,0,6
+Team,11,59,5.4,0,11
+Georgia Tech Receiving
+,REC,YDS,AVG,TD,LG
+DeAndre Smelter,5,77,15.4,1,19
+Tony Zenon,1,15,15.0,0,15
+Darren Waller,2,10,5.0,0,15
+Team,8,102,12.8,1,19
+Clemson Interceptions
+,INT,YDS,TD
+No Interception Information
+Georgia Tech Interceptions
+,INT,YDS,TD
+Jamal Golden,1,85,1
+Chris Milton,1,62,1
+D.J. White,1,0,0
+Team,3,147,2
+Clemson Kick Returns
+,NO,YDS,AVG,LG,TD
+T.J. Green,2,54,27.0,29,0
+Team,2,54,27.0,29,0
+Georgia Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Jamal Golden,2,40,20.0,24,0
+Team,2,40,20.0,24,0
+Clemson Punt Returns
+,NO,YDS,AVG,LG,TD
+Adam Humphries,1,6,6.0,6,0
+Team,1,6,6.0,6,0
+Georgia Tech Punt Returns
+,NO,YDS,AVG,LG,TD
+Jamal Golden,2,8,4.0,10,0
+Team,2,8,4.0,10,0
+Clemson Kicking
+,FG,PCT,LG,XP,PTS
+Ammon Lakip,2/2,100.0,32,0/0,6
+Team,2/2,100.0,32,0/0,6
+Georgia Tech Kicking
+,FG,PCT,LG,XP,PTS
+Harrison Butker,3/4,75.0,41,1/1,10
+Team,3/4,75.0,41,1/1,10
+Clemson Punting
+,NO,YDS,AVG,TB,-20,LG
+Bradley Pinion,6,250,41.7,0,0,51
+Team,6,250,41.7,0,0,51
+Georgia Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Rodwell,1,45,45.0,0,0,45
+Team,1,45,45.0,0,0,45

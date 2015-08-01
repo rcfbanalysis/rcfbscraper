@@ -1,0 +1,119 @@
+FIRST QUARTER,,CIN,TULN
+,FG,7:11,"Andrew Gantz 30 Yd Field Goal  Drive info: 8 plays, 75 yds in 2:45",3,0
+,TD,0:59,"Max Morrison 5 Yd pass from Munchie Legaux (Andrew Gantz Kick)Drive info: 4 plays, 66 yds in 2:27",10,0
+SECOND QUARTER,,CIN,TULN
+,TD,13:24,"Casey Gladney 54 Yd pass from Munchie Legaux (Andrew Gantz Kick)Drive info: 4 plays, 83 yds in 1:18",17,0
+,TD,7:32,"Eric Wilson 0 Yd Fumble Return (Andrew Gantz Kick)Drive info: 6 plays, 27 yds in 3:03",24,0
+THIRD QUARTER,,CIN,TULN
+,TD,13:18,"Lazedrick Thompson 19 Yd Run (Andrew DiRocco Kick)Drive info: 4 plays, 75 yds in 1:42",24,7
+,TD,4:48,"Charles Jones 10 Yd pass from Tanner Lee (Andrew DiRocco Kick)Drive info: 9 plays, 59 yds in 4:52",24,14
+,TD,0:29,"Shaq Washington 18 Yd pass from Munchie Legaux (Andrew Gantz Kick)Drive info: 9 plays, 75 yds in 4:19",31,14
+FOURTH QUARTER,,CIN,TULN
+,TD,3:22,"Mike Boone 24 Yd Run (Andrew Gantz Kick)Drive info: 9 plays, 81 yds in 5:30",38,14
+,,CIN,TULN
+1st Downs,21,21
+3rd down efficiency,6-12,3-13
+4th down efficiency,1-1,0-2
+Total Yards,479,380
+Passing,214,205
+Comp-Att,17-26,24-35
+Yards per pass,8.2,5.9
+Rushing,265,175
+Rushing Attempts,35,33
+Yards per rush,7.6,5.3
+Penalties,5-35,4-51
+Turnovers,3,1
+Fumbles lost,1,1
+Interceptions thrown,2,0
+Possession,29:39,30:21
+Cincinnati Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Munchie Legaux,16/24,211,8.8,3,1,86.5
+Michael Colosimo,1/1,3,3.0,0,0,40.1
+Gunner Kiel,0/1,0,0.0,0,1,0.0
+Team,17/26,214,8.2,3,2,--
+Tulane Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tanner Lee,24/35,205,5.9,1,0,41.2
+Team,24/35,205,5.9,1,0,--
+Cincinnati Rushing
+,CAR,YDS,AVG,TD,LG
+Rodriguez Moore,15,124,8.3,0,61
+Mike Boone,15,113,7.5,1,33
+Munchie Legaux,3,16,5.3,0,7
+Bobby Brown,1,13,13.0,0,13
+Team,35,265,7.6,1,61
+Tulane Rushing
+,CAR,YDS,AVG,TD,LG
+Dontrell Hilliard,11,123,11.2,0,45
+Lazedrick Thompson,9,39,4.3,1,19
+Dant\xe9 Butler,3,17,5.7,0,9
+Sherman Badie,4,13,3.3,0,11
+Tanner Lee,6,-17,-2.8,0,8
+Team,33,175,5.3,1,45
+Cincinnati Receiving
+,REC,YDS,AVG,TD,LG
+Casey Gladney,2,59,29.5,1,54
+Max Morrison,5,57,11.4,1,22
+Shaq Washington,4,36,9.0,1,18
+Johnny Holton,1,30,30.0,0,30
+Mekale McKay,1,16,16.0,0,16
+Alex Chisum,2,11,5.5,0,7
+Tyler Cogswell,1,3,3.0,0,3
+DJ Dowdy,1,2,2.0,0,2
+Team,17,214,12.6,3,54
+Tulane Receiving
+,REC,YDS,AVG,TD,LG
+Teddy Veal,7,73,10.4,0,18
+Terren Encalade,5,41,8.2,0,10
+Charles Jones,2,25,12.5,1,15
+Leondre James,2,14,7.0,0,9
+Dant\xe9 Butler,1,13,13.0,0,13
+Sherman Badie,2,10,5.0,0,8
+Trey Scott,1,10,10.0,0,10
+Justyn Shackleford,1,9,9.0,0,9
+Dontrell Hilliard,2,8,4.0,0,5
+Devon Breaux,1,2,2.0,0,2
+Team,24,205,8.5,1,18
+Cincinnati Interceptions
+,INT,YDS,TD
+No Interception Information
+Tulane Interceptions
+,INT,YDS,TD
+Parry Nickerson,1,3,0
+Darion Monroe,1,0,0
+Team,2,3,0
+Cincinnati Kick Returns
+,NO,YDS,AVG,LG,TD
+Johnny Holton,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+Tulane Kick Returns
+,NO,YDS,AVG,LG,TD
+Dant\xe9 Butler,1,24,24.0,24,0
+Leondre James,1,12,12.0,12,0
+Team,2,36,18.0,24,0
+Cincinnati Punt Returns
+,NO,YDS,AVG,LG,TD
+Shaq Washington,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Tulane Punt Returns
+,NO,YDS,AVG,LG,TD
+Teddy Veal,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Cincinnati Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Gantz,1/1,100.0,30,5/5,8
+Team,1/1,100.0,30,5/5,8
+Tulane Kicking
+,FG,PCT,LG,XP,PTS
+Trevor Simms,0/1,0.0,0,0/0,0
+Andrew DiRocco,0/0,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Cincinnati Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Geraci,3,134,44.7,0,1,53
+Team,3,134,44.7,0,1,53
+Tulane Punting
+,NO,YDS,AVG,TB,-20,LG
+Peter Picerelli,7,287,41.0,1,3,54
+Team,7,287,41.0,1,3,54

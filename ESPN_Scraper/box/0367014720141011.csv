@@ -1,0 +1,116 @@
+FIRST QUARTER,,LOU,CLEM
+,TD,13:58,"Adam Humphries 72 Yd Punt Return (Ammon Lakip Kick)Drive info: 3 plays, 2 yds in 1:02",0,7
+,FG,4:39,"John Wallace 41 Yd Field Goal  Drive info: 4 plays, 1 yds in 1:27",3,7
+SECOND QUARTER,,LOU,CLEM
+,TD,14:56,"Dominique Brown 2 Yd Run (John Wallace Kick)Drive info: 5 plays, 50 yds in 2:24",10,7
+,TD,7:16,"Grady Jarrett 0 Yd Fumble Return (Ammon Lakip Kick)Drive info: 3 plays, -9 yds in 1:30",10,14
+THIRD QUARTER,,LOU,CLEM
+,FG,9:43,"Ammon Lakip 45 Yd Field Goal  Drive info: 6 plays, 24 yds in 2:29",10,17
+,TD,5:27,"Eli Rogers 22 Yd pass from Will Gardner (John Wallace Kick)Drive info: 5 plays, 40 yds in 1:08",17,17
+,FG,0:00,"Ammon Lakip 40 Yd Field Goal  Drive info: 10 plays, 55 yds in 3:09",17,20
+FOURTH QUARTER,,LOU,CLEM
+,FG,1:24,"Ammon Lakip 21 Yd Field Goal  Drive info: 12 plays, 68 yds in 5:34",17,23
+,,LOU,CLEM
+1st Downs,10,12
+3rd down efficiency,1-17,2-16
+4th down efficiency,0-2,0-1
+Total Yards,264,229
+Passing,212,157
+Comp-Att,15-30,22-39
+Yards per pass,7.1,4.0
+Rushing,52,72
+Rushing Attempts,38,33
+Yards per rush,1.4,2.2
+Penalties,11-65,3-14
+Turnovers,2,2
+Fumbles lost,2,0
+Interceptions thrown,0,2
+Possession,36:46,27:37
+Louisville Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Will Gardner,10/16,150,9.4,1,0,57.6
+Reggie Bonnafon,5/13,62,4.8,0,0,3.4
+- Team,0/1,0,0.0,0,0,--
+Team,15/30,212,7.1,1,0,--
+Clemson Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cole Stoudt,20/33,162,4.9,0,1,8.1
+Deshaun Watson,2/6,-5,-0.8,0,1,1.1
+Team,22/39,157,4.0,0,2,--
+Louisville Rushing
+,CAR,YDS,AVG,TD,LG
+Dominique Brown,17,47,2.8,1,9
+Brandon Radcliff,11,23,2.1,0,11
+L.J. Scott,2,10,5.0,0,7
+Reggie Bonnafon,8,-28,-3.5,0,5
+Team,38,52,1.4,1,11
+Clemson Rushing
+,CAR,YDS,AVG,TD,LG
+Adam Choice,16,61,3.8,0,11
+Deshaun Watson,3,10,3.3,0,9
+Wayne Gallman,4,9,2.3,0,5
+C.J. Davidson,2,8,4.0,0,6
+Cole Stoudt,8,-16,-2.0,0,2
+Team,33,72,2.2,0,11
+Louisville Receiving
+,REC,YDS,AVG,TD,LG
+James Quick,6,101,16.8,0,73
+Dominique Brown,1,39,39.0,0,39
+Eli Rogers,1,22,22.0,1,22
+Gerald Christian,4,21,5.3,0,12
+Charles Standberry,1,17,17.0,0,17
+Kai De La Cruz,1,7,7.0,0,7
+Michaelee Harris,1,5,5.0,0,5
+Team,15,212,14.1,1,73
+Clemson Receiving
+,REC,YDS,AVG,TD,LG
+Artavis Scott,10,66,6.6,0,15
+Jordan Leggett,3,43,14.3,0,20
+Mike Williams,1,23,23.0,0,23
+Adam Humphries,1,15,15.0,0,15
+Adam Choice,1,8,8.0,0,8
+Stanton Seckinger,1,3,3.0,0,3
+C.J. Davidson,1,2,2.0,0,2
+Germone Hopper,1,2,2.0,0,2
+Wayne Gallman,3,-5,-1.7,0,0
+Team,22,157,7.1,0,23
+Louisville Interceptions
+,INT,YDS,TD
+James Sample,1,1,0
+James Burgess,1,-1,0
+Team,2,0,0
+Clemson Interceptions
+,INT,YDS,TD
+No Interception Information
+Louisville Kick Returns
+,NO,YDS,AVG,LG,TD
+Brandon Radcliff,2,38,19.0,20,0
+Team,2,38,19.0,20,0
+Clemson Kick Returns
+,NO,YDS,AVG,LG,TD
+T.J. Green,3,66,22.0,29,0
+Team,3,66,22.0,29,0
+Louisville Punt Returns
+,NO,YDS,AVG,LG,TD
+James Quick,5,24,4.8,11,0
+Team,4,24,6.0,11,0
+Clemson Punt Returns
+,NO,YDS,AVG,LG,TD
+Adam Humphries,8,107,13.4,72,1
+Team,8,107,13.4,72,1
+Louisville Kicking
+,FG,PCT,LG,XP,PTS
+John Wallace,1/1,100.0,41,2/2,5
+Team,1/1,100.0,41,2/2,5
+Clemson Kicking
+,FG,PCT,LG,XP,PTS
+Ammon Lakip,3/3,100.0,45,2/2,11
+Team,3/3,100.0,45,2/2,11
+Louisville Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Johnson,12,531,44.3,0,2,57
+Team,12,531,44.3,0,2,57
+Clemson Punting
+,NO,YDS,AVG,TB,-20,LG
+Bradley Pinion,10,419,41.9,0,5,57
+Team,10,419,41.9,0,5,57

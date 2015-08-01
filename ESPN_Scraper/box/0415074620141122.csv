@@ -1,0 +1,113 @@
+FIRST QUARTER,,MIA,UVA
+,TD,3:03,"Phillip Dorsett 47 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 3 plays, 66 yds in 1:05",7,0
+SECOND QUARTER,,MIA,UVA
+,FG,11:16,"Ian Frye 20 Yd Field Goal  Drive info: 13 plays, 64 yds in 6:47",7,3
+,TD,3:21,"Canaan Severin 23 Yd pass from Greyson Lambert (Ian Frye Kick)Drive info: 8 plays, 75 yds in 4:47",7,10
+,FG,0:00,"Ian Frye 17 Yd Field Goal  Drive info: 4 plays, 82 yds in 0:29",7,13
+THIRD QUARTER,,MIA,UVA
+,TD,1:37,"Darius Jennings 1 Yd Run (Ian Frye Kick)Drive info: 10 plays, 61 yds in 5:42",7,20
+FOURTH QUARTER,,MIA,UVA
+,FG,11:35,"Ian Frye 22 Yd Field Goal  Drive info: 7 plays, 19 yds in 3:14",7,23
+,TD,8:30,"Khalek Shepherd 4 Yd Run (Ian Frye Kick)Drive info: 5 plays, 34 yds in 2:22",7,30
+,TD,1:24,Hugo Delapenha 13 Yd Return of Blocked Punt (Two-Point Pass Conversion Failed),13,30
+,,MIA,UVA
+1st Downs,15,18
+3rd down efficiency,5-12,7-17
+4th down efficiency,0-2,1-1
+Total Yards,327,341
+Passing,263,146
+Comp-Att,20-33,17-25
+Yards per pass,8.0,5.8
+Rushing,64,195
+Rushing Attempts,23,43
+Yards per rush,2.8,4.5
+Penalties,9-59,3-30
+Turnovers,2,1
+Fumbles lost,1,0
+Interceptions thrown,1,1
+Possession,24:04,35:56
+Miami (FL) Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brad Kaaya,20/33,263,8.0,1,1,47.2
+Team,20/33,263,8.0,1,1,--
+Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Greyson Lambert,17/25,146,5.8,1,1,64.9
+Team,17/25,146,5.8,1,1,--
+Miami (FL) Rushing
+,CAR,YDS,AVG,TD,LG
+Duke Johnson,15,88,5.9,0,26
+Joseph Yearby,3,14,4.7,0,6
+Brad Kaaya,4,-33,-8.3,0,0
+Team,23,64,2.8,0,26
+Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Khalek Shepherd,22,95,4.3,1,28
+Taquan Mizzell,8,55,6.9,0,16
+Darius Jennings,6,40,6.7,1,17
+Kevin Parks,3,6,2.0,0,4
+Greyson Lambert,1,2,2.0,0,2
+Team,43,195,4.5,2,28
+Miami (FL) Receiving
+,REC,YDS,AVG,TD,LG
+Clive Walford,7,105,15.0,0,32
+Phillip Dorsett,3,61,20.3,1,47
+Duke Johnson,5,44,8.8,0,25
+Herb Waters,1,20,20.0,0,20
+Malcolm Lewis,2,15,7.5,0,12
+Stacy Coley,1,12,12.0,0,12
+Braxton Berrios,1,6,6.0,0,6
+Team,20,263,13.2,1,47
+Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Canaan Severin,4,55,13.8,1,23
+Darius Jennings,2,32,16.0,0,23
+Andre Levrone,2,24,12.0,0,19
+Khalek Shepherd,5,16,3.2,0,6
+Taquan Mizzell,2,7,3.5,0,5
+Zachary Swanson,1,7,7.0,0,7
+Keeon Johnson,1,5,5.0,0,5
+Team,17,146,8.6,1,23
+Miami (FL) Interceptions
+,INT,YDS,TD
+Jamal Carter,1,0,0
+Team,1,0,0
+Virginia Interceptions
+,INT,YDS,TD
+Quin Blanding,1,6,0
+Team,1,6,0
+Miami (FL) Kick Returns
+,NO,YDS,AVG,LG,TD
+Stacy Coley,3,61,20.3,23,0
+Phillip Dorsett,2,30,15.0,18,0
+Team,5,91,18.2,23,0
+Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Jennings,2,45,22.5,24,0
+Team,2,45,22.5,24,0
+Miami (FL) Punt Returns
+,NO,YDS,AVG,LG,TD
+Hugo Delapenha,1,13,13.0,13,1
+Joseph Rogers,0,13,0,13,0
+Garrett Kidd,1,12,12.0,12,0
+Team,1,25,25.0,13,1
+Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Khalek Shepherd,1,17,17.0,17,0
+Team,1,17,17.0,17,0
+Miami (FL) Kicking
+,FG,PCT,LG,XP,PTS
+Michael Badgley,0/1,0.0,0,1/1,1
+Team,0/1,0.0,0,1/1,1
+Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Ian Frye,3/4,75.0,22,3/3,12
+Team,3/4,75.0,22,3/3,12
+Miami (FL) Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Vogel,4,161,40.3,0,0,43
+Team,4,161,40.3,0,0,43
+Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+Alec Vozenilek,2,69,34.5,0,1,37
+Team,2,69,34.5,0,1,37

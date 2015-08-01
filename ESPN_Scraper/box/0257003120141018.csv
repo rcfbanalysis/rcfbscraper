@@ -1,0 +1,107 @@
+FIRST QUARTER,,UGA,ARK
+,TD,7:09,"Alex Collins 1 Yd Run (John Henson PAT blocked)Drive info: 13 plays, 75 yds in 7:51",0,6
+,TD,5:41,"Hutson Mason 1 Yd Run (Marshall Morgan Kick)Drive info: 5 plays, 74 yds in 1:28",7,6
+SECOND QUARTER,,UGA,ARK
+,FG,14:21,"Marshall Morgan 37 Yd Field Goal  Drive info: 10 plays, 51 yds in 3:58",10,6
+,TD,9:05,"Nick Chubb 43 Yd Run (Marshall Morgan Kick)Drive info: 7 plays, 76 yds in 2:14",17,6
+,TD,5:35,"Nick Chubb 3 Yd Run (Marshall Morgan Kick)Drive info: 6 plays, 62 yds in 2:01",24,6
+,TD,5:17,"Michael Bennett 7 Yd pass from Hutson Mason (Marshall Morgan Kick)Drive info: 1 plays, 7 yds in 0:04",31,6
+,TD,2:08,"Dominick Sanders 54 Yd Fumble Return (Marshall Morgan Kick)Drive info: 8 plays, 29 yds in 3:09",38,6
+THIRD QUARTER,,UGA,ARK
+,TD,6:30,"Keon Hatcher 8 Yd pass from Brandon Allen (Two-Point Run Conversion Failed)Drive info: 12 plays, 71 yds in 5:45",38,12
+,TD,2:05,"Hunter Henry 4 Yd pass from Brandon Allen (Adam McFain Kick)Drive info: 7 plays, 57 yds in 3:04",38,19
+FOURTH QUARTER,,UGA,ARK
+,TD,13:08,"Chris Conley 36 Yd pass from Hutson Mason (Marshall Morgan Kick)Drive info: 3 plays, 42 yds in 1:26",45,19
+,TD,10:00,"Kendrick Edwards 4 Yd pass from Brandon Allen (Adam McFain Kick)Drive info: 8 plays, 75 yds in 3:08",45,26
+,TD,5:05,"Alex Collins 6 Yd Run (Two-Point Run Conversion Failed)Drive info: 9 plays, 90 yds in 2:31",45,32
+,,UGA,ARK
+1st Downs,18,29
+3rd down efficiency,5-11,8-15
+4th down efficiency,0-1,1-2
+Total Yards,386,422
+Passing,179,296
+Comp-Att,10-17,28-45
+Yards per pass,10.5,6.6
+Rushing,207,126
+Rushing Attempts,39,37
+Yards per rush,5.3,3.4
+Penalties,9-101,7-79
+Turnovers,0,4
+Fumbles lost,0,2
+Interceptions thrown,0,2
+Possession,25:06,34:54
+Georgia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Hutson Mason,10/17,179,10.5,2,0,84.3
+Team,10/17,179,10.5,2,0,--
+Arkansas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brandon Allen,28/45,296,6.6,3,2,29.9
+Team,28/45,296,6.6,3,2,--
+Georgia Rushing
+,CAR,YDS,AVG,TD,LG
+Nick Chubb,30,202,6.7,2,43
+Brendan Douglas,3,10,3.3,0,7
+Hutson Mason,4,-3,-0.8,1,1
+Team,39,207,5.3,3,43
+Arkansas Rushing
+,CAR,YDS,AVG,TD,LG
+Jonathan Williams,18,108,6.0,0,24
+Alex Collins,11,31,2.8,2,6
+Kody Walker,3,15,5.0,0,6
+Brandon Allen,5,-28,-5.6,0,4
+Team,37,126,3.4,2,24
+Georgia Receiving
+,REC,YDS,AVG,TD,LG
+Chris Conley,5,128,25.6,1,48
+Michael Bennett,3,31,10.3,1,18
+Malcolm Mitchell,1,12,12.0,0,12
+Nick Chubb,1,8,8.0,0,8
+Team,10,179,17.9,2,48
+Arkansas Receiving
+,REC,YDS,AVG,TD,LG
+Hunter Henry,5,92,18.4,1,38
+AJ Derby,3,45,15.0,0,23
+Jared Cornelius,4,38,9.5,0,14
+Keon Hatcher,5,36,7.2,1,10
+Demetrius Wilson,3,29,9.7,0,16
+Cody Hollister,2,21,10.5,0,17
+Drew Morgan,1,18,18.0,0,18
+Jonathan Williams,3,12,4.0,0,6
+Kendrick Edwards,1,4,4.0,1,4
+Alex Collins,1,1,1.0,0,1
+Team,28,296,10.6,3,38
+Georgia Interceptions
+,INT,YDS,TD
+Quincy Mauger,1,8,0
+Damian Swann,1,0,0
+Team,2,8,0
+Arkansas Interceptions
+,INT,YDS,TD
+No Interception Information
+Georgia Kick Returns
+,NO,YDS,AVG,LG,TD
+Isaiah McKenzie,3,93,31.0,48,0
+Team,3,93,31.0,48,0
+Arkansas Kick Returns
+,NO,YDS,AVG,LG,TD
+Eric Hawkins,3,65,21.7,27,0
+Team,3,65,21.7,27,0
+Georgia Kicking
+,FG,PCT,LG,XP,PTS
+Marshall Morgan,1/1,100.0,37,6/6,9
+Team,1/1,100.0,37,6/6,9
+Arkansas Kicking
+,FG,PCT,LG,XP,PTS
+John Henson,0/0,0.0,0,0/1,0
+Adam McFain,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/3,2
+Georgia Punting
+,NO,YDS,AVG,TB,-20,LG
+Collin Barber,2,71,35.5,0,1,41
+Adam Erickson,1,34,34.0,0,1,34
+Team,3,105,35.0,0,2,41
+Arkansas Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Irwin-Hill,3,99,33.0,0,0,37
+Team,3,99,33.0,0,0,37

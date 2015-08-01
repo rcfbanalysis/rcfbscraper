@@ -1,0 +1,116 @@
+SECOND QUARTER,,ISU,OKST
+,FG,13:04,"Cole Netten 34 Yd Field Goal  Drive info: 15 plays, 44 yds in 6:26",3,0
+,FG,7:02,"Cole Netten 34 Yd Field Goal  Drive info: 5 plays, 52 yds in 2:26",6,0
+,FG,2:57,"Ben Grogan 34 Yd Field Goal  Drive info: 13 plays, 72 yds in 4:05",6,3
+,FG,0:43,"Ben Grogan 30 Yd Field Goal  Drive info: 10 plays, 58 yds in 1:47",6,6
+,TD,0:00,"Desmond Roland 2 Yd Run (Ben Grogan Kick)Drive info: 5 plays, 11 yds in 0:43",6,13
+THIRD QUARTER,,ISU,OKST
+,TD,14:49,Tyreek Hill 97 Yd Kickoff Return (Ben Grogan Kick),6,20
+,TD,10:02,"E.J. Bibbs 17 Yd pass from Sam B. Richardson (Cole Netten Kick)Drive info: 11 plays, 71 yds in 4:47",13,20
+,TD,7:54,"Jhajuan Seales 40 Yd pass from Daxx Garman (Ben Grogan Kick)Drive info: 9 plays, 81 yds in 2:08",13,27
+,FG,4:30,"Ben Grogan 34 Yd Field Goal  Drive info: 6 plays, 41 yds in 2:20",13,30
+FOURTH QUARTER,,ISU,OKST
+,TD,14:55,"Desmond Roland 6 Yd Run (Ben Grogan Kick)Drive info: 10 plays, 72 yds in 3:37",13,37
+,TD,0:50,"E.J. Bibbs 7 Yd pass from Sam B. Richardson (Cole Netten Kick)Drive info: 10 plays, 79 yds in 3:56",20,37
+,,ISU,OKST
+1st Downs,17,25
+3rd down efficiency,10-20,10-19
+4th down efficiency,0-1,1-1
+Total Yards,322,400
+Passing,200,271
+Comp-Att,17-39,26-41
+Yards per pass,5.1,6.6
+Rushing,122,129
+Rushing Attempts,33,42
+Yards per rush,3.7,3.1
+Penalties,3-45,7-40
+Turnovers,0,2
+Fumbles lost,0,0
+Interceptions thrown,0,2
+Possession,30:13,29:36
+Iowa State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sam B. Richardson,17/39,200,5.1,2,0,28.0
+Team,17/39,200,5.1,2,0,--
+Oklahoma State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Daxx Garman,26/41,271,6.6,1,2,40.3
+Team,26/41,271,6.6,1,2,--
+Iowa State Rushing
+,CAR,YDS,AVG,TD,LG
+Aaron Wimberly,10,39,3.9,0,16
+Sam B. Richardson,9,34,3.8,0,21
+DeVondrick Nealy,8,23,2.9,0,15
+Tyler Brown,2,18,9.0,0,16
+Martinez Syria,4,8,2.0,0,4
+Team,33,122,3.7,0,21
+Oklahoma State Rushing
+,CAR,YDS,AVG,TD,LG
+Desmond Roland,19,95,5.0,2,14
+Tyreek Hill,9,22,2.4,0,7
+Rennie Childs,3,13,4.3,0,11
+Daxx Garman,9,5,0.6,0,9
+Team,42,129,3.1,2,14
+Iowa State Receiving
+,REC,YDS,AVG,TD,LG
+Emmanuel Bibbs,6,69,11.5,2,17
+DeVondrick Nealy,1,53,53.0,0,53
+Dondre Daley,3,27,9.0,0,16
+Allen Lazard,1,18,18.0,0,18
+"u""D'Vario Montgomery""",2,16,8.0,0,10
+Jauan Wesley,2,16,8.0,0,11
+Brandon Harris,1,1,1.0,0,1
+Jarvis West,1,0,0.0,0,0
+Team,17,200,11.8,2,53
+Oklahoma State Receiving
+,REC,YDS,AVG,TD,LG
+Brandon Sheperd,8,91,11.4,0,30
+Jhajuan Seales,4,75,18.8,1,40
+David Glidden,6,64,10.7,0,20
+Marcell Ateman,3,33,11.0,0,16
+Tyreek Hill,2,5,2.5,0,4
+James Washington,2,3,1.5,0,3
+Chris Lacy,1,0,0.0,0,0
+Team,26,271,10.4,1,40
+Iowa State Interceptions
+,INT,YDS,TD
+Sam E. Richardson,1,17,0
+Nigel Tribune,1,4,0
+Team,2,21,0
+Oklahoma State Interceptions
+,INT,YDS,TD
+No Interception Information
+Iowa State Kick Returns
+,NO,YDS,AVG,LG,TD
+Aaron Wimberly,2,45,22.5,24,0
+DeVondrick Nealy,1,15,15.0,15,0
+Team,3,60,20.0,24,0
+Oklahoma State Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,5,148,29.6,97,1
+Team,5,148,29.6,97,1
+Iowa State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jarvis West,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Oklahoma State Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,5,46,9.2,26,0
+Team,5,46,9.2,26,0
+Iowa State Kicking
+,FG,PCT,LG,XP,PTS
+Cole Netten,2/2,100.0,34,2/2,8
+Team,2/2,100.0,34,2/2,8
+Oklahoma State Kicking
+,FG,PCT,LG,XP,PTS
+Ben Grogan,3/3,100.0,34,4/4,13
+Team,3/3,100.0,34,4/4,13
+Iowa State Punting
+,NO,YDS,AVG,TB,-20,LG
+Colin Downing,5,226,45.2,0,0,55
+Holden Kramer,2,58,29.0,0,2,31
+Team,7,284,40.6,0,2,55
+Oklahoma State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kip Smith,4,144,36.0,0,2,40
+Team,4,144,36.0,0,2,40

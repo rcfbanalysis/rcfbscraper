@@ -1,0 +1,116 @@
+FIRST QUARTER,,AKR,OHIO
+,TD,13:10,"Ian Dixon 49 Yd pass from JD Sprague (Josiah Yazdani Kick)Drive info: 4 plays, 66 yds in 1:50",0,7
+,TD,9:48,"Conor Hundley 10 Yd pass from Tommy Woodson (Robert Stein Kick)Drive info: 8 plays, 63 yds in 3:28",7,7
+SECOND QUARTER,,AKR,OHIO
+,FG,6:59,"Josiah Yazdani 42 Yd Field Goal  Drive info: 11 plays, 25 yds in 5:42",7,10
+,FG,4:50,"Robert Stein 40 Yd Field Goal  Drive info: 8 plays, 51 yds in 2:09",10,10
+,FG,0:00,"Josiah Yazdani 38 Yd Field Goal  Drive info: 6 plays, 48 yds in 0:49",10,13
+THIRD QUARTER,,AKR,OHIO
+,TD,8:25,"u""Zach D'Orazio 13 Yd pass from Tommy Woodson (Robert Stein Kick)"", Drive info: 8 plays, 84 yds in 2:57",17,13
+,TD,5:48,"A.J. Ouellette 3 Yd pass from JD Sprague (Josiah Yazdani Kick)Drive info: 9 plays, 87 yds in 2:37",17,20
+FOURTH QUARTER,,AKR,OHIO
+,FG,13:16,"Robert Stein 38 Yd Field Goal  Drive info: 6 plays, 27 yds in 1:49",20,20
+,FG,1:55,"Josiah Yazdani 22 Yd Field Goal  Drive info: 6 plays, 39 yds in 1:43",20,23
+,,AKR,OHIO
+1st Downs,18,19
+3rd down efficiency,3-14,6-18
+4th down efficiency,0-2,1-1
+Total Yards,352,356
+Passing,268,197
+Comp-Att,23-46,17-37
+Yards per pass,5.8,5.3
+Rushing,84,159
+Rushing Attempts,25,39
+Yards per rush,3.4,4.1
+Penalties,10-83,11-120
+Turnovers,3,2
+Fumbles lost,1,1
+Interceptions thrown,2,1
+Possession,28:12,31:48
+Akron Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tommy Woodson,23/45,268,6.0,2,2,36.7
+"u""Zach D'Orazio""",0/1,0,0.0,0,0,3.1
+Team,23/46,268,5.8,2,2,--
+Ohio Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jd Sprague,17/37,197,5.3,2,1,65.4
+Team,17/37,197,5.3,2,1,--
+Akron Rushing
+,CAR,YDS,AVG,TD,LG
+Tommy Woodson,12,44,3.7,0,15
+Chiz Chisholm,7,21,3.0,0,6
+Conor Hundley,6,19,3.2,0,13
+Team,25,84,3.4,0,15
+Ohio Rushing
+,CAR,YDS,AVG,TD,LG
+A.J. Ouellette,23,74,3.2,0,17
+Jd Sprague,6,68,11.3,0,25
+"u""Daz'mond Patterson""",7,9,1.3,0,6
+Robbie Walker,2,9,4.5,0,5
+Team,39,159,4.1,0,25
+Akron Receiving
+,REC,YDS,AVG,TD,LG
+"u""Zach D'Orazio""",9,117,13.0,1,27
+Andrew Pratt,4,54,13.5,0,36
+Fransohn Bickley,3,42,14.0,0,21
+L.T. Smith,2,22,11.0,0,14
+Conor Hundley,2,11,5.5,1,10
+Tyler Williams,1,11,11.0,0,11
+Jerome Lewis,1,8,8.0,0,8
+Anthony Ritossa,1,3,3.0,0,3
+Team,23,268,11.7,2,36
+Ohio Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Reid,4,57,14.3,0,25
+Ian Dixon,1,49,49.0,1,49
+A.J. Ouellette,4,30,7.5,1,18
+Chase Cochran,2,22,11.0,0,11
+Landon Smith,3,20,6.7,0,8
+"u""Daz'mond Patterson""",2,12,6.0,0,10
+Troy Mangen,1,7,7.0,0,7
+Team,17,197,11.6,2,49
+Akron Interceptions
+,INT,YDS,TD
+John Senter,1,0,0
+Team,1,0,0
+Ohio Interceptions
+,INT,YDS,TD
+Josh Kristoff,1,0,0
+Devin Bass,1,0,0
+Team,2,0,0
+Akron Kick Returns
+,NO,YDS,AVG,LG,TD
+L.T. Smith,3,81,27.0,37,0
+"u""Bre' Ford""",1,6,6.0,6,0
+Team,4,87,21.8,37,0
+Ohio Kick Returns
+,NO,YDS,AVG,LG,TD
+Robbie Walker,3,46,15.3,20,0
+Travis Daugherty,1,11,11.0,11,0
+"u""Daz'mond Patterson""",1,10,10.0,10,0
+Team,5,67,13.4,20,0
+Akron Punt Returns
+,NO,YDS,AVG,LG,TD
+Imani Davis,2,10,5.0,6,0
+Team,2,10,5.0,6,0
+Ohio Punt Returns
+,NO,YDS,AVG,LG,TD
+"u""Daz'mond Patterson""",4,30,7.5,15,0
+Team,4,30,7.5,15,0
+Akron Kicking
+,FG,PCT,LG,XP,PTS
+Robert Stein,2/2,100.0,40,2/2,8
+Team,2/2,100.0,40,2/2,8
+Ohio Kicking
+,FG,PCT,LG,XP,PTS
+Josiah Yazdani,3/3,100.0,42,2/2,11
+Team,3/3,100.0,42,2/2,11
+Akron Punting
+,NO,YDS,AVG,TB,-20,LG
+Zach Paul,7,274,39.1,0,2,46
+Team,7,274,39.1,0,2,46
+Ohio Punting
+,NO,YDS,AVG,TB,-20,LG
+Mitch Bonnstetter,8,295,36.9,1,3,46
+Team,8,295,36.9,1,3,46

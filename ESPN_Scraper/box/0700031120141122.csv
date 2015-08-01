@@ -1,0 +1,111 @@
+FIRST QUARTER,,TTU,ISU
+,TD,10:57,"DeAndre Washington 26 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 8 plays, 47 yds in 2:33",7,0
+,TD,5:47,"DeAndre Washington 72 Yd Run (Ryan Bustin Kick)Drive info: 2 plays, 84 yds in 0:31",14,0
+,TD,0:38,"E.J. Bibbs 13 Yd pass from Sam B. Richardson (Cole Netten Kick)Drive info: 12 plays, 75 yds in 5:09",14,7
+SECOND QUARTER,,TTU,ISU
+,TD,9:29,"Tyler Brown 11 Yd pass from Sam B. Richardson (Cole Netten Kick)Drive info: 4 plays, 50 yds in 1:40",14,14
+,FG,0:38,"Cole Netten 22 Yd Field Goal  Drive info: 16 plays, 91 yds in 4:04",14,17
+THIRD QUARTER,,TTU,ISU
+,TD,10:57,"Aaron Wimberly 2 Yd Run (Cole Netten Kick)Drive info: 5 plays, 80 yds in 2:07",14,24
+,TD,8:30,"Devin Lauderdale 13 Yd pass from Patrick Mahomes (Ryan Bustin PAT failed)Drive info: 6 plays, 89 yds in 2:22",20,24
+,TD,4:17,"Devin Lauderdale 82 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 2 plays, 87 yds in 0:30",27,24
+FOURTH QUARTER,,TTU,ISU
+,TD,13:44,"Aaron Wimberly 3 Yd Run (Cole Netten Kick)Drive info: 2 plays, 52 yds in 0:30",27,31
+,TD,4:07,"Kenny Williams 44 Yd pass from Patrick Mahomes (David Brenner Kick)Drive info: 7 plays, 75 yds in 1:33",34,31
+,,TTU,ISU
+1st Downs,27,27
+3rd down efficiency,4-11,9-17
+4th down efficiency,2-3,0-1
+Total Yards,600,569
+Passing,328,304
+Comp-Att,23-35,24-38
+Yards per pass,9.4,8.0
+Rushing,272,265
+Rushing Attempts,40,46
+Yards per rush,6.8,5.8
+Penalties,9-73,3-35
+Turnovers,2,1
+Fumbles lost,1,1
+Interceptions thrown,1,0
+Possession,25:57,33:31
+Texas Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Patrick Mahomes,23/35,328,9.4,4,1,57.6
+Team,23/35,328,9.4,4,1,--
+Iowa State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sam B. Richardson,24/38,304,8.0,2,0,66.2
+Team,24/38,304,8.0,2,0,--
+Texas Tech Rushing
+,CAR,YDS,AVG,TD,LG
+DeAndre Washington,20,186,9.3,1,72
+Kenny Williams,3,55,18.3,0,44
+Patrick Mahomes,11,32,2.9,0,9
+Justin Stockton,4,4,1.0,0,5
+Team,40,272,6.8,1,72
+Iowa State Rushing
+,CAR,YDS,AVG,TD,LG
+Aaron Wimberly,19,102,5.4,2,19
+DeVondrick Nealy,7,87,12.4,0,49
+Sam B. Richardson,14,53,3.8,0,12
+Tyler Brown,4,10,2.5,0,8
+"u""D'Vario Montgomery""",1,9,9.0,0,9
+Jarvis West,1,4,4.0,0,4
+Team,46,265,5.8,2,49
+Texas Tech Receiving
+,REC,YDS,AVG,TD,LG
+Devin Lauderdale,2,95,47.5,2,82
+Ian Sadler,5,65,13.0,0,26
+DeAndre Washington,2,51,25.5,1,26
+Kenny Williams,1,44,44.0,1,44
+Dylan Cantrell,1,25,25.0,0,25
+Jakeem Grant,5,23,4.6,0,10
+Brad Pearson,1,12,12.0,0,12
+Cameron Batson,2,10,5.0,0,6
+Bradley Marquez,3,5,1.7,0,4
+Justin Stockton,1,-2,-2.0,0,0
+Team,23,328,14.3,4,82
+Iowa State Receiving
+,REC,YDS,AVG,TD,LG
+Tad Ecby,2,100,50.0,0,51
+"u""D'Vario Montgomery""",3,44,14.7,0,22
+Emmanuel Bibbs,5,43,8.6,1,18
+Allen Lazard,2,34,17.0,0,18
+Jarvis West,7,28,4.0,0,10
+Aaron Wimberly,3,22,7.3,0,19
+DeVondrick Nealy,1,22,22.0,0,22
+Tyler Brown,1,11,11.0,1,11
+Team,24,304,12.7,2,51
+Texas Tech Interceptions
+,INT,YDS,TD
+No Interception Information
+Iowa State Interceptions
+,INT,YDS,TD
+Nigel Tribune,1,5,0
+Team,1,5,0
+Texas Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Jakeem Grant,3,19,6.3,21,0
+Team,3,19,6.3,21,0
+Iowa State Kick Returns
+,NO,YDS,AVG,LG,TD
+Aaron Wimberly,1,39,39.0,39,0
+Jarvis West,1,24,24.0,24,0
+Team,2,63,31.5,39,0
+Texas Tech Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Bustin,0/0,0.0,0,3/4,3
+David Brenner,0/0,0.0,0,1/1,1
+Team,0/0,0.0,0,4/5,4
+Iowa State Kicking
+,FG,PCT,LG,XP,PTS
+Cole Netten,1/3,33.3,22,4/4,7
+Team,1/3,33.3,22,4/4,7
+Texas Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Taylor Symmank,4,183,45.8,1,0,49
+Team,4,183,45.8,1,0,49
+Iowa State Punting
+,NO,YDS,AVG,TB,-20,LG
+Colin Downing,4,144,36.0,0,4,44
+Team,4,144,36.0,0,4,44

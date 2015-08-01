@@ -1,0 +1,122 @@
+FIRST QUARTER,,UNC,MIA
+,TD,5:43,"Duke Johnson 1 Yd Run (Michael Badgley Kick)Drive info: 13 plays, 84 yds in 7:10",0,7
+SECOND QUARTER,,UNC,MIA
+,SF,13:57,Team Safety ,0,9
+,TD,13:37,"Cayson Collins 39 Yd Fumble Return (Nick Weiler PAT failed)Drive info: 1 plays, -14 yds in 0:20",6,9
+,TD,5:17,"Clive Walford 14 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 7 plays, 61 yds in 3:57",6,16
+,TD,2:55,"Duke Johnson 90 Yd Run (Michael Badgley Kick)Drive info: 1 plays, 90 yds in 0:13",6,23
+,TD,0:26,"Clive Walford 14 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 7 plays, 56 yds in 1:51",6,30
+THIRD QUARTER,,UNC,MIA
+,TD,12:37,"Duke Johnson 37 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 5 plays, 75 yds in 2:23",6,37
+,TD,7:12,"Joseph Yearby 1 Yd Run (Michael Badgley Kick)Drive info: 3 plays, 12 yds in 1:19",6,44
+,TD,5:11,"Marquise Williams 10 Yd Run (Thomas Moore Kick)Drive info: 6 plays, 65 yds in 2:01",13,44
+FOURTH QUARTER,,UNC,MIA
+,FG,13:19,"Michael Badgley 37 Yd Field Goal  Drive info: 7 plays, 30 yds in 3:01",13,47
+,TD,9:20,"Marquise Williams 1 Yd Run (Thomas Moore Kick)Drive info: 11 plays, 75 yds in 3:59",20,47
+,,UNC,MIA
+1st Downs,17,23
+3rd down efficiency,5-15,6-13
+4th down efficiency,0-4,1-1
+Total Yards,258,494
+Passing,247,199
+Comp-Att,24-38,12-19
+Yards per pass,6.5,10.5
+Rushing,11,295
+Rushing Attempts,32,49
+Yards per rush,0.3,6.0
+Penalties,5-28,6-45
+Turnovers,2,1
+Fumbles lost,1,1
+Interceptions thrown,1,0
+Possession,24:59,35:01
+North Carolina Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Marquise Williams,22/32,186,5.8,0,1,10.6
+Mitch Trubisky,2/6,61,10.2,0,0,44.9
+Team,24/38,247,6.5,0,1,--
+Miami (FL) Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brad Kaaya,11/17,189,11.1,3,0,79.3
+Jake Heaps,1/2,10,5.0,0,0,28.0
+Team,12/19,199,10.5,3,0,--
+North Carolina Rushing
+,CAR,YDS,AVG,TD,LG
+Romar Morris,5,23,4.6,0,11
+T.J. Logan,8,20,2.5,0,8
+Marquise Williams,14,9,0.6,2,13
+Ryan Switzer,1,6,6.0,0,6
+Mitch Trubisky,1,5,5.0,0,5
+Khris Francis,1,3,3.0,0,3
+Team,32,11,0.3,2,13
+Miami (FL) Rushing
+,CAR,YDS,AVG,TD,LG
+Duke Johnson,19,177,9.3,2,90
+Joseph Yearby,22,104,4.7,1,13
+Gus Edwards,3,22,7.3,0,16
+Stacy Coley,1,10,10.0,0,10
+Walter Tucker,1,-3,-3.0,0,0
+Brad Kaaya,3,-15,-5.0,0,3
+Team,49,295,6.0,3,90
+North Carolina Receiving
+,REC,YDS,AVG,TD,LG
+T.J. Thorpe,4,66,16.5,0,43
+Bug Howard,3,58,19.3,0,21
+Ryan Switzer,9,39,4.3,0,11
+Kendrick Singleton,1,34,34.0,0,34
+Damien Washington,1,27,27.0,0,27
+Mack Hollins,2,11,5.5,0,6
+Khris Francis,1,7,7.0,0,7
+Austin Proehl,1,7,7.0,0,7
+Romar Morris,1,4,4.0,0,4
+Marquise Williams,1,-6,-6.0,0,0
+Team,24,247,10.3,0,43
+Miami (FL) Receiving
+,REC,YDS,AVG,TD,LG
+Clive Walford,6,89,14.8,2,42
+Duke Johnson,2,49,24.5,1,37
+Joseph Yearby,1,26,26.0,0,26
+Standish Dobard,1,18,18.0,0,18
+"u""Jake O'Donnell""",1,10,10.0,0,10
+Phillip Dorsett,1,7,7.0,0,7
+Team,12,199,16.6,3,42
+North Carolina Interceptions
+,INT,YDS,TD
+No Interception Information
+Miami (FL) Interceptions
+,INT,YDS,TD
+Deon Bush,1,0,0
+Team,1,0,0
+North Carolina Kick Returns
+,NO,YDS,AVG,LG,TD
+Romar Morris,4,79,19.8,27,0
+Damien Washington,1,19,19.0,19,0
+Team,5,98,19.6,27,0
+Miami (FL) Kick Returns
+,NO,YDS,AVG,LG,TD
+Stacy Coley,1,30,30.0,30,0
+Team,1,30,30.0,30,0
+North Carolina Punt Returns
+,NO,YDS,AVG,LG,TD
+Ryan Switzer,2,24,12.0,31,0
+Team,2,24,12.0,31,0
+Miami (FL) Punt Returns
+,NO,YDS,AVG,LG,TD
+Stacy Coley,1,-2,-2.0,0,0
+Team,1,-2,-2.0,0,0
+North Carolina Kicking
+,FG,PCT,LG,XP,PTS
+Thomas Moore,0/0,0.0,0,2/2,2
+Nick Weiler,0/0,0.0,0,0/1,0
+Team,0/0,0.0,0,2/3,2
+Miami (FL) Kicking
+,FG,PCT,LG,XP,PTS
+Michael Badgley,1/1,100.0,37,6/6,9
+Team,1/1,100.0,37,6/6,9
+North Carolina Punting
+,NO,YDS,AVG,TB,-20,LG
+Tommy Hibbard,5,221,44.2,0,3,54
+Team,5,221,44.2,0,3,54
+Miami (FL) Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Vogel,5,252,50.4,0,4,61
+Team,5,252,50.4,0,4,61

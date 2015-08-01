@@ -1,0 +1,121 @@
+FIRST QUARTER,,OKST,BAY
+,TD,14:24,"Jay Lee 65 Yd pass from Bryce Petty (Chris Callahan Kick)Drive info: 2 plays, 69 yds in 0:36",0,7
+,TD,12:24,"Corey Coleman 54 Yd pass from Bryce Petty (Chris Callahan Kick)Drive info: 3 plays, 80 yds in 0:25",0,14
+,TD,7:32,"Desmond Roland 1 Yd Run (Ben Grogan Kick)Drive info: 6 plays, 43 yds in 2:48",7,14
+,TD,0:19,"Devin Chafin 2 Yd Run (Chris Callahan Kick)Drive info: 19 plays, 79 yds in 7:13",7,21
+SECOND QUARTER,,OKST,BAY
+,TD,4:18,"Devin Chafin 7 Yd Run (Chris Callahan Kick)Drive info: 6 plays, 43 yds in 1:39",7,28
+,TD,0:01,"David Glidden 8 Yd pass from Mason Rudolph (Ben Grogan Kick)Drive info: 10 plays, 75 yds in 4:17",14,28
+THIRD QUARTER,,OKST,BAY
+,TD,3:57,"Shock Linwood 11 Yd Run (Chris Callahan Kick)Drive info: 6 plays, 28 yds in 1:50",14,35
+FOURTH QUARTER,,OKST,BAY
+,TD,14:21,"Devin Chafin 1 Yd Run (Chris Callahan Kick)Drive info: 11 plays, 70 yds in 3:25",14,42
+,TD,14:08,"James Washington 68 Yd pass from Mason Rudolph (Ben Grogan Kick)Drive info: 1 plays, 68 yds in 0:13",21,42
+,TD,10:44,"Rennie Childs 2 Yd Run (Ben Grogan Kick)Drive info: 5 plays, 70 yds in 2:07",28,42
+,TD,3:00,"Bryce Petty 21 Yd Run (Chris Callahan Kick)Drive info: 5 plays, 42 yds in 2:02",28,49
+,,OKST,BAY
+1st Downs,17,29
+3rd down efficiency,6-16,7-14
+4th down efficiency,0-1,2-2
+Total Yards,397,579
+Passing,281,262
+Comp-Att,13-25,18-29
+Yards per pass,11.2,9.0
+Rushing,116,317
+Rushing Attempts,43,58
+Yards per rush,2.7,5.5
+Penalties,4-45,12-68
+Turnovers,2,2
+Fumbles lost,0,0
+Interceptions thrown,2,2
+Possession,30:02,29:58
+Oklahoma State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Mason Rudolph,13/25,281,11.2,2,2,45.3
+Team,13/25,281,11.2,2,2,--
+Baylor Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Bryce Petty,18/29,262,9.0,2,2,71.0
+Team,18/29,262,9.0,2,2,--
+Oklahoma State Rushing
+,CAR,YDS,AVG,TD,LG
+Tyreek Hill,10,52,5.2,0,17
+Desmond Roland,17,46,2.7,1,11
+Rennie Childs,8,34,4.3,1,15
+Teddy Johnson,2,1,0.5,0,2
+Mason Rudolph,6,-17,-2.8,0,5
+Team,43,116,2.7,2,17
+Baylor Rushing
+,CAR,YDS,AVG,TD,LG
+Shock Linwood,21,113,5.4,1,15
+Devin Chafin,21,106,5.0,3,10
+Antwan Goodley,3,26,8.7,0,14
+Johnny Jefferson,4,26,6.5,0,17
+Corey Coleman,3,24,8.0,0,12
+Bryce Petty,5,23,4.6,1,21
+Team,58,317,5.5,5,21
+Oklahoma State Receiving
+,REC,YDS,AVG,TD,LG
+James Washington,4,114,28.5,1,68
+David Glidden,5,99,19.8,1,37
+Brandon Sheperd,2,47,23.5,0,32
+Jeremy Seaton,1,15,15.0,0,15
+Tyreek Hill,1,6,6.0,0,6
+Team,13,281,21.6,2,68
+Baylor Receiving
+,REC,YDS,AVG,TD,LG
+Corey Coleman,3,75,25.0,1,54
+Jay Lee,3,73,24.3,1,65
+Levi Norwood,5,43,8.6,0,13
+Kd Cannon,3,30,10.0,0,13
+Antwan Goodley,2,24,12.0,0,26
+Devin Chafin,1,13,13.0,0,13
+Shock Linwood,1,4,4.0,0,4
+Team,18,262,14.6,2,65
+Oklahoma State Interceptions
+,INT,YDS,TD
+Larry Stephens,1,0,0
+Ramon Richards,1,0,0
+Team,2,0,0
+Baylor Interceptions
+,INT,YDS,TD
+Orion Stewart,1,23,0
+Collin Brence,1,1,0
+Team,2,24,0
+Oklahoma State Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,3,41,13.7,23,0
+Blake Jarwin,3,30,10.0,13,0
+Desmond Roland,1,10,10.0,10,0
+Teddy Johnson,1,6,6.0,6,0
+Team,8,87,10.9,23,0
+Baylor Kick Returns
+,NO,YDS,AVG,LG,TD
+Levi Norwood,2,46,23.0,30,0
+Lee Bristow,1,3,3.0,3,0
+Team,3,49,16.3,30,0
+Oklahoma State Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,1,-2,-2.0,0,0
+Team,1,-2,-2.0,0,0
+Baylor Punt Returns
+,NO,YDS,AVG,LG,TD
+Levi Norwood,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Oklahoma State Kicking
+,FG,PCT,LG,XP,PTS
+Ben Grogan,0/0,0.0,0,4/4,4
+Justin Phillips,0/0,0.0,0,1/1,1
+Team,0/0,0.0,0,5/5,5
+Baylor Kicking
+,FG,PCT,LG,XP,PTS
+Chris Callahan,0/1,0.0,0,7/7,7
+Team,0/1,0.0,0,7/7,7
+Oklahoma State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kip Smith,8,347,43.4,1,1,51
+Team,8,347,43.4,1,1,51
+Baylor Punting
+,NO,YDS,AVG,TB,-20,LG
+Spencer Roth,4,190,47.5,0,2,57
+Team,4,190,47.5,0,2,57

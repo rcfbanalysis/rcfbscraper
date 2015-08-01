@@ -1,8 +1,6 @@
 *.pyc
 
 *~
-*.csv
-*.CSV
 
 # History files
 .Rhistory

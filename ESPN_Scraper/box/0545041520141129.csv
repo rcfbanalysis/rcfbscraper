@@ -1,0 +1,100 @@
+FIRST QUARTER,,PITT,MIA
+,TD,12:49,"James Conner 13 Yd Run (Chris Blewitt Kick)Drive info: 4 plays, 60 yds in 2:11",7,0
+,FG,7:50,"Michael Badgley 40 Yd Field Goal  Drive info: 11 plays, 52 yds in 4:59",7,3
+,TD,2:50,"Tyler Boyd 12 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 8 plays, 82 yds in 5:00",14,3
+SECOND QUARTER,,PITT,MIA
+,TD,13:01,"Phillip Dorsett 51 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 4 plays, 79 yds in 1:52",14,10
+,TD,7:14,"James Conner 2 Yd Run (Chris Blewitt Kick)Drive info: 11 plays, 70 yds in 5:47",21,10
+,FG,2:15,"Michael Badgley 48 Yd Field Goal  Drive info: 11 plays, 49 yds in 4:59",21,13
+THIRD QUARTER,,PITT,MIA
+,TD,12:32,"Duke Johnson 17 Yd pass from Brad Kaaya (Michael Badgley Kick)Drive info: 6 plays, 81 yds in 2:28",21,20
+,TD,9:53,"Chris James 15 Yd Run (Chris Blewitt Kick)Drive info: 5 plays, 43 yds in 2:39",28,20
+,FG,4:17,"Michael Badgley 36 Yd Field Goal  Drive info: 13 plays, 56 yds in 5:36",28,23
+FOURTH QUARTER,,PITT,MIA
+,TD,13:13,"Chad Voytik 1 Yd Run (Chris Blewitt Kick)Drive info: 7 plays, 51 yds in 3:30",35,23
+,,PITT,MIA
+1st Downs,22,21
+3rd down efficiency,5-10,8-18
+4th down efficiency,1-1,2-3
+Total Yards,360,421
+Passing,134,296
+Comp-Att,8-12,22-45
+Yards per pass,11.2,6.6
+Rushing,226,125
+Rushing Attempts,47,28
+Yards per rush,4.8,4.5
+Penalties,6-50,7-57
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,32:01,27:59
+Pittsburgh Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chad Voytik,8/12,134,11.2,1,0,97.0
+Team,8/12,134,11.2,1,0,--
+Miami (FL) Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brad Kaaya,22/45,296,6.6,2,0,68.1
+Team,22/45,296,6.6,2,0,--
+Pittsburgh Rushing
+,CAR,YDS,AVG,TD,LG
+James Conner,16,75,4.7,2,19
+Isaac Bennett,12,60,5.0,0,18
+Chris James,11,58,5.3,1,15
+Chad Voytik,4,26,6.5,1,12
+Rachid Ibrahim,2,11,5.5,0,13
+Team,47,226,4.8,4,19
+Miami (FL) Rushing
+,CAR,YDS,AVG,TD,LG
+Duke Johnson,18,89,4.9,0,28
+Gus Edwards,6,21,3.5,0,12
+Joseph Yearby,2,20,10.0,0,23
+Brad Kaaya,1,1,1.0,0,1
+Team,28,125,4.5,0,28
+Pittsburgh Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Boyd,5,72,14.4,1,28
+James Conner,1,40,40.0,0,40
+Isaac Bennett,1,15,15.0,0,15
+Kevin Weatherspoon,1,7,7.0,0,7
+Team,8,134,16.8,1,40
+Miami (FL) Receiving
+,REC,YDS,AVG,TD,LG
+Phillip Dorsett,5,103,20.6,1,51
+Clive Walford,4,49,12.3,0,31
+Standish Dobard,3,44,14.7,0,23
+Stacy Coley,4,42,10.5,0,21
+Malcolm Lewis,2,33,16.5,0,19
+Duke Johnson,3,16,5.3,1,17
+Braxton Berrios,1,9,9.0,0,9
+Team,22,296,13.5,2,51
+Pittsburgh Interceptions
+,INT,YDS,TD
+No Interception Information
+Miami (FL) Interceptions
+,INT,YDS,TD
+No Interception Information
+Pittsburgh Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,6,190,31.7,53,0
+Team,6,190,31.7,53,0
+Miami (FL) Kick Returns
+,NO,YDS,AVG,LG,TD
+Stacy Coley,4,59,14.8,19,0
+Team,4,59,14.8,19,0
+Pittsburgh Kicking
+,FG,PCT,LG,XP,PTS
+Chris Blewitt,0/0,0.0,0,5/5,5
+Team,0/0,0.0,0,5/5,5
+Miami (FL) Kicking
+,FG,PCT,LG,XP,PTS
+Michael Badgley,3/3,100.0,48,2/2,11
+Team,3/3,100.0,48,2/2,11
+Pittsburgh Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Winslow,4,150,37.5,0,2,42
+Team,4,150,37.5,0,2,42
+Miami (FL) Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Vogel,4,163,40.8,0,0,58
+Team,4,163,40.8,0,0,58

@@ -1,0 +1,118 @@
+FIRST QUARTER,,TAMU,ALA
+,FG,11:07,"Adam Griffith 21 Yd Field Goal  Drive info: 10 plays, 71 yds in 3:53",0,3
+,TD,4:38,"T.J. Yeldon 9 Yd Run (Adam Griffith Kick)Drive info: 11 plays, 72 yds in 4:52",0,10
+SECOND QUARTER,,TAMU,ALA
+,TD,13:36,"T.J. Yeldon 1 Yd Run (Adam Griffith Kick)Drive info: 10 plays, 84 yds in 4:43",0,17
+,TD,11:06,"Blake Sims 43 Yd Run (Adam Griffith Kick)Drive info: 4 plays, 64 yds in 0:45",0,24
+,TD,5:26,"Derrick Henry 8 Yd Run (Adam Griffith Kick)Drive info: 11 plays, 80 yds in 3:41",0,31
+,TD,4:10,"Amari Cooper 24 Yd pass from Blake Sims (Adam Griffith Kick)Drive info: 1 plays, 24 yds in 0:05",0,38
+,TD,0:22,"Derrick Henry 41 Yd pass from Blake Sims (Adam Griffith Kick)Drive info: 5 plays, 60 yds in 1:51",0,45
+THIRD QUARTER,,TAMU,ALA
+,TD,11:47,"Amari Cooper 45 Yd pass from Blake Sims (Adam Griffith Kick)Drive info: 3 plays, 57 yds in 1:13",0,52
+FOURTH QUARTER,,TAMU,ALA
+,TD,4:16,"Ty Flournoy-Smith 14 Yd pass from Jake Coker (JK Scott Kick)Drive info: 9 plays, 57 yds in 4:41",0,59
+,,TAMU,ALA
+1st Downs,8,30
+3rd down efficiency,2-13,9-15
+4th down efficiency,0-2,1-1
+Total Yards,172,602
+Passing,141,304
+Comp-Att,19-31,21-35
+Yards per pass,4.5,8.7
+Rushing,31,298
+Rushing Attempts,24,45
+Yards per rush,1.3,6.6
+Penalties,2-6,0-0
+Turnovers,1,0
+Fumbles lost,0,0
+Interceptions thrown,1,0
+Possession,23:29,36:31
+Texas A&M Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kenny Hill,17/26,138,5.3,0,1,12.7
+Kyle Allen,2/5,3,0.6,0,0,0.5
+Team,19/31,141,4.5,0,1,--
+Alabama Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Blake Sims,16/27,268,9.9,3,0,86.7
+Jake Coker,5/8,36,4.5,1,0,42.8
+Team,21/35,304,8.7,4,0,--
+Texas A&M Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Williams,4,21,5.3,0,9
+Trey Williams,3,12,4.0,0,5
+Tra Carson,5,6,1.2,0,4
+James White,1,4,4.0,0,4
+Kyle Allen,1,-1,-1.0,0,0
+Kenny Hill,10,-11,-1.1,0,4
+Team,24,31,1.3,0,9
+Alabama Rushing
+,CAR,YDS,AVG,TD,LG
+T.J. Yeldon,13,114,8.8,2,31
+Derrick Henry,10,70,7.0,1,13
+Blake Sims,4,54,13.5,1,43
+Tyren Jones,9,34,3.8,0,12
+Altee Tenpenny,8,30,3.8,0,13
+Jake Coker,1,-4,-4.0,0,0
+Team,45,298,6.6,4,43
+Texas A&M Receiving
+,REC,YDS,AVG,TD,LG
+Josh Reynolds,3,42,14.0,0,26
+Boone Niederhofer,3,34,11.3,0,15
+Speedy Noil,4,32,8.0,0,15
+Edward Pope,2,22,11.0,0,14
+Malcome Kennedy,4,4,1.0,0,3
+Sabian Holmes,1,4,4.0,0,4
+Brandon Williams,1,2,2.0,0,2
+James White,1,1,1.0,0,1
+Team,19,141,7.4,0,26
+Alabama Receiving
+,REC,YDS,AVG,TD,LG
+Amari Cooper,8,140,17.5,2,45
+T.J. Yeldon,3,45,15.0,0,17
+Derrick Henry,1,41,41.0,1,41
+DeAndrew White,3,30,10.0,0,17
+Ty Flournoy-Smith,1,14,14.0,1,14
+Cam Sims,3,14,4.7,0,8
+Jalston Fowler,1,12,12.0,0,12
+ArDarius Stewart,1,8,8.0,0,8
+Team,21,304,14.5,4,45
+Texas A&M Interceptions
+,INT,YDS,TD
+No Interception Information
+Alabama Interceptions
+,INT,YDS,TD
+Reggie Ragland,1,1,0
+Team,1,1,0
+Texas A&M Kick Returns
+,NO,YDS,AVG,LG,TD
+Speedy Noil,6,106,17.7,24,0
+Trey Williams,2,92,46.0,75,0
+Team,8,198,24.8,75,0
+Alabama Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Texas A&M Punt Returns
+,NO,YDS,AVG,LG,TD
+Nick Harvey,2,18,9.0,18,0
+Team,2,18,9.0,18,0
+Alabama Punt Returns
+,NO,YDS,AVG,LG,TD
+Christion Jones,3,53,17.7,47,0
+Team,3,53,17.7,47,0
+Texas A&M Kicking
+,FG,PCT,LG,XP,PTS
+No Kicking Information
+Alabama Kicking
+,FG,PCT,LG,XP,PTS
+Adam Griffith,1/1,100.0,21,7/7,10
+JK Scott,0/0,0.0,0,1/1,1
+Team,1/1,100.0,21,8/8,11
+Texas A&M Punting
+,NO,YDS,AVG,TB,-20,LG
+Drew Kaser,9,405,45.0,1,1,56
+Team,9,405,45.0,1,1,56
+Alabama Punting
+,NO,YDS,AVG,TB,-20,LG
+JK Scott,4,200,50.0,0,1,56
+Team,4,200,50.0,0,1,56

@@ -1,0 +1,123 @@
+FIRST QUARTER,,HOU,BYU
+,SF,10:37,Team Safety ,0,2
+,TD,9:12,"Jamaal Williams 11 Yd Run (Trevor Samson Kick)Drive info: 5 plays, 64 yds in 1:25",0,9
+,TD,3:24,"Taysom Hill 5 Yd Run (Trevor Samson Kick)Drive info: 8 plays, 70 yds in 2:43",0,16
+SECOND QUARTER,,HOU,BYU
+,TD,8:57,"Mitch Mathews 6 Yd pass from Taysom Hill (Trevor Samson Kick)Drive info: 16 plays, 87 yds in 5:14",0,23
+,FG,3:12,"Kyle Bullard 29 Yd Field Goal  Drive info: 17 plays, 82 yds in 5:45",3,23
+,TD,1:17,"u""Deontay Greenberry 7 Yd pass from John O'Korn (Kyle Bullard PAT failed)"", Drive info: 6 plays, 29 yds in 1:41",9,23
+,TD,0:00,"u""Daniel Spencer 45 Yd pass from John O'Korn (Kyle Bullard PAT failed)"", Drive info: 1 plays, 45 yds in 0:03",15,23
+THIRD QUARTER,,HOU,BYU
+,FG,0:51,"Trevor Samson 26 Yd Field Goal  Drive info: 15 plays, 53 yds in 6:15",15,26
+FOURTH QUARTER,,HOU,BYU
+,TD,11:47,"Jamaal Williams 2 Yd Run (Trevor Samson Kick)Drive info: 8 plays, 56 yds in 2:50",15,33
+,TD,9:09,"u""Deontay Greenberry 15 Yd pass from John O'Korn (Kyle Bullard Kick)"", Drive info: 7 plays, 68 yds in 2:38",22,33
+,FG,7:18,"Kyle Bullard 36 Yd Field Goal  Drive info: 4 plays, 8 yds in 0:56",25,33
+,,HOU,BYU
+1st Downs,18,32
+3rd down efficiency,6-16,10-18
+4th down efficiency,0-0,1-2
+Total Yards,324,523
+Passing,315,200
+Comp-Att,31-53,21-34
+Yards per pass,5.9,5.9
+Rushing,9,323
+Rushing Attempts,13,62
+Yards per rush,0.7,5.2
+Penalties,8-83,11-99
+Turnovers,0,3
+Fumbles lost,0,1
+Interceptions thrown,0,2
+Possession,23:53,35:06
+Houston Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+"u""John O'Korn""",30/52,307,5.9,3,0,51.8
+Greg Ward Jr.,1/1,8,8.0,0,0,8.7
+Team,31/53,315,5.9,3,0,--
+BYU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Taysom Hill,21/34,200,5.9,1,2,59.1
+Team,21/34,200,5.9,1,2,--
+Houston Rushing
+,CAR,YDS,AVG,TD,LG
+Kenneth Farrow,3,7,2.3,0,7
+"u""John O'Korn""",6,3,0.5,0,3
+Greg Ward Jr.,1,0,0.0,0,0
+Ryan Jackson,3,-1,-0.3,0,3
+Team,13,9,0.7,0,7
+BYU Rushing
+,CAR,YDS,AVG,TD,LG
+Taysom Hill,26,160,6.2,1,24
+Jamaal Williams,28,139,5.0,2,16
+Paul Lasike,3,21,7.0,0,14
+Adam Hine,3,6,2.0,0,4
+Scott Arellano,1,-1,-1.0,0,0
+Team,62,323,5.2,3,24
+Houston Receiving
+,REC,YDS,AVG,TD,LG
+Daniel Spencer,10,133,13.3,1,45
+Deontay Greenberry,6,74,12.3,2,22
+Markeith Ambles,3,32,10.7,0,16
+Kenneth Farrow,5,25,5.0,0,9
+Greg Ward Jr.,3,24,8.0,0,11
+Demarcus Ayers,1,14,14.0,0,14
+Wayne Beadle,1,9,9.0,0,9
+Ryan Jackson,2,4,2.0,0,3
+Team,31,315,10.2,3,45
+BYU Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Leslie,6,79,13.2,0,35
+Mitchell Juergens,1,38,38.0,0,38
+Mitch Mathews,4,22,5.5,1,8
+Devin Mahina,1,16,16.0,0,16
+Kurt Henderson,1,11,11.0,0,11
+Jamaal Williams,1,9,9.0,0,9
+Paul Lasike,2,8,4.0,0,5
+Terenn Houk,1,7,7.0,0,7
+Adam Hine,1,5,5.0,0,5
+Trey Dye,2,4,2.0,0,2
+Devon Blackmon,1,1,1.0,0,1
+Team,21,200,9.5,1,38
+Houston Interceptions
+,INT,YDS,TD
+Joey Mb,1,0,0
+Trevon Stewart,1,0,0
+Team,2,0,0
+BYU Interceptions
+,INT,YDS,TD
+No Interception Information
+Houston Kick Returns
+,NO,YDS,AVG,LG,TD
+Demarcus Ayers,6,93,15.5,27,0
+Team,6,93,15.5,27,0
+BYU Kick Returns
+,NO,YDS,AVG,LG,TD
+Michael Davis,1,28,28.0,28,0
+Mitchell Juergens,1,26,26.0,26,0
+Adam Hine,1,24,24.0,24,0
+Team,3,78,26.0,28,0
+Houston Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+BYU Punt Returns
+,NO,YDS,AVG,LG,TD
+Devon Blackmon,2,14,7.0,16,0
+Mitchell Juergens,1,2,2.0,2,0
+Team,3,16,5.3,16,0
+Houston Kicking
+,FG,PCT,LG,XP,PTS
+Kyle Bullard,2/3,66.7,36,1/3,7
+Team,2/3,66.7,36,1/3,7
+BYU Kicking
+,FG,PCT,LG,XP,PTS
+Trevor Samson,1/1,100.0,26,4/4,7
+Team,1/1,100.0,26,4/4,7
+Houston Punting
+,NO,YDS,AVG,TB,-20,LG
+Dylan Seibert,4,178,44.5,0,0,55
+Logan Piper,2,71,35.5,0,1,47
+Team,6,249,41.5,0,1,55
+BYU Punting
+,NO,YDS,AVG,TB,-20,LG
+Scott Arellano,3,115,38.3,0,3,54
+Team,3,115,38.3,0,3,54

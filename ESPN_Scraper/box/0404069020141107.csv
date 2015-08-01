@@ -1,0 +1,118 @@
+FIRST QUARTER,,MEM,TEM
+,FG,11:24,"Austin Jones 43 Yd Field Goal  Drive info: 5 plays, 35 yds in 1:57",0,3
+,TD,2:50,"Kenneth Harper 75 Yd Run (Austin Jones Kick)Drive info: 2 plays, 80 yds in 0:47",0,10
+SECOND QUARTER,,MEM,TEM
+,FG,6:09,"Jake Elliott 42 Yd Field Goal  Drive info: 4 plays, 6 yds in 1:42",3,10
+,TD,3:58,"Brandon Hayes 17 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 3 plays, 59 yds in 0:27",10,10
+THIRD QUARTER,,MEM,TEM
+,FG,1:39,"Jake Elliott 27 Yd Field Goal  Drive info: 4 plays, 0 yds in 1:25",13,10
+FOURTH QUARTER,,MEM,TEM
+,FG,2:46,"Austin Jones 46 Yd Field Goal  Drive info: 9 plays, 29 yds in 2:38",13,13
+,FG,0:00,"Jake Elliott 31 Yd Field Goal  Drive info: 12 plays, 66 yds in 2:46",16,13
+,,MEM,TEM
+1st Downs,17,16
+3rd down efficiency,5-17,6-17
+4th down efficiency,0-0,0-0
+Total Yards,312,298
+Passing,230,140
+Comp-Att,21-28,16-37
+Yards per pass,8.2,3.8
+Rushing,82,158
+Rushing Attempts,40,32
+Yards per rush,2.0,4.9
+Penalties,6-51,4-30
+Turnovers,1,2
+Fumbles lost,1,1
+Interceptions thrown,0,1
+Possession,28:53,42:57
+Memphis Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Paxton Lynch,21/28,230,8.2,1,0,72.1
+Team,21/28,230,8.2,1,0,--
+Temple Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+P.J. Walker,16/37,140,3.8,0,1,21.0
+Team,16/37,140,3.8,0,1,--
+Memphis Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Hayes,26,75,2.9,0,13
+Roderick Proctor,2,4,2.0,0,4
+Jarvis Cooper,3,4,1.3,0,4
+Mose Frazier,1,2,2.0,0,2
+Paxton Lynch,7,-1,-0.1,0,4
+Team,40,82,2.1,0,13
+Temple Rushing
+,CAR,YDS,AVG,TD,LG
+Kenneth Harper,17,116,6.8,1,75
+P.J. Walker,9,28,3.1,0,33
+Jahad Thomas,4,9,2.3,0,7
+Brandon Shippen,1,7,7.0,0,7
+Jamie Gilmore,1,-2,-2.0,0,0
+Team,32,158,4.9,1,75
+Memphis Receiving
+,REC,YDS,AVG,TD,LG
+Mose Frazier,8,110,13.8,0,42
+Keiwone Malone,3,36,12.0,0,22
+Brandon Hayes,2,24,12.0,1,17
+Adrian Henderson,1,22,22.0,0,22
+Tevin Jones,2,18,9.0,0,12
+Phil Mayhue,2,11,5.5,0,9
+Roderick Proctor,1,5,5.0,0,5
+Alan Cross,2,4,2.0,0,3
+Team,21,230,11.0,1,42
+Temple Receiving
+,REC,YDS,AVG,TD,LG
+Jalen Fitzpatrick,5,64,12.8,0,31
+John Christopher,3,23,7.7,0,11
+Colin Thompson,2,14,7.0,0,9
+Romond Deloatch,1,12,12.0,0,12
+Kenneth Harper,2,11,5.5,0,7
+Nate Hairston,1,9,9.0,0,9
+Brodrick Yancy,1,4,4.0,0,4
+Brandon Shippen,1,3,3.0,0,3
+Team,16,140,8.8,0,31
+Memphis Interceptions
+,INT,YDS,TD
+Andrew Gaines,1,0,0
+Team,1,0,0
+Temple Interceptions
+,INT,YDS,TD
+No Interception Information
+Memphis Kick Returns
+,NO,YDS,AVG,LG,TD
+Joe Craig,3,57,19.0,22,0
+Bobby McCain,1,17,17.0,17,0
+Team,4,74,18.5,22,0
+Temple Kick Returns
+,NO,YDS,AVG,LG,TD
+Jahad Thomas,1,17,17.0,17,0
+Team,1,17,17.0,17,0
+Memphis Punt Returns
+,NO,YDS,AVG,LG,TD
+Keiwone Malone,2,8,4.0,8,0
+Mose Frazier,1,2,2.0,2,0
+B.J. Ross,1,-5,-5.0,-5,0
+Team,4,5,1.3,8,0
+Temple Punt Returns
+,NO,YDS,AVG,LG,TD
+Nate L. Smith,1,21,21.0,21,0
+John Christopher,1,-1,-1.0,-1,0
+Team,2,20,10.0,21,0
+Memphis Kicking
+,FG,PCT,LG,XP,PTS
+Jake Elliott,3/4,75.0,42,1/1,10
+Team,3/4,75.0,42,1/1,10
+Temple Kicking
+,FG,PCT,LG,XP,PTS
+Austin Jones,2/3,66.7,46,1/1,7
+Team,2/3,66.7,46,1/1,7
+Memphis Punting
+,NO,YDS,AVG,TB,-20,LG
+Spencer Smith,6,215,35.8,0,1,47
+Nick Jacobs,2,70,35.0,0,1,36
+Team,8,285,35.6,0,2,47
+Temple Punting
+,NO,YDS,AVG,TB,-20,LG
+Alex Starzyk,5,139,27.8,0,0,42
+Tyler Mayes,2,66,33.0,0,1,34
+Team,7,205,29.3,0,1,42

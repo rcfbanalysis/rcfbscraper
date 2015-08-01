@@ -1,0 +1,153 @@
+Game_Code,Play_Number,Period_Number,Drive_Start,Offense,Defense,Off_Points,Def_Points,Down,Distance,Spot,Play_Type,Drive_Number,Drive_Play,Play_Desc,Play_Result,Yards_Gained,Off_Touchdown,Def_Touchdown,First_Down,Completion,Interception,Fumble,Fumble_Lost,Kick_Good,TwoPt_Good,Safety,Kick_Yards,Touchback,Kickoff_OOB,Kickoff_Onsides,Kick_Blocked,Penalty,Penalty_Type,No_Play,Rusher,Passer,Receiver,Kicker,Forced_Fum,Interceptor,Sacker,Extra_Pt_Att,TwoPt_Att
+660433,1,1,900,66,433,0,0,1,10,81,RUSH,1,1,Jay Ajayi run for 13 yds to the t66 32 for a 1ST down,,13,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,2,1,900,66,433,0,0,1,10,68,RUSH,1,2,Grant Hedrick run for 4 yds to the t66 36,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,3,1,900,66,433,0,0,2,6,64,PASS,1,3,Grant Hedrick pass complete to Shane Williams-Rhodes for 2 yds to the t66 38,,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,4,1,900,66,433,0,0,3,4,62,PASS,1,4,Grant Hedrick pass complete to Jay Ajayi for 3 yds to the t66 41,,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,5,1,900,433,66,0,0,1,20,82,PASS,2,1,Bo Wallace pass complete to Evan Engram for 9 yds to the t433 27,,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,6,1,900,433,66,0,0,2,11,73,PASS,2,2,"Bo Wallace pass complete to Laquon Treadwell for 2 yds to the t433 29 for a 1ST down BOISE ST Penalty, Personal Foul (TEAM) to the t433 44 for a 1ST down",,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,7,1,900,433,66,0,0,1,10,56,PASS,2,3,Bo Wallace pass complete to Cody Core for 5 yds to the t433 49,,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Cody Core,,,,,0,0
+660433,8,1,900,433,66,0,0,2,5,51,RUSH,2,4,Bo Wallace run for 4 yds to the t66 47,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,9,1,900,433,66,0,0,3,1,47,PASS,2,5,Bo Wallace pass complete to Cody Core for no gain to the t66 47,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Cody Core,,,,,0,0
+660433,10,1,772,66,433,0,0,1,10,89,RUSH,3,1,Grant Hedrick run for 5 yds to the t66 16,,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,11,1,772,66,433,0,0,2,5,84,PASS,3,2,Grant Hedrick pass complete to Jake Roh for 20 yds to the t66 36 for a 1ST down,,20,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jake Roh,,,,,0,0
+660433,12,1,772,66,433,0,0,1,10,64,PASS,3,3,Grant Hedrick pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,,,0,0
+660433,13,1,772,66,433,0,0,2,10,64,PASS,3,4,Grant Hedrick pass complete to Shane Williams-Rhodes for 5 yds to the t66 41,,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,14,1,772,66,433,0,0,1,10,54,RUSH,3,5,Jay Ajayi run for a loss of 2 yards to the t66 44,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,15,1,772,66,433,0,0,2,12,56,PASS,3,6,Grant Hedrick pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,,,0,0
+660433,16,1,772,66,433,0,0,3,12,56,PASS,3,7,Grant Hedrick pass complete to Jay Ajayi for no gain to the t66 44,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,17,1,900,433,66,0,0,1,10,74,PASS,4,1,Bo Wallace pass intercepted Jeremy Ioane return for no gain to the t66 46,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,Jeremy Ioane,,0,0
+660433,18,1,642,66,433,0,0,1,15,59,PASS,5,1,Grant Hedrick pass complete to Jay Ajayi for 32 yds to the t433 27 for a 1ST down,,32,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,19,1,642,66,433,0,0,1,10,27,PASS,5,2,Grant Hedrick pass complete to Shane Williams-Rhodes for a loss of 3 yards to the t433 30,,-3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,20,1,642,66,433,0,0,2,13,30,PASS,5,3,"Grant Hedrick pass complete to Matt Miller for 22 yds to the t433 8 for a 1ST down t433 Penalty, Personal Foul (Serderius Bryant) to the t433 4 for a 1ST down",,22,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,21,1,642,66,433,0,0,1,4,4,RUSH,5,4,"Jay Ajayi run for no gain to the t433 4 Jay Ajayi fumbled, recovered by t66",,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,22,1,642,66,433,0,0,2,4,4,RUSH,5,5,Grant Hedrick run for 1 yd to the t433 3,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,23,1,642,66,433,0,0,3,3,3,PASS,5,6,"Grant Hedrick pass intercepted, touchback. Senquez Golson return for no gain",,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,", touchback. Senquez Golson",,0,0
+660433,24,1,900,433,66,0,0,1,10,80,RUSH,6,1,I'Tavius Mathers run for a loss of 1 yard to the t433 19,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,25,1,900,433,66,0,0,2,11,81,PASS,6,2,Bo Wallace pass complete to Vince Sanders for 16 yds to the t433 35 for a 1ST down,,16,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Vince Sanders,,,,,0,0
+660433,26,1,900,433,66,0,0,1,15,70,PASS,6,3,Bo Wallace pass complete to Evan Engram for 10 yds to the t433 40,,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,27,1,900,433,66,0,0,2,5,60,RUSH,6,4,I'Tavius Mathers run for 5 yds to the t433 45 for a 1ST down,,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,28,1,900,433,66,0,0,1,15,60,RUSH,6,5,I'Tavius Mathers run for a loss of 1 yard to the t433 39,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,29,1,900,433,66,0,0,2,16,61,PASS,6,6,Bo Wallace pass incomplete to Evan Engram,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,30,1,900,433,66,0,0,3,21,66,PASS,6,7,Bo Wallace pass complete to Vince Sanders for 20 yds to the t66 46,,20,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Vince Sanders,,,,,0,0
+660433,31,1,900,433,66,0,0,4,1,46,RUSH,6,8,Jeremy Liggins run for 1 yd to the t66 45 for a 1ST down,,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jeremy Liggins,,,,,,,0,0
+660433,32,1,900,433,66,7,0,1,10,30,PASS,6,9,"Bo Wallace pass complete to Cody Core for 30 yds for a TD, (Andrew Fletcher KICK)",,30,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Cody Core,Andrew Fletcher,,,,1,0
+660433,33,1,460,66,433,0,7,1,10,73,RUSH,7,1,Jay Ajayi run for 4 yds to the t66 31,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,34,1,460,66,433,0,7,2,6,69,PASS,7,2,Grant Hedrick pass complete to Jay Ajayi for 4 yds to the t66 35,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,35,2,900,66,433,0,7,3,2,65,RUSH,8,1,Grant Hedrick run for 3 yds to the t66 38 for a 1ST down,,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,36,2,900,66,433,0,7,1,10,62,PASS,8,2,Matt Miller pass incomplete to Alec Dhaenens,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Matt Miller,Alec Dhaenens,,,,,0,0
+660433,37,2,900,66,433,0,7,2,10,62,PASS,8,3,Grant Hedrick pass intercepted C.J. Johnson return for no gain to the t66 40,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,C.J. Johnson,,0,0
+660433,38,2,900,433,66,7,0,1,10,40,PASS,9,1,Bo Wallace pass complete to Jaylen Walton for 12 yds to the t66 28 for a 1ST down,,12,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Jaylen Walton,,,,,0,0
+660433,39,2,900,433,66,7,0,1,10,28,RUSH,9,2,Jaylen Walton run for 6 yds to the t66 22,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jaylen Walton,,,,,,,0,0
+660433,40,2,900,433,66,7,0,2,4,22,PASS,9,3,Bo Wallace pass complete to Quincy Adeboyejo for a loss of 2 yards to the t66 24,,-2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Quincy Adeboyejo,,,,,0,0
+660433,41,2,900,433,66,7,0,3,6,24,PASS,9,4,Bo Wallace pass intercepted Tyler Gray return for 7 yds to the t66 27,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,Tyler Gray,,0,0
+660433,42,2,453,66,433,0,7,1,10,73,RUSH,10,1,Jay Ajayi run for 7 yds to the t66 34,,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,43,2,453,66,433,0,7,2,3,66,RUSH,10,2,Jay Ajayi run for 5 yds to the t66 39 for a 1ST down,,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,44,2,453,66,433,0,7,1,10,61,RUSH,10,3,Jay Ajayi run for 4 yds to the t66 43,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,45,2,453,66,433,0,7,2,6,57,PASS,10,4,Grant Hedrick pass complete to Matt Miller for 14 yds to the t433 43 for a 1ST down,,14,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,46,2,453,66,433,0,7,1,10,43,RUSH,10,5,Jay Ajayi run for 7 yds to the t433 36,,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,47,2,453,66,433,0,7,2,3,36,RUSH,10,6,Shane Williams-Rhodes run for 23 yds to the t433 13 for a 1ST down,,23,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Shane Williams-Rhodes,,,,,,,0,0
+660433,48,2,453,66,433,0,7,1,10,13,RUSH,10,7,Jay Ajayi run for 6 yds to the t433 7,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,49,2,453,66,433,0,7,2,4,7,PASS,10,8,Grant Hedrick pass complete to Shane Williams-Rhodes for 6 yds to the t433 1 for a 1ST down,,6,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,50,2,453,66,433,0,7,1,1,1,RUSH,10,9,Jay Ajayi run for a loss of 1 yard to the t433 2,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,51,2,453,66,433,0,7,2,2,2,RUSH,10,10,Jay Ajayi run for 1 yd to the t433 1,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,52,2,453,66,433,0,7,3,1,1,RUSH,10,11,Jay Ajayi run for a loss of 2 yards to the t433 3,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,53,2,900,433,66,7,3,1,10,75,RUSH,11,1,I'Tavius Mathers run for 1 yd to the t433 26,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,54,2,900,433,66,7,3,2,9,74,PASS,11,2,Bo Wallace pass complete to Laquon Treadwell for 31 yds to the t66 43 for a 1ST down,,31,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,55,2,900,433,66,7,3,1,10,43,RUSH,11,3,I'Tavius Mathers run for 3 yds to the t66 40,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,56,2,900,433,66,7,3,2,7,40,PASS,11,4,Bo Wallace pass incomplete to Vince Sanders,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Vince Sanders,,,,,0,0
+660433,57,2,900,433,66,7,3,3,7,40,PASS,11,5,Bo Wallace pass incomplete to Laquon Treadwell,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,58,2,263,66,433,3,7,1,10,99,RUSH,12,1,Grant Hedrick run for 2 yds to the t66 3,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,59,2,263,66,433,3,7,2,8,97,PASS,12,2,Grant Hedrick pass intercepted Cody Prewitt return for 22 yds to the t66 13,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,Cody Prewitt,,0,0
+660433,60,2,900,433,66,7,3,1,15,18,RUSH,13,1,Jaylen Walton run for a loss of 2 yards to the t66 20,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jaylen Walton,,,,,,,0,0
+660433,61,2,900,433,66,7,3,2,17,20,RUSH,13,2,Jordan Wilkins run for no gain to the t66 20,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordan Wilkins,,,,,,,0,0
+660433,62,2,900,433,66,7,3,3,17,20,PASS,13,3,"Bo Wallace pass intercepted, touchback. Darian Thompson return for no gain",,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,", touchback. Darian Thompson",,0,0
+660433,63,2,49,66,433,3,7,1,10,80,RUSH,14,1,Jay Ajayi run for 2 yds to the t66 22,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,64,2,49,66,433,3,7,2,8,78,RUSH,14,2,Grant Hedrick run for 7 yds to the t66 29,,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,65,2,49,66,433,3,7,3,1,71,RUSH,14,3,Jay Ajayi run for 2 yds to the t66 31 for a 1ST down,,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,66,2,49,66,433,3,7,1,10,69,PASS,14,4,Grant Hedrick pass complete to Shane Williams-Rhodes for 3 yds to the t66 34,,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,67,2,49,66,433,3,7,2,7,66,PASS,14,5,Grant Hedrick pass complete to Shane Williams-Rhodes for 5 yds to the t66 39,,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,68,2,49,66,433,3,7,3,2,61,PASS,14,6,Grant Hedrick pass complete to Jake Roh for 1 yd to the t66 40,,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jake Roh,,,,,0,0
+660433,69,2,900,433,66,7,3,1,13,97,PASS,15,1,Bo Wallace pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,,,0,0
+660433,70,2,900,433,66,7,3,2,13,97,RUSH,15,2,Bo Wallace run for 5 yds to the t433 8,,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,71,2,900,433,66,7,3,3,8,92,PASS,15,3,Bo Wallace pass complete to Evan Engram for 11 yds to the t433 19 for a 1ST down,,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,72,2,900,433,66,7,3,1,10,81,PASS,15,4,Bo Wallace pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,,,0,0
+660433,73,2,900,433,66,7,3,2,10,81,PASS,15,5,Bo Wallace pass complete to Mark Dodson for 4 yds to the t433 23,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Mark Dodson,,,,,0,0
+660433,74,2,900,433,66,7,3,3,6,77,PASS,15,6,Bo Wallace pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,,,0,0
+660433,75,2,863,66,433,3,7,1,10,93,RUSH,16,1,TEAM run for a loss of 2 yards to the t66 5,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,TEAM,,,,,,,0,0
+660433,76,3,900,433,66,7,3,1,10,75,SACK,17,1,Bo Wallace sacked by Tyler Horn for a loss of 4 yards to the t433 21,,-4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,Tyler Horn,0,0
+660433,77,3,900,433,66,7,3,2,14,79,PASS,17,2,Bo Wallace pass complete to Jaylen Walton for 28 yds to the t433 49 for a 1ST down,,28,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Jaylen Walton,,,,,0,0
+660433,78,3,900,433,66,7,3,1,10,51,RUSH,17,3,I'Tavius Mathers run for 3 yds to the t66 48,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,79,3,900,433,66,7,3,2,7,48,RUSH,17,4,I'Tavius Mathers run for 6 yds to the t66 42,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,I'Tavius Mathers,,,,,,,0,0
+660433,80,3,900,433,66,7,3,3,1,42,RUSH,17,5,Bo Wallace run for 3 yds to the t66 39 for a 1ST down,,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,81,3,900,433,66,7,3,1,10,39,RUSH,17,6,Jordan Wilkins run for 1 yd to the t66 38,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordan Wilkins,,,,,,,0,0
+660433,82,3,900,433,66,7,3,2,9,38,PASS,17,7,Bo Wallace pass complete to Evan Engram for 11 yds to the t66 27 for a 1ST down,,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,83,3,900,433,66,7,3,1,10,27,RUSH,17,8,Jaylen Walton run for a loss of 2 yards to the t66 29,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jaylen Walton,,,,,,,0,0
+660433,84,3,900,433,66,7,3,2,12,29,PASS,17,9,Bo Wallace pass complete to Laquon Treadwell for 6 yds to the t66 23,,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,85,3,900,433,66,7,3,3,1,18,RUSH,17,10,Bo Wallace run for no gain to the t66 18,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,86,3,900,433,66,7,3,4,1,18,RUSH,17,11,DeVante Kincade run for a loss of 2 yards to the t66 20,,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DeVante Kincade,,,,,,,0,0
+660433,87,3,794,66,433,3,7,1,10,80,PASS,18,1,Grant Hedrick pass complete to Matt Miller for 11 yds to the t66 31 for a 1ST down,,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,88,3,794,66,433,3,7,1,10,69,RUSH,18,2,Grant Hedrick run for a loss of 3 yards to the t66 28,,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,89,3,794,66,433,3,7,2,13,72,PASS,18,3,Grant Hedrick pass complete to Matt Miller for 15 yds to the t66 43 for a 1ST down,,15,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,90,3,794,66,433,3,7,1,10,57,RUSH,18,4,Jay Ajayi run for 5 yds to the t66 48,,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,91,3,794,66,433,3,7,2,5,52,PASS,18,5,Matt Miller pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Matt Miller,,,,,,0,0
+660433,92,3,794,66,433,3,7,1,10,47,PASS,18,6,Grant Hedrick pass complete to Shane Williams-Rhodes for 4 yds to the t433 43,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,93,3,794,66,433,3,7,2,6,43,RUSH,18,7,Jay Ajayi run for 1 yd to the t433 42,,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,94,3,794,66,433,3,7,3,5,42,RUSH,18,8,Grant Hedrick run for 2 yds to the t433 40,,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,95,3,900,433,66,7,3,1,10,82,RUSH,19,1,Bo Wallace run for no gain to the t433 18,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,96,3,900,433,66,7,3,2,10,82,PASS,19,2,Bo Wallace pass complete to Jaylen Walton for 11 yds to the t433 29 for a 1ST down,,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Jaylen Walton,,,,,0,0
+660433,97,3,900,433,66,7,3,1,10,71,RUSH,19,3,Jaylen Walton run for a loss of 5 yards to the t433 24,,-5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jaylen Walton,,,,,,,0,0
+660433,98,3,900,433,66,7,3,2,15,76,PASS,19,4,Bo Wallace pass complete to Mark Dodson for a loss of 2 yards to the t433 22,,-2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Mark Dodson,,,,,0,0
+660433,99,3,900,433,66,7,3,3,17,78,PASS,19,5,Bo Wallace pass incomplete to Evan Engram,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Evan Engram,,,,,0,0
+660433,100,3,478,66,433,3,7,1,10,68,RUSH,20,1,Devan Demas run for 3 yds to the t66 35,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Devan Demas,,,,,,,0,0
+660433,101,3,478,66,433,3,7,2,7,65,PASS,20,2,Grant Hedrick pass complete to Matt Miller for 2 yds to the t66 37,,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,102,3,478,66,433,3,7,3,5,63,PASS,20,3,Grant Hedrick pass complete to Matt Miller for 20 yds to the t433 43 for a 1ST down,,20,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,103,3,478,66,433,3,7,1,10,43,PASS,20,4,Grant Hedrick pass complete to Shane Williams-Rhodes for 4 yds to the t433 39,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,104,3,478,66,433,3,7,2,6,39,RUSH,20,5,Grant Hedrick run for 11 yds to the t433 28 for a 1ST down,,11,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,105,3,478,66,433,3,7,1,10,28,PASS,20,6,Grant Hedrick pass complete to Shane Williams-Rhodes for no gain to the t433 28,,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,106,3,478,66,433,3,7,2,10,28,PASS,20,7,Grant Hedrick pass complete to Shane Williams-Rhodes for 5 yds to the t433 23,,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,107,3,478,66,433,3,7,3,5,23,RUSH,20,8,Jay Ajayi run for a loss of 3 yards to the t433 26,,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,108,3,900,433,66,7,6,1,10,75,PASS,21,1,Bo Wallace pass complete to Laquon Treadwell for 9 yds to the t433 34,,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,109,3,900,433,66,7,6,2,11,76,RUSH,21,2,Bo Wallace run for 10 yds to the t433 34,,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,110,4,900,433,66,7,6,3,1,66,RUSH,22,1,Bo Wallace run for 2 yds to the t433 36 for a 1ST down,,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,,0,0
+660433,111,4,900,433,66,7,6,1,10,64,RUSH,22,2,Jordan Wilkins run for 5 yds to the t433 41,,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordan Wilkins,,,,,,,0,0
+660433,112,4,900,433,66,7,6,2,5,59,RUSH,22,3,Jordan Wilkins run for 5 yds to the t433 46 for a 1ST down,,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordan Wilkins,,,,,,,0,0
+660433,113,4,900,433,66,7,6,1,15,50,SACK,22,4,Bo Wallace sacked by Armand Nance for a loss of 5 yards to the t433 45,,-5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bo Wallace,,,,,,Armand Nance,0,0
+660433,114,4,900,433,66,7,6,2,20,55,PASS,22,5,Bo Wallace pass complete to Laquon Treadwell for 12 yds to the t66 43,,12,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,115,4,900,433,66,7,6,3,8,43,PASS,22,6,Bo Wallace pass complete to Laquon Treadwell for 29 yds to the t66 14 for a 1ST down,,29,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,,,,,0,0
+660433,116,4,900,433,66,7,6,1,10,14,PASS,22,7,Bo Wallace pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,,,,,,0,0
+660433,117,4,900,433,66,14,6,2,10,14,PASS,22,8,"Bo Wallace pass complete to Laquon Treadwell for 14 yds for a TD, (Andrew Fletcher KICK)",,14,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Laquon Treadwell,Andrew Fletcher,,,,1,0
+660433,118,4,384,66,433,6,14,1,10,84,PASS,23,1,Grant Hedrick pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,,,0,0
+660433,119,4,384,66,433,6,14,2,10,84,PASS,23,2,Grant Hedrick pass complete to Jake Roh for 9 yds to the t66 25,,9,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jake Roh,,,,,0,0
+660433,120,4,384,66,433,6,14,3,1,75,RUSH,23,3,Jay Ajayi run for 2 yds to the t66 27 for a 1ST down,,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,121,4,384,66,433,6,14,1,10,73,PASS,23,4,Grant Hedrick pass complete to Shane Williams-Rhodes for a loss of 2 yards to the t66 25,,-2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,122,4,384,66,433,6,14,2,17,80,PASS,23,5,Grant Hedrick pass intercepted Tony Conner return for no gain to the t66 40,,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,Tony Conner,,0,0
+660433,123,4,900,433,66,14,6,1,10,40,RUSH,24,1,Jordan Wilkins run for 9 yds to the t66 31,,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jordan Wilkins,,,,,,,0,0
+660433,124,4,900,433,66,21,6,2,1,31,PASS,24,2,"Bo Wallace pass complete to Quincy Adeboyejo for 31 yds for a TD, (Andrew Fletcher KICK)",,31,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Quincy Adeboyejo,Andrew Fletcher,,,,1,0
+660433,125,4,339,66,433,6,21,1,10,84,RUSH,25,1,Jay Ajayi run for 26 yds to the t66 42 for a 1ST down,,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,126,4,339,66,433,6,21,1,10,48,PASS,25,2,Grant Hedrick pass complete to Jay Ajayi for 2 yds to the t433 46,,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,127,4,339,66,433,6,21,2,8,46,PASS,25,3,Grant Hedrick pass complete to Jay Ajayi for 4 yds to the t433 42,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,128,4,339,66,433,6,21,3,4,42,SACK,25,4,Grant Hedrick sacked by Deterrian Shackelford for a loss of 15 yards to the t66 43,,-15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,Deterrian Shackelford,0,0
+660433,129,4,900,433,66,28,6,1,10,76,PASS,26,1,"Bo Wallace pass complete to Cody Core for 76 yds for a TD, (Andrew Fletcher KICK)",,76,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Cody Core,Andrew Fletcher,,,,1,0
+660433,130,4,285,66,433,6,28,1,10,73,PASS,27,1,Grant Hedrick pass complete to Jay Ajayi for 7 yds to the t66 34,,7,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,131,4,285,66,433,6,28,2,3,66,RUSH,27,2,Jay Ajayi run for 11 yds to the t66 45 for a 1ST down,,11,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Jay Ajayi,,,,,,,0,0
+660433,132,4,285,66,433,6,28,1,10,55,PASS,27,3,Grant Hedrick pass complete to Jay Ajayi for 11 yds to the t433 44 for a 1ST down,,11,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,133,4,285,66,433,6,28,1,10,44,PASS,27,4,Grant Hedrick pass complete to Jake Roh for 4 yds to the t433 40,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jake Roh,,,,,0,0
+660433,134,4,285,66,433,6,28,2,6,40,PASS,27,5,Grant Hedrick pass incomplete to Matt Miller,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Matt Miller,,,,,0,0
+660433,135,4,285,66,433,6,28,3,6,40,PASS,27,6,Grant Hedrick pass complete to Shane Williams-Rhodes for 16 yds to the t433 24 for a 1ST down,,16,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,136,4,285,66,433,6,28,1,10,24,RUSH,27,7,Grant Hedrick run for 8 yds to the t433 16,,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,137,4,285,66,433,6,28,2,2,16,PASS,27,8,Grant Hedrick pass incomplete to Jay Ajayi,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,138,4,285,66,433,6,28,3,2,16,PASS,27,9,Grant Hedrick pass incomplete,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,,,,,,0,0
+660433,139,4,285,66,433,6,28,4,2,16,PASS,27,10,Grant Hedrick pass complete to Shane Williams-Rhodes for 4 yds to the t433 12 for a 1ST down,,4,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,140,4,285,66,433,6,28,1,10,12,PASS,27,11,Grant Hedrick pass complete to Shane Williams-Rhodes for 4 yds to the t433 8,,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Shane Williams-Rhodes,,,,,0,0
+660433,141,4,285,66,433,13,28,2,6,8,PASS,27,12,"Grant Hedrick pass complete to Jay Ajayi for 8 yds for a TD, (Dan Goodale KICK)",,8,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,Dan Goodale,,,,1,0
+660433,142,4,900,433,66,28,13,1,10,40,RUSH,28,1,Mark Dodson run for no gain to the t66 40,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Mark Dodson,,,,,,,0,0
+660433,143,4,900,433,66,28,13,2,10,40,RUSH,28,2,Mark Dodson run for a loss of 1 yard to the t66 41,,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Mark Dodson,,,,,,,0,0
+660433,144,4,900,433,66,28,13,3,11,41,PASS,28,3,Bo Wallace pass complete to Mark Dodson for 13 yds to the t66 28 for a 1ST down,,13,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Bo Wallace,Mark Dodson,,,,,0,0
+660433,145,4,900,433,66,28,13,1,10,28,RUSH,28,4,Mark Dodson run for 9 yds to the t66 19,,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Mark Dodson,,,,,,,0,0
+660433,146,4,900,433,66,35,13,2,1,19,RUSH,28,5,"Mark Dodson run for 19 yds for a TD, (Andrew Fletcher KICK)",,19,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Mark Dodson,,,Andrew Fletcher,,,,1,0
+660433,147,4,72,66,433,13,35,1,10,72,PASS,29,1,Grant Hedrick pass complete to Jay Ajayi for 2 yds to the t66 30,,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,148,4,72,66,433,13,35,2,8,70,RUSH,29,2,Grant Hedrick run for 20 yds to the 50 yard line for a 1ST down,,20,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,,0,0
+660433,149,4,72,66,433,13,35,1,10,50,PASS,29,3,Grant Hedrick pass complete to Jay Ajayi for 3 yds to the t433 47,,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0
+660433,150,4,72,66,433,13,35,2,7,47,SACK,29,4,Grant Hedrick sacked by John Youngblood for a loss of 6 yards to the t66 47,,-6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,John Youngblood,0,0
+660433,151,4,72,66,433,13,35,3,13,53,SACK,29,5,Grant Hedrick sacked by Marquis Haynes for a loss of 15 yards to the t66 32,,-15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Grant Hedrick,,,,,,Marquis Haynes,0,0
+660433,152,4,72,66,433,13,35,4,28,68,PASS,29,6,Grant Hedrick pass complete to Jay Ajayi for 15 yds to the t66 47,,15,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Grant Hedrick,Jay Ajayi,,,,,0,0

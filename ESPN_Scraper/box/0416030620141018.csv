@@ -1,0 +1,115 @@
+FIRST QUARTER,,MSU,IND
+,TD,9:56,"Jeremy Langford 32 Yd Run (Michael Geiger Kick)Drive info: 6 plays, 69 yds in 3:11",7,0
+,FG,2:41,"Griffin Oakes 27 Yd Field Goal  Drive info: 5 plays, 65 yds in 2:06",7,3
+SECOND QUARTER,,MSU,IND
+,TD,12:21,"Josiah Price 10 Yd pass from Connor Cook (Michael Geiger Kick)Drive info: 12 plays, 78 yds in 5:20",14,3
+,TD,12:07,"Shane Wynn 75 Yd Run (Griffin Oakes Kick)Drive info: 1 plays, 75 yds in 0:14",14,10
+,TD,5:25,"Zander Diamont 9 Yd Run (Griffin Oakes Kick)Drive info: 2 plays, 39 yds in 0:30",14,17
+,TD,3:59,"Jeremy Langford 8 Yd Run (Michael Geiger Kick)Drive info: 3 plays, 75 yds in 1:26",21,17
+,TD,1:14,"Macgarrett Kings Jr. 14 Yd pass from Connor Cook (Michael Geiger Kick)Drive info: 7 plays, 68 yds in 1:19",28,17
+THIRD QUARTER,,MSU,IND
+,TD,7:52,"R.J. Shelton 4 Yd pass from Connor Cook (Michael Geiger Kick)Drive info: 9 plays, 79 yds in 3:51",35,17
+FOURTH QUARTER,,MSU,IND
+,TD,14:14,"Jeremy Langford 12 Yd Run (Michael Geiger Kick)Drive info: 8 plays, 55 yds in 4:08",42,17
+,TD,5:06,"Delton Williams 22 Yd Run (Michael Geiger Kick)Drive info: 10 plays, 77 yds in 6:17",49,17
+,TD,1:24,"Nick Hill 76 Yd Run (Michael Geiger Kick)Drive info: 3 plays, 80 yds in 1:38",56,17
+,,MSU,IND
+1st Downs,30,7
+3rd down efficiency,10-16,1-12
+4th down efficiency,0-0,0-0
+Total Yards,662,224
+Passing,332,11
+Comp-Att,24-32,5-16
+Yards per pass,10.4,0.7
+Rushing,330,213
+Rushing Attempts,51,33
+Yards per rush,6.5,6.5
+Penalties,3-37,4-25
+Turnovers,1,1
+Fumbles lost,0,1
+Interceptions thrown,1,0
+Possession,39:24,20:36
+Michigan State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Connor Cook,24/32,332,10.4,3,1,93.1
+Team,24/32,332,10.4,3,1,--
+Indiana Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Zander Diamont,5/15,11,0.7,0,0,7.9
+Nate Boudrea,0/1,0,0.0,0,0,0.4
+Team,5/16,11,0.7,0,0,--
+Michigan State Rushing
+,CAR,YDS,AVG,TD,LG
+Nick Hill,16,178,11.1,1,76
+Jeremy Langford,21,109,5.2,3,32
+Delton Williams,5,55,11.0,1,23
+Connor Cook,3,8,2.7,0,9
+R.J. Shelton,1,5,5.0,0,5
+Aaron Burbridge,1,4,4.0,0,4
+Macgarrett Kings Jr.,1,-5,-5.0,0,0
+Team,51,330,6.5,5,76
+Indiana Rushing
+,CAR,YDS,AVG,TD,LG
+Tevin Coleman,15,132,8.8,0,65
+Shane Wynn,1,75,75.0,1,75
+Devine Redding,3,14,4.7,0,14
+"u""D'Angelo Roberts""",3,8,2.7,0,8
+Myles Graham,1,-4,-4.0,0,0
+Zander Diamont,10,-12,-1.2,1,9
+Team,33,213,6.5,2,75
+Michigan State Receiving
+,REC,YDS,AVG,TD,LG
+Tony Lippett,7,123,17.6,0,41
+Josiah Price,3,83,27.7,1,67
+Macgarrett Kings Jr.,6,59,9.8,1,17
+Aaron Burbridge,5,48,9.6,0,18
+R.J. Shelton,3,19,6.3,1,8
+Team,24,332,13.8,3,67
+Indiana Receiving
+,REC,YDS,AVG,TD,LG
+Simmie Cobbs Jr.,1,13,13.0,0,13
+Tevin Coleman,2,6,3.0,0,6
+Nick Stoner,1,-3,-3.0,0,0
+Jordan Fuchs,1,-5,-5.0,0,-5
+Team,5,11,2.2,0,13
+Michigan State Interceptions
+,INT,YDS,TD
+No Interception Information
+Indiana Interceptions
+,INT,YDS,TD
+Tegray Scales,1,3,0
+Team,1,3,0
+Michigan State Kick Returns
+,NO,YDS,AVG,LG,TD
+R.J. Shelton,2,34,17.0,22,0
+Team,2,34,17.0,22,0
+Indiana Kick Returns
+,NO,YDS,AVG,LG,TD
+J-Shun Harris II,2,51,25.5,26,0
+Shane Wynn,1,19,19.0,19,0
+Simmie Cobbs Jr.,1,15,15.0,15,0
+Team,4,85,21.3,26,0
+Michigan State Punt Returns
+,NO,YDS,AVG,LG,TD
+Macgarrett Kings Jr.,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,0,0
+Indiana Punt Returns
+,NO,YDS,AVG,LG,TD
+Shane Wynn,1,14,14.0,14,0
+Team,1,14,14.0,14,0
+Michigan State Kicking
+,FG,PCT,LG,XP,PTS
+Michael Geiger,0/1,0.0,0,8/8,8
+Team,0/1,0.0,0,8/8,8
+Indiana Kicking
+,FG,PCT,LG,XP,PTS
+Griffin Oakes,1/1,100.0,27,2/2,5
+Team,1/1,100.0,27,2/2,5
+Michigan State Punting
+,NO,YDS,AVG,TB,-20,LG
+Mike Sadler,4,182,45.5,1,1,53
+Team,4,182,45.5,1,1,53
+Indiana Punting
+,NO,YDS,AVG,TB,-20,LG
+Erich Toth,10,399,39.9,0,0,50
+Team,10,399,39.9,0,0,50

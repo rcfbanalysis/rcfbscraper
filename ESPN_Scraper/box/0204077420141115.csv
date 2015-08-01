@@ -1,0 +1,116 @@
+FIRST QUARTER,,EMU,WMU
+,TD,14:48,Darius Phillips 93 Yd Kickoff Return (Andrew Haldeman Kick),0,7
+,TD,7:58,"Corey Davis 54 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 7 plays, 96 yds in 3:52",0,14
+,TD,4:56,"Daniel Braverman 11 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 2 plays, 69 yds in 0:33",0,21
+,TD,1:27,"Jarvion Franklin 54 Yd pass from Zach Terrell (Andrew Haldeman PAT failed)Drive info: 3 plays, 77 yds in 1:15",0,27
+SECOND QUARTER,,EMU,WMU
+,TD,12:13,"Zach Terrell 1 Yd Run (Andrew Haldeman Kick)Drive info: 6 plays, 58 yds in 2:40",0,34
+,TD,5:11,"Dareyon Chance 1 Yd Run (Andrew Haldeman Kick)Drive info: 9 plays, 56 yds in 4:49",0,41
+,TD,0:43,"Daniel Braverman 13 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 8 plays, 69 yds in 3:18",0,48
+THIRD QUARTER,,EMU,WMU
+,FG,5:39,"Andrew Haldeman 31 Yd Field Goal  Drive info: 13 plays, 55 yds in 6:18",0,51
+,TD,4:03,"Bronson Hill 76 Yd pass from Reginald Bell Jr. (Dylan Mulder Kick)Drive info: 5 plays, 77 yds in 1:36",7,51
+,,EMU,WMU
+1st Downs,15,22
+3rd down efficiency,5-13,10-14
+4th down efficiency,0-1,0-0
+Total Yards,370,497
+Passing,283,360
+Comp-Att,14-22,18-20
+Yards per pass,12.9,18.0
+Rushing,87,137
+Rushing Attempts,37,42
+Yards per rush,2.4,3.3
+Penalties,8-70,1-10
+Turnovers,3,0
+Fumbles lost,1,0
+Interceptions thrown,2,0
+Possession,26:56,33:04
+Eastern Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Reginald Bell,14/22,283,12.9,1,2,19.2
+Team,14/22,283,12.9,1,2,--
+Western Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Zach Terrell,17/19,357,18.8,4,0,100.0
+Cameron Thomas,1/1,3,3.0,0,0,2.8
+Team,18/20,360,18.0,4,0,--
+Eastern Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Reginald Bell,19,33,1.7,0,15
+Bronson Hill,8,29,3.6,0,9
+Ryan Brumfield,6,11,1.8,0,4
+Tyler Allen,2,11,5.5,0,7
+Darius Jackson,2,3,1.5,0,3
+Team,37,87,2.4,0,15
+Western Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Dareyon Chance,14,53,3.8,1,15
+Fabian Johnson,13,44,3.4,0,14
+Zach Terrell,6,41,6.8,1,14
+Jarvion Franklin,5,26,5.2,0,14
+Cameron Thomas,1,-3,-3.0,0,0
+Darius Phillips,1,-14,-14.0,0,0
+Team,42,137,3.3,2,15
+Eastern Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Tyreese Russell,4,98,24.5,0,29
+Bronson Hill,1,76,76.0,1,76
+Cole Gardner,2,33,16.5,0,17
+"u""Kray'shawn Brewer""",3,33,11.0,0,18
+Darius Jackson,1,14,14.0,0,14
+David Gibson,1,12,12.0,0,12
+Tyler Allen,1,9,9.0,0,9
+Austin Stone,1,8,8.0,0,8
+Team,14,283,20.2,1,76
+Western Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Corey Davis,4,134,33.5,1,54
+Kendrick Roberts,2,71,35.5,0,58
+Jarvion Franklin,1,54,54.0,1,54
+Daniel Braverman,7,50,7.1,2,16
+Darius Phillips,2,36,18.0,0,33
+Dareyon Chance,1,8,8.0,0,8
+Eric Boyden,1,7,7.0,0,7
+Team,18,360,20.0,4,58
+Eastern Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Western Michigan Interceptions
+,INT,YDS,TD
+Deontae Brown,1,9,0
+Ronald Zamort,1,0,0
+Team,2,9,0
+Eastern Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Allen,5,81,16.2,21,0
+Kenny Jones,3,56,18.7,21,0
+Team,8,137,17.1,21,0
+Western Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Phillips,2,112,56.0,93,1
+Team,2,112,56.0,93,1
+Eastern Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Dustin Creel,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,0,0
+Western Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Daniel Braverman,2,2,1.0,2,0
+Team,2,2,1.0,2,0
+Eastern Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Dylan Mulder,0/0,0.0,0,1/1,1
+Team,0/0,0.0,0,1/1,1
+Western Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Haldeman,1/1,100.0,31,6/7,9
+Team,1/1,100.0,31,6/7,9
+Eastern Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Owen Dubiel,6,219,36.5,0,1,44
+Team,6,219,36.5,0,1,44
+Western Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+J. Schroeder,3,134,44.7,0,1,52
+Team,3,134,44.7,0,1,52

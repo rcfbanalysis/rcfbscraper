@@ -1,0 +1,125 @@
+FIRST QUARTER,,WVU,MD
+,TD,11:33,"Rushel Shell 1 Yd Run (Josh Lambert Kick)Drive info: 10 plays, 75 yds in 3:27",7,0
+,TD,0:17,"Mario Alford 43 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 6 plays, 80 yds in 1:55",14,0
+SECOND QUARTER,,WVU,MD
+,FG,12:33,"Brad Craddock 46 Yd Field Goal  Drive info: 10 plays, 49 yds in 2:39",14,3
+,TD,11:51,"Kevin White 44 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 3 plays, 49 yds in 0:36",21,3
+,FG,8:36,"Brad Craddock 41 Yd Field Goal  Drive info: 11 plays, 52 yds in 3:15",21,6
+,TD,6:09,"Mario Alford 36 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 7 plays, 89 yds in 2:16",28,6
+,TD,5:52,"Stefon Diggs 77 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 1 plays, 77 yds in 0:11",28,13
+,TD,0:40,"Jacquille Veii 26 Yd pass from Caleb Rowe (Brad Craddock Kick)Drive info: 4 plays, 51 yds in 0:44",28,20
+THIRD QUARTER,,WVU,MD
+,TD,14:46,"C.J. Brown 75 Yd Run (Brad Craddock Kick)Drive info: 1 plays, 75 yds in 0:14",28,27
+,SF,6:30,Team Safety ,30,27
+,TD,3:53,"Daikiel Shorts 11 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 8 plays, 56 yds in 2:31",37,27
+FOURTH QUARTER,,WVU,MD
+,FG,11:14,"Brad Craddock 30 Yd Field Goal  Drive info: 4 plays, -3 yds in 1:45",37,30
+,TD,9:43,"William Likely 69 Yd Punt Return (Brad Craddock Kick)Drive info: 3 plays, -3 yds in 1:24",37,37
+,FG,0:00,"Josh Lambert 47 Yd Field Goal  Drive info: 13 plays, 65 yds in 2:35",40,37
+,,WVU,MD
+1st Downs,33,16
+3rd down efficiency,11-24,4-15
+4th down efficiency,2-4,0-0
+Total Yards,694,447
+Passing,511,284
+Comp-Att,37-49,21-38
+Yards per pass,10.4,7.5
+Rushing,183,163
+Rushing Attempts,59,27
+Yards per rush,3.1,6.0
+Penalties,4-40,7-71
+Turnovers,4,1
+Fumbles lost,3,0
+Interceptions thrown,1,1
+Possession,36:12,24:58
+West Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Clint Trickett,37/49,511,10.4,4,1,81.6
+Team,37/49,511,10.4,4,1,--
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+C.J. Brown,19/35,241,6.9,1,1,51.7
+Caleb Rowe,2/3,43,14.3,1,0,100.0
+Team,21/38,284,7.5,2,1,--
+West Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Rushel Shell,27,98,3.6,1,22
+Wendell Smallwood,10,28,2.8,0,8
+Dreamius Smith,7,24,3.4,0,7
+Andrew Buie,6,23,3.8,0,7
+Dustin Garrison,2,12,6.0,0,10
+Elijah Wellman,1,2,2.0,0,2
+Clint Trickett,6,-4,-0.7,0,7
+Team,59,183,3.1,1,22
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+C.J. Brown,18,161,8.9,1,75
+Albert Reid,3,4,1.3,0,3
+Jacquille Veii,1,3,3.0,0,3
+Brandon Ross,4,0,0.0,0,6
+Kenneth Goins Jr.,1,-5,-5.0,0,0
+Team,27,163,6.0,1,75
+West Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Kevin White,13,216,16.6,1,44
+Mario Alford,11,131,11.9,2,43
+Wendell Smallwood,4,72,18.0,0,50
+Daikiel Shorts,4,62,15.5,1,19
+Dustin Garrison,1,13,13.0,0,13
+Cody Clay,1,10,10.0,0,10
+Rushel Shell,3,7,2.3,0,6
+Team,37,511,13.8,4,50
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Stefon Diggs,5,127,25.4,1,77
+Brandon Ross,5,50,10.0,0,16
+Deon Long,4,39,9.8,0,19
+Jacquille Veii,1,26,26.0,1,26
+Albert Reid,3,22,7.3,0,12
+Marcus Leak,2,20,10.0,0,15
+Andrew Isaacs,1,0,0.0,0,0
+Team,21,284,13.5,2,77
+West Virginia Interceptions
+,INT,YDS,TD
+Daryl Worley,1,0,0
+Team,1,0,0
+Maryland Interceptions
+,INT,YDS,TD
+William Likely,1,1,0
+Team,1,1,0
+West Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+Mario Alford,4,62,15.5,22,0
+Rushel Shell,1,25,25.0,25,0
+Team,5,87,17.4,25,0
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+Stefon Diggs,2,43,21.5,22,0
+Jacquille Veii,1,13,13.0,13,0
+Team,3,56,18.7,22,0
+West Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Jordan Thompson,3,19,6.3,17,0
+Jarrod Harper,1,18,18.0,18,0
+Team,4,37,9.3,18,0
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+William Likely,1,69,69.0,69,1
+Team,1,69,69.0,69,1
+West Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambert,1/2,50.0,47,5/5,8
+Team,1/2,50.0,47,5/5,8
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,3/3,100.0,46,4/4,13
+Team,3/3,100.0,46,4/4,13
+West Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Nick O'Toole""",3,125,41.7,0,0,49
+Team,3,125,41.7,0,0,49
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,7,335,47.9,2,3,64
+- Team,1,0,0.0,0,0,0
+Team,8,335,41.9,2,3,64

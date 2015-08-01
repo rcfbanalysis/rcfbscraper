@@ -1,0 +1,111 @@
+FIRST QUARTER,,IND,OSU
+,TD,13:49,"Ezekiel Elliott 65 Yd Run (Sean Nuernberger Kick)Drive info: 3 plays, 76 yds in 1:11",0,7
+,TD,8:28,"Jeff Heuerman 4 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 9 plays, 65 yds in 4:34",0,14
+,TD,6:41,"Tevin Coleman 2 Yd Run (Griffin Oakes Kick)Drive info: 5 plays, 65 yds in 1:47",7,14
+,FG,4:41,"Griffin Oakes 30 Yd Field Goal  Drive info: 6 plays, 18 yds in 1:51",10,14
+SECOND QUARTER,,IND,OSU
+,FG,9:34,"Griffin Oakes 37 Yd Field Goal  Drive info: 7 plays, 59 yds in 2:54",13,14
+THIRD QUARTER,,IND,OSU
+,TD,7:17,"Tevin Coleman 90 Yd Run (Griffin Oakes Kick)Drive info: 1 plays, 90 yds in 0:13",20,14
+,TD,2:20,"Jalin Marshall 54 Yd Punt Return (Sean Nuernberger Kick)Drive info: 3 plays, 3 yds in 1:05",20,21
+FOURTH QUARTER,,IND,OSU
+,TD,13:03,"Jalin Marshall 6 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 11 plays, 76 yds in 3:33",20,28
+,TD,4:21,"Jalin Marshall 15 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 1 plays, 15 yds in 0:04",20,35
+,TD,2:49,"Jalin Marshall 54 Yd pass from J.T. Barrett (Sean Nuernberger Kick)Drive info: 1 plays, 54 yds in 0:09",20,42
+,TD,1:13,"Tevin Coleman 52 Yd Run (Griffin Oakes Kick)Drive info: 3 plays, 71 yds in 1:36",27,42
+,,IND,OSU
+1st Downs,13,24
+3rd down efficiency,4-16,7-14
+4th down efficiency,0-0,1-1
+Total Yards,395,527
+Passing,114,302
+Comp-Att,11-27,25-35
+Yards per pass,4.2,8.6
+Rushing,281,225
+Rushing Attempts,36,39
+Yards per rush,7.8,5.8
+Penalties,2-10,3-25
+Turnovers,1,3
+Fumbles lost,0,1
+Interceptions thrown,1,2
+Possession,26:18,33:42
+Indiana Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Zander Diamont,11/27,114,4.2,0,1,26.5
+Team,11/27,114,4.2,0,1,--
+Ohio State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+J.T. Barrett,25/35,302,8.6,4,2,49.8
+Team,25/35,302,8.6,4,2,--
+Indiana Rushing
+,CAR,YDS,AVG,TD,LG
+Tevin Coleman,27,228,8.4,3,90
+Zander Diamont,6,42,7.0,0,53
+Shane Wynn,1,6,6.0,0,6
+Devine Redding,1,6,6.0,0,6
+"u""D'Angelo Roberts""",1,-1,-1.0,0,0
+Team,36,281,7.8,3,90
+Ohio State Rushing
+,CAR,YDS,AVG,TD,LG
+Ezekiel Elliott,13,107,8.2,1,65
+J.T. Barrett,20,78,3.9,0,20
+Curtis Samuel,6,40,6.7,0,15
+Team,39,225,5.8,1,65
+Indiana Receiving
+,REC,YDS,AVG,TD,LG
+Shane Wynn,7,93,13.3,0,49
+Dominique Booth,2,18,9.0,0,10
+Tevin Coleman,2,3,1.5,0,5
+Team,11,114,10.4,0,49
+Ohio State Receiving
+,REC,YDS,AVG,TD,LG
+Jalin Marshall,5,95,19.0,3,54
+Jeff Heuerman,5,74,14.8,1,32
+Devin Smith,3,46,15.3,0,33
+Ezekiel Elliott,7,39,5.6,0,14
+Michael Thomas,2,22,11.0,0,16
+Nick Vannett,1,15,15.0,0,15
+Curtis Samuel,1,8,8.0,0,8
+Corey Smith,1,3,3.0,0,3
+Team,25,302,12.1,4,54
+Indiana Interceptions
+,INT,YDS,TD
+Antonio Allen,2,18,0
+Team,2,18,0
+Ohio State Interceptions
+,INT,YDS,TD
+Tyvis Powell,1,20,0
+Team,1,20,0
+Indiana Kick Returns
+,NO,YDS,AVG,LG,TD
+J-Shun Harris II,2,40,20.0,28,0
+Ricky Jones,1,20,20.0,20,0
+Team,3,60,20.0,28,0
+Ohio State Kick Returns
+,NO,YDS,AVG,LG,TD
+Curtis Samuel,2,44,22.0,24,0
+Team,2,44,22.0,24,0
+Indiana Punt Returns
+,NO,YDS,AVG,LG,TD
+Shane Wynn,1,9,9.0,9,0
+Team,1,9,9.0,9,0
+Ohio State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jalin Marshall,2,56,28.0,54,1
+Team,2,56,28.0,54,1
+Indiana Kicking
+,FG,PCT,LG,XP,PTS
+Griffin Oakes,2/2,100.0,37,3/3,9
+Team,2/2,100.0,37,3/3,9
+Ohio State Kicking
+,FG,PCT,LG,XP,PTS
+Sean Nuernberger,0/1,0.0,0,6/6,6
+Team,0/1,0.0,0,6/6,6
+Indiana Punting
+,NO,YDS,AVG,TB,-20,LG
+Erich Toth,10,449,44.9,1,3,57
+Team,10,449,44.9,1,3,57
+Ohio State Punting
+,NO,YDS,AVG,TB,-20,LG
+Cameron Johnston,5,249,49.8,0,3,58
+Team,5,249,49.8,0,3,58

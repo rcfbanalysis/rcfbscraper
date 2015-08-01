@@ -1,0 +1,108 @@
+FIRST QUARTER,,RICE,MRSH
+,FG,2:18,"Justin Haig 33 Yd Field Goal  Drive info: 14 plays, 55 yds in 5:55",0,3
+SECOND QUARTER,,RICE,MRSH
+,TD,12:29,"Ryan Yurachek 2 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 11 plays, 59 yds in 3:42",0,10
+,TD,6:56,"Hyleck Foster 25 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 8 plays, 85 yds in 3:02",0,17
+,TD,2:04,"Jowan Davis 3 Yd Run (James Hairston Kick)Drive info: 4 plays, 17 yds in 1:49",7,17
+,FG,0:18,"Justin Haig 21 Yd Field Goal  Drive info: 6 plays, 68 yds in 1:46",7,20
+THIRD QUARTER,,RICE,MRSH
+,TD,9:29,"Eric Frohnapfel 30 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 6 plays, 74 yds in 1:58",7,27
+,TD,3:36,"Devon Johnson 2 Yd Run (Justin Haig Kick)Drive info: 10 plays, 50 yds in 3:35",7,34
+FOURTH QUARTER,,RICE,MRSH
+,TD,9:45,"Deon-Tay McManus 7 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 10 plays, 94 yds in 5:12",7,41
+,TD,5:16,"Darik Dillard 10 Yd Run (James Hairston Kick)Drive info: 11 plays, 75 yds in 4:29",14,41
+,,RICE,MRSH
+1st Downs,15,30
+3rd down efficiency,3-12,12-16
+4th down efficiency,0-1,0-0
+Total Yards,180,581
+Passing,99,297
+Comp-Att,11-23,23-37
+Yards per pass,4.3,8.0
+Rushing,81,284
+Rushing Attempts,35,44
+Yards per rush,2.3,6.5
+Penalties,2-19,7-70
+Turnovers,0,2
+Fumbles lost,0,1
+Interceptions thrown,0,1
+Possession,26:15,33:45
+Rice Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Driphus Jackson,11/23,99,4.3,0,0,8.9
+Team,11/23,99,4.3,0,0,--
+Marshall Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Rakeem Cato,23/37,297,8.0,4,1,77.4
+Team,23/37,297,8.0,4,1,--
+Rice Rushing
+,CAR,YDS,AVG,TD,LG
+Jowan Davis,19,76,4.0,1,8
+Darik Dillard,6,24,4.0,1,10
+Darrion Pollard,1,1,1.0,0,1
+Driphus Jackson,8,-19,-2.4,0,4
+Team,35,81,2.3,2,10
+Marshall Rushing
+,CAR,YDS,AVG,TD,LG
+Devon Johnson,27,199,7.4,1,42
+Steward Butler,9,60,6.7,0,30
+Rakeem Cato,5,12,2.4,0,11
+Remi Watson,2,8,4.0,0,5
+Tony Pittman,1,5,5.0,0,5
+Team,44,284,6.5,1,42
+Rice Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Taylor,9,88,9.8,0,18
+Darik Dillard,1,9,9.0,0,9
+Luke Turner,1,2,2.0,0,2
+Team,11,99,9.0,0,18
+Marshall Receiving
+,REC,YDS,AVG,TD,LG
+Eric Frohnapfel,6,107,17.8,1,38
+Tommy Shuler,8,79,9.9,0,18
+Ryan Yurachek,4,31,7.8,1,15
+Hyleck Foster,1,25,25.0,1,25
+Steward Butler,1,21,21.0,0,21
+Angelo Jean-Louis,1,17,17.0,0,17
+Deon-Tay McManus,2,17,8.5,1,10
+Team,23,297,12.9,4,38
+Rice Interceptions
+,INT,YDS,TD
+Bryce Callahan,1,28,0
+Team,1,28,0
+Marshall Interceptions
+,INT,YDS,TD
+No Interception Information
+Rice Kick Returns
+,NO,YDS,AVG,LG,TD
+Darik Dillard,1,19,19.0,19,0
+Darrion Pollard,1,18,18.0,18,0
+Team,2,37,18.5,19,0
+Marshall Kick Returns
+,NO,YDS,AVG,LG,TD
+Deandre Reaves,2,43,21.5,26,0
+Team,2,43,21.5,26,0
+Rice Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Marshall Punt Returns
+,NO,YDS,AVG,LG,TD
+Tommy Shuler,2,24,12.0,24,0
+Rodney Allen,1,-6,-6.0,-6,0
+Team,3,18,6.0,24,0
+Rice Kicking
+,FG,PCT,LG,XP,PTS
+James Hairston,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+Marshall Kicking
+,FG,PCT,LG,XP,PTS
+Justin Haig,2/2,100.0,33,5/5,11
+Team,2/2,100.0,33,5/5,11
+Rice Punting
+,NO,YDS,AVG,TB,-20,LG
+James Farrimond,8,288,36.0,0,2,41
+Team,8,288,36.0,0,2,41
+Marshall Punting
+,NO,YDS,AVG,TB,-20,LG
+Tyler Williams,2,85,42.5,0,1,48
+Team,2,85,42.5,0,1,48

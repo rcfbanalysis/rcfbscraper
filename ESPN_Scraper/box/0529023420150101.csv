@@ -1,0 +1,115 @@
+FIRST QUARTER,,ORE,FSU
+,FG,9:06,"Roberto Aguayo 28 Yd Field Goal  Drive info: 10 plays, 48 yds in 4:43",0,3
+,TD,6:55,"Royce Freeman 1 Yd Run (Taylor Alie Pass to Christian French for Two-Point Conversion)Drive info: 9 plays, 73 yds in 2:11",8,3
+SECOND QUARTER,,ORE,FSU
+,FG,10:12,"Aidan Schneider 28 Yd Field Goal  Drive info: 19 plays, 88 yds in 4:45",11,3
+,FG,5:18,"Roberto Aguayo 26 Yd Field Goal  Drive info: 13 plays, 65 yds in 4:54",11,6
+,TD,2:18,"Thomas Tyner 1 Yd Run (Aidan Schneider Kick)Drive info: 10 plays, 75 yds in 3:00",18,6
+,TD,0:36,"Karlos Williams 10 Yd Run (Roberto Aguayo Kick)Drive info: 6 plays, 71 yds in 1:42",18,13
+THIRD QUARTER,,ORE,FSU
+,TD,11:54,"Royce Freeman 3 Yd Run (Aidan Schneider Kick)Drive info: 5 plays, 69 yds in 1:32",25,13
+,TD,8:07,"Travis Rudolph 18 Yd pass from Jameis Winston (Roberto Aguayo Kick)Drive info: 10 plays, 75 yds in 3:47",25,20
+,TD,6:43,"Darren Carrington 56 Yd pass from Marcus Mariota (Aidan Schneider Kick)Drive info: 5 plays, 81 yds in 1:24",32,20
+,TD,4:21,"Darren Carrington 30 Yd pass from Marcus Mariota (Aidan Schneider Kick)Drive info: 2 plays, 43 yds in 0:21",39,20
+,TD,1:36,Tony Washington 58 Yd Fumble Return (Aidan Schneider PAT blocked),45,20
+FOURTH QUARTER,,ORE,FSU
+,TD,13:56,"Marcus Mariota 23 Yd Run (Aidan Schneider Kick)Drive info: 6 plays, 43 yds in 2:01",52,20
+,TD,10:13,"Thomas Tyner 21 Yd Run (Aidan Schneider Kick)Drive info: 4 plays, 57 yds in 2:23",59,20
+,,ORE,FSU
+1st Downs,30,28
+3rd down efficiency,7-12,6-16
+4th down efficiency,1-2,0-2
+Total Yards,639,528
+Passing,338,348
+Comp-Att,26-36,29-48
+Yards per pass,9.4,7.3
+Rushing,301,180
+Rushing Attempts,45,39
+Yards per rush,6.7,4.6
+Penalties,6-50,6-48
+Turnovers,2,5
+Fumbles lost,1,4
+Interceptions thrown,1,1
+Possession,27:17,32:43
+Oregon Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Marcus Mariota,26/36,338,9.4,2,1,73.4
+Team,26/36,338,9.4,2,1,--
+Florida State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jameis Winston,29/45,348,7.7,1,1,45.2
+Sean Maguire,0/3,0,0.0,0,0,0.5
+Team,29/48,348,7.3,1,1,--
+Oregon Rushing
+,CAR,YDS,AVG,TD,LG
+Thomas Tyner,13,124,9.5,2,23
+Marcus Mariota,8,62,7.8,1,23
+Royce Freeman,12,44,3.7,2,8
+Kani Benoit,4,40,10.0,0,35
+Kenny Bassett,4,25,6.3,0,18
+Charles Nelson,0,14,0.0,0,14
+Byron Marshall,1,0,0.0,0,0
+Jeff Lockie,2,-6,-3.0,0,0
+Team,45,301,6.7,5,35
+Florida State Rushing
+,CAR,YDS,AVG,TD,LG
+Dalvin Cook,15,103,6.9,0,20
+Karlos Williams,12,80,6.7,1,21
+Ryan Green,2,7,3.5,0,6
+Mario Pender,2,5,2.5,0,3
+Jameis Winston,8,-15,-1.9,0,6
+Team,39,180,4.6,1,21
+Oregon Receiving
+,REC,YDS,AVG,TD,LG
+Darren Carrington,7,165,23.6,2,56
+Evan Baylis,6,73,12.2,0,30
+Charles Nelson,4,40,10.0,0,15
+Dwayne Stanford,2,21,10.5,0,14
+Byron Marshall,5,20,4.0,0,13
+Royce Freeman,2,19,9.5,0,15
+Team,26,338,13.0,2,56
+Florida State Receiving
+,REC,YDS,AVG,TD,LG
+Travis Rudolph,6,96,16.0,1,20
+Jesus Wilson,5,72,14.4,0,23
+Karlos Williams,5,59,11.8,0,24
+Rashad Greene,6,59,9.8,0,18
+Dalvin Cook,3,24,8.0,0,11
+Ermon Lane,2,22,11.0,0,17
+Freddie Stevenson,1,12,12.0,0,12
+"u""Nick O'Leary""",1,4,4.0,0,4
+Team,29,348,12.0,1,24
+Oregon Interceptions
+,INT,YDS,TD
+Erick Dargan,1,0,0
+Team,1,0,0
+Florida State Interceptions
+,INT,YDS,TD
+Nate Andrews,1,0,0
+Team,1,0,0
+Oregon Kick Returns
+,NO,YDS,AVG,LG,TD
+Byron Marshall,2,28,14.0,14,0
+Devon Allen,1,20,20.0,20,0
+Team,3,48,16.0,20,0
+Florida State Kick Returns
+,NO,YDS,AVG,LG,TD
+Kermit Whitfield,6,131,21.8,35,0
+Jesus Wilson,3,55,18.3,22,0
+Team,9,186,20.7,35,0
+Oregon Kicking
+,FG,PCT,LG,XP,PTS
+Aidan Schneider,1/1,100.0,28,6/7,9
+Team,1/1,100.0,28,6/7,9
+Florida State Kicking
+,FG,PCT,LG,XP,PTS
+Roberto Aguayo,2/3,66.7,28,2/2,8
+Team,2/3,66.7,28,2/2,8
+Oregon Punting
+,NO,YDS,AVG,TB,-20,LG
+Ian Wheeler,2,77,38.5,0,1,40
+Team,2,77,38.5,0,1,40
+Florida State Punting
+,NO,YDS,AVG,TB,-20,LG
+Cason Beatty,4,134,33.5,0,1,38
+Team,4,134,33.5,0,1,38

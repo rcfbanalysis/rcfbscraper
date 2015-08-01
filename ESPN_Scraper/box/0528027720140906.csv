@@ -1,0 +1,117 @@
+FIRST QUARTER,,ORST,HAW
+,TD,10:12,"Richard Mullaney 4 Yd pass from Sean Mannion (Garrett Owens Kick)Drive info: 5 plays, 84 yds in 2:17",7,0
+,TD,6:15,"Connor Hamlett 5 Yd pass from Sean Mannion (Garrett Owens Kick)Drive info: 5 plays, 60 yds in 2:56",14,0
+SECOND QUARTER,,ORST,HAW
+,TD,13:30,"Terron Ward 32 Yd Run (Garrett Owens Kick)Drive info: 5 plays, 52 yds in 2:25",21,0
+,TD,10:52,"Joey Iosefa 2 Yd Run (Tyler Hadden Kick)Drive info: 3 plays, 6 yds in 0:41",21,7
+,FG,6:12,"Garrett Owens 27 Yd Field Goal  Drive info: 12 plays, 65 yds in 4:40",24,7
+,TD,1:31,"Terron Ward 2 Yd Run (Garrett Owens Kick)Drive info: 7 plays, 84 yds in 3:38",31,7
+THIRD QUARTER,,ORST,HAW
+,TD,10:56,"Victor Bolden 8 Yd pass from Sean Mannion (Garrett Owens Kick)Drive info: 8 plays, 52 yds in 4:04",38,7
+FOURTH QUARTER,,ORST,HAW
+,TD,14:55,"Joey Iosefa 1 Yd Run (Tyler Hadden Kick)Drive info: 11 plays, 55 yds in 2:36",38,14
+,TD,12:07,"Joey Iosefa 5 Yd Run (Two-Point Pass Conversion Failed)Drive info: 3 plays, 16 yds in 0:48",38,20
+,FG,10:55,"Tyler Hadden 33 Yd Field Goal  Drive info: 4 plays, 6 yds in 1:03",38,23
+,TD,1:35,"Ikaika Woolsey 2 Yd Run (Tyler Hadden Kick)Drive info: 6 plays, 87 yds in 1:02",38,30
+,,ORST,HAW
+1st Downs,22,20
+3rd down efficiency,5-15,5-19
+4th down efficiency,0-0,3-4
+Total Yards,464,336
+Passing,300,236
+Comp-Att,26-37,20-51
+Yards per pass,8.1,4.6
+Rushing,164,100
+Rushing Attempts,36,33
+Yards per rush,4.6,3.0
+Penalties,13-99,12-108
+Turnovers,2,2
+Fumbles lost,1,1
+Interceptions thrown,1,1
+Possession,35:40,24:20
+Oregon State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sean Mannion,26/37,300,8.1,3,1,74.0
+Team,26/37,300,8.1,3,1,--
+Hawaii Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Ikaika Woolsey,20/50,236,4.7,0,1,25.5
+Joey Iosefa,0/1,0,0.0,0,0,16.9
+Team,20/51,236,4.6,0,1,--
+Oregon State Rushing
+,CAR,YDS,AVG,TD,LG
+Terron Ward,15,124,8.3,2,35
+Storm Barrs-Woods,10,35,3.5,0,20
+Rahmel Dockery,2,10,5.0,0,6
+Victor Bolden,3,8,2.7,0,5
+Sean Mannion,3,-7,-2.3,0,7
+Team,36,164,4.6,2,35
+Hawaii Rushing
+,CAR,YDS,AVG,TD,LG
+Joey Iosefa,19,54,2.8,3,14
+Ikaika Woolsey,8,31,3.9,1,18
+Steven Lakalaka,6,15,2.5,0,6
+Team,33,100,3.0,4,18
+Oregon State Receiving
+,REC,YDS,AVG,TD,LG
+Victor Bolden,11,119,10.8,1,40
+Connor Hamlett,4,59,14.8,1,37
+Storm Barrs-Woods,4,41,10.3,0,28
+Caleb Smith,1,27,27.0,0,27
+Hunter Jarmon,1,22,22.0,0,22
+Richard Mullaney,3,18,6.0,1,7
+Jordan Villamin,1,8,8.0,0,8
+Terron Ward,1,6,6.0,0,6
+Team,26,300,11.5,3,40
+Hawaii Receiving
+,REC,YDS,AVG,TD,LG
+Marcus Kemp,5,102,20.4,0,41
+Quinton Pedroza,6,62,10.3,0,20
+Scott Harding,3,33,11.0,0,15
+Joey Iosefa,3,31,10.3,0,16
+Justin Vele,2,5,2.5,0,4
+Keelan Ewaliko,1,3,3.0,0,3
+Team,20,236,11.8,0,41
+Oregon State Interceptions
+,INT,YDS,TD
+Steven Nelson,1,0,0
+Team,1,0,0
+Hawaii Interceptions
+,INT,YDS,TD
+TJ Taimatuia,1,11,0
+Team,1,11,0
+Oregon State Kick Returns
+,NO,YDS,AVG,LG,TD
+Rahmel Dockery,1,20,20.0,20,0
+Team,1,20,20.0,20,0
+Hawaii Kick Returns
+,NO,YDS,AVG,LG,TD
+Dee Maggitt,1,33,33.0,33,0
+Diocemy Saint Juste,3,22,7.3,15,0
+Quinton Pedroza,1,11,11.0,11,0
+Team,4,66,16.5,33,0
+Oregon State Punt Returns
+,NO,YDS,AVG,LG,TD
+Rahmel Dockery,1,15,15.0,15,0
+Team,1,15,15.0,15,0
+Hawaii Punt Returns
+,NO,YDS,AVG,LG,TD
+Scott Harding,1,22,22.0,22,0
+Lance Williams,1,9,9.0,9,0
+Team,2,31,15.5,22,0
+Oregon State Kicking
+,FG,PCT,LG,XP,PTS
+Garrett Owens,1/1,100.0,27,5/5,8
+Team,1/1,100.0,27,5/5,8
+Hawaii Kicking
+,FG,PCT,LG,XP,PTS
+Tyler Hadden,1/1,100.0,33,3/3,6
+Team,1/1,100.0,33,3/3,6
+Oregon State Punting
+,NO,YDS,AVG,TB,-20,LG
+Keith Kostol,6,243,40.5,0,4,47
+Team,6,243,40.5,0,4,47
+Hawaii Punting
+,NO,YDS,AVG,TB,-20,LG
+Scott Harding,7,300,42.9,0,1,55
+Team,7,300,42.9,0,1,55

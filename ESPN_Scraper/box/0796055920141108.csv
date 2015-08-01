@@ -1,0 +1,116 @@
+FIRST QUARTER,,WIS,PUR
+,FG,8:18,"Paul Griggs 40 Yd Field Goal  Drive info: 14 plays, 58 yds in 6:42",0,3
+,TD,2:35,"Melvin Gordon 14 Yd Run (Rafael Gaglianone Kick)Drive info: 6 plays, 37 yds in 2:06",7,3
+SECOND QUARTER,,WIS,PUR
+,FG,14:56,"Paul Griggs 53 Yd Field Goal  Drive info: 6 plays, 23 yds in 2:39",7,6
+,FG,12:16,"Rafael Gaglianone 24 Yd Field Goal  Drive info: 5 plays, 52 yds in 2:40",10,6
+,TD,5:13,"Melvin Gordon 27 Yd pass from Joel Stave (Rafael Gaglianone Kick)Drive info: 10 plays, 90 yds in 5:24",17,6
+,TD,0:32,"Alex Erickson 9 Yd pass from Joel Stave (Rafael Gaglianone Kick)Drive info: 10 plays, 80 yds in 2:29",24,6
+THIRD QUARTER,,WIS,PUR
+,FG,13:53,"Paul Griggs 52 Yd Field Goal  Drive info: 4 plays, 0 yds in 0:21",24,9
+,TD,9:35,"Akeem Hunt 79 Yd pass from Austin Appleby (Paul Griggs Kick)Drive info: 3 plays, 84 yds in 1:30",24,16
+,TD,1:05,"Tanner McEvoy 13 Yd Run (Rafael Gaglianone Kick)Drive info: 4 plays, 58 yds in 1:27",31,16
+FOURTH QUARTER,,WIS,PUR
+,FG,7:05,"Rafael Gaglianone 31 Yd Field Goal  Drive info: 13 plays, 45 yds in 7:12",34,16
+,,WIS,PUR
+1st Downs,25,11
+3rd down efficiency,8-15,5-17
+4th down efficiency,0-1,0-2
+Total Yards,489,230
+Passing,225,204
+Comp-Att,20-30,17-37
+Yards per pass,7.5,5.5
+Rushing,264,26
+Rushing Attempts,42,26
+Yards per rush,6.3,1.0
+Penalties,4-40,2-15
+Turnovers,2,0
+Fumbles lost,1,0
+Interceptions thrown,1,0
+Possession,33:09,26:51
+Wisconsin Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Joel Stave,19/29,219,7.6,2,1,77.0
+Tanner McEvoy,1/1,6,6.0,0,0,99.9
+Team,20/30,225,7.5,2,1,--
+Purdue Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Austin Appleby,17/37,204,5.5,1,0,25.0
+Team,17/37,204,5.5,1,0,--
+Wisconsin Rushing
+,CAR,YDS,AVG,TD,LG
+Melvin Gordon,25,205,8.2,1,47
+Tanner McEvoy,4,42,10.5,1,18
+Corey Clement,8,23,2.9,0,8
+Dare Ogunbowale,2,-1,-0.5,0,2
+Joel Stave,1,-2,-2.0,0,0
+- Team,2,-3,-1.5,0,0
+Team,42,264,6.3,2,47
+Purdue Rushing
+,CAR,YDS,AVG,TD,LG
+Raheem Mostert,5,20,4.0,0,9
+Akeem Hunt,9,12,1.3,0,16
+Trae Hart,1,8,8.0,0,8
+Keyante Green,1,3,3.0,0,3
+Austin Appleby,10,-17,-1.7,0,6
+Team,26,26,1.0,0,16
+Wisconsin Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Fredrick,5,64,12.8,0,16
+Melvin Gordon,3,44,14.7,1,27
+Kenzel Doe,3,41,13.7,0,23
+Troy Fumagalli,1,28,28.0,0,28
+Alex Erickson,3,27,9.0,1,11
+Sam Arneson,2,14,7.0,0,8
+George Rushing,1,7,7.0,0,7
+Corey Clement,2,0,0.0,0,2
+Team,20,225,11.3,2,28
+Purdue Receiving
+,REC,YDS,AVG,TD,LG
+Akeem Hunt,5,81,16.2,1,79
+Trae Hart,2,39,19.5,0,31
+Raheem Mostert,4,28,7.0,0,9
+Gregory Phillips,2,26,13.0,0,21
+Gabe Holmes,2,22,11.0,0,19
+Cameron Posey,1,8,8.0,0,8
+Justin Sinz,1,0,0.0,0,0
+Team,17,204,12.0,1,79
+Wisconsin Interceptions
+,INT,YDS,TD
+No Interception Information
+Purdue Interceptions
+,INT,YDS,TD
+Landon Feichter,1,0,0
+Team,1,0,0
+Wisconsin Kick Returns
+,NO,YDS,AVG,LG,TD
+Kenzel Doe,2,72,36.0,36,0
+Team,2,72,36.0,36,0
+Purdue Kick Returns
+,NO,YDS,AVG,LG,TD
+Raheem Mostert,3,80,26.7,41,0
+Trae Hart,3,43,14.3,18,0
+Team,6,123,20.5,41,0
+Wisconsin Punt Returns
+,NO,YDS,AVG,LG,TD
+Kenzel Doe,2,29,14.5,20,0
+Team,2,29,14.5,20,0
+Purdue Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Wisconsin Kicking
+,FG,PCT,LG,XP,PTS
+Rafael Gaglianone,2/2,100.0,31,4/4,10
+Team,2/2,100.0,31,4/4,10
+Purdue Kicking
+,FG,PCT,LG,XP,PTS
+Paul Griggs,3/3,100.0,53,1/1,10
+Team,3/3,100.0,53,1/1,10
+Wisconsin Punting
+,NO,YDS,AVG,TB,-20,LG
+Drew Meyer,3,94,31.3,0,3,35
+Team,3,94,31.3,0,3,35
+Purdue Punting
+,NO,YDS,AVG,TB,-20,LG
+Thomas Meadows,7,293,41.9,1,1,53
+Team,7,293,41.9,1,1,53

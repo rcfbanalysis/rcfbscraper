@@ -1,0 +1,117 @@
+FIRST QUARTER,,UTAH,ORST
+,FG,11:08,"Andy Phillips 38 Yd Field Goal  Drive info: 4 plays, -1 yds in 1:07",3,0
+,FG,0:45,"Andy Phillips 43 Yd Field Goal  Drive info: 10 plays, 60 yds in 4:17",6,0
+SECOND QUARTER,,UTAH,ORST
+,FG,11:24,"Trevor Romaine 37 Yd Field Goal  Drive info: 5 plays, 15 yds in 1:53",6,3
+,FG,0:00,"Trevor Romaine 45 Yd Field Goal  Drive info: 6 plays, 0 yds in 0:31",6,6
+THIRD QUARTER,,UTAH,ORST
+,FG,10:20,"Andy Phillips 46 Yd Field Goal  Drive info: 7 plays, 54 yds in 2:21",9,6
+FOURTH QUARTER,,UTAH,ORST
+,TD,13:49,"Jordan Villamin 72 Yd pass from Sean Mannion (Trevor Romaine Kick)Drive info: 3 plays, 86 yds in 1:03",9,13
+,TD,4:06,"Devontae Booker 1 Yd Run (Andy Phillips Kick)Drive info: 9 plays, 94 yds in 3:35",16,13
+,FG,0:00,"Trevor Romaine 49 Yd Field Goal  Drive info: 11 plays, 51 yds",16,16
+OVERTIME,,UTAH,ORST
+,TD,0:00,"Devontae Booker 15 Yd Run (Andy Phillips Kick)Drive info: 5 plays, 25 yds",23,16
+,TD,0:00,"Jordan Villamin 2 Yd pass from Sean Mannion (Trevor Romaine Kick)Drive info: 5 plays, 25 yds",23,23
+2ND OVERTIME,,UTAH,ORST
+,TD,0:00,"Devontae Booker 19 Yd Run Drive info: 3 plays, 25 yds",29,23
+,,UTAH,ORST
+1st Downs,16,21
+3rd down efficiency,3-14,4-17
+4th down efficiency,1-1,2-3
+Total Yards,315,390
+Passing,62,272
+Comp-Att,9-18,21-37
+Yards per pass,3.4,7.4
+Rushing,253,118
+Rushing Attempts,46,46
+Yards per rush,5.5,2.6
+Penalties,6-67,9-75
+Turnovers,2,2
+Fumbles lost,1,1
+Interceptions thrown,1,1
+Possession,25:30,33:56
+Utah Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Travis Wilson,5/10,45,4.5,0,0,4.6
+Kendal Thompson,4/8,17,2.1,0,1,3.7
+Team,9/18,62,3.4,0,1,--
+Oregon State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sean Mannion,21/37,272,7.4,2,1,24.3
+Team,21/37,272,7.4,2,1,--
+Utah Rushing
+,CAR,YDS,AVG,TD,LG
+Devontae Booker,32,229,7.2,3,53
+Kendal Thompson,9,20,2.2,0,16
+Bubba Poole,1,7,7.0,0,7
+Travis Wilson,4,-3,-0.8,0,7
+Team,46,253,5.5,3,53
+Oregon State Rushing
+,CAR,YDS,AVG,TD,LG
+Terron Ward,23,69,3.0,0,12
+Storm Barrs-Woods,9,46,5.1,0,13
+Victor Bolden,1,27,27.0,0,27
+Chris Brown,6,22,3.7,0,9
+Rahmel Dockery,1,8,8.0,0,8
+Sean Mannion,6,-54,-9.0,0,0
+Team,46,118,2.6,0,27
+Utah Receiving
+,REC,YDS,AVG,TD,LG
+Dres Anderson,4,35,8.8,0,15
+Tim Patrick,2,19,9.5,0,13
+Westlee Tonga,1,11,11.0,0,11
+Devontae Booker,2,-3,-1.5,0,2
+Team,9,62,6.9,0,15
+Oregon State Receiving
+,REC,YDS,AVG,TD,LG
+Jordan Villamin,3,83,27.7,2,72
+Victor Bolden,4,75,18.8,0,52
+Terron Ward,6,45,7.5,0,12
+Ricky Ortiz,3,26,8.7,0,10
+Hunter Jarmon,1,20,20.0,0,20
+Connor Hamlett,2,15,7.5,0,12
+Tyler Anderson,1,5,5.0,0,5
+Caleb Smith,1,3,3.0,0,3
+Team,21,272,13.0,2,72
+Utah Interceptions
+,INT,YDS,TD
+Gionni Paul,1,0,0
+Team,1,0,0
+Oregon State Interceptions
+,INT,YDS,TD
+Dylan Wynn,1,0,0
+Team,1,0,0
+Utah Kick Returns
+,NO,YDS,AVG,LG,TD
+Dominique Hatfield,1,32,32.0,32,0
+Kaelin Clay,1,10,10.0,10,0
+Team,1,42,42.0,32,0
+Oregon State Kick Returns
+,NO,YDS,AVG,LG,TD
+Ryan Smith-Murphy,5,67,13.4,18,0
+Team,5,67,13.4,18,0
+Utah Punt Returns
+,NO,YDS,AVG,LG,TD
+Kaelin Clay,2,10,5.0,10,0
+Team,2,10,5.0,10,0
+Oregon State Punt Returns
+,NO,YDS,AVG,LG,TD
+Rahmel Dockery,2,0,0.0,1,0
+Team,2,0,0.0,1,0
+Utah Kicking
+,FG,PCT,LG,XP,PTS
+Andy Phillips,3/3,100.0,46,2/2,11
+Team,3/3,100.0,46,2/2,11
+Oregon State Kicking
+,FG,PCT,LG,XP,PTS
+Trevor Romaine,3/4,75.0,49,2/2,11
+Team,3/4,75.0,49,2/2,11
+Utah Punting
+,NO,YDS,AVG,TB,-20,LG
+Tom Hackett,7,302,43.1,1,5,51
+Team,7,302,43.1,1,5,51
+Oregon State Punting
+,NO,YDS,AVG,TB,-20,LG
+Keith Kostol,7,290,41.4,0,3,47
+Team,7,290,41.4,0,3,47

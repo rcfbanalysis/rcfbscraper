@@ -1,0 +1,122 @@
+FIRST QUARTER,,STAN,ORE
+,TD,10:52,"Charles Nelson 6 Yd pass from Marcus Mariota (Aidan Schneider Kick)Drive info: 14 plays, 75 yds in 4:08",0,7
+,FG,8:20,"Jordan Williamson 47 Yd Field Goal  Drive info: 7 plays, 33 yds in 2:32",3,7
+,TD,6:17,"Marcus Mariota 22 Yd Run (Aidan Schneider Kick)Drive info: 7 plays, 75 yds in 2:03",3,14
+,FG,0:35,"Jordan Williamson 43 Yd Field Goal  Drive info: 11 plays, 55 yds in 5:42",6,14
+SECOND QUARTER,,STAN,ORE
+,TD,11:50,"Thomas Tyner 1 Yd Run (Aidan Schneider Kick)Drive info: 13 plays, 75 yds in 3:45",6,21
+,FG,6:32,"Aidan Schneider 40 Yd Field Goal  Drive info: 10 plays, 52 yds in 2:01",6,24
+,TD,1:01,"Patrick Skov 1 Yd Run (Jordan Williamson Kick)Drive info: 12 plays, 75 yds in 5:31",13,24
+THIRD QUARTER,,STAN,ORE
+,FG,2:30,"Jordan Williamson 25 Yd Field Goal  Drive info: 10 plays, 52 yds in 5:50",16,24
+,TD,0:03,"Thomas Tyner 21 Yd Run (Aidan Schneider Kick)Drive info: 7 plays, 75 yds in 2:27",16,31
+FOURTH QUARTER,,STAN,ORE
+,TD,12:47,"Marcus Mariota 7 Yd Run (Aidan Schneider Kick)Drive info: 2 plays, 30 yds in 0:35",16,38
+,TD,9:20,"Darren Carrington 25 Yd pass from Marcus Mariota (Aidan Schneider Kick)Drive info: 6 plays, 58 yds in 2:32",16,45
+,,STAN,ORE
+1st Downs,24,30
+3rd down efficiency,6-13,8-13
+4th down efficiency,0-2,1-1
+Total Yards,428,525
+Passing,296,258
+Comp-Att,23-33,19-31
+Yards per pass,9.0,8.3
+Rushing,132,267
+Rushing Attempts,39,46
+Yards per rush,3.4,5.8
+Penalties,7-53,7-60
+Turnovers,2,1
+Fumbles lost,1,0
+Interceptions thrown,1,1
+Possession,35:38,24:22
+Stanford Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kevin Hogan,21/29,237,8.2,0,1,64.3
+Evan Crower,2/4,59,14.8,0,0,98.7
+Team,23/33,296,9.0,0,1,--
+Oregon Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Marcus Mariota,19/30,258,8.6,2,1,95.1
+Jeff Lockie,0/1,0,0.0,0,0,1.1
+Team,19/31,258,8.3,2,1,--
+Stanford Rushing
+,CAR,YDS,AVG,TD,LG
+Kevin Hogan,11,42,3.8,0,15
+Remound Wright,11,33,3.0,0,6
+Kelsey Young,4,28,7.0,0,15
+Ty Montgomery,3,26,8.7,0,16
+Patrick Skov,2,2,1.0,1,1
+Barry Sanders,6,2,0.3,0,5
+Christian McCaffrey,1,0,0.0,0,0
+- Team,1,-1,-1.0,0,0
+Team,39,132,3.4,1,16
+Oregon Rushing
+,CAR,YDS,AVG,TD,LG
+Royce Freeman,19,98,5.2,0,19
+Marcus Mariota,9,85,9.4,2,22
+Thomas Tyner,10,63,6.3,2,21
+Kani Benoit,3,11,3.7,0,6
+Charles Nelson,1,11,11.0,0,11
+Kenny Bassett,1,1,1.0,0,1
+Byron Marshall,1,1,1.0,0,1
+Team,46,267,5.8,4,22
+Stanford Receiving
+,REC,YDS,AVG,TD,LG
+Devon Cajuste,5,116,23.2,0,42
+Michael Rector,4,63,15.8,0,32
+Austin Hooper,5,62,12.4,0,27
+Ty Montgomery,7,35,5.0,0,12
+Kelsey Young,1,10,10.0,0,10
+Christian McCaffrey,1,10,10.0,0,10
+Team,23,296,12.9,0,42
+Oregon Receiving
+,REC,YDS,AVG,TD,LG
+Darren Carrington,4,58,14.5,1,25
+Royce Freeman,3,52,17.3,0,30
+Pharaoh Brown,2,36,18.0,0,30
+Keanon Lowe,2,31,15.5,0,22
+Devon Allen,2,30,15.0,0,22
+Dwayne Stanford,3,27,9.0,0,16
+Byron Marshall,2,18,9.0,0,14
+Charles Nelson,1,6,6.0,1,6
+Team,19,258,13.6,2,30
+Stanford Interceptions
+,INT,YDS,TD
+Alex Carter,1,0,0
+Team,1,0,0
+Oregon Interceptions
+,INT,YDS,TD
+Erick Dargan,1,0,0
+Team,1,0,0
+Stanford Kick Returns
+,NO,YDS,AVG,LG,TD
+Ty Montgomery,5,110,22.0,35,0
+Christian McCaffrey,1,29,29.0,29,0
+Team,6,139,23.2,35,0
+Oregon Kick Returns
+,NO,YDS,AVG,LG,TD
+Charles Nelson,1,17,17.0,17,0
+Team,1,17,17.0,17,0
+Stanford Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Oregon Punt Returns
+,NO,YDS,AVG,LG,TD
+Charles Nelson,1,2,2.0,2,0
+Team,1,2,2.0,2,0
+Stanford Kicking
+,FG,PCT,LG,XP,PTS
+Jordan Williamson,3/3,100.0,47,1/1,10
+Team,3/3,100.0,47,1/1,10
+Oregon Kicking
+,FG,PCT,LG,XP,PTS
+Aidan Schneider,1/1,100.0,40,6/6,9
+Team,1/1,100.0,40,6/6,9
+Stanford Punting
+,NO,YDS,AVG,TB,-20,LG
+Ben Rhyne,2,70,35.0,0,0,40
+Team,2,70,35.0,0,0,40
+Oregon Punting
+,NO,YDS,AVG,TB,-20,LG
+Ian Wheeler,2,75,37.5,0,0,41
+Team,2,75,37.5,0,0,41

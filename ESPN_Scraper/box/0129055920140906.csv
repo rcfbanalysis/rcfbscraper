@@ -1,0 +1,121 @@
+FIRST QUARTER,,CMU,PUR
+,TD,10:30,Brandon Greer 57 Yd Interception Return (Brian Eavey Kick),7,0
+,TD,7:29,"Anthony Rice 65 Yd pass from Cooper Rush (Brian Eavey Kick)Drive info: 4 plays, 76 yds in 1:30",14,0
+SECOND QUARTER,,CMU,PUR
+,TD,9:51,"Danny Etling 4 Yd Run (Paul Griggs Kick)Drive info: 17 plays, 77 yds in 7:43",14,7
+,TD,7:48,"Thomas Rawls 2 Yd Run (Brian Eavey Kick)Drive info: 4 plays, 73 yds in 2:03",21,7
+THIRD QUARTER,,CMU,PUR
+,FG,10:38,"Paul Griggs 42 Yd Field Goal  Drive info: 4 plays, 4 yds in 2:00",21,10
+,TD,7:03,"Ben McCord 11 Yd pass from Cooper Rush (Brian Eavey Kick)Drive info: 7 plays, 75 yds in 3:35",28,10
+FOURTH QUARTER,,CMU,PUR
+,FG,13:34,"Brian Eavey 23 Yd Field Goal  Drive info: 12 plays, 62 yds in 6:14",31,10
+,TD,8:13,"Danny Anthrop 23 Yd pass from Austin Appleby (Paul Griggs Kick)Drive info: 1 plays, 23 yds in 0:06",31,17
+,TD,3:44,"Thomas Rawls 16 Yd Run (Brian Eavey Kick)Drive info: 4 plays, 27 yds in 0:52",38,17
+,,CMU,PUR
+1st Downs,19,19
+3rd down efficiency,6-13,9-21
+4th down efficiency,0-0,2-5
+Total Yards,333,326
+Passing,172,204
+Comp-Att,11-16,24-49
+Yards per pass,10.8,4.2
+Rushing,161,122
+Rushing Attempts,43,34
+Yards per rush,3.7,3.6
+Penalties,1-5,7-69
+Turnovers,1,3
+Fumbles lost,0,1
+Interceptions thrown,1,2
+Possession,30:37,29:18
+Central Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cooper Rush,11/16,172,10.8,2,1,43.5
+Team,11/16,172,10.8,2,1,--
+Purdue Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Danny Etling,17/32,126,3.9,0,2,24.6
+Austin Appleby,7/17,78,4.6,1,0,21.2
+Team,24/49,204,4.2,1,2,--
+Central Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Thomas Rawls,31,155,5.0,2,16
+Devon Spalding,4,21,5.3,0,13
+Jesse Kroll,1,4,4.0,0,4
+Saylor Lavallii,1,4,4.0,0,4
+Cooper Rush,4,-20,-5.0,0,6
+Team,43,161,3.7,2,16
+Purdue Rushing
+,CAR,YDS,AVG,TD,LG
+Danny Etling,10,53,5.3,1,27
+Raheem Mostert,19,53,2.8,0,12
+Akeem Hunt,3,9,3.0,0,5
+Austin Appleby,2,7,3.5,0,9
+Team,34,122,3.6,1,27
+Central Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Anthony Rice,2,66,33.0,1,65
+Thomas Rawls,3,50,16.7,0,40
+Joe Bacci,1,21,21.0,0,21
+Courtney Williams,1,15,15.0,0,15
+Ben McCord,1,11,11.0,1,11
+Deon Butler,2,8,4.0,0,6
+Jesse Kroll,1,1,1.0,0,1
+Team,11,172,15.6,2,65
+Purdue Receiving
+,REC,YDS,AVG,TD,LG
+Dolapo Macarthy,3,33,11.0,0,13
+Raheem Mostert,5,31,6.2,0,11
+Justin Sinz,3,31,10.3,0,17
+Danny Anthrop,1,23,23.0,1,23
+Cameron Posey,2,22,11.0,0,16
+B.J. Knauf,3,19,6.3,0,9
+Akeem Hunt,3,16,5.3,0,9
+Gabe Holmes,2,15,7.5,0,8
+DeAngelo Yancey,1,9,9.0,0,9
+Gregory Phillips,1,5,5.0,0,5
+Team,24,204,8.5,1,23
+Central Michigan Interceptions
+,INT,YDS,TD
+Brandon Greer,1,57,1
+Jason Wilson,1,0,0
+Team,2,57,1
+Purdue Interceptions
+,INT,YDS,TD
+"u""Ja'Whan Bentley""",1,44,0
+Team,1,44,0
+Central Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Courtney Williams,2,37,18.5,22,0
+Team,2,37,18.5,22,0
+Purdue Kick Returns
+,NO,YDS,AVG,LG,TD
+Raheem Mostert,4,89,22.3,30,0
+Danny Anthrop,1,33,33.0,33,0
+Akeem Hunt,2,15,7.5,17,0
+Team,6,137,22.8,33,0
+Central Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Saylor Lavallii,1,-2,-2.0,-2,0
+Team,1,-2,-2.0,0,0
+Purdue Punt Returns
+,NO,YDS,AVG,LG,TD
+B.J. Knauf,2,26,13.0,21,0
+Frankie Williams,1,21,21.0,21,0
+Team,3,47,15.7,21,0
+Central Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Brian Eavey,1/1,100.0,23,5/5,8
+Team,1/1,100.0,23,5/5,8
+Purdue Kicking
+,FG,PCT,LG,XP,PTS
+Paul Griggs,1/2,50.0,42,2/2,5
+Team,1/2,50.0,42,2/2,5
+Central Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mills,4,122,30.5,0,0,44
+Ron Coluzzi,1,53,53.0,0,0,53
+Team,5,175,35.0,0,0,53
+Purdue Punting
+,NO,YDS,AVG,TB,-20,LG
+Thomas Meadows,4,148,37.0,0,1,45
+Team,4,148,37.0,0,1,45

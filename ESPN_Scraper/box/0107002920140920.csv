@@ -1,0 +1,121 @@
+FIRST QUARTER,,CAL,ARIZ
+,TD,14:17,"Daniel Lasco 44 Yd Run (James Langford Kick)Drive info: 3 plays, 75 yds in 0:43",7,0
+,TD,11:53,"Bryce Treggs 80 Yd pass from Jared Goff (James Langford Kick)Drive info: 1 plays, 80 yds in 0:13",14,0
+SECOND QUARTER,,CAL,ARIZ
+,FG,10:39,"Casey Skowron 39 Yd Field Goal  Drive info: 7 plays, 39 yds in 2:18",14,3
+,TD,8:55,"Stephen Anderson 26 Yd pass from Jared Goff (James Langford Kick)Drive info: 5 plays, 75 yds in 1:44",21,3
+,FG,5:28,"Casey Skowron 28 Yd Field Goal  Drive info: 13 plays, 65 yds in 3:27",21,6
+,TD,3:43,"Chris Harper 30 Yd pass from Jared Goff (James Langford Kick)Drive info: 4 plays, 75 yds in 1:45",28,6
+THIRD QUARTER,,CAL,ARIZ
+,TD,11:02,"Cayleb Jones 41 Yd pass from Anu Solomon (Casey Skowron Kick)Drive info: 8 plays, 96 yds in 1:54",28,13
+,FG,8:28,"James Langford 45 Yd Field Goal  Drive info: 9 plays, 48 yds in 2:34",31,13
+FOURTH QUARTER,,CAL,ARIZ
+,FG,14:46,"Casey Skowron 31 Yd Field Goal  Drive info: 7 plays, 39 yds in 2:04",31,16
+,TD,13:36,"Austin Hill 9 Yd pass from Anu Solomon (Casey Skowron Kick)Drive info: 2 plays, 17 yds in 0:32",31,23
+,TD,10:56,"Khalfani Muhammad 50 Yd Run (James Langford Kick)Drive info: 6 plays, 75 yds in 2:40",38,23
+,TD,8:09,"Cayleb Jones 16 Yd pass from Anu Solomon (Casey Skowron Kick)Drive info: 9 plays, 75 yds in 2:47",38,30
+,TD,5:21,"Khalfani Muhammad 6 Yd Run (James Langford Kick)Drive info: 6 plays, 75 yds in 2:48",45,30
+,TD,3:30,"Terris Jones-Grigsby 6 Yd Run (Casey Skowron Kick)Drive info: 8 plays, 75 yds in 1:51",45,37
+,TD,2:44,"Cayleb Jones 15 Yd pass from Anu Solomon (Two-Point Pass Conversion Failed)Drive info: 4 plays, 41 yds in 0:43",45,43
+,TD,0:00,"Austin Hill 47 Yd pass from Anu Solomon  Drive info: 6 plays, 70 yds in 0:52",45,49
+,,CAL,ARIZ
+1st Downs,24,36
+3rd down efficiency,6-14,7-22
+4th down efficiency,0-1,3-3
+Total Yards,573,627
+Passing,380,520
+Comp-Att,18-30,47-74
+Yards per pass,12.7,7.0
+Rushing,193,107
+Rushing Attempts,42,32
+Yards per rush,4.6,3.3
+Penalties,10-99,6-65
+Turnovers,2,2
+Fumbles lost,1,0
+Interceptions thrown,1,2
+Possession,28:52,31:08
+California Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jared Goff,18/30,380,12.7,3,1,82.2
+Team,18/30,380,12.7,3,1,--
+Arizona Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Anu Solomon,47/73,520,7.1,5,2,63.1
+Team,47/74,520,7.0,5,2,--
+California Rushing
+,CAR,YDS,AVG,TD,LG
+Daniel Lasco,20,123,6.2,1,44
+Khalfani Muhammad,11,95,8.6,2,50
+Luke Rubenzer,6,8,1.3,0,5
+Jared Goff,4,-28,-7.0,0,0
+Team,42,193,4.6,3,50
+Arizona Rushing
+,CAR,YDS,AVG,TD,LG
+Anu Solomon,16,46,2.9,0,14
+Nick Wilson,11,33,3.0,0,11
+Terris Jones-Grigsby,5,28,5.6,1,9
+Team,32,107,3.3,1,14
+California Receiving
+,REC,YDS,AVG,TD,LG
+Bryce Treggs,5,119,23.8,1,80
+Chris Harper,2,71,35.5,1,41
+Raymond Hudson,2,57,28.5,0,38
+Stephen Anderson,2,43,21.5,1,26
+Darius Powe,2,32,16.0,0,24
+Kenny Lawler,2,29,14.5,0,17
+Trevor Davis,2,20,10.0,0,11
+Khalfani Muhammad,1,9,9.0,0,9
+Team,18,380,21.1,3,80
+Arizona Receiving
+,REC,YDS,AVG,TD,LG
+Cayleb Jones,13,186,14.3,3,41
+Austin Hill,8,127,15.9,2,47
+Nate Phillips,8,80,10.0,0,16
+Trey Griffey,5,47,9.4,0,12
+"u""DaVonte' Neal""",5,41,8.2,0,23
+David Richards,1,15,15.0,0,15
+Nick Wilson,4,12,3.0,0,7
+Terris Jones-Grigsby,2,8,4.0,0,5
+Tyrell Johnson,1,4,4.0,0,4
+Team,47,520,11.1,5,47
+California Interceptions
+,INT,YDS,TD
+Griffin Piatt,1,7,0
+Avery Sebastian,1,0,0
+Team,2,7,0
+Arizona Interceptions
+,INT,YDS,TD
+"u""Tra'Mayne Bondurant""",1,24,0
+Team,1,24,0
+California Kick Returns
+,NO,YDS,AVG,LG,TD
+Raymond Hudson,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Arizona Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+California Punt Returns
+,NO,YDS,AVG,LG,TD
+Trevor Davis,2,18,9.0,24,0
+Chris Harper,2,4,2.0,7,0
+Team,4,22,5.5,24,0
+Arizona Punt Returns
+,NO,YDS,AVG,LG,TD
+"u""DaVonte' Neal""",1,-3,-3.0,-3,0
+Team,1,-3,-3.0,-3,0
+California Kicking
+,FG,PCT,LG,XP,PTS
+James Langford,1/2,50.0,45,6/6,9
+Team,1/2,50.0,45,6/6,9
+Arizona Kicking
+,FG,PCT,LG,XP,PTS
+Casey Skowron,3/4,75.0,39,4/4,13
+Team,3/4,75.0,39,4/4,13
+California Punting
+,NO,YDS,AVG,TB,-20,LG
+Cole Leininger,5,211,42.2,0,1,53
+Team,5,211,42.2,0,1,53
+Arizona Punting
+,NO,YDS,AVG,TB,-20,LG
+Drew Riggleman,6,300,50.0,2,2,59
+Team,6,300,50.0,2,2,59

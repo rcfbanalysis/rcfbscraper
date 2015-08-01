@@ -1,0 +1,115 @@
+FIRST QUARTER,,CSU,BSU
+,FG,11:55,"Jared Roberts 39 Yd Field Goal Drive info: 8 plays, 51 yds in 3:02",3,0
+,TD,9:12,"Jay Ajayi 8 Yd Run (Dan Goodale PAT blocked)Drive info: 9 plays, 75 yds in 2:46",3,6
+,TD,3:56,"Grant Hedrick 1 Yd Run (Dan Goodale Kick)Drive info: 12 plays, 70 yds in 4:16",3,13
+,TD,2:03,"Steven Walker 24 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 8 plays, 75 yds in 1:53",10,13
+SECOND QUARTER,,CSU,BSU
+,TD,13:18,"Jay Ajayi 14 Yd Run (Dan Goodale Kick)Drive info: 11 plays, 90 yds in 3:45",10,20
+,TD,1:45,"Jay Ajayi 21 Yd pass from Grant Hedrick (Dan Goodale Kick)Drive info: 4 plays, 68 yds in 1:00",10,27
+,FG,0:03,"Dan Goodale 23 Yd Field Goal  Drive info: 8 plays, 44 yds in 1:04",10,30
+THIRD QUARTER,,CSU,BSU
+,TD,3:54,"Matt Miller 44 Yd pass from Grant Hedrick (Dan Goodale Kick)Drive info: 8 plays, 88 yds in 2:50",10,37
+FOURTH QUARTER,,CSU,BSU
+,TD,12:15,"Joe Hansley 55 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 6 plays, 80 yds in 2:04",17,37
+,TD,7:20,"Jasen Oden Jr. 7 Yd pass from Garrett Grayson (Jared Roberts Kick)Drive info: 9 plays, 72 yds in 3:11",24,37
+,,CSU,BSU
+1st Downs,23,35
+3rd down efficiency,8-18,7-14
+4th down efficiency,1-2,0-1
+Total Yards,462,676
+Passing,434,352
+Comp-Att,31-58,22-33
+Yards per pass,7.5,10.7
+Rushing,28,324
+Rushing Attempts,23,56
+Yards per rush,1.2,5.8
+Penalties,2-20,10-101
+Turnovers,3,1
+Fumbles lost,1,0
+Interceptions thrown,2,1
+Possession,28:38,31:22
+Colorado State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Garrett Grayson,31/58,434,7.5,3,2,64.3
+Team,31/58,434,7.5,3,2,--
+Boise State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Grant Hedrick,22/33,352,10.7,2,1,86.2
+Team,22/33,352,10.7,2,1,--
+Colorado State Rushing
+,CAR,YDS,AVG,TD,LG
+Dee Hart,10,16,1.6,0,8
+Jasen Oden Jr.,2,7,3.5,0,4
+Treyous Jarrells,5,7,1.4,0,4
+Deionte Gaines,1,4,4.0,0,4
+Garrett Grayson,5,-6,-1.2,0,3
+Team,23,28,1.2,0,8
+Boise State Rushing
+,CAR,YDS,AVG,TD,LG
+Jay Ajayi,33,219,6.6,2,36
+Grant Hedrick,16,80,5.0,1,23
+Shane Williams-Rhodes,2,17,8.5,0,11
+Jack Fields,2,6,3.0,0,4
+Devan Demas,2,4,2.0,0,4
+Team,56,324,5.8,3,36
+Colorado State Receiving
+,REC,YDS,AVG,TD,LG
+Joe Hansley,7,149,21.3,1,55
+Rashard Higgins,11,143,13.0,0,21
+Steven Walker,5,55,11.0,1,24
+Charles Lovett,2,44,22.0,0,39
+Dee Hart,2,17,8.5,0,10
+Jasen Oden Jr.,2,13,6.5,1,7
+Jordon Vaden,2,13,6.5,0,8
+Team,31,434,14.0,3,55
+Boise State Receiving
+,REC,YDS,AVG,TD,LG
+Matt Miller,8,151,18.9,1,44
+Shane Williams-Rhodes,4,63,15.8,0,50
+Jay Ajayi,4,61,15.3,1,21
+Dallas Burroughs,2,27,13.5,0,16
+Troy Ware,2,25,12.5,0,13
+Jake Roh,1,17,17.0,0,17
+Jack Fields,1,8,8.0,0,8
+Team,22,352,16.0,2,50
+Colorado State Interceptions
+,INT,YDS,TD
+Trent Matthews,1,0,0
+Team,1,0,0
+Boise State Interceptions
+,INT,YDS,TD
+Jeremy Ioane,1,0,0
+Darian Thompson,1,0,0
+Team,2,0,0
+Colorado State Kick Returns
+,NO,YDS,AVG,LG,TD
+Deionte Gaines,4,88,22.0,29,0
+Team,4,88,22.0,29,0
+Boise State Kick Returns
+,NO,YDS,AVG,LG,TD
+Bryan Douglas,3,63,21.0,25,0
+Dallas Burroughs,1,25,25.0,25,0
+Team,4,88,22.0,25,0
+Colorado State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Boise State Punt Returns
+,NO,YDS,AVG,LG,TD
+Shane Williams-Rhodes,4,35,8.8,10,0
+Team,4,35,8.8,10,0
+Colorado State Kicking
+,FG,PCT,LG,XP,PTS
+Jared Roberts,1/1,100.0,39,3/3,6
+Team,1/1,100.0,39,3/3,6
+Boise State Kicking
+,FG,PCT,LG,XP,PTS
+Dan Goodale,1/1,100.0,23,4/5,7
+Team,1/1,100.0,23,4/5,7
+Colorado State Punting
+,NO,YDS,AVG,TB,-20,LG
+Hayden Hunt,5,244,48.8,1,0,56
+Team,5,244,48.8,1,0,56
+Boise State Punting
+,NO,YDS,AVG,TB,-20,LG
+Sean Wale,5,193,38.6,1,2,43
+Team,5,193,38.6,1,2,43

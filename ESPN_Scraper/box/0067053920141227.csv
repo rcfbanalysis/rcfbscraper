@@ -1,0 +1,111 @@
+FIRST QUARTER,,BC,PSU
+,TD,5:22,"Chris Godwin 72 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 3 plays, 70 yds in 1:01",0,7
+,TD,4:39,"Jon Hilliman 49 Yd Run (Mike Knoll Kick)Drive info: 2 plays, 52 yds in 0:43",7,7
+THIRD QUARTER,,BC,PSU
+,TD,8:07,"Shakim Phillips 19 Yd pass from Tyler Murphy (Mike Knoll Kick)Drive info: 11 plays, 60 yds in 6:53",14,7
+,TD,2:12,"Tyler Murphy 40 Yd Run (Mike Knoll Kick)Drive info: 4 plays, 63 yds in 1:58",21,7
+,TD,0:00,"Geno Lewis 7 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 6 plays, 63 yds in 2:12",21,14
+FOURTH QUARTER,,BC,PSU
+,TD,6:48,"DaeSean Hamilton 16 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 6 plays, 55 yds in 1:44",21,21
+,FG,2:10,"Mike Knoll 20 Yd Field Goal  Drive info: 11 plays, 69 yds in 4:38",24,21
+,FG,0:20,"Sam Ficken 45 Yd Field Goal  Drive info: 8 plays, 49 yds in 1:50",24,24
+OVERTIME,,BC,PSU
+,TD,0:00,"David Dudeck 21 Yd pass from Tyler Murphy (Mike Knoll PAT failed)Drive info: 3 plays, 25 yds",30,24
+,TD,0:00,"Kyle Carter 10 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 6 plays, 25 yds",30,31
+,,BC,PSU
+1st Downs,16,25
+3rd down efficiency,5-16,9-17
+4th down efficiency,2-3,0-0
+Total Yards,382,453
+Passing,97,371
+Comp-Att,11-20,34-50
+Yards per pass,4.9,7.4
+Rushing,285,82
+Rushing Attempts,46,29
+Yards per rush,6.2,2.8
+Penalties,8-70,10-60
+Turnovers,0,2
+Fumbles lost,0,2
+Interceptions thrown,0,0
+Possession,32:19,27:41
+Boston College Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyler Murphy,11/19,97,5.1,2,0,84.2
+Team,11/20,97,4.9,2,0,--
+Penn State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Christian Hackenberg,34/50,371,7.4,4,0,53.1
+Team,34/50,371,7.4,4,0,--
+Boston College Rushing
+,CAR,YDS,AVG,TD,LG
+Jon Hilliman,25,148,5.9,1,49
+Tyler Murphy,11,105,9.5,1,40
+Myles Willis,4,19,4.8,0,10
+Marcus Outlow,5,15,3.0,0,7
+Team,46,285,6.2,2,49
+Penn State Rushing
+,CAR,YDS,AVG,TD,LG
+Akeel Lynch,17,75,4.4,0,35
+Bill Belton,3,8,2.7,0,6
+Christian Hackenberg,8,0,0.0,0,8
+Saeed Blacknall,1,-1,-1.0,0,0
+Team,29,82,2.8,0,35
+Boston College Receiving
+,REC,YDS,AVG,TD,LG
+Shakim Phillips,3,40,13.3,1,19
+David Dudeck,1,21,21.0,1,21
+Marcus Outlow,3,18,6.0,0,12
+Dan Crimmins,2,8,4.0,0,5
+Sherman Alston,1,6,6.0,0,6
+Josh Bordner,1,4,4.0,0,4
+Team,11,97,8.8,2,21
+Penn State Receiving
+,REC,YDS,AVG,TD,LG
+Chris Godwin,7,140,20.0,1,72
+Geno Lewis,7,82,11.7,1,32
+DaeSean Hamilton,7,51,7.3,1,16
+Kyle Carter,3,30,10.0,1,11
+Jesse James,3,27,9.0,0,17
+Saeed Blacknall,1,15,15.0,0,15
+Bill Belton,3,14,4.7,0,7
+Akeel Lynch,3,12,4.0,0,8
+Team,34,371,10.9,4,72
+Boston College Interceptions
+,INT,YDS,TD
+No Interception Information
+Penn State Interceptions
+,INT,YDS,TD
+No Interception Information
+Boston College Kick Returns
+,NO,YDS,AVG,LG,TD
+Myles Willis,4,93,23.3,32,0
+Team,4,93,23.3,32,0
+Penn State Kick Returns
+,NO,YDS,AVG,LG,TD
+Grant Haley,2,38,19.0,24,0
+Von Walker,1,26,26.0,26,0
+Team,3,64,21.3,26,0
+Boston College Punt Returns
+,NO,YDS,AVG,LG,TD
+Sherman Alston,2,24,12.0,24,0
+Team,2,24,12.0,24,0
+Penn State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jesse Della Valle,1,2,2.0,2,0
+Team,1,2,2.0,2,0
+Boston College Kicking
+,FG,PCT,LG,XP,PTS
+Mike Knoll,1/1,100.0,20,3/4,6
+Team,1/1,100.0,20,3/4,6
+Penn State Kicking
+,FG,PCT,LG,XP,PTS
+Sam Ficken,1/1,100.0,45,4/4,7
+Team,1/1,100.0,45,4/4,7
+Boston College Punting
+,NO,YDS,AVG,TB,-20,LG
+Alex Howell,6,230,38.3,0,1,52
+Team,6,230,38.3,0,1,52
+Penn State Punting
+,NO,YDS,AVG,TB,-20,LG
+Daniel Pasquariello,6,207,34.5,1,2,42
+Team,6,207,34.5,1,2,42

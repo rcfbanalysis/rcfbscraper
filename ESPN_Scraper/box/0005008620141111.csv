@@ -1,0 +1,121 @@
+FIRST QUARTER,,AKR,BUFF
+,TD,14:37,"DeAndre Scott 37 Yd Interception Return (Robert Stein Kick)Drive info: 2 plays, 9 yds in 0:23",7,0
+,TD,4:59,"Matt Weiser 33 Yd pass from Jordan Johnson (Patrick Clarke Kick)Drive info: 12 plays, 80 yds in 5:34",7,7
+,TD,0:02,"Devin Campbell 6 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 7 plays, 80 yds in 3:38",7,14
+SECOND QUARTER,,AKR,BUFF
+,TD,9:30,"Tony Daniel 21 Yd Run (Patrick Clarke Kick)Drive info: 9 plays, 58 yds in 4:21",7,21
+,FG,5:14,"Robert Stein 33 Yd Field Goal  Drive info: 10 plays, 59 yds in 4:16",10,21
+,TD,0:15,"Jacob Martinez 17 Yd pass from Joe Licata (Patrick Clarke PAT failed)Drive info: 6 plays, 60 yds in 1:58",10,27
+THIRD QUARTER,,AKR,BUFF
+,TD,9:33,"Cody Grice 1 Yd Run (Robert Stein Kick)Drive info: 16 plays, 75 yds in 5:27",17,27
+,TD,6:42,"Ron Willoughby 42 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 4 plays, 61 yds in 2:51",17,34
+,TD,6:20,"Devin Campbell 24 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 1 plays, 24 yds in 0:06",17,41
+FOURTH QUARTER,,AKR,BUFF
+,TD,12:37,"Anthone Taylor 6 Yd Run (Patrick Clarke Kick)Drive info: 12 plays, 81 yds in 5:31",17,48
+,TD,9:41,"Jawon Chisholm 1 Yd Run (Robert Stein Kick)Drive info: 8 plays, 45 yds in 2:56",24,48
+,TD,1:43,"Jordan Johnson 16 Yd Run (Patrick Clarke Kick)Drive info: 5 plays, 25 yds in 2:44",24,55
+,,AKR,BUFF
+1st Downs,15,29
+3rd down efficiency,6-15,9-12
+4th down efficiency,2-3,1-2
+Total Yards,229,536
+Passing,161,226
+Comp-Att,19-35,17-23
+Yards per pass,4.6,9.8
+Rushing,68,310
+Rushing Attempts,30,54
+Yards per rush,2.3,5.7
+Penalties,9-98,7-75
+Turnovers,2,2
+Fumbles lost,2,1
+Interceptions thrown,0,1
+Possession,23:31,35:48
+Akron Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kyle Pohl,15/29,128,4.4,0,0,31.7
+Tommy Woodson,4/6,33,5.5,0,0,79.5
+Team,19/35,161,4.6,0,0,--
+Buffalo Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Joe Licata,16/21,193,9.2,4,1,77.9
+Jordan Johnson,1/1,33,33.0,1,0,100.0
+Tony Daniel,0/1,0,0.0,0,0,99.9
+Team,17/23,226,9.8,5,1,--
+Akron Rushing
+,CAR,YDS,AVG,TD,LG
+Chiz Chisholm,12,40,3.3,1,9
+Kyle Pohl,7,17,2.4,0,16
+Conor Hundley,5,8,1.6,0,4
+D.J. Jones,1,7,7.0,0,7
+Cody Grice,3,3,1.0,1,2
+Fransohn Bickley,1,-5,-5.0,0,0
+Team,30,68,2.3,2,16
+Buffalo Rushing
+,CAR,YDS,AVG,TD,LG
+Anthone Taylor,32,178,5.6,1,57
+Jordan Johnson,17,104,6.1,1,16
+Tony Daniel,3,24,8.0,1,21
+Joe Licata,2,4,2.0,0,6
+Team,54,310,5.7,3,57
+Akron Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Williams,4,37,9.3,0,22
+Andrew Pratt,3,32,10.7,0,18
+Fransohn Bickley,3,22,7.3,0,13
+Josh Smith,3,19,6.3,0,8
+Nick Bice,1,13,13.0,0,13
+Keith Sconiers,1,10,10.0,0,10
+"u""Zach D'Orazio""",2,10,5.0,0,5
+L.T. Smith,1,9,9.0,0,9
+Wade Edwards,1,9,9.0,0,9
+Team,19,161,8.5,0,22
+Buffalo Receiving
+,REC,YDS,AVG,TD,LG
+Ron Willoughby,6,95,15.8,1,42
+Matt Weiser,2,44,22.0,1,33
+Devin Campbell,2,30,15.0,2,24
+Jacob Martinez,3,25,8.3,1,17
+Jamarl Eiland,1,18,18.0,0,18
+Mason Schreck,2,10,5.0,0,8
+Anthone Taylor,1,4,4.0,0,4
+Team,17,226,13.3,5,42
+Akron Interceptions
+,INT,YDS,TD
+DeAndre Scott,1,37,1
+Team,1,37,1
+Buffalo Interceptions
+,INT,YDS,TD
+No Interception Information
+Akron Kick Returns
+,NO,YDS,AVG,LG,TD
+L.T. Smith,3,81,27.0,32,0
+Drew Phillips,2,28,14.0,14,0
+Team,5,109,21.8,32,0
+Buffalo Kick Returns
+,NO,YDS,AVG,LG,TD
+Jamarl Eiland,2,26,13.0,17,0
+Devin Campbell,1,19,19.0,19,0
+Team,3,45,15.0,19,0
+Akron Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Buffalo Punt Returns
+,NO,YDS,AVG,LG,TD
+Jacob Martinez,2,3,1.5,3,0
+Team,1,3,3.0,3,0
+Akron Kicking
+,FG,PCT,LG,XP,PTS
+Robert Stein,1/1,100.0,33,3/3,6
+Team,1/1,100.0,33,3/3,6
+Buffalo Kicking
+,FG,PCT,LG,XP,PTS
+Patrick Clarke,0/0,0.0,0,7/8,7
+Team,0/0,0.0,0,7/8,7
+Akron Punting
+,NO,YDS,AVG,TB,-20,LG
+Zach Paul,5,185,37.0,1,2,55
+Team,5,185,37.0,1,2,55
+Buffalo Punting
+,NO,YDS,AVG,TB,-20,LG
+Tyler Grassman,1,39,39.0,1,0,39
+Team,1,39,39.0,1,0,39

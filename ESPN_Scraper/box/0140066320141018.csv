@@ -1,0 +1,123 @@
+FIRST QUARTER,,CIN,SMU
+,TD,12:07,"Rod Moore 2 Yd Run (Andrew Gantz PAT failed)Drive info: 8 plays, 60 yds in 2:53",6,0
+,FG,4:47,"Cody Rademacher 29 Yd Field Goal  Drive info: 16 plays, 64 yds in 7:20",6,3
+SECOND QUARTER,,CIN,SMU
+,FG,11:20,"Andrew Gantz 40 Yd Field Goal  Drive info: 10 plays, 75 yds in 4:49",9,3
+,TD,4:25,"Jarred Evans 7 Yd Run (Two-Point Pass Conversion Failed)Drive info: 7 plays, 93 yds in 3:13",15,3
+,TD,1:38,"Johnny Holton 23 Yd pass from Gunner Kiel (Andrew Gantz Kick)Drive info: 6 plays, 73 yds in 1:48",22,3
+,TD,1:00,"Nick Temple 27 Yd Fumble Return (Two-Point Pass Conversion Failed)Drive info: 2 plays, 2 yds in 0:38",28,3
+THIRD QUARTER,,CIN,SMU
+,FG,7:11,"Andrew Gantz 30 Yd Field Goal  Drive info: 15 plays, 67 yds in 6:17",31,3
+FOURTH QUARTER,,CIN,SMU
+,TD,14:56,"Mike Boone 1 Yd Run (Andrew Gantz Kick)Drive info: 2 plays, 2 yds in 0:50",38,3
+,FG,9:55,"Andrew Gantz 21 Yd Field Goal  Drive info: 7 plays, 35 yds in 2:48",41,3
+,,CIN,SMU
+1st Downs,29,14
+3rd down efficiency,3-9,6-14
+4th down efficiency,1-1,1-3
+Total Yards,508,276
+Passing,268,178
+Comp-Att,17-27,20-37
+Yards per pass,9.9,4.8
+Rushing,240,98
+Rushing Attempts,46,24
+Yards per rush,5.2,4.1
+Penalties,6-69,7-74
+Turnovers,0,4
+Fumbles lost,0,2
+Interceptions thrown,0,2
+Possession,32:01,41:24
+Cincinnati Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Gunner Kiel,13/20,241,12.1,1,0,96.9
+Munchie Legaux,2/5,17,3.4,0,0,4.2
+Jarred Evans,2/2,10,5.0,0,0,98.9
+Team,17/27,268,9.9,1,0,--
+SMU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Garrett Krstich,17/31,172,5.5,0,2,28.3
+Matt Davis,3/6,6,1.0,0,0,64.9
+Team,20/37,178,4.8,0,2,--
+Cincinnati Rushing
+,CAR,YDS,AVG,TD,LG
+Jarred Evans,10,67,6.7,1,17
+Chad Banschbach,10,58,5.8,0,13
+Gunner Kiel,6,50,8.3,0,14
+Rodriguez Moore,12,47,3.9,1,19
+Mike Boone,5,18,3.6,1,8
+Munchie Legaux,3,0,0.0,0,7
+Team,46,240,5.2,3,19
+SMU Rushing
+,CAR,YDS,AVG,TD,LG
+Matt Davis,4,41,10.3,0,40
+Prescott Line,8,36,4.5,0,8
+Garrett Krstich,5,20,4.0,0,12
+Kevin Pope,1,3,3.0,0,3
+Luke Seeker,2,3,1.5,0,3
+Darius Durall,4,-5,-1.3,0,1
+Team,24,98,4.1,0,40
+Cincinnati Receiving
+,REC,YDS,AVG,TD,LG
+Casey Gladney,2,61,30.5,0,48
+Mekale McKay,2,56,28.0,0,39
+Shaq Washington,3,36,12.0,0,16
+Rodriguez Moore,1,27,27.0,0,27
+Johnny Holton,1,23,23.0,1,23
+Max Morrison,3,20,6.7,0,16
+Alex Chisum,2,17,8.5,0,14
+Nate Cole,1,12,12.0,0,12
+DJ Dowdy,1,9,9.0,0,9
+Chris Moore,1,7,7.0,0,7
+Team,17,268,15.8,1,48
+SMU Receiving
+,REC,YDS,AVG,TD,LG
+Nate Halverson,4,42,10.5,0,15
+Cedric Lancaster,2,40,20.0,0,36
+"u""Der'rikk Thompson""",3,31,10.3,0,14
+Stephen Nelson,1,21,21.0,0,21
+Darius Joseph,3,15,5.0,0,9
+Prescott Line,3,12,4.0,0,9
+Darius Durall,2,10,5.0,0,8
+Daijuan Stewart,2,7,3.5,0,8
+Team,20,178,8.9,0,36
+Cincinnati Interceptions
+,INT,YDS,TD
+Andre Jones,1,32,0
+Howard Wilder,1,0,0
+Team,2,32,0
+SMU Interceptions
+,INT,YDS,TD
+No Interception Information
+Cincinnati Kick Returns
+,NO,YDS,AVG,LG,TD
+Johnny Holton,2,56,28.0,40,0
+Team,2,56,28.0,40,0
+SMU Kick Returns
+,NO,YDS,AVG,LG,TD
+Deion Sanders Jr.,4,108,27.0,50,0
+Team,4,108,27.0,50,0
+Cincinnati Punt Returns
+,NO,YDS,AVG,LG,TD
+Shaq Washington,2,15,7.5,13,0
+Team,2,15,7.5,13,0
+SMU Punt Returns
+,NO,YDS,AVG,LG,TD
+Daijuan Stewart,2,0,0.0,0,0
+Team,2,0,0.0,0,0
+Cincinnati Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Gantz,3/3,100.0,40,2/3,11
+Team,3/3,100.0,40,2/3,11
+SMU Kicking
+,FG,PCT,LG,XP,PTS
+Cody Rademacher,1/1,100.0,29,0/0,3
+Team,1/1,100.0,29,0/0,3
+Cincinnati Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Geraci,2,65,32.5,0,0,39
+John Lloyd,1,42,42.0,0,1,42
+Team,3,107,35.7,0,1,42
+SMU Punting
+,NO,YDS,AVG,TB,-20,LG
+Jackson Koonce,4,171,42.8,1,1,46
+Team,4,171,42.8,1,1,46

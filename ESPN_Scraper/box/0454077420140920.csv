@@ -1,0 +1,115 @@
+FIRST QUARTER,,MURR,WMU
+,TD,10:12,"Corey Davis 17 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 9 plays, 66 yds in 4:48",0,7
+,TD,8:03,"Marcus Holliday 3 Yd Run (Carson Greifenkamp Kick)Drive info: 7 plays, 70 yds in 2:09",7,7
+SECOND QUARTER,,MURR,WMU
+,TD,10:25,"Jarvion Franklin 7 Yd Run (Andrew Haldeman Kick)Drive info: 12 plays, 95 yds in 6:07",7,14
+,TD,4:41,"Jarvion Franklin 22 Yd Run (Andrew Haldeman Kick)Drive info: 10 plays, 85 yds in 3:59",7,21
+,FG,0:00,"Andrew Haldeman 24 Yd Field Goal  Drive info: 10 plays, 69 yds in 1:37",7,24
+THIRD QUARTER,,MURR,WMU
+,TD,9:57,"T-Ray Malone 71 Yd Interception Return (Carson Greifenkamp Kick)Drive info: 6 plays, 28 yds in 3:21",14,24
+,TD,8:52,"Daniel Braverman 65 Yd Run (Andrew Haldeman Kick)Drive info: 3 plays, 78 yds in 1:05",14,31
+,TD,1:48,"Jarvion Franklin 13 Yd Run (Andrew Haldeman Kick)Drive info: 6 plays, 55 yds in 3:25",14,38
+FOURTH QUARTER,,MURR,WMU
+,TD,6:50,"Zach Terrell 4 Yd Run (Andrew Haldeman Kick)Drive info: 9 plays, 77 yds in 5:23",14,45
+,,MURR,WMU
+1st Downs,15,30
+3rd down efficiency,4-15,8-13
+4th down efficiency,0-1,0-1
+Total Yards,305,605
+Passing,214,228
+Comp-Att,19-35,20-29
+Yards per pass,6.1,7.9
+Rushing,91,377
+Rushing Attempts,24,54
+Yards per rush,3.8,7.0
+Penalties,6-50,7-50
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,20:37,39:23
+Murray State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kd Humphries,16/31,185,6.0,0,0,--
+CJ Bennett,3/4,29,7.3,0,0,--
+Team,19/35,214,6.1,0,0,--
+Western Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Zach Terrell,20/29,228,7.9,1,1,91.8
+Team,20/29,228,7.9,1,1,--
+Murray State Rushing
+,CAR,YDS,AVG,TD,LG
+Pokey Harris,9,50,5.6,0,19
+Marcus Holliday,6,23,3.8,1,13
+Kd Humphries,5,15,3.0,0,13
+Nick Taylor,1,2,2.0,0,2
+CJ Bennett,3,1,0.3,0,4
+Team,24,91,3.8,1,19
+Western Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Jarvion Franklin,30,168,5.6,3,22
+Dareyon Chance,14,90,6.4,0,22
+Daniel Braverman,1,65,65.0,1,65
+Zach Terrell,5,48,9.6,1,28
+Fabian Johnson,3,8,2.7,0,7
+Team,54,377,7.0,5,65
+Murray State Receiving
+,REC,YDS,AVG,TD,LG
+Jeremy Harness,5,69,13.8,0,26
+Nevar Griffin,2,40,20.0,0,23
+Marcus Holliday,5,33,6.6,0,34
+Janawski Davis,2,27,13.5,0,14
+Mitch Stults,1,14,14.0,0,14
+Jordan Brown,1,13,13.0,0,13
+Pokey Harris,1,8,8.0,0,8
+Jesse Blackburn,1,8,8.0,0,8
+Nick Taylor,1,2,2.0,0,2
+Team,19,214,11.3,0,34
+Western Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Corey Davis,7,99,14.1,1,24
+Daniel Braverman,7,61,8.7,0,17
+Jarvion Franklin,3,30,10.0,0,14
+Michael Henry,1,18,18.0,0,18
+Kendrick Roberts,1,12,12.0,0,12
+Darius Phillips,1,8,8.0,0,8
+Team,20,228,11.4,1,24
+Murray State Interceptions
+,INT,YDS,TD
+T-Ray Malone,1,71,1
+Team,1,71,1
+Western Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Murray State Kick Returns
+,NO,YDS,AVG,LG,TD
+Pokey Harris,3,77,25.7,30,0
+DeQavius Walker,2,49,24.5,26,0
+Team,5,126,25.2,30,0
+Western Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Phillips,2,52,26.0,30,0
+Team,2,52,26.0,30,0
+Murray State Punt Returns
+,NO,YDS,AVG,LG,TD
+Janawski Davis,2,4,2.0,3,0
+Team,2,4,2.0,3,0
+Western Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Daniel Braverman,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,0,0
+Murray State Kicking
+,FG,PCT,LG,XP,PTS
+Carson Greifenkamp,0/1,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Western Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Haldeman,1/1,100.0,24,6/6,9
+Team,1/1,100.0,24,6/6,9
+Murray State Punting
+,NO,YDS,AVG,TB,-20,LG
+Zach Bogard,9,329,36.6,0,0,49
+Team,9,329,36.6,0,0,49
+Western Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+J. Schroeder,4,186,46.5,0,2,52
+Team,4,186,46.5,0,2,52

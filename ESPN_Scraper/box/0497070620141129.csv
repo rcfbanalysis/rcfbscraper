@@ -1,0 +1,121 @@
+FIRST QUARTER,,UNT,UTSA
+,TD,11:25,"Marcellus Mack 24 Yd pass from Tucker Carter (Sean Ianno Kick)Drive info: 8 plays, 75 yds in 3:35",0,7
+,FG,8:24,"Trevor Moore 40 Yd Field Goal  Drive info: 8 plays, 55 yds in 3:01",3,7
+SECOND QUARTER,,UNT,UTSA
+,FG,14:07,"Trevor Moore 39 Yd Field Goal  Drive info: 10 plays, 45 yds in 3:15",6,7
+,TD,10:46,"Tucker Carter 2 Yd Run (Sean Ianno Kick)Drive info: 9 plays, 65 yds in 3:21",6,14
+,FG,6:23,"Trevor Moore 29 Yd Field Goal  Drive info: 4 plays, 6 yds in 1:51",9,14
+,TD,5:21,"David Glasco II 2 Yd Run (Sean Ianno PAT failed)Drive info: 3 plays, 76 yds in 1:02",9,20
+,FG,0:46,"Trevor Moore 21 Yd Field Goal  Drive info: 6 plays, 34 yds in 2:16",12,20
+THIRD QUARTER,,UNT,UTSA
+,TD,10:05,"Kenny Bias 39 Yd pass from Tucker Carter (Sean Ianno Kick)Drive info: 6 plays, 79 yds in 2:36",12,27
+,TD,5:13,"Marcus Smith 31 Yd pass from Andrew McNulty (Trevor Moore Kick)Drive info: 11 plays, 87 yds in 4:52",19,27
+FOURTH QUARTER,,UNT,UTSA
+,TD,12:12,"Andrew McNulty 1 Yd Run (Andrew McNulty Pass to Darius Terrell for Two-Point Conversion)Drive info: 12 plays, 71 yds in 5:14",27,27
+,TD,4:18,"Brandon Armstrong 21 Yd Run (Sean Ianno Kick)Drive info: 3 plays, 54 yds in 1:13",27,34
+,,UNT,UTSA
+1st Downs,19,19
+3rd down efficiency,9-20,6-14
+4th down efficiency,0-0,1-1
+Total Yards,437,452
+Passing,287,277
+Comp-Att,24-43,18-29
+Yards per pass,6.7,9.6
+Rushing,150,175
+Rushing Attempts,37,33
+Yards per rush,4.1,5.3
+Penalties,5-53,3-25
+Turnovers,1,2
+Fumbles lost,1,2
+Interceptions thrown,0,0
+Possession,47:33,44:17
+North Texas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Andrew McNulty,24/43,287,6.7,1,0,56.6
+Team,24/43,287,6.7,1,0,--
+Texas San Antonio Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tucker Carter,18/29,277,9.6,2,0,71.6
+Team,18/29,277,9.6,2,0,--
+North Texas Rushing
+,CAR,YDS,AVG,TD,LG
+Jeffrey Wilson,19,105,5.5,0,20
+Andrew McNulty,6,23,3.8,1,8
+Reggie Pegram,10,15,1.5,0,5
+Jarrod Lynn,2,7,3.5,0,5
+Team,37,150,4.1,1,20
+Texas San Antonio Rushing
+,CAR,YDS,AVG,TD,LG
+David Glasco II,15,99,6.6,1,47
+Brandon Armstrong,9,67,7.4,1,21
+Tucker Carter,5,7,1.4,1,20
+Kam Jones,1,6,6.0,0,6
+- Team,3,-4,-1.3,0,0
+Team,33,175,5.3,3,47
+North Texas Receiving
+,REC,YDS,AVG,TD,LG
+Carlos Harris,10,131,13.1,0,38
+Darius Terrell,5,78,15.6,0,26
+Marcus Smith,3,50,16.7,1,31
+Turner Smiley,1,14,14.0,0,14
+John Chelf,1,7,7.0,0,7
+Carl Caldwell,1,3,3.0,0,3
+Reggie Pegram,1,2,2.0,0,2
+Darvin Kidsy,1,2,2.0,0,2
+Jeffrey Wilson,1,0,0.0,0,0
+Team,24,287,12.0,1,38
+Texas San Antonio Receiving
+,REC,YDS,AVG,TD,LG
+Kenny Bias,1,39,39.0,1,39
+Marcellus Mack,2,32,16.0,1,24
+Aaron Grubb,1,31,31.0,0,31
+Cole Hubble,1,30,30.0,0,30
+Seth Grubb,1,30,30.0,0,30
+Kenny Harrison,4,28,7.0,0,9
+Brandon Armstrong,1,27,27.0,0,27
+David Morgan II,2,21,10.5,0,14
+Kam Jones,3,20,6.7,0,12
+Josiah Monroe,1,10,10.0,0,10
+Earon Holmes,1,9,9.0,0,9
+Team,18,277,15.4,2,39
+North Texas Interceptions
+,INT,YDS,TD
+No Interception Information
+Texas San Antonio Interceptions
+,INT,YDS,TD
+No Interception Information
+North Texas Kick Returns
+,NO,YDS,AVG,LG,TD
+Darvin Kidsy,3,51,17.0,21,0
+Carlos Harris,1,15,15.0,15,0
+Team,4,66,16.5,21,0
+Texas San Antonio Kick Returns
+,NO,YDS,AVG,LG,TD
+Kam Jones,1,24,24.0,24,0
+Team,1,24,24.0,24,0
+North Texas Punt Returns
+,NO,YDS,AVG,LG,TD
+Darvin Kidsy,2,13,6.5,8,0
+Zac Whitfield,1,-1,-1.0,-1,0
+Team,3,12,4.0,8,0
+Texas San Antonio Punt Returns
+,NO,YDS,AVG,LG,TD
+Kenny Harrison,3,16,5.3,14,0
+Aaron Grubb,2,0,0.0,0,0
+Team,4,16,4.0,14,0
+North Texas Kicking
+,FG,PCT,LG,XP,PTS
+Trevor Moore,4/4,100.0,40,1/1,13
+Team,4/4,100.0,40,1/1,13
+Texas San Antonio Kicking
+,FG,PCT,LG,XP,PTS
+Sean Ianno,0/0,0.0,0,4/5,4
+Team,0/0,0.0,0,4/5,4
+North Texas Punting
+,NO,YDS,AVG,TB,-20,LG
+Eric Keena,7,304,43.4,0,1,59
+Team,7,304,43.4,0,1,59
+Texas San Antonio Punting
+,NO,YDS,AVG,TB,-20,LG
+Kristian Stern,6,227,37.8,0,2,54
+Team,6,227,37.8,0,2,54

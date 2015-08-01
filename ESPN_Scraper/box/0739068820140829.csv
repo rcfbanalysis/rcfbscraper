@@ -1,0 +1,120 @@
+FIRST QUARTER,,NOVA,SYR
+,TD,6:24,"Prince-Tyson Gulley 65 Yd Run (Ryan Norton Kick)Drive info: 6 plays, 96 yds in 2:32",0,7
+SECOND QUARTER,,NOVA,SYR
+,TD,10:17,"Kevin Monangai 5 Yd Run (Chris Gough Kick)Drive info: 12 plays, 60 yds in 4:49",7,7
+,FG,6:49,"Ryan Norton 38 Yd Field Goal  Drive info: 14 plays, 48 yds in 3:28",7,10
+THIRD QUARTER,,NOVA,SYR
+,TD,10:04,"Adonis Ameen-Moore 2 Yd Run (Ryan Norton Kick)Drive info: 13 plays, 83 yds in 4:56",7,17
+,TD,2:34,"Poppy Livers 67 Yd Punt Return (Chris Gough Kick)Drive info: 6 plays, 7 yds in 2:43",14,17
+FOURTH QUARTER,,NOVA,SYR
+,FG,7:14,"Chris Gough 25 Yd Field Goal  Drive info: 19 plays, 80 yds in 9:08",17,17
+OVERTIME,,NOVA,SYR
+,FG,0:00,"Chris Gough 24 Yd Field Goal  Drive info: 1 plays, 0 yds in 0:12",20,17
+,FG,0:00,"Ryan Norton 22 Yd Field Goal  Drive info: 7 plays, 18 yds",20,20
+2ND OVERTIME,,NOVA,SYR
+,TD,0:00,"Kendall Moore 1 Yd pass from Riley Dixon (Ryan Norton Kick)Drive info: 7 plays, 20 yds",20,27
+,TD,0:00,Gary Underwood 9 Yd pass from John Robertson (Two-Point Run Conversion Failed),26,27
+,,NOVA,SYR
+1st Downs,25,21
+3rd down efficiency,12-20,5-14
+4th down efficiency,1-1,1-1
+Total Yards,389,320
+Passing,199,184
+Comp-Att,16-27,22-35
+Yards per pass,7.4,5.3
+Rushing,190,136
+Rushing Attempts,60,34
+Yards per rush,3.2,4.0
+Penalties,11-93,7-55
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,37:48,22:24
+Villanova Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+John Robertson,16/27,199,7.4,1,0,--
+Team,16/27,199,7.4,1,0,--
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Terrel Hunt,10/17,94,5.5,0,0,54.6
+Austin Wilson,11/17,89,5.2,0,0,57.3
+Riley Dixon,1/1,1,1.0,1,0,100.0
+Team,22/35,184,5.3,1,0,--
+Villanova Rushing
+,CAR,YDS,AVG,TD,LG
+John Robertson,34,115,3.4,0,12
+Kevin Monangai,12,46,3.8,1,19
+Austin Medley,6,14,2.3,0,5
+Gary Underwood,5,14,2.8,0,9
+Aaron Wells,1,4,4.0,0,4
+Team,2,-3,-1.5,0,0
+Team,60,190,3.2,1,19
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+Prince-Tyson Gulley,11,100,9.1,1,65
+Terrel Hunt,3,25,8.3,0,21
+Adonis Ameen-Moore,10,19,1.9,1,13
+Devante McFarlane,1,4,4.0,0,4
+George Morris,5,0,0.0,0,4
+Austin Wilson,3,-4,-1.3,0,1
+Brisly Estime,1,-8,-8.0,0,0
+Team,34,136,4.0,2,65
+Villanova Receiving
+,REC,YDS,AVG,TD,LG
+Poppy Livers,5,58,11.6,0,15
+Mike Burke,3,50,16.7,0,34
+Gary Underwood,3,47,15.7,1,27
+Earnest Pettway,2,22,11.0,0,11
+Aaron Wells,2,12,6.0,0,12
+Lincoln Collins,1,10,10.0,0,10
+Team,16,199,12.4,1,34
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Jarrod West,5,59,11.8,0,17
+Ashton Broyld,5,57,11.4,0,20
+Ben Lewis,3,28,9.3,0,13
+Prince-Tyson Gulley,4,13,3.3,0,9
+Steve Ishmael,2,13,6.5,0,9
+Adrian Flemming,1,12,12.0,0,12
+Kendall Moore,1,1,1.0,1,1
+Brisly Estime,1,1,1.0,0,1
+Team,22,184,8.4,1,20
+Villanova Interceptions
+,INT,YDS,TD
+No Interception Information
+Syracuse Interceptions
+,INT,YDS,TD
+No Interception Information
+Villanova Kick Returns
+,NO,YDS,AVG,LG,TD
+Joe Sarnese,2,34,17.0,20,0
+Team,2,34,17.0,20,0
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Ervin Philips,3,76,25.3,31,0
+Ervin Phillips,3,76,25.3,31,0
+Team,3,76,25.3,31,0
+Villanova Punt Returns
+,NO,YDS,AVG,LG,TD
+Poppy Livers,2,80,40.0,67,0
+Team,2,80,40.0,67,0
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+Brisly Estime,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,0,0
+Villanova Kicking
+,FG,PCT,LG,XP,PTS
+Chris Gough,2/4,50.0,25,2/2,8
+Team,2/4,50.0,25,2/2,8
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Norton,2/2,100.0,38,3/3,9
+Team,2/2,100.0,38,3/3,9
+Villanova Punting
+,NO,YDS,AVG,TB,-20,LG
+John Hinchen,3,132,44.0,0,0,49
+Team,3,132,44.0,0,0,49
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,5,217,43.4,0,2,51
+Team,5,217,43.4,0,2,51

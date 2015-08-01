@@ -1,0 +1,115 @@
+FIRST QUARTER,,STAN,UCLA
+,TD,11:18,"u""Thomas Duarte 15 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 5 plays, 64 yds in 1:27",0,7
+,TD,6:00,"Remound Wright 1 Yd Run (Jordan Williamson Kick)Drive info: 10 plays, 75 yds in 5:18",7,7
+SECOND QUARTER,,STAN,UCLA
+,FG,11:46,"u""Ka'imi Fairbairn 42 Yd Field Goal  "", Drive info: 10 plays, 25 yds in 3:08",7,10
+,TD,6:24,"Michael Rector 22 Yd pass from Kevin Hogan (Jordan Williamson Kick)Drive info: 10 plays, 75 yds in 5:22",14,10
+,TD,0:41,"Devon Cajuste 37 Yd pass from Kevin Hogan (Jordan Williamson Kick)Drive info: 9 plays, 92 yds in 3:57",21,10
+THIRD QUARTER,,STAN,UCLA
+,TD,9:16,"Remound Wright 2 Yd Run (Jordan Williamson Kick)Drive info: 7 plays, 80 yds in 3:49",28,10
+FOURTH QUARTER,,STAN,UCLA
+,FG,10:40,"Jordan Williamson 34 Yd Field Goal  Drive info: 10 plays, 63 yds in 5:46",31,10
+,,STAN,UCLA
+1st Downs,22,17
+3rd down efficiency,9-14,5-14
+4th down efficiency,0-0,1-4
+Total Yards,436,262
+Passing,234,162
+Comp-Att,16-19,20-41
+Yards per pass,12.3,4.0
+Rushing,202,100
+Rushing Attempts,45,26
+Yards per rush,4.5,3.8
+Penalties,7-65,4-38
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,37:49,22:02
+Stanford Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kevin Hogan,16/19,234,12.3,2,0,98.3
+Team,16/19,234,12.3,2,0,--
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,17/32,146,4.6,1,0,20.9
+Jerry Neuheisel,3/9,16,1.8,0,1,1.0
+Team,20/41,162,4.0,1,1,--
+Stanford Rushing
+,CAR,YDS,AVG,TD,LG
+Remound Wright,15,64,4.3,2,27
+Christian McCaffrey,11,64,5.8,0,29
+Kevin Hogan,7,46,6.6,0,16
+Ricky Seale,3,12,4.0,0,7
+Francis Owus,1,12,12.0,0,12
+Barry Sanders,3,4,1.3,0,3
+Kelsey Young,4,1,0.3,0,3
+Team,45,202,4.5,2,29
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,17,116,6.8,0,20
+Nate Starks,2,6,3.0,0,7
+Jerry Neuheisel,1,-4,-4.0,0,0
+Brett Hundley,6,-18,-3.0,0,3
+Team,26,100,3.8,0,20
+Stanford Receiving
+,REC,YDS,AVG,TD,LG
+Francis Owus,3,51,17.0,0,43
+Austin Hooper,3,51,17.0,0,25
+Devon Cajuste,2,50,25.0,1,37
+Michael Rector,2,27,13.5,1,22
+Christian McCaffrey,1,21,21.0,0,21
+Jeff Trojan,1,12,12.0,0,12
+Remound Wright,2,11,5.5,0,9
+Jordan Pratt,1,9,9.0,0,9
+Lee Ward,1,2,2.0,0,2
+Team,16,234,14.6,2,43
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Thomas Duarte,4,63,15.8,1,24
+Devin Fuller,7,38,5.4,0,14
+Mossi Johnson,3,27,9.0,0,10
+Jordan Payton,2,26,13.0,0,17
+Devin Lucien,1,6,6.0,0,6
+Paul Perkins,2,3,1.5,0,3
+Nate Starks,1,-1,-1.0,0,0
+Team,20,162,8.1,1,24
+Stanford Interceptions
+,INT,YDS,TD
+Jordan Richards,1,0,0
+Team,1,0,0
+UCLA Interceptions
+,INT,YDS,TD
+No Interception Information
+Stanford Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,1,17,17.0,17,0
+JJ James,1,16,16.0,16,0
+Team,2,33,16.5,17,0
+Stanford Punt Returns
+,NO,YDS,AVG,LG,TD
+Christian McCaffrey,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,2,8,4.0,7,0
+Team,2,8,4.0,7,0
+Stanford Kicking
+,FG,PCT,LG,XP,PTS
+Jordan Williamson,1/1,100.0,34,4/4,7
+Team,1/1,100.0,34,4/4,7
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",1/1,100.0,42,1/1,4
+Team,1/1,100.0,42,1/1,4
+Stanford Punting
+,NO,YDS,AVG,TB,-20,LG
+Ben Rhyne,4,163,40.8,0,1,51
+Team,4,163,40.8,0,1,51
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,3,169,56.3,1,1,60
+Adam Searl,1,37,37.0,0,1,37
+Team,4,206,51.5,1,2,60

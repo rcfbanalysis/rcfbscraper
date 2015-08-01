@@ -1,0 +1,118 @@
+FIRST QUARTER,,NEV,AFA
+,TD,8:46,"Jalen Robinette 6 Yd pass from Kale Pearson (Will Conant Kick)Drive info: 13 plays, 75 yds in 6:14",0,7
+SECOND QUARTER,,NEV,AFA
+,TD,14:18,"Hasaan Henderson 25 Yd pass from Cody Fajardo (Brent Zuzo Kick)Drive info: 5 plays, 86 yds in 1:55",7,7
+,TD,9:01,"Shayne Davern 1 Yd Run (Will Conant Kick)Drive info: 13 plays, 82 yds in 5:10",7,14
+,TD,1:30,"Don Jackson 1 Yd Run (Brent Zuzo Kick)Drive info: 19 plays, 75 yds in 7:31",14,14
+,TD,0:08,"Jalen Robinette 6 Yd pass from Kale Pearson (Will Conant Kick)Drive info: 9 plays, 62 yds in 1:16",14,21
+THIRD QUARTER,,NEV,AFA
+,TD,9:59,"Don Jackson 32 Yd Run (Brent Zuzo Kick)Drive info: 11 plays, 75 yds in 5:01",21,21
+,TD,4:03,"Garrett Brown 25 Yd pass from Kale Pearson (Will Conant Kick)Drive info: 10 plays, 56 yds in 3:57",21,28
+FOURTH QUARTER,,NEV,AFA
+,TD,14:26,"Don Jackson 1 Yd Run (Brent Zuzo Kick)Drive info: 11 plays, 75 yds in 4:33",28,28
+,FG,10:23,"Will Conant 23 Yd Field Goal  Drive info: 10 plays, 65 yds in 4:03",28,31
+,TD,7:03,"Jerico Richardson 21 Yd pass from Cody Fajardo (Brent Zuzo Kick)Drive info: 8 plays, 75 yds in 3:20",35,31
+,TD,4:13,"Kale Pearson 16 Yd Run (Will Conant Kick)Drive info: 7 plays, 61 yds in 2:44",35,38
+,FG,0:12,"Brent Zuzo 22 Yd Field Goal  Drive info: 5 plays, 43 yds in 1:13",38,38
+OVERTIME,,NEV,AFA
+,TD,0:00,"Shayne Davern 3 Yd Run (Will Conant Kick)Drive info: 5 plays, 25 yds",38,45
+,,NEV,AFA
+1st Downs,27,28
+3rd down efficiency,9-17,9-15
+4th down efficiency,3-5,2-2
+Total Yards,498,471
+Passing,275,129
+Comp-Att,24-36,11-15
+Yards per pass,7.6,8.6
+Rushing,223,342
+Rushing Attempts,45,65
+Yards per rush,5.0,5.3
+Penalties,4-42,5-48
+Turnovers,1,0
+Fumbles lost,0,0
+Interceptions thrown,1,0
+Possession,30:45,29:15
+Nevada Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cody Fajardo,24/36,275,7.6,2,1,88.4
+Team,24/36,275,7.6,2,1,--
+Air Force Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kale Pearson,11/15,129,8.6,3,0,99.0
+Team,11/15,129,8.6,3,0,--
+Nevada Rushing
+,CAR,YDS,AVG,TD,LG
+Don Jackson,28,121,4.3,3,32
+Cody Fajardo,11,100,9.1,0,53
+James Butler,4,2,0.5,0,3
+Nate McLaurin,1,1,1.0,0,1
+Team,45,223,5.0,3,53
+Air Force Rushing
+,CAR,YDS,AVG,TD,LG
+Kale Pearson,16,109,6.8,1,21
+Shayne Davern,21,97,4.6,2,15
+Jacobi Owens,16,66,4.1,0,33
+D.J. Johnson,6,41,6.8,0,21
+Devin Rushing,5,30,6.0,0,11
+Garrett Brown,1,-1,-1.0,0,0
+Team,65,342,5.3,3,33
+Nevada Receiving
+,REC,YDS,AVG,TD,LG
+Hasaan Henderson,5,74,14.8,1,25
+Jerico Richardson,5,56,11.2,1,21
+Richy Turner,6,43,7.2,0,10
+Kendall Brock,2,40,20.0,0,34
+Jarred Gipson,3,36,12.0,0,17
+Wyatt Demps,1,11,11.0,0,11
+Don Jackson,1,8,8.0,0,8
+Brayden Sanchez,1,7,7.0,0,7
+Team,24,275,11.5,2,34
+Air Force Receiving
+,REC,YDS,AVG,TD,LG
+Garrett Brown,3,49,16.3,1,25
+Jalen Robinette,4,36,9.0,2,14
+Marcus Hendricks,1,18,18.0,0,18
+Garrett Griffin,1,18,18.0,0,18
+Jacobi Owens,1,5,5.0,0,5
+Shayne Davern,1,3,3.0,0,3
+Team,11,129,11.7,3,25
+Nevada Interceptions
+,INT,YDS,TD
+No Interception Information
+Air Force Interceptions
+,INT,YDS,TD
+Weston Steelhammer,1,0,0
+Team,1,0,0
+Nevada Kick Returns
+,NO,YDS,AVG,LG,TD
+Kendall Brock,1,10,10.0,10,0
+Elijah Mitchell,1,0,0.0,0,0
+Team,2,10,5.0,10,0
+Air Force Kick Returns
+,NO,YDS,AVG,LG,TD
+Jon Lee,2,39,19.5,21,0
+Devin Rushing,1,15,15.0,15,0
+Team,3,54,18.0,21,0
+Nevada Punt Returns
+,NO,YDS,AVG,LG,TD
+Richy Turner,1,16,16.0,16,0
+Team,1,16,16.0,16,0
+Air Force Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Nevada Kicking
+,FG,PCT,LG,XP,PTS
+Brent Zuzo,1/1,100.0,22,5/5,8
+Team,1/1,100.0,22,5/5,8
+Air Force Kicking
+,FG,PCT,LG,XP,PTS
+Will Conant,1/2,50.0,23,6/6,9
+Team,1/2,50.0,23,6/6,9
+Nevada Punting
+,NO,YDS,AVG,TB,-20,LG
+Alex Boy,2,111,55.5,2,0,62
+Team,2,111,55.5,2,0,62
+Air Force Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Conant,3,110,36.7,0,1,43
+Team,3,110,36.7,0,1,43

@@ -1,0 +1,112 @@
+FIRST QUARTER,,SYR,PITT
+,TD,5:11,"James Conner 1 Yd Run (Chris Blewitt Kick)Drive info: 4 plays, 28 yds in 1:44",0,7
+SECOND QUARTER,,SYR,PITT
+,FG,5:10,"Chris Blewitt 46 Yd Field Goal  Drive info: 10 plays, 46 yds in 5:24",0,10
+,TD,0:47,"Dontez Ford 11 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 5 plays, 80 yds in 0:51",0,17
+THIRD QUARTER,,SYR,PITT
+,TD,11:04,"Ron Thompson 1 Yd Run (Cole Murphy Kick)Drive info: 10 plays, 75 yds in 3:56",7,17
+,FG,4:34,"Chris Blewitt 31 Yd Field Goal  Drive info: 13 plays, 49 yds in 6:30",7,20
+FOURTH QUARTER,,SYR,PITT
+,TD,14:52,"Tyler Boyd 49 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 4 plays, 72 yds in 1:47",7,27
+,FG,9:42,"Chris Blewitt 46 Yd Field Goal  Drive info: 8 plays, 34 yds in 3:59",7,30
+,,SYR,PITT
+1st Downs,12,27
+3rd down efficiency,6-13,5-14
+4th down efficiency,0-0,1-1
+Total Yards,255,445
+Passing,149,189
+Comp-Att,10-25,14-20
+Yards per pass,6.0,9.5
+Rushing,106,256
+Rushing Attempts,29,52
+Yards per rush,3.7,4.9
+Penalties,6-67,9-58
+Turnovers,3,1
+Fumbles lost,1,0
+Interceptions thrown,2,1
+Possession,21:18,38:42
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+AJ Long,10/19,149,7.8,0,1,58.2
+Mitch Kimble,0/6,0,0.0,0,1,0.4
+Team,10/25,149,6.0,0,2,--
+Pittsburgh Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chad Voytik,14/20,189,9.5,2,1,70.1
+Team,14/20,189,9.5,2,1,--
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+George Morris,4,34,8.5,0,33
+AJ Long,8,30,3.8,0,11
+Ervin Philips,5,18,3.6,0,10
+Prince-Tyson Gulley,6,14,2.3,0,7
+Devante McFarlane,3,6,2.0,0,3
+Mitch Kimble,2,3,1.5,0,3
+Ron Thompson,1,1,1.0,1,1
+Team,29,106,3.7,1,33
+Pittsburgh Rushing
+,CAR,YDS,AVG,TD,LG
+Chris James,19,122,6.4,0,16
+Isaac Bennett,11,75,6.8,0,29
+James Conner,11,38,3.5,1,12
+Rachid Ibrahim,3,23,7.7,0,21
+Chad Voytik,5,4,0.8,0,7
+Team,52,256,4.9,1,29
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Steve Ishmael,6,97,16.2,0,46
+Devante McFarlane,1,28,28.0,0,28
+Ben Lewis,1,14,14.0,0,14
+Sean Avant,1,8,8.0,0,8
+Ervin Philips,1,2,2.0,0,2
+Team,10,149,14.9,0,46
+Pittsburgh Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Boyd,7,126,18.0,1,49
+Kevin Weatherspoon,3,24,8.0,0,12
+Dontez Ford,2,24,12.0,1,13
+Rachid Ibrahim,1,8,8.0,0,8
+Isaac Bennett,1,7,7.0,0,7
+Team,14,189,13.5,2,49
+Syracuse Interceptions
+,INT,YDS,TD
+Antwan Cordy,1,0,0
+Team,1,0,0
+Pittsburgh Interceptions
+,INT,YDS,TD
+Bam Bradley,1,21,0
+Lafayette Pitts,1,0,0
+Team,2,21,0
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Prince-Tyson Gulley,2,35,17.5,22,0
+Devante McFarlane,1,17,17.0,17,0
+Team,3,52,17.3,22,0
+Pittsburgh Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,1,23,23.0,23,0
+Jaymar Parrish,1,4,4.0,4,0
+Team,2,27,13.5,23,0
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Pittsburgh Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,1,29,29.0,29,0
+Team,1,29,29.0,29,0
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Cole Murphy,0/1,0.0,0,1/1,1
+Team,0/1,0.0,0,1/1,1
+Pittsburgh Kicking
+,FG,PCT,LG,XP,PTS
+Chris Blewitt,3/5,60.0,46,3/3,12
+Team,3/5,60.0,46,3/3,12
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,5,212,42.4,0,1,48
+Team,5,212,42.4,0,1,48
+Pittsburgh Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Winslow,1,48,48.0,0,1,48
+Team,1,48,48.0,0,1,48

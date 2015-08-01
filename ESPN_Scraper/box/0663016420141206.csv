@@ -1,0 +1,113 @@
+FIRST QUARTER,,SMU,CONN
+,FG,12:01,"Cody Rademacher 44 Yd Field Goal  Drive info: 10 plays, 30 yds in 2:59",3,0
+,FG,5:15,"Cody Rademacher 28 Yd Field Goal  Drive info: 6 plays, 36 yds in 1:28",6,0
+,TD,2:13,Andrew Adams 32 Yd Fumble Return (Bobby Puyol PAT failed),6,6
+SECOND QUARTER,,SMU,CONN
+,TD,9:29,"Max DeLorenzo 46 Yd Run (Bobby Puyol Kick)Drive info: 7 plays, 70 yds in 3:49",6,13
+,TD,1:10,"Ron Johnson 13 Yd Run (Bobby Puyol Kick)Drive info: 7 plays, 48 yds in 3:35",6,20
+THIRD QUARTER,,SMU,CONN
+,TD,13:03,"Prescott Line 4 Yd Run (Cody Rademacher Kick)Drive info: 5 plays, 27 yds in 1:57",13,20
+,TD,3:50,"Matt Davis 26 Yd Run (Cody Rademacher Kick)Drive info: 7 plays, 58 yds in 3:23",20,20
+FOURTH QUARTER,,SMU,CONN
+,TD,9:22,"Prescott Line 12 Yd Run (Cody Rademacher Kick)Drive info: 8 plays, 70 yds in 3:59",27,20
+,,SMU,CONN
+1st Downs,20,11
+3rd down efficiency,10-19,5-14
+4th down efficiency,0-0,1-1
+Total Yards,422,316
+Passing,145,67
+Comp-Att,15-33,5-14
+Yards per pass,4.4,4.8
+Rushing,277,249
+Rushing Attempts,47,41
+Yards per rush,5.9,6.1
+Penalties,6-50,4-44
+Turnovers,3,5
+Fumbles lost,2,4
+Interceptions thrown,1,1
+Possession,32:05,36:07
+SMU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Matt Davis,15/33,145,4.4,0,1,37.8
+Team,15/33,145,4.4,0,1,--
+Connecticut Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chandler Whitmer,1/3,38,12.7,0,1,1.9
+Tim Boyle,4/11,29,2.6,0,0,19.7
+Team,5/14,67,4.8,0,1,--
+SMU Rushing
+,CAR,YDS,AVG,TD,LG
+Matt Davis,22,191,8.7,1,48
+Prescott Line,20,90,4.5,2,17
+Darius Durall,3,0,0.0,0,3
+Team,47,277,5.9,3,48
+Connecticut Rushing
+,CAR,YDS,AVG,TD,LG
+Ron Johnson,23,101,4.4,1,17
+Deshon Foxx,5,68,13.6,0,48
+Max DeLorenzo,7,66,9.4,1,46
+Josh Marriner,3,11,3.7,0,5
+Arkeel Newsome,2,2,1.0,0,2
+Tim Boyle,1,1,1.0,0,1
+Team,41,249,6.1,2,48
+SMU Receiving
+,REC,YDS,AVG,TD,LG
+Darius Joseph,9,108,12.0,0,23
+Deion Sanders Jr.,2,10,5.0,0,5
+Ryheem Malone,1,8,8.0,0,8
+Darius Durall,1,7,7.0,0,7
+Prescott Line,1,6,6.0,0,6
+Aaron Stafford,1,6,6.0,0,6
+Team,15,145,9.7,0,23
+Connecticut Receiving
+,REC,YDS,AVG,TD,LG
+Josh Marriner,1,38,38.0,0,38
+Geremy Davis,3,22,7.3,0,8
+Jazzmar Clax,1,7,7.0,0,7
+Team,5,67,13.4,0,38
+SMU Interceptions
+,INT,YDS,TD
+Horace Richardson,1,0,0
+Team,1,0,0
+Connecticut Interceptions
+,INT,YDS,TD
+Jamar Summers,1,0,0
+Team,1,0,0
+SMU Kick Returns
+,NO,YDS,AVG,LG,TD
+Deion Sanders Jr.,3,65,21.7,38,0
+Darius Joseph,1,6,6.0,6,0
+Team,4,71,17.8,38,0
+Connecticut Kick Returns
+,NO,YDS,AVG,LG,TD
+Arkeel Newsome,3,43,14.3,18,0
+Brian Lemelle,1,25,25.0,25,0
+Josh Marriner,1,17,17.0,17,0
+Jon Hicks,1,0,0.0,0,0
+Team,6,85,14.2,25,0
+SMU Punt Returns
+,NO,YDS,AVG,LG,TD
+Daijuan Stewart,3,36,12.0,20,0
+Team,3,36,12.0,20,0
+Connecticut Punt Returns
+,NO,YDS,AVG,LG,TD
+Jeremy Claflin,1,0,0.0,0,0
+Deshon Foxx,2,-6,-3.0,0,0
+Team,3,-6,-2.0,0,0
+SMU Kicking
+,FG,PCT,LG,XP,PTS
+Cody Rademacher,2/3,66.7,44,3/3,9
+Team,2/3,66.7,44,3/3,9
+Connecticut Kicking
+,FG,PCT,LG,XP,PTS
+Bobby Puyol,0/1,0.0,0,2/3,2
+Team,0/1,0.0,0,2/3,2
+SMU Punting
+,NO,YDS,AVG,TB,-20,LG
+Jackson Koonce,5,153,30.6,0,0,44
+Cody Rademacher,1,23,23.0,0,1,23
+Team,6,176,29.3,0,1,44
+Connecticut Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Wain,6,222,37.0,0,2,48
+Team,6,222,37.0,0,2,48

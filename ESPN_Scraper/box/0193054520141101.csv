@@ -1,0 +1,124 @@
+FIRST QUARTER,,DUKE,PITT
+,TD,8:19,"Jamison Crowder 39 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 5 plays, 60 yds in 2:20",7,0
+,TD,3:14,"James Conner 1 Yd Run (Chris Blewitt Kick)Drive info: 10 plays, 82 yds in 5:05",7,7
+,TD,0:27,"Shaun Wilson 10 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 9 plays, 75 yds in 2:47",14,7
+SECOND QUARTER,,DUKE,PITT
+,TD,14:51,"Chad Voytik 13 Yd Run (Chris Blewitt Kick)Drive info: 3 plays, 32 yds in 0:36",14,14
+,TD,10:04,"J.P. Holtz 11 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 5 plays, 68 yds in 3:25",14,21
+,TD,7:56,"Jamison Crowder 45 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 5 plays, 77 yds in 2:08",21,21
+,TD,1:17,"J.P. Holtz 3 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 13 plays, 85 yds in 6:39",21,28
+,TD,0:00,"Thomas Sirk 1 Yd Run (Ross Martin Kick)Drive info: 10 plays, 75 yds in 1:17",28,28
+THIRD QUARTER,,DUKE,PITT
+,FG,4:24,"Ross Martin 23 Yd Field Goal  Drive info: 10 plays, 57 yds in 4:22",31,28
+FOURTH QUARTER,,DUKE,PITT
+,FG,13:22,"Chris Blewitt 38 Yd Field Goal  Drive info: 11 plays, 62 yds in 6:02",31,31
+,TD,13:07,DeVon Edwards 99 Yd Kickoff Return (Ross Martin Kick),38,31
+,TD,5:18,"James Conner 1 Yd Run (Chris Blewitt Kick)Drive info: 15 plays, 81 yds in 7:49",38,38
+OVERTIME,,DUKE,PITT
+,TD,0:00,"Anthony Boone 12 Yd Run (Ross Martin Kick)Drive info: 3 plays, 25 yds",45,38
+,TD,0:00,"James Conner 14 Yd Run (Chris Blewitt Kick)Drive info: 3 plays, 25 yds",45,45
+2ND OVERTIME,,DUKE,PITT
+,FG,0:00,"Chris Blewitt 43 Yd Field Goal Drive info: 4 plays, 0 yds",45,48
+,TD,0:00,"Thomas Sirk 5 Yd Run Drive info: 4 plays, 25 yds",51,48
+,,DUKE,PITT
+1st Downs,25,37
+3rd down efficiency,4-8,9-13
+4th down efficiency,0-0,0-1
+Total Yards,438,594
+Passing,266,236
+Comp-Att,23-31,16-24
+Yards per pass,8.6,9.8
+Rushing,172,358
+Rushing Attempts,27,65
+Yards per rush,6.4,5.5
+Penalties,3-20,8-61
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,18:52,41:08
+Duke Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Anthony Boone,23/31,266,8.6,3,0,96.0
+Team,23/31,266,8.6,3,0,--
+Pittsburgh Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chad Voytik,16/24,236,9.8,2,0,85.0
+Team,16/24,236,9.8,2,0,--
+Duke Rushing
+,CAR,YDS,AVG,TD,LG
+Anthony Boone,7,47,6.7,1,16
+Shaun Wilson,8,43,5.4,0,11
+Shaquille Powell,5,40,8.0,0,12
+Josh Snead,3,29,9.7,0,19
+Joseph Ajeigbe,2,7,3.5,0,4
+Thomas Sirk,2,6,3.0,2,5
+Team,27,172,6.4,3,19
+Pittsburgh Rushing
+,CAR,YDS,AVG,TD,LG
+James Conner,38,263,6.9,3,19
+Chad Voytik,14,58,4.1,1,18
+Chris James,8,30,3.8,0,7
+Rachid Ibrahim,2,10,5.0,0,5
+Isaac Bennett,2,7,3.5,0,5
+Team,65,358,5.5,4,19
+Duke Receiving
+,REC,YDS,AVG,TD,LG
+Jamison Crowder,9,165,18.3,2,45
+Shaun Wilson,4,43,10.8,1,16
+Shaquille Powell,4,24,6.0,0,14
+David Reeves,2,11,5.5,0,6
+Erich Schneider,2,10,5.0,0,6
+Max McCaffrey,1,8,8.0,0,8
+Issac Blakeney,1,5,5.0,0,5
+Team,23,266,11.6,3,45
+Pittsburgh Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Boyd,7,140,20.0,0,48
+Dontez Ford,1,26,26.0,0,26
+Manasseh Garner,1,19,19.0,0,19
+J.P. Holtz,2,14,7.0,2,11
+Kevin Weatherspoon,1,8,8.0,0,8
+Jaymar Parrish,1,8,8.0,0,8
+Isaac Bennett,1,7,7.0,0,7
+Scott Orndoff,1,7,7.0,0,7
+Adonis Jennings,1,7,7.0,0,7
+Team,16,236,14.8,2,48
+Duke Interceptions
+,INT,YDS,TD
+No Interception Information
+Pittsburgh Interceptions
+,INT,YDS,TD
+No Interception Information
+Duke Kick Returns
+,NO,YDS,AVG,LG,TD
+DeVon Edwards,4,160,40.0,99,1
+Johnell Barnes,1,20,20.0,20,0
+Team,5,180,36.0,99,1
+Pittsburgh Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,3,102,34.0,64,0
+Avonte Maddox,3,50,16.7,18,0
+Team,6,152,25.3,64,0
+Duke Punt Returns
+,NO,YDS,AVG,LG,TD
+Jamison Crowder,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+Pittsburgh Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Duke Kicking
+,FG,PCT,LG,XP,PTS
+Ross Martin,1/1,100.0,23,6/6,9
+Team,1/1,100.0,23,6/6,9
+Pittsburgh Kicking
+,FG,PCT,LG,XP,PTS
+Chris Blewitt,2/3,66.7,43,6/6,12
+Team,2/3,66.7,43,6/6,12
+Duke Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Monday,3,139,46.3,1,1,57
+Team,3,139,46.3,1,1,57
+Pittsburgh Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Winslow,1,35,35.0,0,0,35
+Team,1,35,35.0,0,0,35

@@ -1,0 +1,122 @@
+FIRST QUARTER,,TXST,GAST
+,FG,9:50,"Wil Lutz 21 Yd Field Goal  Drive info: 12 plays, 71 yds in 5:10",0,3
+,FG,5:14,"Will Johnson 21 Yd Field Goal  Drive info: 12 plays, 71 yds in 4:36",3,3
+SECOND QUARTER,,TXST,GAST
+,FG,14:56,"Will Johnson 28 Yd Field Goal  Drive info: 9 plays, 54 yds in 2:58",6,3
+,TD,10:23,"Tyler Jones 13 Yd Run (Will Johnson Kick)Drive info: 8 plays, 58 yds in 3:24",13,3
+,TD,4:13,"T. Jones pass,to R. Lowe for 9 yds for a TD, (W. Johnson KICK)Drive info: 10 plays, 76 yds in 4:08",20,3
+,TD,0:08,"T. Jones pass,to C. Best for 14 yds for a TD, (W. Johnson KICK)Drive info: 3 plays, 54 yds in 0:24",27,3
+THIRD QUARTER,,TXST,GAST
+,TD,12:35,"T. Jones run for 15 yds for a TD, (W. Johnson KICK)Drive info: 6 plays, 77 yds in 2:25",34,3
+,TD,12:22,"N. Arbuckle pass,to R. Davis for 75 yds for a TD, (W. Lutz KICK)Drive info: 1 plays, 75 yds in 0:13",34,10
+,FG,8:19,"W. Johnson 36 yd FG GOODDrive info: 9 plays, 64 yds in 4:03",37,10
+,FG,2:18,"W. Johnson 31 yd FG GOODDrive info: 10 plays, 35 yds in 3:48",40,10
+FOURTH QUARTER,,TXST,GAST
+,TD,13:23,"N. Arbuckle pass,to L. Blair for 6 yds for a TD, (W. Lutz KICK)Drive info: 9 plays, 75 yds in 3:55",40,17
+,TD,12:12,"T. Franks run for 60 yds for a TD, (W. Johnson KICK)Drive info: 3 plays, 69 yds in 1:11",47,17
+,TD,9:40,"N. Arbuckle pass,to G. Smith for 39 yds for a TD, (W. Lutz KICK)Drive info: 7 plays, 75 yds in 2:32",47,24
+,TD,3:24,"N. Arbuckle pass,to T. Boyd for 6 yds for a TD, (W. Lutz KICK)Drive info: 11 plays, 87 yds in 4:00",47,31
+,TD,0:40,"N. Arbuckle pass intercepted for a TD,D. Mims return  for 60 yds for a TD, (W. Johnson KICK)",54,31
+,,TXST,GAST
+1st Downs,29,24
+3rd down efficiency,5-11,7-12
+4th down efficiency,0-1,0-0
+Total Yards,607,516
+Passing,267,356
+Comp-Att,26-32,32-47
+Yards per pass,8.3,7.6
+Rushing,340,160
+Rushing Attempts,43,27
+Yards per rush,7.9,5.9
+Penalties,5-38,5-40
+Turnovers,0,3
+Fumbles lost,0,1
+Interceptions thrown,0,2
+Possession,31:02,28:58
+Texas State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyler Jones,26/32,267,8.3,2,0,96.9
+Team,26/32,267,8.3,2,0,--
+Georgia State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Nick Arbuckle,32/46,356,7.7,4,2,53.5
+Lynquez Blair,0/1,0,0.0,0,0,3.4
+Team,32/47,356,7.6,4,2,--
+Texas State Rushing
+,CAR,YDS,AVG,TD,LG
+Robert Lowe,20,146,7.3,0,33
+Terrence Franks,10,98,9.8,1,60
+Tyler Jones,9,65,7.2,2,17
+C.J. Best,3,29,9.7,0,20
+Tim Gay,1,2,2.0,0,2
+Team,43,340,7.9,3,60
+Georgia State Rushing
+,CAR,YDS,AVG,TD,LG
+Marcus Caffey,10,72,7.2,0,16
+Gerald Howse,4,29,7.3,0,10
+Nick Arbuckle,6,24,4.0,0,9
+Duvall Smith,3,17,5.7,0,7
+Donovan Harden,1,13,13.0,0,13
+Robert Davis,1,3,3.0,0,3
+Glenn Smith,1,3,3.0,0,3
+Team,27,160,5.9,0,16
+Texas State Receiving
+,REC,YDS,AVG,TD,LG
+C.J. Best,11,120,10.9,1,34
+Brandon Smith,5,53,10.6,0,18
+Bradley Miller,3,28,9.3,0,12
+Robert Lowe,3,22,7.3,1,13
+Ben Ijah,1,19,19.0,0,19
+Ryan Carden,1,17,17.0,0,17
+Brice Gunter,1,5,5.0,0,5
+David Lewis,1,3,3.0,0,3
+Team,26,267,10.3,2,34
+Georgia State Receiving
+,REC,YDS,AVG,TD,LG
+Robert Davis,6,117,19.5,1,75
+Donovan Harden,5,58,11.6,0,34
+Glenn Smith,3,52,17.3,1,39
+Lynquez Blair,8,50,6.3,1,13
+Keith Rucker,4,30,7.5,0,14
+Marcus Caffey,2,20,10.0,0,12
+Todd Boyd,3,18,6.0,1,7
+Dontavis Crocker,1,11,11.0,0,11
+Team,32,356,11.1,4,75
+Texas State Interceptions
+,INT,YDS,TD
+David Mims,1,60,1
+Craig Mager,1,21,0
+Team,2,81,1
+Georgia State Interceptions
+,INT,YDS,TD
+No Interception Information
+Texas State Kick Returns
+,NO,YDS,AVG,LG,TD
+Brandon Smith,3,54,18.0,23,0
+Team,3,54,18.0,23,0
+Georgia State Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Texas State Punt Returns
+,NO,YDS,AVG,LG,TD
+Craig Mager,1,7,7.0,7,0
+Team,1,7,7.0,7,0
+Georgia State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Texas State Kicking
+,FG,PCT,LG,XP,PTS
+Will Johnson,4/4,100.0,36,6/6,18
+Team,4/4,100.0,36,6/6,18
+Georgia State Kicking
+,FG,PCT,LG,XP,PTS
+Wil Lutz,1/1,100.0,21,4/4,7
+Team,1/1,100.0,21,4/4,7
+Texas State Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Johnson,1,34,34.0,0,1,34
+Team,1,34,34.0,0,1,34
+Georgia State Punting
+,NO,YDS,AVG,TB,-20,LG
+Wil Lutz,3,117,39.0,0,0,43
+Team,3,117,39.0,0,0,43

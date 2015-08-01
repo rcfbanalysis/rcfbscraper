@@ -1,0 +1,113 @@
+FIRST QUARTER,,KSU,TCU
+,TD,6:06,"Trevone Boykin 2 Yd Run (Jaden Oberkrom Kick)Drive info: 6 plays, 65 yds in 2:02",0,7
+,TD,1:11,"David Porter 10 Yd pass from Trevone Boykin (Jaden Oberkrom Kick)Drive info: 7 plays, 58 yds in 3:23",0,14
+,TD,0:42,"Tyler Lockett 70 Yd pass from Jake Waters (Matthew McCrane Kick)Drive info: 3 plays, 70 yds in 0:29",7,14
+SECOND QUARTER,,KSU,TCU
+,FG,0:50,"Jaden Oberkrom 26 Yd Field Goal  Drive info: 10 plays, 38 yds in 3:06",7,17
+THIRD QUARTER,,KSU,TCU
+,TD,13:36,"Trevone Boykin 19 Yd Run (Jaden Oberkrom Kick)Drive info: 5 plays, 60 yds in 1:24",7,24
+,TD,9:30,"Curry Sexton 15 Yd pass from Jake Waters (Matthew McCrane Kick)Drive info: 8 plays, 67 yds in 4:06",14,24
+,TD,8:39,"Aaron Green 65 Yd Run (Jaden Oberkrom Kick)Drive info: 3 plays, 76 yds in 0:51",14,31
+FOURTH QUARTER,,KSU,TCU
+,FG,14:50,"Jaden Oberkrom 26 Yd Field Goal  Drive info: 9 plays, 66 yds in 4:01",14,34
+,TD,8:39,"Trevone Boykin 23 Yd Run (Jaden Oberkrom Kick)Drive info: 9 plays, 72 yds in 4:45",14,41
+,TD,1:36,"Joe Hubener 6 Yd Run (Matthew McCrane PAT blocked)Drive info: 5 plays, 97 yds in 1:27",20,41
+,,KSU,TCU
+1st Downs,16,28
+3rd down efficiency,5-14,8-17
+4th down efficiency,0-0,0-0
+Total Yards,410,553
+Passing,376,219
+Comp-Att,22-40,23-34
+Yards per pass,9.4,6.4
+Rushing,34,334
+Rushing Attempts,19,48
+Yards per rush,1.8,7.0
+Penalties,5-68,4-35
+Turnovers,1,0
+Fumbles lost,0,0
+Interceptions thrown,1,0
+Possession,24:16,34:50
+Kansas State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jake Waters,20/37,291,7.9,2,1,49.9
+Joe Hubener,2/3,85,28.3,0,0,99.9
+Team,22/40,376,9.4,2,1,--
+TCU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Trevone Boykin,23/34,219,6.4,1,0,87.0
+Team,23/34,219,6.4,1,0,--
+Kansas State Rushing
+,CAR,YDS,AVG,TD,LG
+DeMarcus Robinson,7,21,3.0,0,9
+Joe Hubener,2,12,6.0,1,6
+Jake Waters,7,2,0.3,0,4
+Charles Jones,3,-1,-0.3,0,2
+Team,19,34,1.8,1,9
+TCU Rushing
+,CAR,YDS,AVG,TD,LG
+Aaron Green,18,171,9.5,1,65
+Trevone Boykin,17,123,7.2,3,23
+Trevorris Johnson,8,25,3.1,0,15
+Kyle Hicks,5,15,3.0,0,11
+Team,48,334,7.0,4,65
+Kansas State Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Lockett,11,196,17.8,1,70
+Curry Sexton,4,114,28.5,1,74
+Zach Trujillo,2,39,19.5,0,25
+Kody Cook,2,18,9.0,0,13
+Charles Jones,2,9,4.5,0,10
+Deante Burton,1,0,0.0,0,0
+Team,22,376,17.1,2,74
+TCU Receiving
+,REC,YDS,AVG,TD,LG
+David Porter,7,84,12.0,1,34
+Josh Doctson,4,53,13.3,0,20
+Kolby Listenbee,6,31,5.2,0,12
+"u""Ja'Juan Story""",2,21,10.5,0,13
+Kyle Hicks,2,16,8.0,0,9
+Ty Slanina,1,8,8.0,0,8
+Emanuel Porter,1,6,6.0,0,6
+Team,23,219,9.5,1,34
+Kansas State Interceptions
+,INT,YDS,TD
+No Interception Information
+TCU Interceptions
+,INT,YDS,TD
+Chris Hackett,1,30,0
+Team,1,30,0
+Kansas State Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Lockett,3,75,25.0,30,0
+Morgan Burns,2,27,13.5,30,0
+Team,5,102,20.4,30,0
+TCU Kick Returns
+,NO,YDS,AVG,LG,TD
+Kolby Listenbee,3,75,25.0,40,0
+Kyle Hicks,1,22,22.0,22,0
+Team,4,97,24.3,40,0
+Kansas State Punt Returns
+,NO,YDS,AVG,LG,TD
+Danzel McDaniel,1,-3,-3.0,-3,0
+Team,1,-3,-3.0,0,0
+TCU Punt Returns
+,NO,YDS,AVG,LG,TD
+Cameron Echols-Luper,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Kansas State Kicking
+,FG,PCT,LG,XP,PTS
+Matthew McCrane,0/0,0.0,0,2/3,2
+Team,0/0,0.0,0,2/3,2
+TCU Kicking
+,FG,PCT,LG,XP,PTS
+Jaden Oberkrom,2/2,100.0,26,5/5,11
+Team,2/2,100.0,26,5/5,11
+Kansas State Punting
+,NO,YDS,AVG,TB,-20,LG
+Nick Walsh,9,341,37.9,0,5,55
+Team,9,341,37.9,0,5,55
+TCU Punting
+,NO,YDS,AVG,TB,-20,LG
+Ethan Perry,5,234,46.8,2,2,54
+Team,5,234,46.8,2,2,54

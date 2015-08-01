@@ -1,0 +1,112 @@
+FIRST QUARTER,,PRST,ORST
+,FG,8:04,"Garrett Owens 25 Yd Field Goal  Drive info: 7 plays, 52 yds in 3:15",0,3
+,FG,1:12,"Garrett Owens 25 Yd Field Goal  Drive info: 9 plays, 71 yds in 5:01",0,6
+SECOND QUARTER,,PRST,ORST
+,TD,14:48,"Paris Penn 58 Yd Run (Jonathan Gonzales Kick)Drive info: 3 plays, 74 yds in 1:15",7,6
+,TD,9:36,"Sean Mannion 6 Yd Run (Garrett Owens Kick)Drive info: 10 plays, 82 yds in 5:06",7,13
+,TD,5:38,"Paris Penn 11 Yd Run (Jonathan Gonzales Kick)Drive info: 9 plays, 73 yds in 3:50",14,13
+THIRD QUARTER,,PRST,ORST
+,FG,10:58,"Garrett Owens 26 Yd Field Goal  Drive info: 10 plays, 51 yds in 3:52",14,16
+,TD,5:07,"Storm Woods 23 Yd pass from Sean Mannion (Garrett Owens Kick)Drive info: 1 plays, 23 yds in 0:07",14,23
+,FG,3:32,"Garrett Owens 31 Yd Field Goal  Drive info: 4 plays, 2 yds in 0:53",14,26
+FOURTH QUARTER,,PRST,ORST
+,FG,5:28,"Garrett Owens 23 Yd Field Goal  Drive info: 9 plays, 79 yds in 3:42",14,29
+,,PRST,ORST
+1st Downs,15,25
+3rd down efficiency,0-9,3-14
+4th down efficiency,1-1,1-1
+Total Yards,214,504
+Passing,83,328
+Comp-Att,10-27,26-45
+Yards per pass,3.1,7.3
+Rushing,131,176
+Rushing Attempts,24,37
+Yards per rush,5.5,4.8
+Penalties,3-30,13-119
+Turnovers,5,1
+Fumbles lost,3,1
+Interceptions thrown,2,0
+Possession,20:34,39:26
+Portland State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kieran McDonagh,8/17,65,3.8,0,1,--
+Paris Penn,1/8,12,1.5,0,0,--
+Darnell Adams,1/2,6,3.0,0,1,--
+Team,10/27,83,3.1,0,2,--
+Oregon State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sean Mannion,26/45,328,7.3,1,0,49.2
+Team,26/45,328,7.3,1,0,--
+Portland State Rushing
+,CAR,YDS,AVG,TD,LG
+Paris Penn,9,112,12.4,2,58
+Shaquille Richard,10,24,2.4,0,9
+Rey Vega,3,5,1.7,0,4
+Kieran McDonagh,2,-10,-5.0,0,0
+Team,24,131,5.5,2,58
+Oregon State Rushing
+,CAR,YDS,AVG,TD,LG
+Storm Barrs-Woods,16,125,7.8,0,50
+Victor Bolden,6,41,6.8,0,11
+Terron Ward,10,38,3.8,0,9
+Sean Mannion,5,-28,-5.6,1,6
+Team,37,176,4.8,1,50
+Portland State Receiving
+,REC,YDS,AVG,TD,LG
+Kasey Closs,4,38,9.5,0,18
+Alex Toureen,2,25,12.5,0,13
+Darnell Adams,2,8,4.0,0,5
+Thomas Carter III,1,6,6.0,0,6
+Kieran McDonagh,1,6,6.0,0,6
+Team,10,83,8.3,0,18
+Oregon State Receiving
+,REC,YDS,AVG,TD,LG
+Connor Hamlett,5,86,17.2,0,37
+Richard Mullaney,5,55,11.0,0,17
+Terron Ward,4,53,13.3,0,45
+Victor Bolden,5,52,10.4,0,29
+Caleb Smith,4,46,11.5,0,18
+Storm Barrs-Woods,1,23,23.0,1,23
+Kellen Clute,1,9,9.0,0,9
+Ricky Ortiz,1,4,4.0,0,4
+Team,26,328,12.6,1,45
+Portland State Interceptions
+,INT,YDS,TD
+No Interception Information
+Oregon State Interceptions
+,INT,YDS,TD
+Tyrequek Zimmerman,2,28,0
+Team,2,28,0
+Portland State Kick Returns
+,NO,YDS,AVG,LG,TD
+Aaron Sibley,5,94,18.8,26,0
+Shaquille Richard,1,19,19.0,19,0
+Team,6,113,18.8,26,0
+Oregon State Kick Returns
+,NO,YDS,AVG,LG,TD
+Rahmel Dockery,3,70,23.3,26,0
+Team,3,70,23.3,26,0
+Portland State Punt Returns
+,NO,YDS,AVG,LG,TD
+Kasey Closs,1,-5,-5.0,0,0
+Team,1,-5,-5.0,0,0
+Oregon State Punt Returns
+,NO,YDS,AVG,LG,TD
+Victor Bolden,3,45,15.0,19,0
+Team,3,45,15.0,19,0
+Portland State Kicking
+,FG,PCT,LG,XP,PTS
+Jonathan Gonzales,0/1,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Oregon State Kicking
+,FG,PCT,LG,XP,PTS
+Garrett Owens,5/7,71.4,31,2/2,17
+Team,5/7,71.4,31,2/2,17
+Portland State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kyle Loomis,6,291,48.5,0,0,55
+Team,6,291,48.5,0,0,55
+Oregon State Punting
+,NO,YDS,AVG,TB,-20,LG
+Keith Kostol,4,172,43.0,0,2,49
+Team,4,172,43.0,0,2,49

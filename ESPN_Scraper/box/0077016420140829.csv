@@ -1,0 +1,123 @@
+FIRST QUARTER,,BYU,CONN
+,TD,9:56,"Taysom Hill 7 Yd Run (Trevor Samson Kick)Drive info: 15 plays, 75 yds in 5:04",7,0
+,TD,9:35,"Mitch Mathews 26 Yd pass from Taysom Hill (Trevor Samson Kick)Drive info: 1 plays, 26 yds in 0:06",14,0
+SECOND QUARTER,,BYU,CONN
+,TD,9:13,"Adam Hine 7 Yd pass from Taysom Hill (Trevor Samson Kick)Drive info: 5 plays, 46 yds in 1:21",21,0
+,TD,2:33,"Joshua Marriner 1 Yd Run (Bobby Puyol Kick)Drive info: 6 plays, 52 yds in 2:16",21,7
+,TD,1:03,"Terenn Houk 35 Yd pass from Taysom Hill (Trevor Samson Kick)Drive info: 5 plays, 69 yds in 1:30",28,7
+FOURTH QUARTER,,BYU,CONN
+,FG,11:48,"Bobby Puyol 35 Yd Field Goal  Drive info: 10 plays, 37 yds in 3:58",28,10
+,TD,4:06,"Taysom Hill 26 Yd Run (Trevor Samson Kick)Drive info: 6 plays, 90 yds in 1:35",35,10
+,,BYU,CONN
+1st Downs,27,23
+3rd down efficiency,5-13,8-17
+4th down efficiency,1-1,1-4
+Total Yards,513,355
+Passing,308,284
+Comp-Att,28-36,25-48
+Yards per pass,8.6,5.9
+Rushing,205,71
+Rushing Attempts,37,31
+Yards per rush,5.5,2.3
+Penalties,15-150,8-90
+Turnovers,2,2
+Fumbles lost,2,1
+Interceptions thrown,0,1
+Possession,26:28,33:32
+BYU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Taysom Hill,28/36,308,8.6,3,0,92.6
+Team,28/36,308,8.6,3,0,--
+Connecticut Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Casey Cochran,17/31,171,5.5,0,1,33.4
+Chandler Whitmer,8/17,113,6.6,0,0,35.5
+Team,25/48,284,5.9,0,1,--
+BYU Rushing
+,CAR,YDS,AVG,TD,LG
+Taysom Hill,12,97,8.1,2,26
+Paul Lasike,9,49,5.4,0,12
+Algernon Brown,6,35,5.8,0,14
+Adam Hine,6,15,2.5,0,6
+Mitchell Juergens,1,5,5.0,0,5
+Nate Carter,3,4,1.3,0,2
+Team,37,205,5.5,2,26
+Connecticut Rushing
+,CAR,YDS,AVG,TD,LG
+Max DeLorenzo,9,38,4.2,0,8
+Josh Marriner,9,27,3.0,1,7
+Arkeel Newsome,3,10,3.3,0,7
+Ron Johnson,3,9,3.0,0,6
+Blake Feagles,1,6,6.0,0,6
+Casey Cochran,1,-6,-6.0,0,0
+Chandler Whitmer,5,-13,-2.6,0,1
+Team,31,71,2.3,1,8
+BYU Receiving
+,REC,YDS,AVG,TD,LG
+Mitch Mathews,5,62,12.4,1,26
+Terenn Houk,4,58,14.5,1,35
+Colby Pearson,3,47,15.7,0,30
+Algernon Brown,4,44,11.0,0,25
+Adam Hine,3,25,8.3,1,9
+Paul Lasike,4,23,5.8,0,11
+Jordan Leslie,2,22,11.0,0,12
+Mitchell Juergens,2,19,9.5,0,14
+Devin Mahina,1,8,8.0,0,8
+Team,28,308,11.0,3,35
+Connecticut Receiving
+,REC,YDS,AVG,TD,LG
+Geremy Davis,7,96,13.7,0,39
+Kamal Abrams,3,38,12.7,0,24
+Sean McQuillan,3,33,11.0,0,13
+Alec Bloom,2,24,12.0,0,15
+Arkeel Newsome,1,18,18.0,0,18
+Noel Thomas,2,18,9.0,0,12
+Josh Marriner,1,17,17.0,0,17
+Dhameer Bradley,1,15,15.0,0,15
+Ron Johnson,1,11,11.0,0,11
+Deshon Foxx,2,8,4.0,0,5
+Jazzmar Clax,1,3,3.0,0,3
+Tommy Myers,1,3,3.0,0,3
+Team,25,284,11.4,0,39
+BYU Interceptions
+,INT,YDS,TD
+Craig Bills,1,0,0
+Team,1,0,0
+Connecticut Interceptions
+,INT,YDS,TD
+No Interception Information
+BYU Kick Returns
+,NO,YDS,AVG,LG,TD
+Adam Hine,1,27,27.0,27,0
+Paul Lasike,1,18,18.0,18,0
+Team,2,45,22.5,27,0
+Connecticut Kick Returns
+,NO,YDS,AVG,LG,TD
+Arkeel Newsome,2,49,24.5,34,0
+Deshon Foxx,3,48,16.0,22,0
+Josh Marriner,1,17,17.0,17,0
+Team,6,114,19.0,34,0
+BYU Punt Returns
+,NO,YDS,AVG,LG,TD
+Mitchell Juergens,2,24,12.0,24,0
+Team,2,24,12.0,24,0
+Connecticut Punt Returns
+,NO,YDS,AVG,LG,TD
+Deshon Foxx,1,-1,-1.0,0,0
+Team,1,-1,-1.0,0,0
+BYU Kicking
+,FG,PCT,LG,XP,PTS
+Trevor Samson,0/1,0.0,0,5/5,5
+Team,0/1,0.0,0,5/5,5
+Connecticut Kicking
+,FG,PCT,LG,XP,PTS
+Bobby Puyol,1/1,100.0,35,1/1,4
+Team,1/1,100.0,35,1/1,4
+BYU Punting
+,NO,YDS,AVG,TB,-20,LG
+Scott Arellano,3,129,43.0,0,0,51
+Team,3,129,43.0,0,0,51
+Connecticut Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Wain,4,143,35.8,0,1,42
+Team,4,143,35.8,0,1,42

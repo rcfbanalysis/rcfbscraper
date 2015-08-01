@@ -1,0 +1,121 @@
+FIRST QUARTER,,UAB,ARK
+,TD,11:48,"Jonathan Williams 3 Yd Run (Adam McFain Kick)Drive info: 7 plays, 75 yds in 3:12",0,7
+,TD,5:12,"Alex Collins 3 Yd Run (Adam McFain Kick)Drive info: 11 plays, 72 yds in 5:04",0,14
+SECOND QUARTER,,UAB,ARK
+,TD,14:52,"Jonathan Williams 17 Yd pass from Brandon Allen (Adam McFain Kick)Drive info: 8 plays, 45 yds in 4:11",0,21
+,TD,9:11,"u""Alan D'Appollonio 6 Yd pass from Sebastian Tretola (Adam McFain Kick)"", Drive info: 8 plays, 92 yds in 3:40",0,28
+,TD,0:58,"Kody Walker 5 Yd Run (Adam McFain Kick)Drive info: 10 plays, 62 yds in 3:29",0,35
+THIRD QUARTER,,UAB,ARK
+,FG,13:18,"Adam McFain 49 Yd Field Goal  Drive info: 5 plays, 14 yds in 1:29",0,38
+,FG,7:29,"Ty Long 47 Yd Field Goal  Drive info: 4 plays, -20 yds in 1:49",3,38
+,TD,2:57,"Jeremy Sprinkle 15 Yd pass from Brandon Allen (Adam McFain Kick)Drive info: 5 plays, 70 yds in 1:24",3,45
+,TD,2:44,Jamarcus Nelson 100 Yd Kickoff Return (Ty Long Kick),10,45
+FOURTH QUARTER,,UAB,ARK
+,TD,0:42,"Nyiakki Height 33 Yd pass from Jeremiah Briscoe (Ty Long Kick)Drive info: 8 plays, 66 yds in 2:41",17,45
+,,UAB,ARK
+1st Downs,12,24
+3rd down efficiency,4-14,6-13
+4th down efficiency,0-3,1-1
+Total Yards,195,484
+Passing,62,211
+Comp-Att,6-18,16-26
+Yards per pass,3.4,8.1
+Rushing,133,273
+Rushing Attempts,42,46
+Yards per rush,3.2,5.9
+Penalties,2-10,2-9
+Turnovers,1,1
+Fumbles lost,0,1
+Interceptions thrown,1,0
+Possession,24:49,35:58
+UAB Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jeremiah Briscoe,6/18,62,3.4,1,1,0.6
+Team,6/18,62,3.4,1,1,--
+Arkansas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brandon Allen,15/24,205,8.5,2,0,90.3
+Sebastian Tretola,1/1,6,6.0,1,0,100.0
+Austin Allen,0/1,0,0.0,0,0,0.2
+Team,16/26,211,8.1,3,0,--
+UAB Rushing
+,CAR,YDS,AVG,TD,LG
+Jordan Howard,19,90,4.7,0,18
+D.J. Vinson,14,35,2.5,0,17
+Josh Magee,1,12,12.0,0,12
+Jeremiah Briscoe,4,11,2.8,0,9
+"u""Ja'Won Arrington""",2,7,3.5,0,6
+Maudrecus Humphrey,1,-4,-4.0,0,0
+Myles McKee,1,-18,-18.0,0,0
+Team,42,133,3.2,0,18
+Arkansas Rushing
+,CAR,YDS,AVG,TD,LG
+Jonathan Williams,18,153,8.5,1,31
+Alex Collins,15,82,5.5,1,23
+Kody Walker,6,32,5.3,1,11
+Damon Mitchell,2,15,7.5,0,15
+Denzell Evans,2,2,1.0,0,2
+Jared Cornelius,1,2,2.0,0,2
+Brandon Allen,1,-12,-12.0,0,0
+Team,46,273,5.9,3,31
+UAB Receiving
+,REC,YDS,AVG,TD,LG
+Nyiakki Height,1,33,33.0,1,33
+Jordan Howard,2,15,7.5,0,9
+Maudrecus Humphrey,2,15,7.5,0,16
+Kennard Backman,1,-1,-1.0,0,0
+Team,6,62,10.3,1,33
+Arkansas Receiving
+,REC,YDS,AVG,TD,LG
+Drew Morgan,1,44,44.0,0,44
+Cody Hollister,2,36,18.0,0,18
+Keon Hatcher,4,35,8.8,0,11
+Hunter Henry,3,32,10.7,0,14
+AJ Derby,1,20,20.0,0,20
+Jeremy Sprinkle,1,15,15.0,1,15
+Jonathan Williams,2,13,6.5,1,17
+Patrick Arinze,1,10,10.0,0,10
+"u""Alan D'Appollonio""",1,6,6.0,1,6
+Team,16,211,13.2,3,44
+UAB Interceptions
+,INT,YDS,TD
+No Interception Information
+Arkansas Interceptions
+,INT,YDS,TD
+Tevin Mitchel,1,-7,0
+Team,1,-7,0
+UAB Kick Returns
+,NO,YDS,AVG,LG,TD
+Jamarcus Nelson,2,127,63.5,100,1
+Josh Magee,3,62,20.7,28,0
+Team,5,189,37.8,100,1
+Arkansas Kick Returns
+,NO,YDS,AVG,LG,TD
+Keon Hatcher,1,20,20.0,20,0
+Team,1,20,20.0,20,0
+UAB Punt Returns
+,NO,YDS,AVG,LG,TD
+Jamarcus Nelson,2,39,19.5,35,0
+Team,2,39,19.5,35,0
+Arkansas Punt Returns
+,NO,YDS,AVG,LG,TD
+D.J. Dean,2,9,4.5,8,0
+Demetrius Wilson,1,-6,-6.0,-6,0
+Team,3,3,1.0,8,0
+UAB Kicking
+,FG,PCT,LG,XP,PTS
+Ty Long,1/1,100.0,47,2/2,5
+Team,1/1,100.0,47,2/2,5
+Arkansas Kicking
+,FG,PCT,LG,XP,PTS
+Adam McFain,1/1,100.0,49,6/6,9
+Team,1/1,100.0,49,6/6,9
+UAB Punting
+,NO,YDS,AVG,TB,-20,LG
+Hunter Mullins,6,287,47.8,1,2,54
+Team,6,287,47.8,1,2,54
+Arkansas Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Irwin-Hill,4,173,43.3,0,0,54
+Toby Baker,1,36,36.0,0,0,36
+Team,5,209,41.8,0,0,54

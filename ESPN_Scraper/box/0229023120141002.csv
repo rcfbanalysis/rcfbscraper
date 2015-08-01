@@ -1,0 +1,116 @@
+FIRST QUARTER,,FAU,FIU
+,FG,10:28,"Greg Joseph 26 Yd Field Goal  Drive info: 6 plays, 25 yds in 1:53",3,0
+,TD,7:50,"Alex Gardner 24 Yd Run (Austin Taylor Kick)Drive info: 7 plays, 70 yds in 2:38",3,7
+SECOND QUARTER,,FAU,FIU
+,TD,11:35,"Anthon Samuel 1 Yd Run (Austin Taylor Kick)Drive info: 7 plays, 18 yds in 3:13",3,14
+,TD,9:29,"Jay Warren 31 Yd Run (Greg Joseph Kick)Drive info: 3 plays, 85 yds in 2:06",10,14
+THIRD QUARTER,,FAU,FIU
+,FG,11:18,"Austin Taylor 37 Yd Field Goal  Drive info: 9 plays, 42 yds in 3:42",10,17
+,TD,3:39,Richard Leonard 100 Yd Fumble Return (Austin Taylor Kick),10,24
+FOURTH QUARTER,,FAU,FIU
+,TD,8:23,"Alex McGough 1 Yd Run (Austin Taylor Kick)Drive info: 10 plays, 80 yds in 3:23",10,31
+,TD,1:58,"Anthon Samuel 9 Yd Run (Austin Taylor Kick)Drive info: 7 plays, 41 yds in 4:25",10,38
+,,FAU,FIU
+1st Downs,22,20
+3rd down efficiency,5-14,6-14
+4th down efficiency,1-2,1-1
+Total Yards,383,345
+Passing,225,160
+Comp-Att,19-42,18-29
+Yards per pass,5.4,5.5
+Rushing,158,185
+Rushing Attempts,30,41
+Yards per rush,5.3,4.5
+Penalties,4-40,8-51
+Turnovers,4,1
+Fumbles lost,3,1
+Interceptions thrown,1,0
+Possession,28:05,31:55
+Florida Atlantic Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jaquez Johnson,19/42,225,5.4,0,1,41.3
+Team,19/42,225,5.4,0,1,--
+Florida Intl Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Alex McGough,18/29,160,5.5,0,0,64.3
+Team,18/29,160,5.5,0,0,--
+Florida Atlantic Rushing
+,CAR,YDS,AVG,TD,LG
+Jaquez Johnson,10,64,6.4,0,17
+Jay Warren,11,58,5.3,1,31
+Tony Moore,4,23,5.8,0,18
+Jeremy Gaskins,4,10,2.5,0,3
+Rodney Whitehead,1,3,3.0,0,3
+Team,30,158,5.3,1,31
+Florida Intl Rushing
+,CAR,YDS,AVG,TD,LG
+Alex Gardner,21,100,4.8,1,24
+Anthon Samuel,13,57,4.4,2,17
+Alex McGough,7,28,4.0,1,18
+Team,41,185,4.5,4,24
+Florida Atlantic Receiving
+,REC,YDS,AVG,TD,LG
+Rodney Whitehead,8,84,10.5,0,31
+William Dukes,3,70,23.3,0,38
+Nate Terry,1,20,20.0,0,20
+Jenson Stoshak,3,16,5.3,0,7
+Alex Deleon,1,13,13.0,0,13
+Kamrin Solomon,1,12,12.0,0,12
+Jay Warren,1,5,5.0,0,5
+Jeremy Gaskins,1,5,5.0,0,5
+Team,19,225,11.8,0,38
+Florida Intl Receiving
+,REC,YDS,AVG,TD,LG
+Jonnu Smith,7,62,8.9,0,18
+Glenn Coleman,5,41,8.2,0,11
+"u""Ya'Keem Griner""",2,25,12.5,0,20
+Alex Gardner,1,12,12.0,0,12
+Clinton Taylor,1,9,9.0,0,9
+Fred Porter,1,6,6.0,0,6
+Cory White,1,5,5.0,0,5
+Team,18,160,8.9,0,20
+Florida Atlantic Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida Intl Interceptions
+,INT,YDS,TD
+Richard Leonard,1,0,0
+Team,1,0,0
+Florida Atlantic Kick Returns
+,NO,YDS,AVG,LG,TD
+Rodney Whitehead,3,65,21.7,30,0
+Martese Jackson,3,55,18.3,25,0
+Team,6,120,20.0,30,0
+Florida Intl Kick Returns
+,NO,YDS,AVG,LG,TD
+Jordan Guest,1,11,11.0,11,0
+Fred Russ,1,5,5.0,5,0
+Glenn Coleman,1,0,0.0,0,0
+Team,3,16,5.3,11,0
+Florida Atlantic Punt Returns
+,NO,YDS,AVG,LG,TD
+Rodney Whitehead,1,21,21.0,21,0
+Team,1,21,21.0,21,0
+Florida Intl Punt Returns
+,NO,YDS,AVG,LG,TD
+Clinton Taylor,1,9,9.0,9,0
+Richard Leonard,1,5,5.0,5,0
+Team,2,14,7.0,9,0
+Florida Atlantic Kicking
+,FG,PCT,LG,XP,PTS
+Greg Joseph,1/1,100.0,26,1/1,4
+Team,1/1,100.0,26,1/1,4
+Florida Intl Kicking
+,FG,PCT,LG,XP,PTS
+Austin Taylor,1/1,100.0,37,5/5,8
+Team,1/1,100.0,37,5/5,8
+Florida Atlantic Punting
+,NO,YDS,AVG,TB,-20,LG
+Dalton Schomp,3,123,41.0,0,0,44
+Ryan Rickel,2,67,33.5,0,2,36
+Team,5,190,38.0,0,2,44
+Florida Intl Punting
+,NO,YDS,AVG,TB,-20,LG
+Jose Laphitzondo,5,214,42.8,0,1,50
+Chris Ayers,1,28,28.0,0,1,28
+Team,6,242,40.3,0,2,50

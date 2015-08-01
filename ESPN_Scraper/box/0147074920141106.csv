@@ -1,0 +1,117 @@
+FIRST QUARTER,,CLEM,WAKE
+,TD,1:09,"Cam Serigne 4 Yd pass from John Wolford (Mike Weaver Kick)Drive info: 5 plays, 43 yds in 1:47",0,7
+SECOND QUARTER,,CLEM,WAKE
+,FG,8:49,"Ammon Lakip 28 Yd Field Goal  Drive info: 8 plays, 60 yds in 3:40",3,7
+,TD,7:00,"Wayne Gallman 18 Yd pass from Cole Stoudt (Ammon Lakip Kick)Drive info: 3 plays, 23 yds in 0:56",10,7
+,TD,4:31,"Cam Serigne 14 Yd pass from John Wolford (Mike Weaver Kick)Drive info: 2 plays, 13 yds in 0:30",10,14
+,TD,0:27,"Artavis Scott 4 Yd pass from Cole Stoudt (Ammon Lakip Kick)Drive info: 12 plays, 75 yds in 4:04",17,14
+,FG,0:00,"Mike Weaver 50 Yd Field Goal  Drive info: 3 plays, 30 yds in 0:27",17,17
+THIRD QUARTER,,CLEM,WAKE
+,FG,10:11,"Ammon Lakip 39 Yd Field Goal  Drive info: 12 plays, 54 yds in 4:49",20,17
+FOURTH QUARTER,,CLEM,WAKE
+,FG,11:08,"Mike Weaver 31 Yd Field Goal  Drive info: 7 plays, 40 yds in 3:36",20,20
+,TD,10:53,"Artavis Scott 68 Yd pass from Cole Stoudt (Ammon Lakip Kick)Drive info: 1 plays, 68 yds in 0:15",27,20
+,TD,6:36,"Wayne Gallman 30 Yd Run (Ammon Lakip Kick)Drive info: 9 plays, 72 yds in 3:55",34,20
+,,CLEM,WAKE
+1st Downs,20,15
+3rd down efficiency,9-20,4-16
+4th down efficiency,1-4,0-2
+Total Yards,427,119
+Passing,282,112
+Comp-Att,27-42,12-30
+Yards per pass,6.7,3.7
+Rushing,145,7
+Rushing Attempts,37,34
+Yards per rush,3.9,0.2
+Penalties,8-75,2-29
+Turnovers,2,0
+Fumbles lost,1,0
+Interceptions thrown,1,0
+Possession,41:53,27:24
+Clemson Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cole Stoudt,27/42,282,6.7,3,1,72.8
+Team,27/42,282,6.7,3,1,--
+Wake Forest Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+John Wolford,11/29,88,3.0,2,0,19.3
+Jared Crump,1/1,24,24.0,0,0,99.2
+Team,12/30,112,3.7,2,0,--
+Clemson Rushing
+,CAR,YDS,AVG,TD,LG
+Wayne Gallman,19,106,5.6,1,30
+Cole Stoudt,7,19,2.7,0,16
+Tyshon Dye,5,14,2.8,0,8
+C.J. Davidson,3,8,2.7,0,3
+D.J. Howard,2,6,3.0,0,6
+Artavis Scott,1,-8,-8.0,0,0
+Team,37,145,3.9,1,30
+Wake Forest Rushing
+,CAR,YDS,AVG,TD,LG
+Dezmond Wortham,8,30,3.8,0,20
+Orville Reynolds,7,20,2.9,0,12
+Isaiah Robinson,10,2,0.2,0,8
+Alexander Kinal,1,-14,-14.0,0,0
+John Wolford,8,-31,-3.9,0,6
+Team,34,7,0.2,0,20
+Clemson Receiving
+,REC,YDS,AVG,TD,LG
+Artavis Scott,8,122,15.3,2,68
+Stanton Seckinger,1,45,45.0,0,45
+Wayne Gallman,4,43,10.8,1,18
+Mike Williams,3,29,9.7,0,10
+Germone Hopper,7,26,3.7,0,9
+Adam Humphries,2,9,4.5,0,6
+Jordan Leggett,1,9,9.0,0,9
+D.J. Howard,1,-1,-1.0,0,0
+Team,27,282,10.4,3,68
+Wake Forest Receiving
+,REC,YDS,AVG,TD,LG
+Cam Serigne,3,34,11.3,2,16
+Matt James,3,28,9.3,0,12
+John Wolford,1,24,24.0,0,24
+E.J. Scott,2,11,5.5,0,6
+Jared Crump,1,9,9.0,0,9
+Dezmond Wortham,1,6,6.0,0,6
+Devin Pike,1,0,0.0,0,0
+Team,12,112,9.3,2,24
+Clemson Interceptions
+,INT,YDS,TD
+No Interception Information
+Wake Forest Interceptions
+,INT,YDS,TD
+Kevin Johnson,1,2,0
+Team,1,2,0
+Clemson Kick Returns
+,NO,YDS,AVG,LG,TD
+T.J. Green,2,44,22.0,24,0
+Team,2,44,22.0,24,0
+Wake Forest Kick Returns
+,NO,YDS,AVG,LG,TD
+John Armstrong,3,40,13.3,23,0
+Isaiah Robinson,1,20,20.0,20,0
+Team,4,60,15.0,23,0
+Clemson Punt Returns
+,NO,YDS,AVG,LG,TD
+Adam Humphries,1,-3,-3.0,-3,0
+Team,1,-3,-3.0,0,0
+Wake Forest Punt Returns
+,NO,YDS,AVG,LG,TD
+Jared Crump,2,6,3.0,6,0
+Team,2,6,3.0,6,0
+Clemson Kicking
+,FG,PCT,LG,XP,PTS
+Ammon Lakip,2/2,100.0,39,4/4,10
+Team,2/2,100.0,39,4/4,10
+Wake Forest Kicking
+,FG,PCT,LG,XP,PTS
+Mike Weaver,2/3,66.7,50,2/2,8
+Team,2/3,66.7,50,2/2,8
+Clemson Punting
+,NO,YDS,AVG,TB,-20,LG
+Bradley Pinion,3,147,49.0,0,0,58
+Team,3,147,49.0,0,0,58
+Wake Forest Punting
+,NO,YDS,AVG,TB,-20,LG
+Alexander Kinal,7,336,48.0,0,3,73
+Team,7,336,48.0,0,3,73

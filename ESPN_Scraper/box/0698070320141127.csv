@@ -1,0 +1,115 @@
+FIRST QUARTER,,TCU,TEX
+,FG,12:40,"Jaden Oberkrom 42 Yd Field Goal  Drive info: 4 plays, 2 yds in 0:52",3,0
+,FG,4:25,"Jaden Oberkrom 29 Yd Field Goal  Drive info: 6 plays, 12 yds in 2:17",6,0
+,TD,0:20,"Terrell Lathan 40 Yd Fumble Return (Jaden Oberkrom Kick)Drive info: 9 plays, 18 yds in 4:05",13,0
+SECOND QUARTER,,TCU,TEX
+,FG,7:56,"Nick Rose 47 Yd Field Goal  Drive info: 9 plays, 35 yds in 2:48",13,3
+,TD,1:34,"David Porter 4 Yd pass from Trevone Boykin (Jaden Oberkrom Kick)Drive info: 9 plays, 67 yds in 3:25",20,3
+FOURTH QUARTER,,TCU,TEX
+,TD,14:54,"Josh Doctson 22 Yd pass from Trevone Boykin (Jaden Oberkrom Kick)Drive info: 2 plays, 18 yds in 0:30",27,3
+,TD,14:04,"Armanti Foreman 73 Yd pass from Tyrone Swoopes (Nick Rose Kick)Drive info: 2 plays, 73 yds in 0:50",27,10
+,TD,7:01,"Trevone Boykin 10 Yd Run (Jaden Oberkrom Kick)Drive info: 3 plays, 19 yds in 1:13",34,10
+,TD,2:53,"Aaron Green 5 Yd Run (Jaden Oberkrom Kick)Drive info: 5 plays, 60 yds in 2:13",41,10
+,TD,2:19,Josh Carraway 33 Yd Interception Return (Jaden Oberkrom Kick),48,10
+,,TCU,TEX
+1st Downs,16,12
+3rd down efficiency,5-15,5-18
+4th down efficiency,0-0,0-0
+Total Yards,368,290
+Passing,233,200
+Comp-Att,20-34,20-34
+Yards per pass,6.9,5.9
+Rushing,135,90
+Rushing Attempts,31,36
+Yards per rush,4.4,2.5
+Penalties,6-45,3-17
+Turnovers,2,6
+Fumbles lost,1,2
+Interceptions thrown,1,4
+Possession,28:52,30:55
+TCU Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Trevone Boykin,20/34,233,6.9,2,1,63.2
+Team,20/34,233,6.9,2,1,--
+Texas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyrone Swoopes,20/34,200,5.9,1,4,19.7
+Team,20/34,200,5.9,1,4,--
+TCU Rushing
+,CAR,YDS,AVG,TD,LG
+Aaron Green,16,73,4.6,1,30
+Trevone Boykin,12,50,4.2,1,17
+Kyle Hicks,2,12,6.0,0,8
+Desmon White,1,0,0.0,0,0
+Team,31,135,4.4,2,30
+Texas Rushing
+,CAR,YDS,AVG,TD,LG
+Tyrone Swoopes,15,61,4.1,0,28
+Malcolm Brown,10,29,2.9,0,6
+Johnathan Gray,11,0,0.0,0,5
+Team,36,90,2.5,0,28
+TCU Receiving
+,REC,YDS,AVG,TD,LG
+Josh Doctson,7,115,16.4,1,38
+Kolby Listenbee,3,47,15.7,0,40
+Desmon White,1,32,32.0,0,32
+Cameron Echols-Luper,1,14,14.0,0,14
+Deant Gray,1,13,13.0,0,13
+David Porter,2,7,3.5,1,4
+Ty Slanina,1,7,7.0,0,7
+Kyle Hicks,1,3,3.0,0,3
+"u""Ja'Juan Story""",1,1,1.0,0,1
+Aaron Green,2,-6,-3.0,0,0
+Team,20,233,11.7,2,40
+Texas Receiving
+,REC,YDS,AVG,TD,LG
+Armanti Foreman,4,91,22.8,1,73
+John Harris,5,39,7.8,0,12
+Malcolm Brown,4,33,8.3,0,10
+Johnathan Gray,4,30,7.5,0,13
+Jacorey Warrick,1,12,12.0,0,12
+Daje Johnson,1,-2,-2.0,0,-2
+Marcus Johnson,1,-3,-3.0,0,0
+Team,20,200,10.0,1,73
+TCU Interceptions
+,INT,YDS,TD
+Sam Carter,2,22,0
+Josh Carraway,1,33,1
+P.J. Dawson,1,3,0
+Team,4,58,1
+Texas Interceptions
+,INT,YDS,TD
+Dylan Haines,1,2,0
+Team,1,2,0
+TCU Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Texas Kick Returns
+,NO,YDS,AVG,LG,TD
+Armanti Foreman,5,107,21.4,27,0
+Team,5,107,21.4,27,0
+TCU Punt Returns
+,NO,YDS,AVG,LG,TD
+Cameron Echols-Luper,2,59,29.5,53,0
+Team,2,59,29.5,53,0
+Texas Punt Returns
+,NO,YDS,AVG,LG,TD
+Quandre Diggs,1,-7,-7.0,-7,0
+Team,1,-7,-7.0,0,0
+TCU Kicking
+,FG,PCT,LG,XP,PTS
+Jaden Oberkrom,2/2,100.0,42,6/6,12
+Team,2/2,100.0,42,6/6,12
+Texas Kicking
+,FG,PCT,LG,XP,PTS
+Nick Rose,1/1,100.0,47,1/1,4
+Team,1/1,100.0,47,1/1,4
+TCU Punting
+,NO,YDS,AVG,TB,-20,LG
+Ethan Perry,7,233,33.3,0,3,47
+Team,7,233,33.3,0,3,47
+Texas Punting
+,NO,YDS,AVG,TB,-20,LG
+William Russ,6,229,38.2,0,0,50
+Michael Davidson,3,135,45.0,0,0,48
+Team,9,364,40.4,0,0,50

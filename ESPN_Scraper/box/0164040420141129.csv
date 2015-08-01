@@ -1,0 +1,116 @@
+FIRST QUARTER,,CONN,MEM
+,FG,4:59,"Jake Elliott 21 Yd Field Goal  Drive info: 13 plays, 44 yds in 4:29",0,3
+,FG,0:44,"Jake Elliott 22 Yd Field Goal  Drive info: 8 plays, 52 yds in 2:24",0,6
+SECOND QUARTER,,CONN,MEM
+,TD,1:55,"Keiwone Malone 6 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 10 plays, 80 yds in 3:30",0,13
+,FG,0:03,"Bobby Puyol 45 Yd Field Goal  Drive info: 10 plays, 51 yds in 1:47",3,13
+THIRD QUARTER,,CONN,MEM
+,TD,7:36,"Keiwone Malone 9 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 4 plays, 39 yds in 1:23",3,20
+,TD,3:15,"Tevin Jones 12 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 9 plays, 65 yds in 3:15",3,27
+,TD,0:53,"Phil Mayhue 21 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 6 plays, 40 yds in 2:16",3,34
+FOURTH QUARTER,,CONN,MEM
+,TD,12:22,"Arkeel Newsome 39 Yd pass from Tim Boyle (Bobby Puyol Kick)Drive info: 6 plays, 75 yds in 3:31",10,34
+,TD,5:09,"Jarvis Cooper 1 Yd Run (Jake Elliott Kick)Drive info: 7 plays, 49 yds in 3:43",10,41
+,,CONN,MEM
+1st Downs,14,28
+3rd down efficiency,5-15,8-18
+4th down efficiency,0-0,1-1
+Total Yards,269,372
+Passing,162,194
+Comp-Att,13-27,22-41
+Yards per pass,6.0,4.7
+Rushing,107,178
+Rushing Attempts,36,44
+Yards per rush,3.0,4.0
+Penalties,10-115,4-40
+Turnovers,2,0
+Fumbles lost,1,0
+Interceptions thrown,1,0
+Possession,28:07,31:53
+Connecticut Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tim Boyle,12/24,160,6.7,1,1,18.9
+Chandler Whitmer,1/1,2,2.0,0,0,81.4
+Deshon Foxx,0/1,0,0.0,0,0,0.2
+Team,13/27,162,6.0,1,1,--
+Memphis Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Paxton Lynch,22/41,194,4.7,4,0,68.2
+Team,22/41,194,4.7,4,0,--
+Connecticut Rushing
+,CAR,YDS,AVG,TD,LG
+Ron Johnson,22,67,3.0,0,16
+Max DeLorenzo,5,37,7.4,0,26
+Josh Marriner,4,8,2.0,0,7
+Tim Boyle,5,-5,-1.0,0,1
+Team,36,107,3.0,0,26
+Memphis Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Hayes,17,60,3.5,0,12
+Jarvis Cooper,8,48,6.0,1,18
+Paxton Lynch,9,40,4.4,0,19
+Mose Frazier,1,12,12.0,0,12
+Drew Bishop,1,6,6.0,0,6
+Tearris Wallace,2,6,3.0,0,4
+Robert Davis,1,3,3.0,0,3
+Sam Craft,4,2,0.5,0,3
+Roderick Proctor,1,1,1.0,0,1
+Team,44,178,4.0,1,19
+Connecticut Receiving
+,REC,YDS,AVG,TD,LG
+Geremy Davis,5,62,12.4,0,19
+Noel Thomas,4,41,10.3,0,16
+Arkeel Newsome,1,39,39.0,1,39
+Max DeLorenzo,2,18,9.0,0,17
+Deshon Foxx,1,2,2.0,0,2
+Team,13,162,12.5,1,39
+Memphis Receiving
+,REC,YDS,AVG,TD,LG
+Keiwone Malone,7,70,10.0,2,19
+Adrian Henderson,2,33,16.5,0,17
+Phil Mayhue,3,33,11.0,1,21
+Roderick Proctor,3,24,8.0,0,11
+Mose Frazier,5,16,3.2,0,5
+Tevin Jones,1,12,12.0,1,12
+Alan Cross,1,6,6.0,0,6
+Team,22,194,8.8,4,21
+Connecticut Interceptions
+,INT,YDS,TD
+No Interception Information
+Memphis Interceptions
+,INT,YDS,TD
+Fritz Etienne,1,0,0
+Team,1,0,0
+Connecticut Kick Returns
+,NO,YDS,AVG,LG,TD
+Arkeel Newsome,1,16,16.0,16,0
+Team,1,16,16.0,16,0
+Memphis Kick Returns
+,NO,YDS,AVG,LG,TD
+Joe Craig,2,32,16.0,16,0
+Brandon Hayes,1,10,10.0,10,0
+Team,3,42,14.0,16,0
+Connecticut Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Memphis Punt Returns
+,NO,YDS,AVG,LG,TD
+Keiwone Malone,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Connecticut Kicking
+,FG,PCT,LG,XP,PTS
+Bobby Puyol,1/2,50.0,45,1/1,4
+Team,1/2,50.0,45,1/1,4
+Memphis Kicking
+,FG,PCT,LG,XP,PTS
+Jake Elliott,2/2,100.0,22,5/5,11
+Team,2/2,100.0,22,5/5,11
+Connecticut Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Wain,9,332,36.9,2,0,59
+Team,9,332,36.9,2,0,59
+Memphis Punting
+,NO,YDS,AVG,TB,-20,LG
+Spencer Smith,6,226,37.7,0,1,53
+Nick Jacobs,1,30,30.0,0,1,30
+Team,7,256,36.6,0,2,53

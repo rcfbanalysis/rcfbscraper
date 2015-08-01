@@ -1,0 +1,111 @@
+FIRST QUARTER,,WMU,AFA
+,FG,12:45,"Andrew Haldeman 25 Yd Field Goal  Drive info: 8 plays, 22 yds in 2:08",3,0
+,TD,5:24,"Shayne Davern 1 Yd Run (Team Extra Point Attempt Failed)Drive info: 9 plays, 61 yds in 3:41",3,6
+SECOND QUARTER,,WMU,AFA
+,TD,11:26,"Corey Davis 47 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 6 plays, 75 yds in 2:49",10,6
+,TD,10:12,"Shayne Davern 55 Yd Run (Will Conant Kick)Drive info: 3 plays, 72 yds in 1:14",10,13
+,TD,2:32,"Devin Rushing 1 Yd Run (Will Conant Kick)Drive info: 15 plays, 80 yds in 5:59",10,20
+THIRD QUARTER,,WMU,AFA
+,FG,6:32,"Will Conant 31 Yd Field Goal  Drive info: 9 plays, 35 yds in 3:35",10,23
+FOURTH QUARTER,,WMU,AFA
+,TD,13:26,"Corey Davis 35 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 9 plays, 92 yds in 2:00",17,23
+,TD,9:52,"Dexter Walker 60 Yd Fumble Return (Kale Pearson Pass to Jalen Robinette for Two-Point Conversion)Drive info: 3 plays, 13 yds in 1:30",17,31
+,TD,5:20,"D.J. Johnson 9 Yd Run (Will Conant Kick)Drive info: 7 plays, 38 yds in 3:11",17,38
+,TD,3:16,"Corey Davis 51 Yd pass from Zach Terrell (Andrew Haldeman Kick)Drive info: 6 plays, 84 yds in 2:04",24,38
+,,WMU,AFA
+1st Downs,17,20
+3rd down efficiency,6-15,4-15
+4th down efficiency,0-1,4-4
+Total Yards,376,361
+Passing,297,77
+Comp-Att,19-38,5-10
+Yards per pass,7.8,7.7
+Rushing,79,284
+Rushing Attempts,26,64
+Yards per rush,3.0,4.4
+Penalties,9-70,3-41
+Turnovers,1,1
+Fumbles lost,1,1
+Interceptions thrown,0,0
+Possession,27:22,32:38
+Western Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Zach Terrell,19/38,297,7.8,3,0,44.5
+Team,19/38,297,7.8,3,0,--
+Air Force Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kale Pearson,5/9,77,8.6,0,0,23.6
+Jalen Robinette,0/1,0,0.0,0,0,0.1
+Team,5/10,77,7.7,0,0,--
+Western Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Zach Terrell,11,61,5.5,0,41
+Jarvion Franklin,12,26,2.2,0,5
+Dareyon Chance,1,1,1.0,0,1
+Darius Phillips,1,-1,-1.0,0,0
+Daniel Braverman,1,-8,-8.0,0,0
+Team,26,79,3.0,0,41
+Air Force Rushing
+,CAR,YDS,AVG,TD,LG
+Shayne Davern,12,101,8.4,2,55
+D.J. Johnson,20,83,4.2,1,9
+Kale Pearson,14,41,2.9,0,14
+Colton Huntsman,1,26,26.0,0,26
+Devin Rushing,8,25,3.1,1,7
+Garrett Brown,1,10,10.0,0,10
+Paco Solano,5,4,0.8,0,3
+Team,64,284,4.4,4,55
+Western Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Corey Davis,8,176,22.0,3,51
+Daniel Braverman,7,85,12.1,0,24
+Darius Phillips,3,28,9.3,0,15
+Fabian Johnson,1,8,8.0,0,8
+Team,19,297,15.6,3,51
+Air Force Receiving
+,REC,YDS,AVG,TD,LG
+Jalen Robinette,2,43,21.5,0,38
+Garrett Brown,2,26,13.0,0,14
+Devin Rushing,1,8,8.0,0,8
+Team,5,77,15.4,0,38
+Western Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Air Force Interceptions
+,INT,YDS,TD
+No Interception Information
+Western Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Phillips,5,133,26.6,46,0
+Dareyon Chance,1,17,17.0,17,0
+Daniel Braverman,1,16,16.0,16,0
+Team,7,166,23.7,46,0
+Air Force Kick Returns
+,NO,YDS,AVG,LG,TD
+Paco Solano,1,26,26.0,26,0
+Bryan Driskell,1,22,22.0,22,0
+Team,2,48,24.0,26,0
+Western Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Daniel Braverman,1,11,11.0,11,0
+Team,1,11,11.0,11,0
+Air Force Punt Returns
+,NO,YDS,AVG,LG,TD
+Garrett Brown,3,18,6.0,9,0
+Team,3,18,6.0,9,0
+Western Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Haldeman,1/1,100.0,25,3/3,6
+Team,1/1,100.0,25,3/3,6
+Air Force Kicking
+,FG,PCT,LG,XP,PTS
+Will Conant,1/1,100.0,31,3/3,6
+Team,1/1,100.0,31,3/3,6
+Western Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+J. Schroeder,7,288,41.1,1,1,53
+Team,7,288,41.1,1,1,53
+Air Force Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Conant,5,209,41.8,0,3,46
+Team,5,209,41.8,0,3,46

@@ -1,0 +1,110 @@
+FIRST QUARTER,,NCST,CLEM
+,TD,12:38,"Mike Williams 56 Yd pass from Deshaun Watson (Ammon Lakip Kick)Drive info: 7 plays, 82 yds in 2:22",0,7
+,TD,9:42,"Mike Williams 31 Yd pass from Deshaun Watson (Ammon Lakip Kick)Drive info: 6 plays, 65 yds in 1:56",0,14
+,TD,4:32,"Deshaun Watson 5 Yd Run (Ammon Lakip Kick)Drive info: 10 plays, 64 yds in 3:33",0,21
+SECOND QUARTER,,NCST,CLEM
+,TD,10:56,"Deshaun Watson 3 Yd Run (Ammon Lakip Kick)Drive info: 4 plays, 16 yds in 1:07",0,28
+,FG,5:32,"Ammon Lakip 31 Yd Field Goal  Drive info: 9 plays, 46 yds in 3:13",0,31
+THIRD QUARTER,,NCST,CLEM
+,FG,9:31,"Ammon Lakip 43 Yd Field Goal  Drive info: 11 plays, 67 yds in 4:04",0,34
+,TD,9:23,"Vic Beasley 16 Yd Fumble Return (Ammon Lakip Kick)Drive info: 1 plays, -9 yds in 0:08",0,41
+,,NCST,CLEM
+1st Downs,12,25
+3rd down efficiency,3-14,12-19
+4th down efficiency,0-0,0-1
+Total Yards,154,493
+Passing,35,267
+Comp-Att,4-19,17-30
+Yards per pass,1.8,8.9
+Rushing,119,226
+Rushing Attempts,38,50
+Yards per rush,3.1,4.5
+Penalties,5-45,9-97
+Turnovers,3,0
+Fumbles lost,3,0
+Interceptions thrown,0,0
+Possession,25:20,34:40
+NC State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jacoby Brissett,4/18,35,1.9,0,0,2.1
+Team,4/19,35,1.8,0,0,--
+Clemson Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Deshaun Watson,17/29,267,9.2,2,0,95.3
+Cole Stoudt,0/1,0,0.0,0,0,3.8
+Team,17/30,267,8.9,2,0,--
+NC State Rushing
+,CAR,YDS,AVG,TD,LG
+Tony Creecy,7,43,6.1,0,18
+Shadrach Thornton,6,39,6.5,0,13
+Matt Dayes,7,17,2.4,0,5
+Jacoby Brissett,16,14,0.9,0,10
+"u""Bra'Lon Cherry""",1,6,6.0,0,6
+Bryan Underwood,1,0,0.0,0,0
+Team,38,119,3.1,0,18
+Clemson Rushing
+,CAR,YDS,AVG,TD,LG
+Deshaun Watson,15,62,4.1,2,17
+Wayne Gallman,13,58,4.5,0,12
+Adam Choice,9,56,6.2,0,34
+D.J. Howard,5,30,6.0,0,11
+C.J. Davidson,4,18,4.5,0,8
+Cole Stoudt,1,6,6.0,0,6
+Adam Humphries,1,-1,-1.0,0,0
+Nick Schuessler,1,-2,-2.0,0,0
+Team,50,226,4.5,2,34
+NC State Receiving
+,REC,YDS,AVG,TD,LG
+Shadrach Thornton,1,18,18.0,0,18
+Johnathan Alston,1,9,9.0,0,9
+Bryan Underwood,1,8,8.0,0,8
+Matt Dayes,1,0,0.0,0,0
+Team,4,35,8.8,0,18
+Clemson Receiving
+,REC,YDS,AVG,TD,LG
+Mike Williams,6,155,25.8,2,56
+Germone Hopper,1,28,28.0,0,28
+Wayne Gallman,3,21,7.0,0,11
+Adam Choice,2,21,10.5,0,16
+Jordan Leggett,1,21,21.0,0,21
+Demarre Kitt,2,8,4.0,0,6
+Adam Humphries,1,8,8.0,0,8
+C.J. Davidson,1,5,5.0,0,5
+Team,17,267,15.7,2,56
+NC State Interceptions
+,INT,YDS,TD
+No Interception Information
+Clemson Interceptions
+,INT,YDS,TD
+No Interception Information
+NC State Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Clemson Kick Returns
+,NO,YDS,AVG,LG,TD
+T.J. Green,1,18,18.0,18,0
+Team,1,18,18.0,18,0
+NC State Punt Returns
+,NO,YDS,AVG,LG,TD
+Bo Hines,1,7,7.0,7,0
+Team,1,7,7.0,7,0
+Clemson Punt Returns
+,NO,YDS,AVG,LG,TD
+Adam Humphries,4,40,10.0,18,0
+Germone Hopper,1,-6,-6.0,-6,0
+Team,5,34,6.8,18,0
+NC State Kicking
+,FG,PCT,LG,XP,PTS
+No Kicking Information
+Clemson Kicking
+,FG,PCT,LG,XP,PTS
+Ammon Lakip,2/3,66.7,43,5/5,11
+Team,2/3,66.7,43,5/5,11
+NC State Punting
+,NO,YDS,AVG,TB,-20,LG
+Wil Baumann,9,410,45.6,0,4,56
+Team,9,410,45.6,0,4,56
+Clemson Punting
+,NO,YDS,AVG,TB,-20,LG
+Bradley Pinion,3,113,37.7,0,2,40
+Team,3,113,37.7,0,2,40

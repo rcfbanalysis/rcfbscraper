@@ -1,0 +1,115 @@
+FIRST QUARTER,,TEX,TTU
+,FG,11:31,"Nick Rose 46 Yd Field Goal  Drive info: 7 plays, 36 yds in 2:23",3,0
+,TD,4:09,"Branden Jackson Fumble Recovery in End Zone (Ryan Bustin PAT failed)Drive info: 1 plays, -15 yds in 0:11",3,6
+SECOND QUARTER,,TEX,TTU
+,TD,7:12,"Malcolm Brown 3 Yd Run (Nick Rose Kick)Drive info: 5 plays, 25 yds in 2:09",10,6
+,TD,3:34,"Kenny Williams 6 Yd Run (Ryan Bustin Kick)Drive info: 9 plays, 75 yds in 3:38",10,13
+,TD,2:59,"Johnathan Gray 17 Yd Run (Nick Rose Kick)Drive info: 2 plays, 85 yds in 0:35",17,13
+THIRD QUARTER,,TEX,TTU
+,FG,12:02,"Nick Rose 42 Yd Field Goal  Drive info: 9 plays, 40 yds in 2:58",20,13
+FOURTH QUARTER,,TEX,TTU
+,TD,14:16,"Jaxon Shipley 4 Yd pass from Tyrone Swoopes (Nick Rose Kick)Drive info: 9 plays, 89 yds in 3:52",27,13
+,TD,11:47,"Malcolm Brown 1 Yd Run (Nick Rose Kick)Drive info: 5 plays, 61 yds in 1:30",34,13
+,,TEX,TTU
+1st Downs,21,18
+3rd down efficiency,5-16,8-20
+4th down efficiency,1-2,0-2
+Total Yards,469,381
+Passing,228,225
+Comp-Att,13-25,28-47
+Yards per pass,9.1,4.8
+Rushing,241,156
+Rushing Attempts,51,32
+Yards per rush,4.7,4.9
+Penalties,5-50,6-70
+Turnovers,2,2
+Fumbles lost,2,1
+Interceptions thrown,0,1
+Possession,30:45,29:15
+Texas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyrone Swoopes,13/25,228,9.1,1,0,58.5
+Team,13/25,228,9.1,1,0,--
+Texas Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Vincent Testaverde,15/26,116,4.5,0,1,9.5
+Patrick Mahomes,13/21,109,5.2,0,0,21.9
+Team,28/47,225,4.8,0,1,--
+Texas Rushing
+,CAR,YDS,AVG,TD,LG
+Malcolm Brown,22,116,5.3,2,28
+Johnathan Gray,16,76,4.8,1,17
+Daje Johnson,2,43,21.5,0,30
+"u""D'Onta Foreman""",4,10,2.5,0,6
+Tyrone Swoopes,7,-4,-0.6,0,23
+Team,51,241,4.7,3,30
+Texas Tech Rushing
+,CAR,YDS,AVG,TD,LG
+DeAndre Washington,16,97,6.1,0,18
+Justin Stockton,6,56,9.3,0,31
+Quinton White,4,9,2.3,0,5
+Kenny Williams,2,5,2.5,1,6
+Vincent Testaverde,1,0,0.0,0,0
+Patrick Mahomes,2,-2,-1.0,0,0
+Team,32,156,4.9,1,31
+Texas Receiving
+,REC,YDS,AVG,TD,LG
+John Harris,5,165,33.0,0,68
+Jaxon Shipley,3,23,7.7,1,14
+MJ McFarland,1,13,13.0,0,13
+Johnathan Gray,2,11,5.5,0,8
+Lorenzo Joe,1,11,11.0,0,11
+Marcus Johnson,1,5,5.0,0,5
+Team,13,228,17.5,1,68
+Texas Tech Receiving
+,REC,YDS,AVG,TD,LG
+Bradley Marquez,6,55,9.2,0,15
+DeAndre Washington,3,45,15.0,0,37
+Devin Lauderdale,6,33,5.5,0,9
+Ian Sadler,3,30,10.0,0,13
+Quinton White,2,28,14.0,0,26
+Jakeem Grant,1,10,10.0,0,10
+Brad Pearson,3,10,3.3,0,5
+Reginald Davis,2,6,3.0,0,6
+Kenny Williams,1,4,4.0,0,4
+D.J. Polite-Bray,1,4,4.0,0,4
+Team,28,225,8.0,0,37
+Texas Interceptions
+,INT,YDS,TD
+Mykkele Thompson,1,0,0
+Team,1,0,0
+Texas Tech Interceptions
+,INT,YDS,TD
+No Interception Information
+Texas Kick Returns
+,NO,YDS,AVG,LG,TD
+Armanti Foreman,1,11,11.0,11,0
+Team,1,11,11.0,11,0
+Texas Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Reginald Davis,1,19,19.0,19,0
+Team,1,19,19.0,19,0
+Texas Punt Returns
+,NO,YDS,AVG,LG,TD
+Jaxon Shipley,3,18,6.0,17,0
+Team,3,18,6.0,17,0
+Texas Tech Punt Returns
+,NO,YDS,AVG,LG,TD
+Cameron Batson,3,30,10.0,18,0
+Team,3,30,10.0,18,0
+Texas Kicking
+,FG,PCT,LG,XP,PTS
+Nick Rose,2/3,66.7,46,4/4,10
+Team,2/3,66.7,46,4/4,10
+Texas Tech Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Bustin,0/1,0.0,0,1/2,1
+Team,0/1,0.0,0,1/2,1
+Texas Punting
+,NO,YDS,AVG,TB,-20,LG
+William Russ,6,266,44.3,0,1,58
+Team,6,266,44.3,0,1,58
+Texas Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Taylor Symmank,8,328,41.0,0,4,49
+Team,8,328,41.0,0,4,49

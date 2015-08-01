@@ -1,0 +1,119 @@
+FIRST QUARTER,,CHSO,VAN
+,FG,10:57,"Tommy Openshaw 39 Yd Field Goal  Drive info: 8 plays, 39 yds in 4:03",0,3
+SECOND QUARTER,,CHSO,VAN
+,FG,14:53,"David Kennedy 23 Yd Field Goal  Drive info: 9 plays, 42 yds in 3:30",3,3
+,TD,10:25,"C.J. Duncan 65 Yd pass from Johnny McCrary (Tommy Openshaw Kick)Drive info: 3 plays, 71 yds in 1:28",3,10
+,TD,5:06,"Dallas Rivers 8 Yd Run (Taylor Hudson Pass to Andrew East for Two-Point Conversion)Drive info: 6 plays, 34 yds in 3:35",3,18
+,TD,0:36,Lorenzo Mathis 17 Yd Return of Blocked Punt (David Kennedy Kick),10,18
+,FG,0:00,"Tommy Openshaw 42 Yd Field Goal  Drive info: 5 plays, 32 yds in 0:36",10,21
+THIRD QUARTER,,CHSO,VAN
+,TD,5:56,"Zachary Frazier 10 Yd Run (David Kennedy Kick)Drive info: 10 plays, 78 yds in 3:50",17,21
+FOURTH QUARTER,,CHSO,VAN
+,FG,10:19,"David Kennedy 30 Yd Field Goal  Drive info: 9 plays, 79 yds in 3:17",20,21
+,,CHSO,VAN
+1st Downs,19,11
+3rd down efficiency,2-14,4-13
+4th down efficiency,2-4,0-0
+Total Yards,389,295
+Passing,190,189
+Comp-Att,12-25,15-23
+Yards per pass,7.6,8.2
+Rushing,199,106
+Rushing Attempts,41,31
+Yards per rush,4.9,3.4
+Penalties,10-73,10-85
+Turnovers,1,1
+Fumbles lost,0,0
+Interceptions thrown,1,1
+Possession,31:42,27:53
+Charleston Southern Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Austin Brown,11/24,188,7.8,0,1,--
+Daniel Croghan III,1/1,2,2.0,0,0,--
+Team,12/25,190,7.6,0,1,--
+Vanderbilt Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Johnny McCrary,10/16,169,10.6,1,1,54.6
+Wade Freebeck,5/7,20,2.9,0,0,9.0
+Team,15/23,189,8.2,1,1,--
+Charleston Southern Rushing
+,CAR,YDS,AVG,TD,LG
+Mike Holloway,18,105,5.8,0,25
+Ben Robinson,9,42,4.7,0,18
+Darius Hammond,6,20,3.3,0,7
+Austin Brown,6,18,3.0,0,11
+Zachary Frazier,1,10,10.0,1,10
+Alexander Cruz,1,4,4.0,0,4
+Team,41,199,4.9,1,25
+Vanderbilt Rushing
+,CAR,YDS,AVG,TD,LG
+Ralph Webb,15,56,3.7,0,17
+Dallas Rivers,11,47,4.3,1,9
+Kellen Williams,1,5,5.0,0,5
+Darrius Sims,1,5,5.0,0,5
+Johnny McCrary,1,3,3.0,0,3
+Wade Freebeck,1,-9,-9.0,0,0
+Team,31,106,3.4,1,17
+Charleston Southern Receiving
+,REC,YDS,AVG,TD,LG
+Mike Holloway,3,79,26.3,0,59
+Nathan Perera,4,47,11.8,0,25
+Colton Korn,2,40,20.0,0,31
+Nathan Prater,1,20,20.0,0,20
+Kenny Dinkins,2,4,2.0,0,2
+Team,12,190,15.8,0,59
+Vanderbilt Receiving
+,REC,YDS,AVG,TD,LG
+C.J. Duncan,7,119,17.0,1,65
+Nathan Marcus,1,25,25.0,0,25
+Trey Wilkins,1,15,15.0,0,15
+Latevius Rayford,1,11,11.0,0,11
+Chandler Dorrell,1,9,9.0,0,9
+Steven Sche,1,7,7.0,0,7
+Ralph Webb,2,3,1.5,0,6
+Darrius Sims,1,0,0.0,0,0
+Team,15,189,12.6,1,65
+Charleston Southern Interceptions
+,INT,YDS,TD
+Davion Anderson,1,-3,0
+Team,1,-3,0
+Vanderbilt Interceptions
+,INT,YDS,TD
+Taurean Ferguson,1,21,0
+Team,1,21,0
+Charleston Southern Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Hammond,1,16,16.0,16,0
+Team,1,16,16.0,16,0
+Vanderbilt Kick Returns
+,NO,YDS,AVG,LG,TD
+Dallas Rivers,2,30,15.0,23,0
+Nathan Marcus,2,15,7.5,11,0
+Jimmy Stewart,1,14,14.0,14,0
+Team,5,59,11.8,23,0
+Charleston Southern Punt Returns
+,NO,YDS,AVG,LG,TD
+Lorenzo Mathis,1,37,37.0,37,0
+Darius Hammond,2,10,5.0,10,0
+Team,3,47,15.7,37,0
+Vanderbilt Punt Returns
+,NO,YDS,AVG,LG,TD
+Darreon Herring,1,3,3.0,3,0
+Ryan White,1,0,0.0,0,0
+Team,1,3,3.0,3,0
+Charleston Southern Kicking
+,FG,PCT,LG,XP,PTS
+David Kennedy,2/2,100.0,30,2/2,8
+Team,2/2,100.0,30,2/2,8
+Vanderbilt Kicking
+,FG,PCT,LG,XP,PTS
+Tommy Openshaw,2/2,100.0,42,1/1,7
+Team,2/2,100.0,42,1/1,7
+Charleston Southern Punting
+,NO,YDS,AVG,TB,-20,LG
+Truett Burns,4,144,36.0,0,0,53
+Team,4,144,36.0,0,0,53
+Vanderbilt Punting
+,NO,YDS,AVG,TB,-20,LG
+Colby Cooke,5,212,42.4,0,2,68
+Team,5,212,42.4,0,2,68

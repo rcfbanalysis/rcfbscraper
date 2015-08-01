@@ -1,0 +1,116 @@
+FIRST QUARTER,,UTAH,COLO
+,TD,9:50,"Christian Powell 2 Yd Run (Will Oliver Kick)Drive info: 12 plays, 75 yds in 5:02",0,7
+,FG,1:57,"Andy Phillips 41 Yd Field Goal  Drive info: 11 plays, 29 yds in 4:51",3,7
+SECOND QUARTER,,UTAH,COLO
+,TD,14:54,"Kaelin Clay 34 Yd pass from Travis Wilson (Andy Phillips Kick)Drive info: 2 plays, 44 yds in 0:23",10,7
+,TD,13:06,"Christian Powell 1 Yd Run (Will Oliver Kick)Drive info: 5 plays, 65 yds in 1:41",10,14
+,TD,10:14,"Kaelin Clay 2 Yd pass from Travis Wilson (Andy Phillips PAT failed)Drive info: 7 plays, 75 yds in 2:52",16,14
+,TD,5:20,"Christian Powell 33 Yd Run (Will Oliver Kick)Drive info: 10 plays, 75 yds in 4:54",16,21
+,FG,0:16,"Will Oliver 29 Yd Field Goal  Drive info: 8 plays, 73 yds in 3:14",16,24
+THIRD QUARTER,,UTAH,COLO
+,TD,12:02,"Devontae Booker 1 Yd Run (Two-Point Run Conversion Failed)Drive info: 7 plays, 75 yds in 2:58",22,24
+,FG,9:53,"Will Oliver 46 Yd Field Goal  Drive info: 7 plays, 36 yds in 2:02",22,27
+,TD,6:37,"Westlee Tonga 28 Yd pass from Travis Wilson (Two-Point Pass Conversion Failed)Drive info: 9 plays, 75 yds in 3:16",28,27
+,TD,5:39,"Nelson Spruce 66 Yd pass from Sefo Liufau (Will Oliver Kick)Drive info: 3 plays, 75 yds in 0:58",28,34
+,FG,1:47,"Andy Phillips 35 Yd Field Goal  Drive info: 11 plays, 57 yds in 3:52",31,34
+FOURTH QUARTER,,UTAH,COLO
+,TD,10:00,Dominique Hatfield 20 Yd Interception Return (Andy Phillips Kick),38,34
+,,UTAH,COLO
+1st Downs,21,18
+3rd down efficiency,10-18,9-16
+4th down efficiency,2-2,0-0
+Total Yards,439,433
+Passing,311,317
+Comp-Att,25-37,20-31
+Yards per pass,8.4,10.2
+Rushing,128,116
+Rushing Attempts,35,32
+Yards per rush,3.7,3.6
+Penalties,6-45,4-35
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,32:17,27:35
+Utah Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Travis Wilson,25/37,311,8.4,3,0,73.2
+Team,25/37,311,8.4,3,0,--
+Colorado Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Sefo Liufa,20/31,317,10.2,1,1,52.7
+Team,20/31,317,10.2,1,1,--
+Utah Rushing
+,CAR,YDS,AVG,TD,LG
+Devontae Booker,25,95,3.8,1,11
+Tom Hackett,1,24,24.0,0,24
+Travis Wilson,7,11,1.6,0,10
+Team,35,128,3.7,1,24
+Colorado Rushing
+,CAR,YDS,AVG,TD,LG
+Christian Powell,10,75,7.5,3,33
+Tony Jones,12,42,3.5,0,8
+Sefo Liufa,6,6,1.0,0,7
+Phillip Lindsay,3,4,1.3,0,5
+Donovan Lee,1,-11,-11.0,0,0
+Team,32,116,3.6,3,33
+Utah Receiving
+,REC,YDS,AVG,TD,LG
+Kaelin Clay,10,88,8.8,2,34
+Westlee Tonga,3,77,25.7,1,42
+Delshawn McClellon,1,55,55.0,0,55
+Kenneth Scott,5,54,10.8,0,25
+Devontae Booker,5,22,4.4,0,8
+Troy McCormick,1,15,15.0,0,15
+Team,25,311,12.4,3,55
+Colorado Receiving
+,REC,YDS,AVG,TD,LG
+Tyler McCulloch,4,101,25.3,0,36
+Nelson Spruce,5,91,18.2,1,66
+Shay Fields,4,69,17.3,0,52
+Phillip Lindsay,2,24,12.0,0,20
+Christian Powell,1,9,9.0,0,9
+Kyle Slavin,1,9,9.0,0,9
+D.D. Goodson,1,8,8.0,0,8
+Tony Jones,2,6,3.0,0,6
+Team,20,317,15.9,1,66
+Utah Interceptions
+,INT,YDS,TD
+Dominique Hatfield,1,20,1
+Team,1,20,1
+Colorado Interceptions
+,INT,YDS,TD
+No Interception Information
+Utah Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Colorado Kick Returns
+,NO,YDS,AVG,LG,TD
+Phillip Lindsay,2,60,30.0,35,0
+Donovan Lee,1,46,46.0,46,0
+Ryan Severson,1,23,23.0,23,0
+Team,4,129,32.3,46,0
+Utah Punt Returns
+,NO,YDS,AVG,LG,TD
+Kaelin Clay,2,18,9.0,19,0
+Chandler Johnson,1,4,4.0,4,0
+Team,3,22,7.3,19,0
+Colorado Punt Returns
+,NO,YDS,AVG,LG,TD
+Shay Fields,2,3,1.5,3,0
+Team,2,3,1.5,3,0
+Utah Kicking
+,FG,PCT,LG,XP,PTS
+Andy Phillips,2/2,100.0,41,2/3,8
+Team,2/2,100.0,41,2/3,8
+Colorado Kicking
+,FG,PCT,LG,XP,PTS
+Will Oliver,2/2,100.0,46,4/4,10
+Team,2/2,100.0,46,4/4,10
+Utah Punting
+,NO,YDS,AVG,TB,-20,LG
+Tom Hackett,4,223,55.8,2,1,70
+Team,4,223,55.8,2,1,70
+Colorado Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Darragh O'Neill""",5,193,38.6,0,2,43
+Team,5,193,38.6,0,2,43

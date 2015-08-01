@@ -1,0 +1,118 @@
+FIRST QUARTER,,FSU,SYR
+,TD,11:10,"Mario Pender 12 Yd Run (Roberto Aguayo Kick)Drive info: 8 plays, 70 yds in 3:50",7,0
+,FG,1:23,"Roberto Aguayo 34 Yd Field Goal  Drive info: 12 plays, 44 yds in 5:52",10,0
+SECOND QUARTER,,FSU,SYR
+,FG,12:52,"Cole Murphy 21 Yd Field Goal  Drive info: 12 plays, 76 yds in 3:31",10,3
+,TD,10:37,"Mario Pender 4 Yd pass from Jameis Winston (Roberto Aguayo Kick)Drive info: 6 plays, 65 yds in 2:15",17,3
+,FG,7:18,"Cole Murphy 32 Yd Field Goal  Drive info: 4 plays, 1 yds in 0:27",17,6
+,TD,4:38,"u""Nick O'Leary 21 Yd pass from Jameis Winston (Roberto Aguayo Kick)"", Drive info: 6 plays, 75 yds in 2:40",24,6
+THIRD QUARTER,,FSU,SYR
+,TD,8:38,"Jesus Wilson 7 Yd pass from Jameis Winston (Roberto Aguayo Kick)Drive info: 11 plays, 79 yds in 5:07",31,6
+,TD,6:21,"Steve Ishmael 22 Yd pass from AJ Long (Cole Murphy Kick)Drive info: 5 plays, 66 yds in 2:17",31,13
+FOURTH QUARTER,,FSU,SYR
+,TD,13:45,"Dalvin Cook 7 Yd Run (Roberto Aguayo Kick)Drive info: 10 plays, 92 yds in 4:33",38,13
+,TD,10:37,"Steve Ishmael 35 Yd pass from AJ Long (Cole Murphy Kick)Drive info: 8 plays, 75 yds in 3:08",38,20
+,,FSU,SYR
+1st Downs,29,20
+3rd down efficiency,6-10,7-14
+4th down efficiency,0-0,0-1
+Total Yards,482,412
+Passing,317,256
+Comp-Att,30-36,21-36
+Yards per pass,8.8,7.1
+Rushing,165,156
+Rushing Attempts,36,31
+Yards per rush,4.6,5.0
+Penalties,6-36,7-64
+Turnovers,2,3
+Fumbles lost,2,0
+Interceptions thrown,0,3
+Possession,48:01,23:33
+Florida State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jameis Winston,30/36,317,8.8,3,0,91.1
+Team,30/36,317,8.8,3,0,--
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+AJ Long,16/27,167,6.2,2,2,49.8
+Austin Wilson,5/9,89,9.9,0,1,29.5
+Team,21/36,256,7.1,2,3,--
+Florida State Rushing
+,CAR,YDS,AVG,TD,LG
+Dalvin Cook,23,122,5.3,1,23
+Mario Pender,9,46,5.1,1,12
+Jameis Winston,4,-3,-0.8,0,5
+Team,36,165,4.6,2,23
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+Prince-Tyson Gulley,16,80,5.0,0,35
+Adonis Ameen-Moore,7,29,4.1,0,11
+Ervin Philips,2,22,11.0,0,16
+AJ Long,3,20,6.7,0,12
+George Morris,2,6,3.0,0,4
+Austin Wilson,1,-1,-1.0,0,0
+Team,31,156,5.0,0,35
+Florida State Receiving
+,REC,YDS,AVG,TD,LG
+Rashad Greene,6,107,17.8,0,44
+"u""Nick O'Leary""",8,97,12.1,1,21
+Travis Rudolph,6,46,7.7,0,15
+Jesus Wilson,4,22,5.5,1,11
+Dalvin Cook,2,17,8.5,0,9
+Mario Pender,3,15,5.0,1,9
+Kermit Whitfield,1,13,13.0,0,13
+Team,30,317,10.6,3,44
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Steve Ishmael,3,93,31.0,2,36
+Jarrod West,3,59,19.7,0,41
+Adrian Flemming,3,34,11.3,0,17
+Prince-Tyson Gulley,7,25,3.6,0,7
+Ben Lewis,1,15,15.0,0,15
+Sean Avant,2,13,6.5,0,7
+Ervin Philips,1,9,9.0,0,9
+Adonis Ameen-Moore,1,8,8.0,0,8
+Team,21,256,12.2,2,41
+Florida State Interceptions
+,INT,YDS,TD
+Jalen Ramsey,1,27,0
+Tyler Hunter,1,0,0
+Nate Andrews,1,0,0
+Team,3,27,0
+Syracuse Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida State Kick Returns
+,NO,YDS,AVG,LG,TD
+Jesus Wilson,1,18,18.0,18,0
+Kermit Whitfield,1,18,18.0,18,0
+Team,2,36,18.0,18,0
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Ervin Philips,3,56,18.7,23,0
+Prince-Tyson Gulley,1,29,29.0,29,0
+Team,4,85,21.3,29,0
+Florida State Punt Returns
+,NO,YDS,AVG,LG,TD
+Rashad Greene,1,4,4.0,4,0
+Jesus Wilson,1,1,1.0,1,0
+Team,2,5,2.5,4,0
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Florida State Kicking
+,FG,PCT,LG,XP,PTS
+Roberto Aguayo,1/1,100.0,34,5/5,8
+Team,1/1,100.0,34,5/5,8
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Cole Murphy,2/2,100.0,32,2/2,8
+Team,2/2,100.0,32,2/2,8
+Florida State Punting
+,NO,YDS,AVG,TB,-20,LG
+Cason Beatty,2,92,46.0,0,1,48
+Team,2,92,46.0,0,1,48
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,3,145,48.3,0,1,54
+Team,3,145,48.3,0,1,54

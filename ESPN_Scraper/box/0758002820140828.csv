@@ -1,0 +1,115 @@
+FIRST QUARTER,,WEB,ASU
+,FG,8:27,"Zane Gonzalez 33 Yd Field Goal  Drive info: 9 plays, 33 yds in 2:50",0,3
+,TD,4:32,"Gary Chambers 8 Yd pass from Taylor Kelly (Zane Gonzalez Kick)Drive info: 7 plays, 55 yds in 2:50",0,10
+,TD,1:32,"D.J. Foster 1 Yd Run (Zane Gonzalez Kick)Drive info: 6 plays, 56 yds in 1:22",0,17
+SECOND QUARTER,,WEB,ASU
+,TD,11:35,"D.J. Foster 3 Yd Run (Zane Gonzalez Kick)Drive info: 9 plays, 99 yds in 2:18",0,24
+,TD,0:48,"Kalen Ballage 1 Yd Run (Zane Gonzalez Kick)Drive info: 8 plays, 84 yds in 2:46",0,31
+THIRD QUARTER,,WEB,ASU
+,TD,10:46,"D.J. Foster 57 Yd Run (Zane Gonzalez Kick)Drive info: 5 plays, 85 yds in 1:14",0,38
+,TD,7:35,"Shaydon Kehano 19 Yd pass from Billy Green (Josh Kealamakia Kick)Drive info: 8 plays, 65 yds in 3:08",7,38
+,TD,4:48,"Ellis Jefferson 15 Yd pass from Mike Bercovici (Zane Gonzalez Kick)Drive info: 7 plays, 75 yds in 2:47",7,45
+FOURTH QUARTER,,WEB,ASU
+,TD,5:09,"Zach Smith 60 Yd Run (Josh Kealamakia Kick)Drive info: 3 plays, 63 yds in 0:58",14,45
+,,WEB,ASU
+1st Downs,14,32
+3rd down efficiency,5-15,9-17
+4th down efficiency,0-1,1-1
+Total Yards,308,570
+Passing,156,303
+Comp-Att,14-29,24-39
+Yards per pass,5.4,7.8
+Rushing,152,267
+Rushing Attempts,32,45
+Yards per rush,4.8,5.9
+Penalties,9-74,4-30
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,28:49,31:11
+Weber State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Billy Green,14/29,156,5.4,1,0,--
+Team,14/29,156,5.4,1,0,--
+Arizona State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Taylor Kelly,18/27,238,8.8,1,0,81.5
+Mike Bercovici,6/12,65,5.4,1,0,83.3
+Team,24/39,303,7.8,2,0,--
+Weber State Rushing
+,CAR,YDS,AVG,TD,LG
+Zach Smith,16,128,8.0,1,60
+Eric Wilkes,11,36,3.3,0,7
+Billy Green,4,-5,-1.3,0,7
+Cameron Livingston,1,-7,-7.0,0,0
+Team,32,152,4.8,1,60
+Arizona State Rushing
+,CAR,YDS,AVG,TD,LG
+D.J. Foster,15,147,9.8,3,57
+Kalen Ballage,12,36,3.0,1,12
+Demario Richard,6,24,4.0,0,9
+Kyle Middlebrooks,5,18,3.6,0,5
+Taylor Kelly,3,14,4.7,0,16
+Cameron Smith,1,13,13.0,0,13
+Mike Bercovici,2,10,5.0,0,7
+Ronald Lewis,1,5,5.0,0,5
+Team,45,267,5.9,4,57
+Weber State Receiving
+,REC,YDS,AVG,TD,LG
+Shaydon Kehano,6,99,16.5,1,23
+Cameron Livingston,5,40,8.0,0,17
+Zach Smith,1,9,9.0,0,9
+Drew Batchelor,1,5,5.0,0,5
+Braden Corpus,1,3,3.0,0,3
+Team,14,156,11.1,1,23
+Arizona State Receiving
+,REC,YDS,AVG,TD,LG
+Jaelen Strong,10,146,14.6,0,35
+Gary Chambers,2,46,23.0,1,38
+Ellis Jefferson,4,37,9.3,1,15
+D.J. Foster,4,26,6.5,0,16
+Demario Richard,1,22,22.0,0,22
+Cameron Smith,1,14,14.0,0,14
+Kalen Ballage,1,6,6.0,0,6
+Ronald Lewis,1,6,6.0,0,6
+Team,24,303,12.6,2,38
+Weber State Interceptions
+,INT,YDS,TD
+No Interception Information
+Arizona State Interceptions
+,INT,YDS,TD
+No Interception Information
+Weber State Kick Returns
+,NO,YDS,AVG,LG,TD
+Bo Bolen,3,46,15.3,21,0
+Cory Thomson,1,30,30.0,30,0
+Team,4,76,19.0,30,0
+Arizona State Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Weber State Punt Returns
+,NO,YDS,AVG,LG,TD
+Shaydon Kehano,2,44,22.0,25,0
+Team,2,44,22.0,25,0
+Arizona State Punt Returns
+,NO,YDS,AVG,LG,TD
+Damarious Randall,1,-1,-1.0,-1,0
+Team,1,-1,-1.0,-1,0
+Weber State Kicking
+,FG,PCT,LG,XP,PTS
+Josh Kealamakia,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+Arizona State Kicking
+,FG,PCT,LG,XP,PTS
+Zane Gonzalez,1/1,100.0,33,6/6,9
+Team,1/1,100.0,33,6/6,9
+Weber State Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Blake O'Neill""",8,283,35.4,0,0,43
+ Team,1,27,27.0,0,0,27
+Team,9,310,34.4,0,0,43
+Arizona State Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Haack,5,204,40.8,1,1,48
+Taylor Kelly,1,46,46.0,0,1,46
+Team,6,250,41.7,1,2,48

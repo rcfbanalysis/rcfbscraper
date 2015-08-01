@@ -1,0 +1,119 @@
+FIRST QUARTER,,LT,MRSH
+,FG,7:54,"Jonathan Barnes 26 Yd Field Goal  Drive info: 11 plays, 58 yds in 5:29",3,0
+,TD,2:53,"Kenneth Dixon 33 Yd Run (Jonathan Barnes Kick)Drive info: 1 plays, 33 yds in 0:07",10,0
+SECOND QUARTER,,LT,MRSH
+,TD,14:57,"Deon-Tay McManus 6 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 7 plays, 75 yds in 2:56",10,7
+,TD,7:41,"Kenneth Dixon 30 Yd Run (Jonathan Barnes Kick)Drive info: 4 plays, 40 yds in 0:52",17,7
+,FG,3:52,"Justin Haig 40 Yd Field Goal  Drive info: 5 plays, 11 yds in 0:35",17,10
+,FG,0:00,"Justin Haig 46 Yd Field Goal Drive info: 3 plays, 40 yds in 0:19",17,13
+THIRD QUARTER,,LT,MRSH
+,FG,10:26,"Justin Haig 40 Yd Field Goal  Drive info: 10 plays, 42 yds in 2:58",17,16
+,TD,0:18,"Kenneth Dixon 19 Yd Run (Jonathan Barnes PAT failed)Drive info: 1 plays, 19 yds in 0:09",23,16
+FOURTH QUARTER,,LT,MRSH
+,FG,8:34,"Justin Haig 24 Yd Field Goal  Drive info: 5 plays, 25 yds in 1:34",23,19
+,TD,1:50,"Deon-Tay McManus 5 Yd pass from Rakeem Cato (Justin Haig Kick)Drive info: 11 plays, 68 yds in 3:11",23,26
+,,LT,MRSH
+1st Downs,14,20
+3rd down efficiency,4-17,4-15
+4th down efficiency,0-0,0-1
+Total Yards,268,429
+Passing,72,308
+Comp-Att,7-20,25-46
+Yards per pass,3.6,6.7
+Rushing,196,121
+Rushing Attempts,45,35
+Yards per rush,4.4,3.5
+Penalties,4-26,9-75
+Turnovers,2,4
+Fumbles lost,1,3
+Interceptions thrown,1,1
+Possession,33:02,33:25
+Louisiana Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cody Sokol,7/20,72,3.6,0,1,2.5
+Team,7/20,72,3.6,0,1,--
+Marshall Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Rakeem Cato,25/46,308,6.7,2,1,45.2
+Team,25/46,308,6.7,2,1,--
+Louisiana Tech Rushing
+,CAR,YDS,AVG,TD,LG
+Kenneth Dixon,20,156,7.8,3,33
+Carlos Henderson,4,25,6.3,0,18
+Jarred Craft,11,12,1.1,0,5
+Hunter Lee,3,9,3.0,0,4
+Ricky Jones,1,1,1.0,0,1
+Cody Sokol,6,-7,-1.2,0,4
+Team,45,196,4.4,3,33
+Marshall Rushing
+,CAR,YDS,AVG,TD,LG
+Remi Watson,9,40,4.4,0,29
+Devon Johnson,4,34,8.5,0,17
+Rakeem Cato,9,28,3.1,0,25
+Steward Butler,11,20,1.8,0,6
+Team,35,121,3.5,0,29
+Louisiana Tech Receiving
+,REC,YDS,AVG,TD,LG
+Sterling Griffin,1,30,30.0,0,30
+Hunter Lee,2,13,6.5,0,8
+Paul Turner,1,10,10.0,0,10
+Jarred Craft,1,9,9.0,0,9
+Trent Taylor,1,6,6.0,0,6
+Carlos Henderson,1,4,4.0,0,4
+Team,7,72,10.3,0,30
+Marshall Receiving
+,REC,YDS,AVG,TD,LG
+Tommy Shuler,7,84,12.0,0,17
+Davonte Allen,2,68,34.0,0,40
+Hyleck Foster,6,55,9.2,0,19
+Deon-Tay McManus,4,41,10.3,2,21
+Ryan Yurachek,2,26,13.0,0,17
+Eric Frohnapfel,2,15,7.5,0,11
+Craig Wilkins,1,11,11.0,0,11
+Remi Watson,1,8,8.0,0,8
+Team,25,308,12.3,2,40
+Louisiana Tech Interceptions
+,INT,YDS,TD
+Nick Thomason,1,0,0
+Team,1,0,0
+Marshall Interceptions
+,INT,YDS,TD
+Evan McKelvey,1,2,0
+Neville Hewitt,1,2,0
+Team,1,2,0
+Louisiana Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Carlos Henderson,5,105,21.0,30,0
+Team,5,105,21.0,30,0
+Marshall Kick Returns
+,NO,YDS,AVG,LG,TD
+Deandre Reaves,3,88,29.3,44,0
+Team,3,88,29.3,44,0
+Louisiana Tech Punt Returns
+,NO,YDS,AVG,LG,TD
+"u""Le'Vander Liggins""",1,20,20.0,20,0
+Trent Taylor,1,11,11.0,11,0
+Team,2,31,15.5,20,0
+Marshall Punt Returns
+,NO,YDS,AVG,LG,TD
+Hyleck Foster,1,10,10.0,10,0
+Tommy Shuler,2,7,3.5,6,0
+Michael Johnson,1,0,0.0,0,0
+Team,4,17,4.3,10,0
+Louisiana Tech Kicking
+,FG,PCT,LG,XP,PTS
+Jonathan Barnes,1/1,100.0,26,2/3,5
+Kyle Fischer,0/1,0.0,0,0/0,0
+Team,1/2,50.0,26,2/3,5
+Marshall Kicking
+,FG,PCT,LG,XP,PTS
+Justin Haig,4/4,100.0,46,2/2,14
+Team,4/4,100.0,46,2/2,14
+Louisiana Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Logan McPherson,10,301,30.1,0,2,39
+Team,10,301,30.1,0,2,39
+Marshall Punting
+,NO,YDS,AVG,TB,-20,LG
+Tyler Williams,5,193,38.6,0,1,48
+Team,5,193,38.6,0,1,48

@@ -1,0 +1,119 @@
+FIRST QUARTER,,KU,WVU
+,FG,13:10,"Josh Lambert 42 Yd Field Goal  Drive info: 6 plays, 40 yds in 1:50",0,3
+,FG,7:50,"Josh Lambert 25 Yd Field Goal  Drive info: 9 plays, 59 yds in 2:51",0,6
+,FG,5:17,"Josh Lambert 43 Yd Field Goal  Drive info: 5 plays, 26 yds in 1:00",0,9
+,TD,0:36,"Kevin White 63 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 3 plays, 75 yds in 1:10",0,16
+SECOND QUARTER,,KU,WVU
+,TD,4:09,"Rushel Shell 1 Yd Run (Josh Lambert Kick)Drive info: 6 plays, 60 yds in 1:50",0,23
+,FG,0:00,"Josh Lambert 53 Yd Field Goal  Drive info: 6 plays, 44 yds in 1:01",0,26
+THIRD QUARTER,,KU,WVU
+,TD,4:18,"Corey Avery 4 Yd Run (Matthew Wyman Kick)Drive info: 5 plays, 18 yds in 1:24",7,26
+,TD,4:04,Mario Alford 94 Yd Kickoff Return (Josh Lambert Kick),7,33
+FOURTH QUARTER,,KU,WVU
+,TD,2:23,"Nick Harwell 76 Yd Punt Return (Matthew Wyman Kick)Drive info: 3 plays, 2 yds in 1:16",14,33
+,,KU,WVU
+1st Downs,9,25
+3rd down efficiency,3-17,8-17
+4th down efficiency,0-0,0-1
+Total Yards,176,557
+Passing,111,302
+Comp-Att,13-28,20-37
+Yards per pass,4.0,8.2
+Rushing,65,255
+Rushing Attempts,34,42
+Yards per rush,1.9,6.1
+Penalties,11-101,5-45
+Turnovers,0,3
+Fumbles lost,0,2
+Interceptions thrown,0,1
+Possession,28:24,39:55
+Kansas Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Michael Cummings,8/17,65,3.8,0,0,4.8
+Montell Cozart,4/10,42,4.2,0,0,4.3
+T.J. Millweard,1/1,4,4.0,0,0,91.3
+Team,13/28,111,4.0,0,0,--
+West Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Clint Trickett,20/35,302,8.6,1,1,70.0
+Skyler Howard,0/2,0,0.0,0,0,29.9
+Team,20/37,302,8.2,1,1,--
+Kansas Rushing
+,CAR,YDS,AVG,TD,LG
+Corey Avery,17,58,3.4,1,14
+"u""De'Andre Mann""",1,8,8.0,0,8
+Montell Cozart,7,5,0.7,0,18
+Joe Dineen Jr,3,2,0.7,0,1
+Michael Cummings,5,-4,-0.8,0,2
+Tony Pierson,1,-4,-4.0,0,0
+Team,34,65,1.9,1,18
+West Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Rushel Shell,21,113,5.4,1,28
+Wendell Smallwood,10,47,4.7,0,13
+Dustin Garrison,5,39,7.8,0,28
+Skyler Howard,2,22,11.0,0,20
+Mario Alford,1,19,19.0,0,19
+Dreamius Smith,3,15,5.0,0,14
+Team,42,255,6.1,1,28
+Kansas Receiving
+,REC,YDS,AVG,TD,LG
+Nigel King,4,52,13.0,0,30
+Nick Harwell,3,18,6.0,0,10
+Ben Johnson,1,17,17.0,0,17
+Justin McCay,1,9,9.0,0,9
+Tony Pierson,2,8,4.0,0,4
+Jimmay Mundine,1,5,5.0,0,5
+Corey Avery,1,2,2.0,0,2
+Team,13,111,8.5,0,30
+West Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Kevin White,6,132,22.0,1,63
+Mario Alford,4,80,20.0,0,39
+Vernon Davis,1,26,26.0,0,26
+Jordan Thompson,2,26,13.0,0,19
+Daikiel Shorts,2,23,11.5,0,17
+Rushel Shell,2,12,6.0,0,8
+KJ Myers,2,7,3.5,0,4
+Wendell Smallwood,1,-4,-4.0,0,0
+Team,20,302,15.1,1,63
+Kansas Interceptions
+,INT,YDS,TD
+Isaiah Johnson,1,29,0
+Team,1,29,0
+West Virginia Interceptions
+,INT,YDS,TD
+No Interception Information
+Kansas Kick Returns
+,NO,YDS,AVG,LG,TD
+JaCorey Shepherd,5,124,24.8,33,0
+Cassius Sendish,1,17,17.0,17,0
+Team,6,141,23.5,33,0
+West Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+Mario Alford,2,129,64.5,94,1
+Team,2,129,64.5,94,1
+Kansas Punt Returns
+,NO,YDS,AVG,LG,TD
+Nick Harwell,2,84,42.0,76,1
+Team,2,84,42.0,76,1
+West Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Jordan Thompson,5,-3,-0.6,2,0
+Team,5,-3,-0.6,2,0
+Kansas Kicking
+,FG,PCT,LG,XP,PTS
+Matthew Wyman,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+West Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambert,4/5,80.0,53,3/3,15
+Team,4/5,80.0,53,3/3,15
+Kansas Punting
+,NO,YDS,AVG,TB,-20,LG
+Trevor Pardula,14,621,44.4,4,3,58
+Team,14,621,44.4,4,3,58
+West Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Nick O'Toole""",4,181,45.3,0,1,49
+Team,4,181,45.3,0,1,49

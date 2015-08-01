@@ -1,0 +1,104 @@
+FIRST QUARTER,,CONN,USF
+,TD,11:22,"Marlon Mack 1 Yd Run (Marvin Kloss Kick)Drive info: 4 plays, 19 yds in 2:03",0,7
+,TD,3:24,"Rodney Adams 30 Yd pass from Mike White (Marvin Kloss Kick)Drive info: 10 plays, 80 yds in 5:31",0,14
+SECOND QUARTER,,CONN,USF
+,TD,0:05,"Byron Jones 70 Yd Interception Return (Bobby Puyol Kick)Drive info: 8 plays, 20 yds in 2:19",7,14
+FOURTH QUARTER,,CONN,USF
+,FG,6:03,"Marvin Kloss 19 Yd Field Goal  Drive info: 11 plays, 41 yds in 6:39",7,17
+,TD,1:19,"Geremy Davis 32 Yd pass from Chandler Whitmer (Bobby Puyol Kick)Drive info: 4 plays, 75 yds in 0:38",14,17
+,,CONN,USF
+1st Downs,6,17
+3rd down efficiency,0-9,7-16
+4th down efficiency,0-0,1-1
+Total Yards,132,271
+Passing,88,113
+Comp-Att,6-9,10-18
+Yards per pass,9.8,6.3
+Rushing,44,158
+Rushing Attempts,27,53
+Yards per rush,1.6,3.0
+Penalties,9-48,5-45
+Turnovers,1,1
+Fumbles lost,1,0
+Interceptions thrown,0,1
+Possession,20:40,38:52
+Connecticut Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chandler Whitmer,6/9,88,9.8,1,0,5.7
+Team,6/9,88,9.8,1,0,--
+South Florida Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Mike White,10/18,113,6.3,1,1,66.9
+Team,10/18,113,6.3,1,1,--
+Connecticut Rushing
+,CAR,YDS,AVG,TD,LG
+Max DeLorenzo,10,36,3.6,0,17
+Arkeel Newsome,4,30,7.5,0,16
+Josh Marriner,5,19,3.8,0,11
+Ron Johnson,5,3,0.6,0,6
+Chandler Whitmer,3,-44,-14.7,0,0
+Team,27,44,1.6,0,17
+South Florida Rushing
+,CAR,YDS,AVG,TD,LG
+Marlon Mack,31,103,3.3,1,17
+"u""D'Ernest Johnson""",10,41,4.1,0,10
+Darius Tice,9,28,3.1,0,10
+Mike White,1,-8,-8.0,0,0
+Team,53,158,3.0,1,17
+Connecticut Receiving
+,REC,YDS,AVG,TD,LG
+Geremy Davis,1,32,32.0,1,32
+Deshon Foxx,2,30,15.0,0,25
+Noel Thomas,2,18,9.0,0,11
+Max DeLorenzo,1,8,8.0,0,8
+Team,6,88,14.7,1,32
+South Florida Receiving
+,REC,YDS,AVG,TD,LG
+Rodney Adams,4,68,17.0,1,30
+Darius Tice,2,16,8.0,0,10
+Marlon Mack,1,10,10.0,0,10
+Deonte Welch,1,7,7.0,0,7
+Mike McFarland,1,6,6.0,0,6
+Kennard Swanson,1,6,6.0,0,6
+Team,10,113,11.3,1,30
+Connecticut Interceptions
+,INT,YDS,TD
+Byron Jones,1,70,1
+Team,1,70,1
+South Florida Interceptions
+,INT,YDS,TD
+No Interception Information
+Connecticut Kick Returns
+,NO,YDS,AVG,LG,TD
+Arkeel Newsome,4,86,21.5,24,0
+Team,4,86,21.5,24,0
+South Florida Kick Returns
+,NO,YDS,AVG,LG,TD
+Christopher Dunkley,1,21,21.0,21,0
+C.J. Garye,1,0,0.0,0,0
+Corian Hamilton,1,0,0.0,0,0
+Team,3,21,7.0,21,0
+Connecticut Punt Returns
+,NO,YDS,AVG,LG,TD
+Deshon Foxx,1,-2,-2.0,-2,0
+Team,1,-2,-2.0,0,0
+South Florida Punt Returns
+,NO,YDS,AVG,LG,TD
+Hassan Childs,3,7,2.3,4,0
+Team,3,7,2.3,4,0
+Connecticut Kicking
+,FG,PCT,LG,XP,PTS
+Bobby Puyol,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+South Florida Kicking
+,FG,PCT,LG,XP,PTS
+Marvin Kloss,1/1,100.0,19,2/2,5
+Team,1/1,100.0,19,2/2,5
+Connecticut Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Wain,8,356,44.5,1,0,56
+Team,8,356,44.5,1,0,56
+South Florida Punting
+,NO,YDS,AVG,TB,-20,LG
+Mattias Ciabatti,6,248,41.3,0,5,61
+Team,6,248,41.3,0,5,61

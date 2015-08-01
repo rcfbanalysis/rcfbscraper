@@ -1,0 +1,111 @@
+FIRST QUARTER,,PSU,MICH
+,FG,9:28,"Sam Ficken 35 Yd Field Goal  Drive info: 10 plays, 57 yds in 5:32",3,0
+,TD,6:37,"Devin Funchess 43 Yd pass from Devin Gardner (Matt Wile Kick)Drive info: 6 plays, 75 yds in 2:51",3,7
+,FG,0:52,"Sam Ficken 32 Yd Field Goal  Drive info: 11 plays, 60 yds in 5:45",6,7
+SECOND QUARTER,,PSU,MICH
+,TD,11:58,"DaeSean Hamilton 10 Yd pass from Christian Hackenberg (Sam Ficken Kick)Drive info: 4 plays, 28 yds in 2:00",13,7
+,FG,5:08,"Matt Wile 45 Yd Field Goal  Drive info: 11 plays, 48 yds in 6:50",13,10
+THIRD QUARTER,,PSU,MICH
+,FG,2:30,"Matt Wile 42 Yd Field Goal  Drive info: 4 plays, 3 yds in 1:32",13,13
+FOURTH QUARTER,,PSU,MICH
+,FG,11:24,"Matt Wile 37 Yd Field Goal  Drive info: 6 plays, 29 yds in 2:15",13,16
+,SF,1:41,Team Safety ,13,18
+,,PSU,MICH
+1st Downs,16,12
+3rd down efficiency,6-17,6-15
+4th down efficiency,0-3,0-1
+Total Yards,214,256
+Passing,160,192
+Comp-Att,21-33,16-26
+Yards per pass,4.8,7.4
+Rushing,54,64
+Rushing Attempts,35,31
+Yards per rush,1.5,2.1
+Penalties,5-23,3-30
+Turnovers,1,1
+Fumbles lost,0,0
+Interceptions thrown,1,1
+Possession,31:00,29:00
+Penn State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Christian Hackenberg,21/32,160,5.0,1,1,24.2
+Bill Belton,0/1,0,0.0,0,0,1.7
+Team,21/33,160,4.8,1,1,--
+Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Devin Gardner,16/24,192,8.0,1,1,30.8
+Russell Bellomy,0/2,0,0.0,0,0,0.7
+Team,16/26,192,7.4,1,1,--
+Penn State Rushing
+,CAR,YDS,AVG,TD,LG
+Bill Belton,14,69,4.9,0,31
+Akeel Lynch,5,16,3.2,0,8
+Zach Zwinak,3,7,2.3,0,3
+DaeSean Hamilton,1,1,1.0,0,1
+Grant Haley,1,-2,-2.0,0,0
+Christian Hackenberg,10,-34,-3.4,0,3
+Team,35,54,1.5,0,31
+Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+"u""De'Veon Smith""",12,24,2.0,0,7
+Justice Hayes,7,20,2.9,0,6
+Devin Gardner,10,18,1.8,0,25
+Dennis Norfleet,1,3,3.0,0,3
+Team,31,64,2.1,0,25
+Penn State Receiving
+,REC,YDS,AVG,TD,LG
+DaeSean Hamilton,7,58,8.3,1,20
+Bill Belton,4,26,6.5,0,11
+Jesse James,3,25,8.3,0,16
+Geno Lewis,3,17,5.7,0,8
+Chris Godwin,1,17,17.0,0,17
+Mike Gesicki,2,10,5.0,0,8
+Kyle Carter,1,7,7.0,0,7
+Team,21,160,7.6,1,20
+Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Devin Funchess,7,69,9.9,1,43
+Amara Darboh,4,66,16.5,0,21
+Dennis Norfleet,1,24,24.0,0,24
+"u""De'Veon Smith""",2,21,10.5,0,13
+Jake Butt,2,12,6.0,0,8
+Team,16,192,12.0,1,43
+Penn State Interceptions
+,INT,YDS,TD
+Anthony Zettel,1,5,0
+Team,1,5,0
+Michigan Interceptions
+,INT,YDS,TD
+Jourdan Lewis,1,4,0
+Team,1,4,0
+Penn State Kick Returns
+,NO,YDS,AVG,LG,TD
+Grant Haley,2,38,19.0,20,0
+Team,2,38,19.0,20,0
+Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Dennis Norfleet,2,52,26.0,28,0
+Team,2,52,26.0,28,0
+Penn State Punt Returns
+,NO,YDS,AVG,LG,TD
+Jesse Della Valle,1,4,4.0,4,0
+Team,1,4,4.0,4,0
+Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Penn State Kicking
+,FG,PCT,LG,XP,PTS
+Sam Ficken,2/2,100.0,35,1/1,7
+Team,2/2,100.0,35,1/1,7
+Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Matt Wile,3/3,100.0,45,1/1,10
+Team,3/3,100.0,45,1/1,10
+Penn State Punting
+,NO,YDS,AVG,TB,-20,LG
+Chris Gulla,5,167,33.4,0,2,42
+Team,5,167,33.4,0,2,42
+Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Hagerup,5,219,43.8,1,2,52
+Team,5,219,43.8,1,2,52

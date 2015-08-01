@@ -1,0 +1,110 @@
+FIRST QUARTER,,FSU,GT
+,TD,9:50,"Synjyn Days 1 Yd Run (Harrison Butker Kick)Drive info: 8 plays, 71 yds in 3:48",0,7
+,TD,7:42,"u""Nick O'Leary 46 Yd pass from Jameis Winston (Roberto Aguayo Kick)"", Drive info: 5 plays, 74 yds in 2:08",7,7
+,TD,1:45,"Synjyn Days 1 Yd Run (Harrison Butker Kick)Drive info: 11 plays, 75 yds in 5:57",7,14
+SECOND QUARTER,,FSU,GT
+,TD,14:10,"Dalvin Cook 1 Yd Run (Roberto Aguayo Kick)Drive info: 7 plays, 75 yds in 2:35",14,14
+,TD,8:02,"Zach Laskey 4 Yd Run (Harrison Butker Kick)Drive info: 11 plays, 75 yds in 6:08",14,21
+,TD,5:40,"Rashad Greene 44 Yd pass from Jameis Winston (Roberto Aguayo Kick)Drive info: 6 plays, 71 yds in 2:22",21,21
+,TD,0:30,"Rashad Greene 9 Yd pass from Jameis Winston (Roberto Aguayo Kick)Drive info: 10 plays, 75 yds in 1:56",28,21
+THIRD QUARTER,,FSU,GT
+,TD,8:01,"Synjyn Days 1 Yd Run (Harrison Butker Kick)Drive info: 14 plays, 77 yds in 6:59",28,28
+,FG,3:13,"Roberto Aguayo 33 Yd Field Goal  Drive info: 10 plays, 59 yds in 4:48",31,28
+FOURTH QUARTER,,FSU,GT
+,FG,10:25,"Roberto Aguayo 32 Yd Field Goal  Drive info: 12 plays, 75 yds in 4:46",34,28
+,FG,4:28,"Roberto Aguayo 28 Yd Field Goal  Drive info: 6 plays, 36 yds in 2:55",37,28
+,TD,1:47,"Darren Waller 25 Yd pass from Justin Thomas (Harrison Butker Kick)Drive info: 6 plays, 97 yds in 1:09",37,35
+,,FSU,GT
+1st Downs,24,28
+3rd down efficiency,7-12,5-10
+4th down efficiency,0-0,1-2
+Total Yards,488,465
+Passing,309,134
+Comp-Att,21-30,8-14
+Yards per pass,10.3,9.6
+Rushing,179,331
+Rushing Attempts,33,59
+Yards per rush,5.4,5.6
+Penalties,5-45,3-20
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,25:05,34:55
+Florida State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jameis Winston,21/30,309,10.3,3,0,95.3
+Team,21/30,309,10.3,3,0,--
+Georgia Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Thomas,8/14,134,9.6,1,1,88.4
+Team,8/14,134,9.6,1,1,--
+Florida State Rushing
+,CAR,YDS,AVG,TD,LG
+Dalvin Cook,31,177,5.7,1,26
+Jameis Winston,1,5,5.0,0,5
+Team,33,179,5.4,1,26
+Georgia Tech Rushing
+,CAR,YDS,AVG,TD,LG
+Justin Thomas,11,104,9.5,0,19
+Synjyn Days,19,67,3.5,3,17
+Charles Perkins,9,64,7.1,0,20
+Zach Laskey,11,40,3.6,1,6
+Dennis Andrews,3,24,8.0,0,20
+Deon Hill,3,19,6.3,0,13
+B.J. Bostic,2,7,3.5,0,4
+Tony Zenon,1,6,6.0,0,6
+Team,59,331,5.6,4,20
+Florida State Receiving
+,REC,YDS,AVG,TD,LG
+Rashad Greene,7,123,17.6,2,44
+"u""Nick O'Leary""",3,97,32.3,1,46
+Dalvin Cook,5,43,8.6,0,14
+Travis Rudolph,5,40,8.0,0,11
+Freddie Stevenson,1,6,6.0,0,6
+Team,21,309,14.7,3,46
+Georgia Tech Receiving
+,REC,YDS,AVG,TD,LG
+Darren Waller,5,73,14.6,1,25
+Deon Hill,1,27,27.0,0,27
+B.J. Bostic,1,24,24.0,0,24
+Synjyn Days,1,10,10.0,0,10
+Team,8,134,16.8,1,27
+Florida State Interceptions
+,INT,YDS,TD
+Lamarcus Brutus,1,4,0
+Team,1,4,0
+Georgia Tech Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida State Kick Returns
+,NO,YDS,AVG,LG,TD
+Kermit Whitfield,2,51,25.5,26,0
+Jesus Wilson,1,28,28.0,28,0
+Team,3,79,26.3,28,0
+Georgia Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Jamal Golden,3,45,15.0,17,0
+Team,3,45,15.0,17,0
+Florida State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Georgia Tech Punt Returns
+,NO,YDS,AVG,LG,TD
+Jamal Golden,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Florida State Kicking
+,FG,PCT,LG,XP,PTS
+Roberto Aguayo,3/3,100.0,33,4/4,13
+Team,3/3,100.0,33,4/4,13
+Georgia Tech Kicking
+,FG,PCT,LG,XP,PTS
+Harrison Butker,0/0,0.0,0,5/5,5
+Team,0/0,0.0,0,5/5,5
+Florida State Punting
+,NO,YDS,AVG,TB,-20,LG
+Cason Beatty,2,84,42.0,0,1,43
+Team,2,84,42.0,0,1,43
+Georgia Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Rodwell,2,69,34.5,0,1,35
+Team,2,69,34.5,0,1,35

@@ -1,0 +1,112 @@
+SECOND QUARTER,,HOU,PITT
+,TD,14:02,"James Conner 1 Yd Run (Chris Blewitt Kick)Drive info: 15 plays, 92 yds in 7:07",0,7
+,TD,5:40,"Kenneth Farrow 2 Yd Run (Kyle Bullard PAT blocked)Drive info: 15 plays, 76 yds in 6:03",6,7
+,TD,1:27,"Isaac Bennett 12 Yd Run (Chris Blewitt Kick)Drive info: 9 plays, 70 yds in 4:13",6,14
+,FG,0:00,"Chris Blewitt 52 Yd Field Goal  Drive info: 5 plays, 29 yds in 0:23",6,17
+THIRD QUARTER,,HOU,PITT
+,TD,5:10,"J.P. Holtz 16 Yd pass from Chad Voytik (Chris Blewitt Kick)Drive info: 13 plays, 91 yds in 6:35",6,24
+FOURTH QUARTER,,HOU,PITT
+,TD,13:58,"James Conner 5 Yd Run (Chris Blewitt Kick)Drive info: 11 plays, 62 yds in 5:12",6,31
+,TD,10:43,"Kenneth Farrow 8 Yd Run (Kyle Bullard Kick)Drive info: 9 plays, 86 yds in 3:15",13,31
+,FG,6:14,"Chris Blewitt 29 Yd Field Goal  Drive info: 9 plays, 60 yds in 4:29",13,34
+,TD,3:41,"Deontay Greenberry 8 Yd pass from Greg Ward Jr. (Kyle Bullard Kick)Drive info: 6 plays, 83 yds in 2:33",20,34
+,TD,1:58,"Demarcus Ayers 29 Yd pass from Greg Ward Jr. (Kyle Bullard Kick)Drive info: 6 plays, 52 yds in 1:43",27,34
+,TD,0:59,"Deontay Greenberry 25 Yd pass from Greg Ward Jr. (Greg Ward Jr. Pass to Deontay Greenberry for Two-Point Conversion)Drive info: 4 plays, 57 yds in 0:59",35,34
+,,HOU,PITT
+1st Downs,23,28
+3rd down efficiency,6-13,6-13
+4th down efficiency,2-2,2-3
+Total Yards,486,449
+Passing,274,222
+Comp-Att,15-25,18-36
+Yards per pass,11.0,6.2
+Rushing,212,227
+Rushing Attempts,40,41
+Yards per rush,5.3,5.5
+Penalties,9-100,5-44
+Turnovers,0,0
+Fumbles lost,0,0
+Interceptions thrown,0,0
+Possession,25:39,33:23
+Houston Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Greg Ward Jr.,15/24,274,11.4,3,0,76.4
+Kenneth Farrow,0/1,0,0.0,0,0,3.1
+Team,15/25,274,11.0,3,0,--
+Pittsburgh Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Chad Voytik,18/35,222,6.3,1,0,80.6
+Team,18/36,222,6.2,1,0,--
+Houston Rushing
+,CAR,YDS,AVG,TD,LG
+Kenneth Farrow,22,103,4.7,2,17
+Greg Ward Jr.,14,92,6.6,0,31
+Ryan Jackson,2,13,6.5,0,10
+Demarcus Ayers,1,5,5.0,0,5
+- Team,1,-1,-1.0,0,0
+Team,40,212,5.3,2,31
+Pittsburgh Rushing
+,CAR,YDS,AVG,TD,LG
+James Conner,21,90,4.3,2,20
+Rachid Ibrahim,5,42,8.4,0,14
+Chad Voytik,6,40,6.7,0,16
+Chris James,5,33,6.6,0,17
+Isaac Bennett,3,17,5.7,1,12
+Matt Galambos,1,5,5.0,0,5
+Team,41,227,5.5,3,20
+Houston Receiving
+,REC,YDS,AVG,TD,LG
+Deontay Greenberry,4,85,21.3,2,38
+Markeith Ambles,3,68,22.7,0,32
+Kenneth Farrow,2,42,21.0,0,43
+Ryan Jackson,3,37,12.3,0,21
+Demarcus Ayers,2,29,14.5,1,29
+Steven Dunbar,1,13,13.0,0,13
+Team,15,274,18.3,3,43
+Pittsburgh Receiving
+,REC,YDS,AVG,TD,LG
+Tyler Boyd,9,112,12.4,0,24
+Kevin Weatherspoon,3,46,15.3,0,17
+J.P. Holtz,3,33,11.0,1,16
+Rachid Ibrahim,2,22,11.0,0,15
+Scott Orndoff,1,9,9.0,0,9
+Team,18,222,12.3,1,24
+Houston Interceptions
+,INT,YDS,TD
+No Interception Information
+Pittsburgh Interceptions
+,INT,YDS,TD
+No Interception Information
+Houston Kick Returns
+,NO,YDS,AVG,LG,TD
+Demarcus Ayers,4,50,12.5,16,0
+Markeith Ambles,1,13,13.0,13,0
+Team,5,63,12.6,16,0
+Pittsburgh Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,3,69,23.0,28,0
+Chris Wuestner,1,18,18.0,18,0
+Team,4,87,21.8,28,0
+Houston Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Pittsburgh Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyler Boyd,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Houston Kicking
+,FG,PCT,LG,XP,PTS
+Kyle Bullard,0/0,0.0,0,3/4,3
+Team,0/0,0.0,0,3/4,3
+Pittsburgh Kicking
+,FG,PCT,LG,XP,PTS
+Chris Blewitt,2/2,100.0,52,4/4,10
+Team,2/2,100.0,52,4/4,10
+Houston Punting
+,NO,YDS,AVG,TB,-20,LG
+Logan Piper,5,204,40.8,0,2,60
+Team,5,204,40.8,0,2,60
+Pittsburgh Punting
+,NO,YDS,AVG,TB,-20,LG
+Ryan Winslow,2,87,43.5,0,1,44
+Team,2,87,43.5,0,1,44

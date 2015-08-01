@@ -1,0 +1,165 @@
+"Stadium Code","Name","City","State","Capacity","Surface","Year Opened"
+1,"Jordan-Hare Stadium","Auburn",AL,87451,"Grass",1939
+2,"Legion Field","Birmingham",AL,71594,"FieldTurf",1927
+3,"Ladd-Peebles Stadium","Mobile",AL,40646,"FieldTurf",1948
+4,"Movie Gallery Veterans Stadium","Troy",AL,30000,"AstroPlay",1950
+5,"Bryant-Denny Stadium","Tuscaloosa",AL,101821,"Grass",1929
+6,"Donald W. Reynolds Razorback Stadium","Fayetteville",AR,72000,"Sportexe PowerBlade",1938
+7,"ASU Stadium","Jonesboro",AR,30964,"FieldTurf",1974
+8,"War Memorial Stadium","Little Rock",AR,53727,"FieldTurf",1948
+145,"University of Phoenix Stadium","Glendale",AZ,73000,"Grass",2006
+9,"Chase Field","Phoenix",AZ,42915,"Grass",1995
+10,"Sun Devil Stadium","Tempe",AZ,71706,"Grass",1958
+11,"Arizona Stadium","Tucson",AZ,57400,"Grass",1929
+12,"Memorial Stadium","Berkeley",CA,63000,"Sportexe Momentum",1923
+13,"Bulldog Stadium","Fresno",CA,41000,"Grass",1980
+14,"LA Coliseum","Los Angeles",CA,92000,"Grass",1923
+15,"Rose Bowl","Pasadena",CA,91136,"Grass",1922
+16,"Qualcomm Stadium","San Diego",CA,71294,"Grass",1967
+17,"AT&T Park","San Francisco",CA,37000,"Grass",2000
+161,"Candlestick Park","San Francisco",CA,69732,"Grass",1960
+18,"Spartan Stadium","San Jose",CA,30000,"Grass",1933
+19,"Stanford Stadium","Stanford",CA,50000,"Grass",1921
+20,"Folsom Field","Boulder",CO,53245,"Grass",1924
+21,"Falcon Stadium","Colorado Springs",CO,46692,"FieldTurf",1962
+22,"Invesco Field at Mile High","Denver",CO,76125,"Grass",2001
+23,"Hughes Stadium","Fort Collins",CO,30000,"FieldTurf",1963
+24,"Nottingham Field","Greeley",CO,6500,"Grass",1995
+25,"Rentschler Field","Hartford",CT,40000,"Grass",2003
+150,"R.F.K. Stadium","Washington",DC,55672,"Grass",1961
+159,"FAU Stadium","Boca Raton",FL,30000,"Grass",2011
+27,"Ben Hill Griffin Stadium at Florida Field","Gainesville",FL,88548,"Grass",1930
+28,"Jacksonville Municipal Stadium","Jacksonville",FL,73800,"Grass",1946
+31,"FIU Stadium","Miami",FL,17000,"AstroPlay",1995
+29,"Orange Bowl","Miami",FL,72319,"Grass",1937
+30,"Sun Life Stadium","Miami",FL,75235,"Grass",1987
+146,"Bright House Networks Stadium","Orlando",FL,45301,"Grass",2007
+32,"Citrus Bowl","Orlando",FL,65438,"Grass",1947
+151,"Tropicana Field","St. Petersburg",FL,45000,"FieldTurf",1990
+34,"Bragg Memorial Stadium","Tallahassee",FL,25500,"Grass",1957
+33,"Doak Campbell Stadium","Tallahassee",FL,80000,"Grass",1950
+35,"Raymond James Stadium","Tampa",FL,41441,"Grass",1998
+36,"Sanford Stadium","Athens",GA,92746,"Grass",1929
+37,"Bobby Dodd Stadium","Atlanta",GA,55000,"Grass",1913
+38,"Georgia Dome","Atlanta",GA,71250,"FieldTurf",1992
+39,"Aloha Stadium","Honolulu",HI,50000,"FieldTurf",1975
+40,"Trice Stadium","Ames",IA,50000,"Grass",1975
+41,"Kinnick Stadium","Iowa City",IA,70000,"FieldTurf",1929
+42,"Bronco Stadium","Boise",ID,37000,"AstroPlay",1970
+43,"Kibbie Dome","Moscow",ID,15820,"AstroTurf",1975
+44,"Memorial Stadium","Champaign",IL,70000,"AstroPlay",1924
+147,"Soldier Field","Chicago",IL,61500,"Grass",1924
+156,"Wrigley Field","Chicago",IL,46000,"Grass",1914
+45,"Huskie Stadium","De Kalb",IL,30076,"FieldTurf",1965
+46,"Ryan Field","Evanston",IL,49256,"Grass",1926
+47,"Memorial Stadium","Bloomington",IN,52000,"AstroPlay",1960
+162,"Lucas Oil Stadium","Indianapolis",IN,63000,"FieldTurf",2008
+48,"Scheumann Stadium","Munice",IN,22500,"FieldTurf",1967
+49,"Notre Dame Stadium","South Bend",IN,80795,"Grass",1930
+50,"Ross-Ade Stadium","West Lafayette",IN,68000,"Grass",1924
+51,"Memorial Stadium","Lawrence",KS,50250,"AstroPlay",1921
+52,"Bill Snyder Family","Manhattan",KS,50300,"FieldTurf",1968
+148,"L.T. Smith Stadium","Bowling Green",KY,17500,"AstroPlay",1968
+53,"Commonwealth Stadium","Lexington",KY,67606,"Grass",1973
+54,"Papa John's Cardinal Stadium","Louisville",KY,42000,"FieldTurf",1998
+152,"Roy Kidd Stadium","Richmond",KY,22000,"Grass",1969
+55,"Tiger Stadium","Baton Rouge",LA,92400,"Grass",1924
+56,"Cajun Field","Lafayette",LA,31000,"Grass",1971
+57,"Malone Stadium","Monroe",LA,30427,"ProPlay",1978
+58,"Louisiana Superdome","New Orleans",LA,69082,"FieldTurf",1975
+59,"Joe Aillet Stadium","Ruston",LA,30000,"FieldTurf",1968
+60,"Independence Stadium","Shreveport",LA,53000,"AstroPlay",1976
+61,"Alumni Stadium","Chestnut Hill",MA,44500,"FieldTurf",1957
+163,"Gillette Stadium","Foxborough",MA,68756,"FieldTurf",2002
+62,"Navy-Marine Corps Memorial Stadium","Annapolis",MD,35000,"FieldTurf",1959
+63,"M&T Bank Stadium","Baltimore",MD,69084,"Sportexe Momentum",1998
+64,"Byrd Stadium","College Park",MD,62000,"Grass",1950
+65,"FedEx Field","Landover",MD,80116,"Grass",1997
+66,"Michigan Stadium","Ann Arbor",MI,107501,"FieldTurf",1927
+67,"Ford Field","Detroit",MI,65000,"FieldTurf",2002
+68,"Spartan Stadium","East Lansing",MI,73000,"Grass",1923
+69,"Waldo Stadium","Kalamazoo",MI,30200,"FieldTurf",1937
+70,"Kelly/Shorts Stadium","Mount Pleasant",MI,30199,"FieldTurf",1972
+71,"Rynearson Stadium","Ypsilanti",MI,30200,"FieldTurf",1969
+72,"Metrodome","Minneapolis",MN,65000,"FieldTurf",1982
+153,"TCF Bank Stadium","Minneapolis",MN,50805,"FieldTurf",2009
+73,"Faurot Field","Columbia",MO,62000,"FieldTurf",1927
+74,"Arrowhead Stadium","Kansas City",MO,79451,"Grass",1972
+149,"Edward Jones Dome","St. Louis",MO,66000,"AstroTurf",1995
+75,"Roberts Stadium","Hattiesburg",MS,33000,"Sportexe Momentum",1976
+76,"Vaught-Hemingway Stadium","Oxford",MS,60580,"AstroPlay",1915
+77,"Davis Wade Stadium at Scott Field","Starkville",MS,55082,"Grass",1914
+78,"Kenan Stadium","Chapel Hill",NC,61836,"Grass",1927
+79,"Bank of America Stadium","Charlotte",NC,73248,"Grass",1996
+80,"Wallace Wade Stadium","Durham",NC,33941,"Grass",1929
+81,"Dowdy Ficklen Stadium","Greenville",NC,43000,"Grass",1963
+82,"Carter Finley Stadium","Raleigh",NC,56800,"Grass",1966
+83,"Groves Stadium","Winston Salem",NC,31500,"FieldTurf",1968
+84,"Memorial Stadium","Lincoln",NE,87091,"FieldTurf",1923
+85,"Giants Stadium","East Rutherford",NJ,80242,"FieldTurf",1976
+157,"Metlife Stadium","East Rutherford",NJ,82566,"FieldTurf",2010
+86,"High Point Solutions Stadium","Piscataway",NJ,52454,"FieldTurf",1994
+87,"University Stadium","Albuquerque",NM,40000,"Grass",1960
+88,"Aggie Stadium","Las Cruces",NM,40000,"Grass",1978
+89,"Sam Boyd Stadium","Las Vegas",NV,36800,"TurfTech",1971
+90,"Mackay Stadium","Reno",NV,31000,"FieldTurf",1966
+91,"UB Stadium","Buffalo",NY,31000,"Sportexe Momentum",1993
+158,"Yankee Stadium","New York",NY,52325,"Grass",2009
+166,"Ralph Wilson Stadium","Orchard Park",NY,73079,"A-Turf",1973
+92,"Carrier Dome","Syracuse",NY,49250,"FieldTurf",1980
+93,"Michie Stadium","West Point",NY,40000,"AstroPlay",1924
+154,"InfoCision Stadium-Summa Field","Akron",OH,30000,"ProGrass",2009
+94,"Rubber Bowl","Akron",OH,31000,"AstroPlay",1940
+95,"Peden Stadium","Athens",OH,24000,"FieldTurf",1929
+96,"Doyt Perry Stadium","Bowling Green",OH,28599,"FieldTurf",1966
+97,"Nippert Stadium","Cincinnati",OH,38000,"FieldTurf",1916
+98,"Cleveland Browns Stadium","Cleveland",OH,72300,"Grass",1999
+164,"Columbus Crew Stadium","Columbus",OH,22555,"Grass",1999
+99,"Ohio Stadium","Columbus",OH,102329,"FieldTurf",1922
+100,"Dix Stadium","Kent",OH,29287,"FieldTurf",1969
+101,"Fred C. Yager Stadium","Oxford",OH,30012,"FieldTurf",1983
+102,"Glass Bowl","Toledo",OH,26248,"NexTurf",1937
+103,"Memorial Stadium at Owen Field","Norman",OK,81207,"Grass",1923
+104,"Boone Pickens Stadium at Lewis Field","Stillwater",OK,53000,"AstroPlay",1920
+105,"Skelly Stadium","Tulsa",OK,40385,"FieldTurf",1930
+106,"Rogers Centre","Toronto",ON,65673,"FieldTurf",1989
+107,"Reser Stadium","Corvallis",OR,35362,"FieldTurf",1953
+108,"Autzen Stadium","Eugene",OR,54000,"FieldTurf",1967
+109,"Lincoln Financial Field","Philadelphia",PA,66000,"Grass",2003
+110,"Heinz Field","Pittsburgh",PA,64450,"Grass",2001
+111,"Beaver Stadium","University Park",PA,107282,"Grass",1960
+112,"Memorial Stadium","Clemson",SC,86400,"Grass",1942
+113,"Williams-Brice Stadium","Columbia",SC,80250,"Grass",1934
+114,"Neyland Stadium","Knoxville",TN,102037,"Grass",1921
+115,"Liberty Bowl","Memphis",TN,62380,"FieldTurf",1965
+116,"Floyd Stadium","Murfreesboro",TN,30788,"AstroTurf",1998
+118,"LP Field","Nashville",TN,67000,"Grass",1999
+117,"Vanderbilt Stadium","Nashville",TN,39773,"Grass",1922
+155,"Cowboys Stadium","Arlington",TX,80000,"SoftTop Turf System",2009
+119,"Royal Memorial Stadium","Austin",TX,94113,"FieldTurf",1924
+120,"Kyle Field","College Station",TX,82600,"Grass",1929
+121,"Cotton Bowl","Dallas",TX,68252,"Grass",1932
+122,"Gerald Ford Stadium","Dallas",TX,32000,"A-Turf",2000
+160,"Apogee Stadium","Denton",TX,30850,"FieldTurf",2011
+124,"Sun Bowl","El Paso",TX,50426,"AstroPlay",1963
+125,"Amon Carter Stadium","Fort Worth",TX,46000,"Grass",1929
+165,"BBVA Compass Stadium","Houston",TX,22039,"Grass",2012
+128,"Reliant Stadium","Houston",TX,69500,"Grass",2002
+127,"Rice Stadium","Houston",TX,70000,"FieldTurf",1950
+126,"Robertson Stadium","Houston",TX,32000,"Grass",1946
+129,"Jones SBC Stadium","Lubbock",TX,50000,"FieldTurf",1947
+130,"Alamodome","San Antonio",TX,65000,"AstroTurf",1993
+131,"Bobcat Stadium","San Marcos",TX,30000,"FieldTurf",1981
+132,"Floyd Casey Stadium","Waco",TX,50000,"Prestige System",1950
+133,"Romney Stadium","Logan",UT,30257,"SportsTurf",1968
+134,"LaVell Edwards Stadium","Provo",UT,65000,"Grass",1964
+135,"Rice Eccles Stadium","Salt Lake City",UT,45017,"FieldTurf",1927
+136,"Lane Stadium","Blacksburg",VA,66233,"Grass",1965
+137,"Scott Stadium","Charlottesville",VA,60000,"Grass",1931
+138,"Martin Stadium","Pullman",WA,40000,"FieldTurf",1972
+140,"CenturyLink Field","Seattle",WA,67000,"FieldTurf",2002
+139,"Husky Stadium","Seattle",WA,72500,"FieldTurf",1920
+141,"Camp Randall Stadium","Madison",WI,79500,"FieldTurf",1917
+142,"Joan Edwards Stadium","Huntington",WV,38016,"FieldTurf",1991
+143,"Mountaineer Field","Morgantown",WV,63500,"FieldTurf",1980
+144,"War Memorial Stadium","Laramie",WY,33500,"FieldTurf",1950

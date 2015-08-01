@@ -1,0 +1,115 @@
+FIRST QUARTER,,OKST,KSU
+,TD,11:48,"Tyreek Hill 2 Yd Run (Ben Grogan Kick)Drive info: 8 plays, 84 yds in 3:12",7,0
+,TD,11:36,Morgan Burns 86 Yd Kickoff Return (Matthew McCrane Kick),7,7
+,TD,4:16,"Charles Jones 6 Yd Run (Matthew McCrane Kick)Drive info: 10 plays, 73 yds in 4:16",7,14
+SECOND QUARTER,,OKST,KSU
+,TD,12:46,"Curry Sexton 17 Yd pass from Jake Waters (Matthew McCrane Kick)Drive info: 10 plays, 69 yds in 4:10",7,21
+THIRD QUARTER,,OKST,KSU
+,TD,10:19,"Tyler Lockett 20 Yd pass from Jake Waters (Matthew McCrane Kick)Drive info: 9 plays, 75 yds in 4:41",7,28
+,FG,1:13,"Matthew McCrane 37 Yd Field Goal  Drive info: 6 plays, 42 yds in 2:48",7,31
+FOURTH QUARTER,,OKST,KSU
+,TD,13:28,"Charles Jones 3 Yd Run (Matthew McCrane Kick)Drive info: 3 plays, 37 yds in 1:19",7,38
+,TD,9:28,"Joe Hubener 1 Yd Run (Matthew McCrane Kick)Drive info: 4 plays, 64 yds in 0:59",7,45
+,TD,7:48,Ramon Richards 38 Yd Interception Return (Ben Grogan Kick),14,45
+,FG,4:49,"Matthew McCrane 53 Yd Field Goal  Drive info: 7 plays, 20 yds in 2:59",14,48
+,,OKST,KSU
+1st Downs,15,21
+3rd down efficiency,3-13,5-12
+4th down efficiency,0-1,0-1
+Total Yards,260,421
+Passing,148,287
+Comp-Att,12-23,20-33
+Yards per pass,6.4,8.7
+Rushing,112,134
+Rushing Attempts,40,33
+Yards per rush,2.8,4.1
+Penalties,5-54,2-15
+Turnovers,3,1
+Fumbles lost,1,0
+Interceptions thrown,2,1
+Possession,29:47,30:01
+Oklahoma State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Daxx Garman,12/23,148,6.4,0,2,13.9
+Team,12/23,148,6.4,0,2,--
+Kansas State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jake Waters,19/28,223,8.0,2,0,77.5
+Joe Hubener,1/5,64,12.8,0,1,72.0
+Team,20/33,287,8.7,2,1,--
+Oklahoma State Rushing
+,CAR,YDS,AVG,TD,LG
+Tyreek Hill,18,102,5.7,1,20
+Rennie Childs,9,36,4.0,0,13
+Raymond Taylor,4,4,1.0,0,10
+Daxx Garman,9,-30,-3.3,0,6
+Team,40,112,2.8,1,20
+Kansas State Rushing
+,CAR,YDS,AVG,TD,LG
+Charles Jones,10,43,4.3,2,9
+Jake Waters,9,34,3.8,0,16
+Jesse Ertz,3,26,8.7,0,20
+Joe Hubener,2,14,7.0,1,13
+Jarvis Leverett Jr.,5,9,1.8,0,4
+DeMarcus Robinson,4,8,2.0,0,6
+Team,33,134,4.1,3,20
+Oklahoma State Receiving
+,REC,YDS,AVG,TD,LG
+Tyreek Hill,1,34,34.0,0,34
+James Washington,3,33,11.0,0,17
+David Glidden,3,32,10.7,0,12
+Jhajuan Seales,2,17,8.5,0,16
+Marcell Ateman,2,17,8.5,0,9
+Brandon Sheperd,1,15,15.0,0,15
+Team,12,148,12.3,0,34
+Kansas State Receiving
+,REC,YDS,AVG,TD,LG
+Curry Sexton,9,159,17.7,1,64
+Tyler Lockett,6,94,15.7,1,34
+Deante Burton,3,23,7.7,0,15
+Zach Trujillo,1,13,13.0,0,13
+DeMarcus Robinson,1,-2,-2.0,0,0
+Team,20,287,14.4,2,64
+Oklahoma State Interceptions
+,INT,YDS,TD
+Ramon Richards,1,38,1
+Team,1,38,1
+Kansas State Interceptions
+,INT,YDS,TD
+Dante Barnett,1,3,0
+Dylan Schellenberg,1,0,0
+Team,2,3,0
+Oklahoma State Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,3,55,18.3,24,0
+Jhajuan Seales,1,13,13.0,13,0
+Team,4,68,17.0,24,0
+Kansas State Kick Returns
+,NO,YDS,AVG,LG,TD
+Morgan Burns,1,86,86.0,86,1
+Tyler Lockett,1,33,33.0,33,0
+Team,2,119,59.5,86,1
+Oklahoma State Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyreek Hill,1,-2,-2.0,0,0
+Team,1,-2,-2.0,0,0
+Kansas State Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyler Lockett,4,26,6.5,12,0
+Team,4,26,6.5,12,0
+Oklahoma State Kicking
+,FG,PCT,LG,XP,PTS
+Ben Grogan,0/0,0.0,0,2/2,2
+Team,0/0,0.0,0,2/2,2
+Kansas State Kicking
+,FG,PCT,LG,XP,PTS
+Matthew McCrane,2/2,100.0,53,6/6,12
+Team,2/2,100.0,53,6/6,12
+Oklahoma State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kip Smith,9,361,40.1,1,1,53
+Team,9,361,40.1,1,1,53
+Kansas State Punting
+,NO,YDS,AVG,TB,-20,LG
+Nick Walsh,3,110,36.7,0,1,40
+Team,3,110,36.7,0,1,40

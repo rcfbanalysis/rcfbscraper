@@ -1,0 +1,117 @@
+FIRST QUARTER,,DUQ,BUFF
+,TD,11:49,"Matt Weiser 41 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 8 plays, 75 yds in 3:11",0,7
+,TD,7:30,"Anthone Taylor 11 Yd Run (Patrick Clarke Kick)Drive info: 7 plays, 77 yds in 3:13",0,14
+SECOND QUARTER,,DUQ,BUFF
+,TD,5:24,"Anthone Taylor 5 Yd Run (Patrick Clarke Kick)Drive info: 9 plays, 37 yds in 3:45",0,21
+,TD,1:58,"Devin Rahming 4 Yd pass from Dillon Buechel (Austin Crimmins Kick)Drive info: 5 plays, 29 yds in 1:47",7,21
+THIRD QUARTER,,DUQ,BUFF
+,TD,11:21,"Randy Morris 3 Yd Run (Austin Crimmins Kick)Drive info: 8 plays, 75 yds in 3:39",14,21
+,TD,7:04,"Chris King 88 Yd pass from Dillon Buechel (Austin Crimmins Kick)Drive info: 3 plays, 93 yds in 1:21",21,21
+,FG,1:46,"Patrick Clarke 24 Yd Field Goal  Drive info: 7 plays, 28 yds in 2:41",21,24
+FOURTH QUARTER,,DUQ,BUFF
+,TD,14:55,"Chris King 6 Yd pass from Dillon Buechel (Austin Crimmins Kick)Drive info: 6 plays, 75 yds in 1:51",28,24
+,TD,9:50,"Ron Willoughby 24 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 9 plays, 97 yds in 3:06",28,31
+,TD,1:32,"Ron Willoughby 11 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 16 plays, 75 yds in 6:34",28,38
+,,DUQ,BUFF
+1st Downs,18,26
+3rd down efficiency,6-16,11-20
+4th down efficiency,2-2,2-2
+Total Yards,373,472
+Passing,322,298
+Comp-Att,18-37,25-36
+Yards per pass,8.7,8.3
+Rushing,51,174
+Rushing Attempts,33,49
+Yards per rush,1.5,3.6
+Penalties,3-45,3-31
+Turnovers,1,2
+Fumbles lost,1,1
+Interceptions thrown,0,1
+Possession,25:19,45:36
+Duquesne Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Dillon Buechel,18/37,322,8.7,3,0,--
+Team,18/37,322,8.7,3,0,--
+Buffalo Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Joe Licata,25/36,298,8.3,3,1,76.6
+Team,25/36,298,8.3,3,1,--
+Duquesne Rushing
+,CAR,YDS,AVG,TD,LG
+Klartel Claridy,12,39,3.3,0,13
+Ryan Ho,6,25,4.2,0,6
+Randy Morris,2,5,2.5,1,3
+Rafiq Douglas,2,4,2.0,0,2
+Marcus Hughes,6,-5,-0.8,0,4
+Dillon Buechel,5,-17,-3.4,0,5
+Team,33,51,1.5,1,13
+Buffalo Rushing
+,CAR,YDS,AVG,TD,LG
+Anthone Taylor,30,115,3.8,2,17
+Jordan Johnson,9,38,4.2,0,11
+Devin Campbell,6,37,6.2,0,20
+Boise Ross,1,0,0.0,0,0
+Joe Licata,3,-16,-5.3,0,1
+Team,49,174,3.6,2,20
+Duquesne Receiving
+,REC,YDS,AVG,TD,LG
+Chris King,8,199,24.9,2,88
+Kevin Enright,1,45,45.0,0,45
+Chavas Rawlins,4,42,10.5,0,18
+Devin Rahming,2,16,8.0,1,12
+Ryan Ho,1,11,11.0,0,11
+Noel Oduho,1,6,6.0,0,6
+Marcus Hughes,1,3,3.0,0,3
+Team,18,322,17.9,3,88
+Buffalo Receiving
+,REC,YDS,AVG,TD,LG
+Ron Willoughby,10,132,13.2,2,46
+Matt Weiser,2,52,26.0,1,41
+Marcus McGill,4,40,10.0,0,17
+Boise Ross,3,33,11.0,0,15
+Devin Campbell,3,20,6.7,0,10
+Devon Hughes,1,15,15.0,0,15
+Anthone Taylor,1,6,6.0,0,6
+Jacob Martinez,1,0,0.0,0,0
+Team,25,298,11.9,3,46
+Duquesne Interceptions
+,INT,YDS,TD
+Nick Floyd,1,0,0
+Team,1,0,0
+Buffalo Interceptions
+,INT,YDS,TD
+No Interception Information
+Duquesne Kick Returns
+,NO,YDS,AVG,LG,TD
+Devin Rahming,4,89,22.3,36,0
+Team,4,89,22.3,36,0
+Buffalo Kick Returns
+,NO,YDS,AVG,LG,TD
+Devin Campbell,2,46,23.0,28,0
+Greg Lis,1,15,15.0,15,0
+Team,3,61,20.3,28,0
+Duquesne Punt Returns
+,NO,YDS,AVG,LG,TD
+Bobby Gustine,1,26,26.0,26,0
+Devin Rahming,1,8,8.0,8,0
+Team,2,34,17.0,26,0
+Buffalo Punt Returns
+,NO,YDS,AVG,LG,TD
+Marcus McGill,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Duquesne Kicking
+,FG,PCT,LG,XP,PTS
+Austin Crimmins,0/0,0.0,0,4/4,4
+Team,0/0,0.0,0,4/4,4
+Buffalo Kicking
+,FG,PCT,LG,XP,PTS
+Patrick Clarke,1/2,50.0,24,5/5,8
+Team,1/2,50.0,24,5/5,8
+Duquesne Punting
+,NO,YDS,AVG,TB,-20,LG
+Patrick Dill,8,309,38.6,0,0,56
+Team,8,309,38.6,0,0,56
+Buffalo Punting
+,NO,YDS,AVG,TB,-20,LG
+Tyler Grassman,5,229,45.8,0,2,51
+Team,5,229,45.8,0,2,51

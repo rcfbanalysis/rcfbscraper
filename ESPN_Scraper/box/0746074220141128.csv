@@ -1,0 +1,119 @@
+FIRST QUARTER,,UVA,VT
+,FG,3:09,"Joey Slye 22 Yd Field Goal  Drive info: 15 plays, 69 yds in 6:36",0,3
+,FG,0:09,"Ian Frye 40 Yd Field Goal  Drive info: 6 plays, 49 yds in 3:00",3,3
+SECOND QUARTER,,UVA,VT
+,TD,9:30,Bucky Hodges 0 Yd Return of Blocked Punt (Joey Slye Kick),3,10
+,FG,7:30,"Ian Frye 21 Yd Field Goal  Drive info: 6 plays, 56 yds in 2:00",6,10
+,TD,4:41,David Dean 3 Yd Interception Return (Ian Frye Kick),13,10
+THIRD QUARTER,,UVA,VT
+,TD,0:15,"Cam Phillips 36 Yd pass from Michael Brewer (Joey Slye Kick)Drive info: 7 plays, 83 yds in 3:06",13,17
+FOURTH QUARTER,,UVA,VT
+,TD,2:55,"Zachary Swanson 20 Yd pass from Greyson Lambert (Ian Frye Kick)Drive info: 10 plays, 89 yds in 3:55",20,17
+,TD,1:48,"Bucky Hodges 9 Yd pass from Michael Brewer (Joey Slye Kick)Drive info: 3 plays, 75 yds in 1:07",20,24
+,,UVA,VT
+1st Downs,15,21
+3rd down efficiency,4-18,8-18
+4th down efficiency,0-2,0-0
+Total Yards,314,433
+Passing,276,235
+Comp-Att,18-38,15-35
+Yards per pass,7.3,6.7
+Rushing,38,198
+Rushing Attempts,35,40
+Yards per rush,1.1,4.9
+Penalties,9-75,8-71
+Turnovers,1,3
+Fumbles lost,0,2
+Interceptions thrown,1,1
+Possession,29:20,30:40
+Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Greyson Lambert,15/32,211,6.6,1,1,28.5
+Matt Johns,3/6,65,10.8,0,0,34.6
+Team,18/38,276,7.3,1,1,--
+Virginia Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Michael Brewer,15/33,235,7.1,2,1,40.1
+Brenden Motley,0/2,0,0.0,0,0,21.9
+Team,15/35,235,6.7,2,1,--
+Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Kevin Parks,21,70,3.3,0,40
+Taquan Mizzell,1,2,2.0,0,2
+Darius Jennings,3,1,0.3,0,7
+Khalek Shepherd,3,0,0.0,0,2
+Matt Johns,3,-15,-5.0,0,1
+Greyson Lambert,4,-20,-5.0,0,2
+Team,35,38,1.1,0,40
+Virginia Tech Rushing
+,CAR,YDS,AVG,TD,LG
+J.C. Coleman,18,118,6.6,0,38
+Sam Rogers,8,39,4.9,0,12
+Brenden Motley,8,28,3.5,0,9
+Michael Brewer,3,11,3.7,0,12
+Deon Newsome,1,8,8.0,0,8
+Isaiah Ford,1,-5,-5.0,0,0
+Team,40,198,5.0,0,38
+Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Canaan Severin,4,82,20.5,0,29
+Taquan Mizzell,4,74,18.5,0,54
+Keeon Johnson,2,36,18.0,0,18
+Zachary Swanson,3,34,11.3,1,20
+Darius Jennings,1,23,23.0,0,23
+Kevin Parks,2,13,6.5,0,9
+Connor Wingo-Reeves,1,10,10.0,0,10
+Andre Levrone,1,4,4.0,0,4
+Team,18,276,15.3,1,54
+Virginia Tech Receiving
+,REC,YDS,AVG,TD,LG
+Cam Phillips,5,73,14.6,1,36
+Bucky Hodges,3,61,20.3,1,50
+Isaiah Ford,3,58,19.3,0,26
+Willie Byrn,3,27,9.0,0,18
+Sam Rogers,1,16,16.0,0,16
+Team,15,235,15.7,2,50
+Virginia Interceptions
+,INT,YDS,TD
+David Dean,1,3,1
+Team,1,3,1
+Virginia Tech Interceptions
+,INT,YDS,TD
+Kyshoen Jarrett,1,0,0
+Team,1,0,0
+Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Jennings,4,115,28.8,44,0
+Taquan Mizzell,1,14,14.0,14,0
+Team,5,129,25.8,44,0
+Virginia Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Demitri Knowles,3,50,16.7,29,0
+Team,3,50,16.7,29,0
+Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Khalek Shepherd,2,-1,-0.5,0,0
+Team,2,-1,-0.5,0,0
+Virginia Tech Punt Returns
+,NO,YDS,AVG,LG,TD
+Greg Stroman,2,13,6.5,10,0
+Kyshoen Jarrett,1,5,5.0,5,0
+C.J. Reavis,1,2,2.0,2,0
+Bucky Hodges,1,0,0.0,0,1
+Team,4,20,5.0,10,1
+Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Ian Frye,2/3,66.7,40,2/2,8
+Team,2/3,66.7,40,2/2,8
+Virginia Tech Kicking
+,FG,PCT,LG,XP,PTS
+Joey Slye,1/2,50.0,22,3/3,6
+Team,1/2,50.0,22,3/3,6
+Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+Alec Vozenilek,7,290,41.4,0,4,48
+Team,7,290,41.4,0,4,48
+Virginia Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+A.J. Hughes,8,291,36.4,1,3,50
+Team,8,291,36.4,1,3,50

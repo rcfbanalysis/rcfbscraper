@@ -1,0 +1,118 @@
+FIRST QUARTER,,OKLA,WVU
+,FG,4:20,"Michael Hunnicutt 42 Yd Field Goal  Drive info: 13 plays, 70 yds in 5:15",3,0
+,TD,0:39,"Kevin White 68 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 4 plays, 80 yds in 1:19",3,7
+SECOND QUARTER,,OKLA,WVU
+,FG,11:00,"Josh Lambert 54 Yd Field Goal  Drive info: 6 plays, 18 yds in 1:27",3,10
+,TD,8:58,"Trevor Knight 4 Yd pass from Durron Neal (Michael Hunnicutt Kick)Drive info: 5 plays, 75 yds in 2:02",10,10
+,TD,7:45,"Mario Alford 30 Yd pass from Clint Trickett (Josh Lambert Kick)Drive info: 6 plays, 75 yds in 1:13",10,17
+,TD,3:09,"Samaje Perine 2 Yd Run (Michael Hunnicutt Kick)Drive info: 9 plays, 75 yds in 4:37",17,17
+,TD,1:20,"Rushel Shell 5 Yd Run (Josh Lambert Kick)Drive info: 5 plays, 55 yds in 1:48",17,24
+,TD,1:08,"Alex Ross 100 Yd Kickoff Return (Michael Hunnicutt Kick)Drive info: 5 plays, 18 yds in 1:06",24,24
+THIRD QUARTER,,OKLA,WVU
+,TD,12:22,"Samaje Perine 9 Yd Run (Michael Hunnicutt Kick)Drive info: 7 plays, 75 yds in 2:38",31,24
+,FG,6:28,"Josh Lambert 31 Yd Field Goal  Drive info: 7 plays, 41 yds in 2:33",31,27
+,TD,1:00,"Samaje Perine 5 Yd Run (Michael Hunnicutt Kick)Drive info: 9 plays, 74 yds in 3:25",38,27
+FOURTH QUARTER,,OKLA,WVU
+,TD,4:30,"Samaje Perine 19 Yd Run (Michael Hunnicutt Kick)Drive info: 7 plays, 65 yds in 4:21",45,27
+,TD,2:12,"Dreamius Smith 11 Yd Run (Two-Point Pass Conversion Failed)Drive info: 8 plays, 75 yds in 2:18",45,33
+,,OKLA,WVU
+1st Downs,24,26
+3rd down efficiency,8-16,7-15
+4th down efficiency,0-0,0-1
+Total Yards,510,513
+Passing,209,376
+Comp-Att,17-30,25-41
+Yards per pass,7.0,9.2
+Rushing,301,137
+Rushing Attempts,46,40
+Yards per rush,6.5,3.4
+Penalties,8-82,5-55
+Turnovers,1,3
+Fumbles lost,0,1
+Interceptions thrown,1,2
+Possession,33:24,26:15
+Oklahoma Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Trevor Knight,16/29,205,7.1,0,1,37.7
+Durron Neal,1/1,4,4.0,1,0,100.0
+Team,17/30,209,7.0,1,1,--
+West Virginia Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Clint Trickett,25/41,376,9.2,2,2,49.9
+Team,25/41,376,9.2,2,2,--
+Oklahoma Rushing
+,CAR,YDS,AVG,TD,LG
+Samaje Perine,34,242,7.1,4,38
+Alex Ross,8,56,7.0,0,34
+Sterling Shepard,2,3,1.5,0,3
+Blake Bell,1,2,2.0,0,2
+Team,46,301,6.5,4,38
+West Virginia Rushing
+,CAR,YDS,AVG,TD,LG
+Rushel Shell,15,60,4.0,1,18
+Dreamius Smith,5,38,7.6,1,11
+Wendell Smallwood,9,38,4.2,0,7
+Andrew Buie,4,16,4.0,0,6
+Dustin Garrison,2,6,3.0,0,5
+Jordan Thompson,1,-2,-2.0,0,0
+Clint Trickett,4,-19,-4.8,0,3
+Team,40,137,3.4,2,18
+Oklahoma Receiving
+,REC,YDS,AVG,TD,LG
+Sterling Shepard,6,101,16.8,0,37
+K.J. Young,5,57,11.4,0,23
+Durron Neal,2,28,14.0,0,15
+Alex Ross,3,19,6.3,0,10
+Trevor Knight,1,4,4.0,1,4
+Team,17,209,12.3,1,37
+West Virginia Receiving
+,REC,YDS,AVG,TD,LG
+Kevin White,10,173,17.3,1,68
+Mario Alford,7,101,14.4,1,30
+Wendell Smallwood,2,44,22.0,0,37
+Jordan Thompson,2,34,17.0,0,25
+Daikiel Shorts,1,15,15.0,0,15
+Rushel Shell,2,10,5.0,0,6
+Elijah Wellman,1,-1,-1.0,0,-1
+Team,25,376,15.0,2,68
+Oklahoma Interceptions
+,INT,YDS,TD
+Quentin Hayes,1,0,0
+Zack Sanchez,1,0,0
+Team,2,0,0
+West Virginia Interceptions
+,INT,YDS,TD
+Wes Tonkery,1,0,0
+Team,1,0,0
+Oklahoma Kick Returns
+,NO,YDS,AVG,LG,TD
+Alex Ross,2,131,65.5,100,1
+Sterling Shepard,1,4,4.0,4,0
+Team,3,135,45.0,100,1
+West Virginia Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Oklahoma Punt Returns
+,NO,YDS,AVG,LG,TD
+Sterling Shepard,1,5,5.0,5,0
+Team,1,5,5.0,5,0
+West Virginia Punt Returns
+,NO,YDS,AVG,LG,TD
+Jordan Thompson,1,5,5.0,5,0
+Team,1,5,5.0,5,0
+Oklahoma Kicking
+,FG,PCT,LG,XP,PTS
+Michael Hunnicutt,1/1,100.0,42,6/6,9
+Team,1/1,100.0,42,6/6,9
+West Virginia Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambert,2/2,100.0,54,3/3,9
+Team,2/2,100.0,54,3/3,9
+Oklahoma Punting
+,NO,YDS,AVG,TB,-20,LG
+Jed Barnett,6,287,47.8,2,1,70
+Team,6,287,47.8,2,1,70
+West Virginia Punting
+,NO,YDS,AVG,TB,-20,LG
+"u""Nick O'Toole""",5,206,41.2,0,3,52
+Team,5,206,41.2,0,3,52

@@ -1,0 +1,112 @@
+FIRST QUARTER,,BALL,CMU
+,TD,11:43,"Jahwan Edwards 7 Yd Run (Scott Secor PAT blocked)Drive info: 10 plays, 80 yds in 3:17",6,0
+,TD,9:04,"Thomas Rawls 5 Yd Run (Brian Eavey Kick)Drive info: 6 plays, 67 yds in 2:31",6,7
+,TD,6:11,"KeVonn Mabon 40 Yd pass from Jack Milas (Scott Secor Kick)Drive info: 7 plays, 75 yds in 2:53",13,7
+SECOND QUARTER,,BALL,CMU
+,FG,14:55,"Scott Secor 39 Yd Field Goal  Drive info: 11 plays, 59 yds in 4:41",16,7
+,TD,7:03,"Joe Bacci 1 Yd pass from Cooper Rush (Brian Eavey Kick)Drive info: 9 plays, 35 yds in 4:15",16,14
+,FG,2:55,"Scott Secor 37 Yd Field Goal  Drive info: 11 plays, 35 yds in 4:06",19,14
+,TD,1:14,"Jahwan Edwards 1 Yd Run (Scott Secor Kick)Drive info: 2 plays, 1 yds in 0:38",26,14
+THIRD QUARTER,,BALL,CMU
+,TD,12:01,"Titus Davis 27 Yd pass from Cooper Rush (Brian Eavey Kick)Drive info: 6 plays, 61 yds in 2:53",26,21
+,FG,1:02,"Scott Secor 20 Yd Field Goal  Drive info: 9 plays, 28 yds in 3:16",29,21
+FOURTH QUARTER,,BALL,CMU
+,TD,2:22,"Titus Davis 8 Yd pass from Cooper Rush (Cooper Rush Pass to Jesse Kroll for Two-Point Conversion)Drive info: 4 plays, 53 yds in 1:42",29,29
+,FG,0:17,"Scott Secor 55 Yd Field Goal  Drive info: 9 plays, 29 yds in 1:59",32,29
+,,BALL,CMU
+1st Downs,24,24
+3rd down efficiency,5-15,6-11
+4th down efficiency,1-1,0-1
+Total Yards,287,426
+Passing,198,245
+Comp-Att,21-38,20-32
+Yards per pass,5.2,7.7
+Rushing,89,181
+Rushing Attempts,38,37
+Yards per rush,2.3,4.9
+Penalties,4-25,10-91
+Turnovers,1,5
+Fumbles lost,1,3
+Interceptions thrown,0,2
+Possession,30:24,28:40
+Ball State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jack Milas,21/38,198,5.2,1,0,52.9
+Team,21/38,198,5.2,1,0,--
+Central Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cooper Rush,20/32,245,7.7,3,2,69.9
+Team,20/32,245,7.7,3,2,--
+Ball State Rushing
+,CAR,YDS,AVG,TD,LG
+Jahwan Edwards,32,98,3.1,2,18
+Teddy Williamson,1,2,2.0,0,2
+Jack Milas,4,-9,-2.3,0,8
+Team,38,89,2.3,2,18
+Central Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Thomas Rawls,32,167,5.2,1,37
+Cooper Rush,4,11,2.8,0,8
+Martez Walker,1,3,3.0,0,3
+Team,37,181,4.9,1,37
+Ball State Receiving
+,REC,YDS,AVG,TD,LG
+KeVonn Mabon,7,99,14.1,1,40
+Corey Lacanaria,5,37,7.4,0,15
+Jordan Williams,4,26,6.5,0,9
+Chris Shillings,2,19,9.5,0,10
+Jahwan Edwards,2,13,6.5,0,9
+Jordan Hogue,1,4,4.0,0,4
+Team,21,198,9.4,1,40
+Central Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Titus Davis,10,128,12.8,2,31
+Anthony Rice,3,42,14.0,0,23
+Deon Butler,3,34,11.3,0,17
+Ben McCord,1,27,27.0,0,27
+Courtney Williams,1,7,7.0,0,7
+Thomas Rawls,1,6,6.0,0,6
+Joe Bacci,1,1,1.0,1,1
+Team,20,245,12.3,3,31
+Ball State Interceptions
+,INT,YDS,TD
+Eric Patterson,2,43,0
+Team,2,43,0
+Central Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Ball State Kick Returns
+,NO,YDS,AVG,LG,TD
+Eric Patterson,2,36,18.0,20,0
+KeVonn Mabon,1,16,16.0,16,0
+Aaron Hepp,1,0,0.0,0,0
+Team,4,52,13.0,20,0
+Central Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Amari Coleman,5,136,27.2,38,0
+Courtney Williams,1,23,23.0,23,0
+Team,6,159,26.5,38,0
+Ball State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Central Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Amari Coleman,1,13,13.0,13,0
+Team,1,13,13.0,13,0
+Ball State Kicking
+,FG,PCT,LG,XP,PTS
+Scott Secor,4/4,100.0,55,2/3,14
+Team,4/4,100.0,55,2/3,14
+Central Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Brian Eavey,0/0,0.0,0,3/3,3
+Team,0/0,0.0,0,3/3,3
+Ball State Punting
+,NO,YDS,AVG,TB,-20,LG
+Kyle Schmidt,3,114,38.0,0,0,54
+Scott Secor,1,39,39.0,0,0,39
+Team,4,153,38.3,0,0,54
+Central Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Ron Coluzzi,3,121,40.3,1,2,43
+Team,3,121,40.3,1,2,43

@@ -1,0 +1,123 @@
+FIRST QUARTER,,UNLV,HOU
+,TD,11:11,"Keith Whitely 3 Yd Run (Jonathan Leiva Kick)Drive info: 9 plays, 70 yds in 3:49",7,0
+,TD,6:33,"u""John O'Korn 1 Yd Run (Kyle Bullard Kick)"", Drive info: 8 plays, 67 yds in 2:50",7,7
+,TD,4:47,"Daniel Spencer 35 Yd Run (Kyle Bullard PAT failed)Drive info: 5 plays, 75 yds in 0:57",7,13
+THIRD QUARTER,,UNLV,HOU
+,TD,14:30,"u""Ryan Jackson 26 Yd pass from John O'Korn (Kyle Bullard Kick)"", Drive info: 2 plays, 58 yds in 0:30",7,20
+,TD,11:47,"u""Daniel Spencer 16 Yd pass from John O'Korn (Kyle Bullard Kick)"", Drive info: 5 plays, 32 yds in 1:48",7,27
+,FG,7:08,"Kyle Bullard 41 Yd Field Goal  Drive info: 10 plays, 54 yds in 3:06",7,30
+,TD,2:52,"George Naufahu 1 Yd Run (Jonathan Leiva Kick)Drive info: 11 plays, 75 yds in 4:16",14,30
+FOURTH QUARTER,,UNLV,HOU
+,FG,13:51,"Kyle Bullard 41 Yd Field Goal  Drive info: 10 plays, 59 yds in 4:01",14,33
+,TD,10:34,"Kenneth Farrow 1 Yd Run (Kyle Bullard Kick)Drive info: 3 plays, 64 yds in 1:15",14,40
+,TD,9:14,"Javin Webb 11 Yd Run (Ty Cummings Kick)Drive info: 1 plays, 23 yds in 0:28",14,47
+,,UNLV,HOU
+1st Downs,16,30
+3rd down efficiency,9-22,7-16
+4th down efficiency,1-3,0-2
+Total Yards,316,534
+Passing,146,135
+Comp-Att,16-39,12-29
+Yards per pass,3.7,4.7
+Rushing,170,399
+Rushing Attempts,39,52
+Yards per rush,4.4,7.7
+Penalties,11-105,9-110
+Turnovers,3,2
+Fumbles lost,0,0
+Interceptions thrown,3,2
+Possession,29:42,30:08
+UNLV Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Blake Decker,12/28,113,4.0,0,2,18.1
+Nick Sherry,4/11,33,3.0,0,1,6.6
+Team,16/39,146,3.7,0,3,--
+Houston Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+"u""John O'Korn""",12/27,135,5.0,2,2,63.9
+Billy Cosh,0/1,0,0.0,0,0,0.0
+Greg Ward Jr.,0/1,0,0.0,0,0,50.4
+Team,12/29,135,4.7,2,2,--
+UNLV Rushing
+,CAR,YDS,AVG,TD,LG
+Keith Whitely,15,86,5.7,1,39
+Blake Decker,10,41,4.1,0,15
+George Naufah,8,31,3.9,1,15
+Shaquille Murray-Lawrence,6,12,2.0,0,3
+Team,39,170,4.4,2,39
+Houston Rushing
+,CAR,YDS,AVG,TD,LG
+Ryan Jackson,13,147,11.3,0,55
+Kenneth Farrow,14,113,8.1,1,28
+Javin Webb,10,54,5.4,1,19
+Daniel Spencer,3,37,12.3,1,35
+"u""John O'Korn""",10,27,2.7,1,14
+Greg Ward Jr.,1,22,22.0,0,22
+Team,52,399,7.7,4,55
+UNLV Receiving
+,REC,YDS,AVG,TD,LG
+Kendal Keys,5,42,8.4,0,22
+Maika Mataele,3,40,13.3,0,25
+Anthony Williams,2,26,13.0,0,18
+Andrew Price,1,14,14.0,0,14
+Devonte Boyd,2,10,5.0,0,6
+George Naufah,1,9,9.0,0,9
+Keith Whitely,1,5,5.0,0,5
+Devante Davis,1,0,0.0,0,0
+Team,16,146,9.1,0,25
+Houston Receiving
+,REC,YDS,AVG,TD,LG
+Greg Ward Jr.,4,39,9.8,0,18
+Ryan Jackson,1,26,26.0,1,26
+Daniel Spencer,4,23,5.8,1,16
+Markeith Ambles,1,21,21.0,0,21
+Deontay Greenberry,1,17,17.0,0,17
+Tyler McCloskey,1,9,9.0,0,9
+Team,12,135,11.3,2,26
+UNLV Interceptions
+,INT,YDS,TD
+Sidney Hodge,1,12,0
+Marc Philippi,1,9,0
+Team,2,21,0
+Houston Interceptions
+,INT,YDS,TD
+Adrian McDonald,1,29,0
+Eric Eiland,1,6,0
+Howard Wilson,1,0,0
+Team,3,35,0
+UNLV Kick Returns
+,NO,YDS,AVG,LG,TD
+Keith Whitely,2,34,17.0,18,0
+Shaquille Murray-Lawrence,1,22,22.0,22,0
+Marcus Sullivan,1,18,18.0,18,0
+Team,4,74,18.5,22,0
+Houston Kick Returns
+,NO,YDS,AVG,LG,TD
+Demarcus Ayers,2,55,27.5,38,0
+Javin Webb,1,24,24.0,24,0
+Team,3,79,26.3,38,0
+UNLV Punt Returns
+,NO,YDS,AVG,LG,TD
+Keith Whitely,1,-1,-1.0,0,0
+Team,1,-1,-1.0,0,0
+Houston Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+UNLV Kicking
+,FG,PCT,LG,XP,PTS
+Nicolai Bornand,0/1,0.0,0,0/0,0
+Jonathan Leiva,0/0,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Houston Kicking
+,FG,PCT,LG,XP,PTS
+Kyle Bullard,2/2,100.0,41,4/5,10
+Ty Cummings,0/0,0.0,0,1/1,1
+Team,2/2,100.0,41,5/6,11
+UNLV Punting
+,NO,YDS,AVG,TB,-20,LG
+Logan Yunker,7,295,42.1,1,3,49
+Team,7,295,42.1,1,3,49
+Houston Punting
+,NO,YDS,AVG,TB,-20,LG
+Logan Piper,3,123,41.0,0,0,54
+Team,3,123,41.0,0,0,54

@@ -1,0 +1,116 @@
+FIRST QUARTER,,TXST,ILL
+,TD,14:47,"Josh Ferguson 75 Yd Run (Taylor Zalewski PAT failed)Drive info: 1 plays, 75 yds in 0:13",0,6
+,TD,9:16,"Ben Ijah 4 Yd pass from Tyler Jones (Jason Dann Kick)Drive info: 8 plays, 55 yds in 2:58",7,6
+,TD,3:38,"Jafus Gaines 11 Yd pass from Tyler Jones (Jason Dann Kick)Drive info: 11 plays, 72 yds in 4:18",14,6
+SECOND QUARTER,,TXST,ILL
+,TD,2:17,"Tyler Jones 1 Yd Run (Jason Dann Kick)Drive info: 13 plays, 90 yds in 4:42",21,6
+,TD,1:14,"Josh Ferguson 2 Yd Run (David Reisner Kick)Drive info: 5 plays, 75 yds in 1:03",21,13
+THIRD QUARTER,,TXST,ILL
+,TD,12:50,"Josh Ferguson 33 Yd pass from Wes Lunt (Two-Point Pass Conversion Failed)Drive info: 1 plays, 33 yds in 0:11",21,19
+,TD,9:18,"Donovonn Young 3 Yd Run (Two-Point Pass Conversion Failed)Drive info: 8 plays, 69 yds in 1:54",21,25
+,TD,6:26,"Ben Ijah 12 Yd pass from Tyler Jones (Jason Dann Kick)Drive info: 2 plays, 13 yds in 0:31",28,25
+FOURTH QUARTER,,TXST,ILL
+,TD,7:42,"Mike Dudek 7 Yd pass from Wes Lunt (David Reisner Kick)Drive info: 10 plays, 78 yds in 4:06",28,32
+,FG,3:08,"David Reisner 19 Yd Field Goal  Drive info: 8 plays, 72 yds in 2:47",28,35
+,TD,2:41,"u""V'Angelo Bentley 45 Yd Interception Return (David Reisner Kick)""",28,42
+,TD,1:12,"Brandon Smith 9 Yd pass from Tyler Jones (Jason Dann Kick)Drive info: 9 plays, 75 yds in 1:29",35,42
+,,TXST,ILL
+1st Downs,26,21
+3rd down efficiency,10-21,4-14
+4th down efficiency,1-1,0-0
+Total Yards,475,485
+Passing,336,266
+Comp-Att,29-43,25-39
+Yards per pass,7.8,6.8
+Rushing,139,219
+Rushing Attempts,52,27
+Yards per rush,2.7,8.1
+Penalties,8-63,4-19
+Turnovers,1,1
+Fumbles lost,0,0
+Interceptions thrown,1,1
+Possession,37:41,22:19
+Texas State Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tyler Jones,29/43,336,7.8,4,1,49.6
+Team,29/43,336,7.8,4,1,--
+Illinois Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Wes Lunt,25/39,266,6.8,2,1,53.3
+Team,25/39,266,6.8,2,1,--
+Texas State Rushing
+,CAR,YDS,AVG,TD,LG
+Robert Lowe,26,117,4.5,0,22
+Tyler Jones,17,11,0.6,1,10
+Terrence Franks,7,8,1.1,0,3
+C.J. Best,1,5,5.0,0,5
+Team,52,139,2.7,1,22
+Illinois Rushing
+,CAR,YDS,AVG,TD,LG
+Josh Ferguson,14,190,13.6,2,75
+Donovonn Young,9,19,2.1,1,5
+Jon Davis,3,14,4.7,0,6
+Wes Lunt,1,-4,-4.0,0,0
+Team,27,219,8.1,3,75
+Texas State Receiving
+,REC,YDS,AVG,TD,LG
+Ben Ijah,5,65,13.0,2,27
+Ryan Carden,4,56,14.0,0,20
+Robert Lowe,4,55,13.8,0,23
+C.J. Best,2,43,21.5,0,38
+Bradley Miller,4,43,10.8,0,15
+Brandon Smith,4,39,9.8,1,14
+Jafus Gaines,3,27,9.0,1,16
+Demun Mercer,2,5,2.5,0,6
+Terrence Franks,1,3,3.0,0,3
+Team,29,336,11.6,4,38
+Illinois Receiving
+,REC,YDS,AVG,TD,LG
+Mike Dudek,7,90,12.9,1,30
+Justin Hardee,5,49,9.8,0,12
+Josh Ferguson,4,43,10.8,1,33
+Donovonn Young,4,43,10.8,0,24
+Martize Barr,3,36,12.0,0,24
+Matt LaCosse,1,3,3.0,0,3
+Malik Turner,1,2,2.0,0,2
+Team,25,266,10.6,2,33
+Texas State Interceptions
+,INT,YDS,TD
+Colby Targun,1,48,0
+Team,1,48,0
+Illinois Interceptions
+,INT,YDS,TD
+"u""V'Angelo Bentley""",1,45,1
+Team,1,45,1
+Texas State Kick Returns
+,NO,YDS,AVG,LG,TD
+Brandon Smith,3,79,26.3,34,0
+Team,3,79,26.3,34,0
+Illinois Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Texas State Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Illinois Punt Returns
+,NO,YDS,AVG,LG,TD
+"u""V'Angelo Bentley""",1,40,40.0,40,0
+Darius Mosely,1,0,0.0,0,0
+Team,2,40,20.0,40,0
+Texas State Kicking
+,FG,PCT,LG,XP,PTS
+Jason Dann,0/1,0.0,0,5/5,5
+Team,0/1,0.0,0,5/5,5
+Illinois Kicking
+,FG,PCT,LG,XP,PTS
+David Reisner,1/1,100.0,19,3/3,6
+Taylor Zalewski,0/0,0.0,0,0/1,0
+Team,1/1,100.0,19,3/4,6
+Texas State Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Johnson,8,380,47.5,2,1,70
+Team,8,380,47.5,2,1,70
+Illinois Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin DuVernois,7,310,44.3,1,2,58
+Team,7,310,44.3,1,2,58

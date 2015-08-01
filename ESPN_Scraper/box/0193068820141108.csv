@@ -1,0 +1,110 @@
+FIRST QUARTER,,DUKE,SYR
+,FG,9:20,"Ross Martin 27 Yd Field Goal  Drive info: 9 plays, 32 yds in 3:57",3,0
+,FG,4:21,"Cole Murphy 27 Yd Field Goal  Drive info: 12 plays, 65 yds in 4:59",3,3
+SECOND QUARTER,,DUKE,SYR
+,TD,5:16,"Issac Blakeney 22 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 13 plays, 91 yds in 5:33",10,3
+THIRD QUARTER,,DUKE,SYR
+,TD,5:18,"Mitch Kimble 8 Yd Run (Cole Murphy Kick)Drive info: 9 plays, 67 yds in 4:23",10,10
+FOURTH QUARTER,,DUKE,SYR
+,TD,12:45,"Jamison Crowder 52 Yd Punt Return (Ross Martin Kick)Drive info: 3 plays, -1 yds in 1:00",17,10
+,FG,9:08,"Ross Martin 34 Yd Field Goal  Drive info: 5 plays, 16 yds in 1:44",20,10
+,TD,7:13,"Issac Blakeney 54 Yd pass from Anthony Boone (Ross Martin Kick)Drive info: 3 plays, 58 yds in 1:14",27,10
+,,DUKE,SYR
+1st Downs,12,12
+3rd down efficiency,8-19,4-16
+4th down efficiency,0-1,0-2
+Total Yards,259,224
+Passing,161,105
+Comp-Att,15-33,17-32
+Yards per pass,4.9,3.3
+Rushing,98,119
+Rushing Attempts,33,37
+Yards per rush,3.0,3.2
+Penalties,5-40,7-55
+Turnovers,1,2
+Fumbles lost,0,0
+Interceptions thrown,1,2
+Possession,29:29,30:31
+Duke Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Anthony Boone,15/33,161,4.9,2,1,34.3
+Team,15/33,161,4.9,2,1,--
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Austin Wilson,11/19,68,3.6,0,2,7.2
+Mitch Kimble,6/13,37,2.8,0,0,25.5
+Team,17/32,105,3.3,0,2,--
+Duke Rushing
+,CAR,YDS,AVG,TD,LG
+Shaquille Powell,17,68,4.0,0,13
+Josh Snead,6,17,2.8,0,7
+Shaun Wilson,3,7,2.3,0,5
+Jamison Crowder,1,6,6.0,0,6
+Anthony Boone,3,4,1.3,0,5
+Thomas Sirk,1,2,2.0,0,2
+Team,33,98,3.0,0,13
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+Mitch Kimble,10,42,4.2,1,10
+Prince-Tyson Gulley,9,42,4.7,0,20
+Ervin Philips,6,36,6.0,0,17
+Adonis Ameen-Moore,3,4,1.3,0,3
+Devante McFarlane,3,4,1.3,0,2
+Austin Wilson,6,-9,-1.5,0,2
+Team,37,119,3.2,1,20
+Duke Receiving
+,REC,YDS,AVG,TD,LG
+Issac Blakeney,3,94,31.3,2,54
+Jamison Crowder,9,58,6.4,0,17
+Shaun Wilson,2,8,4.0,0,5
+Max McCaffrey,1,1,1.0,0,1
+Team,15,161,10.7,2,54
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Jarrod West,4,45,11.3,0,19
+Ben Lewis,6,30,5.0,0,14
+Ervin Philips,4,16,4.0,0,9
+Adrian Flemming,1,7,7.0,0,7
+Steve Ishmael,1,7,7.0,0,7
+Prince-Tyson Gulley,1,0,0.0,0,0
+Team,17,105,6.2,0,19
+Duke Interceptions
+,INT,YDS,TD
+Breon Borders,2,15,0
+Team,2,15,0
+Syracuse Interceptions
+,INT,YDS,TD
+Brandon Reddish,1,0,0
+Team,1,0,0
+Duke Kick Returns
+,NO,YDS,AVG,LG,TD
+DeVon Edwards,2,42,21.0,24,0
+Shaquille Powell,1,15,15.0,15,0
+Team,3,57,19.0,24,0
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Prince-Tyson Gulley,2,34,17.0,19,0
+Team,2,34,17.0,19,0
+Duke Punt Returns
+,NO,YDS,AVG,LG,TD
+Jamison Crowder,6,106,17.7,52,1
+Team,6,106,17.7,52,1
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Duke Kicking
+,FG,PCT,LG,XP,PTS
+Ross Martin,2/2,100.0,34,3/3,9
+Team,2/2,100.0,34,3/3,9
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Cole Murphy,1/1,100.0,27,1/1,4
+Team,1/1,100.0,27,1/1,4
+Duke Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Monday,7,316,45.1,0,3,56
+Team,7,316,45.1,0,3,56
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,9,416,46.2,0,2,58
+Team,9,416,46.2,0,2,58

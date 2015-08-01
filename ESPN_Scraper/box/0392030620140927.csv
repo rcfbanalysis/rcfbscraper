@@ -1,0 +1,118 @@
+FIRST QUARTER,,MD,IND
+,FG,12:12,"Brad Craddock 48 Yd Field Goal  Drive info: 7 plays, 45 yds in 2:48",3,0
+,FG,3:00,"Griffin Oakes 38 Yd Field Goal  Drive info: 14 plays, 63 yds in 4:33",3,3
+SECOND QUARTER,,MD,IND
+,TD,12:01,"C.J. Brown 5 Yd Run (Brad Craddock Kick)Drive info: 13 plays, 75 yds in 5:59",10,3
+,FG,9:49,"Griffin Oakes 48 Yd Field Goal  Drive info: 8 plays, 29 yds in 2:12",10,6
+,TD,8:50,"Stefon Diggs 29 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 3 plays, 75 yds in 0:59",17,6
+,FG,2:09,"Brad Craddock 30 Yd Field Goal  Drive info: 9 plays, 68 yds in 3:23",20,6
+,FG,0:00,"Griffin Oakes 58 Yd Field Goal  Drive info: 8 plays, 37 yds in 2:09",20,9
+THIRD QUARTER,,MD,IND
+,TD,8:00,"Brandon Ross 36 Yd pass from Caleb Rowe (Brad Craddock Kick)Drive info: 5 plays, 63 yds in 2:24",27,9
+FOURTH QUARTER,,MD,IND
+,TD,13:03,"Juwann Winfree 30 Yd pass from Caleb Rowe (Brad Craddock Kick)Drive info: 7 plays, 63 yds in 2:27",34,9
+,TD,9:29,"Tevin Coleman 4 Yd Run (Two-Point Run Conversion Failed)Drive info: 13 plays, 75 yds in 3:34",34,15
+,FG,5:56,"Brad Craddock 48 Yd Field Goal Drive info: 10 plays, 22 yds in 3:33",37,15
+,,MD,IND
+1st Downs,23,22
+3rd down efficiency,5-14,9-19
+4th down efficiency,2-2,0-1
+Total Yards,484,332
+Passing,361,126
+Comp-Att,22-33,14-37
+Yards per pass,10.9,3.4
+Rushing,123,206
+Rushing Attempts,36,47
+Yards per rush,3.4,4.4
+Penalties,8-83,9-55
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,31:39,28:21
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Caleb Rowe,12/18,198,11.0,2,0,87.1
+C.J. Brown,10/15,163,10.9,1,0,88.0
+Team,22/33,361,10.9,3,0,--
+Indiana Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Nate Sudfeld,14/37,126,3.4,0,1,35.0
+Team,14/37,126,3.4,0,1,--
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+Brandon Ross,6,61,10.2,0,22
+Wes Brown,15,34,2.3,0,9
+C.J. Brown,7,22,3.1,1,9
+Deon Long,1,9,9.0,0,9
+Kenneth Goins Jr.,2,6,3.0,0,6
+Jacquille Veii,1,2,2.0,0,2
+Caleb Rowe,4,-11,-2.8,0,3
+Team,36,123,3.4,1,22
+Indiana Rushing
+,CAR,YDS,AVG,TD,LG
+Tevin Coleman,22,122,5.5,1,43
+"u""D'Angelo Roberts""",14,43,3.1,0,9
+Nate Sudfeld,8,20,2.5,0,15
+Myles Graham,1,13,13.0,0,13
+Chris Covington,2,8,4.0,0,5
+Team,47,206,4.4,1,43
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Stefon Diggs,6,112,18.7,1,37
+Deon Long,10,108,10.8,0,27
+Wes Brown,2,50,25.0,0,38
+Brandon Ross,1,36,36.0,1,36
+Juwann Winfree,1,30,30.0,1,30
+Kenneth Goins Jr.,1,16,16.0,0,16
+Marcus Leak,1,9,9.0,0,9
+Team,22,361,16.4,3,38
+Indiana Receiving
+,REC,YDS,AVG,TD,LG
+Nick Stoner,4,40,10.0,0,20
+Simmie Cobbs Jr.,1,29,29.0,0,29
+Shane Wynn,3,28,9.3,0,14
+Anthony Corsaro,1,12,12.0,0,12
+J-Shun Harris II,1,9,9.0,0,9
+"u""D'Angelo Roberts""",1,6,6.0,0,6
+Dominique Booth,1,4,4.0,0,4
+Tevin Coleman,2,-2,-1.0,0,5
+Team,14,126,9.0,0,29
+Maryland Interceptions
+,INT,YDS,TD
+William Likely,1,0,0
+Team,1,0,0
+Indiana Interceptions
+,INT,YDS,TD
+No Interception Information
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Indiana Kick Returns
+,NO,YDS,AVG,LG,TD
+Damon Graham,4,97,24.3,38,0
+Shane Wynn,2,56,28.0,35,0
+Team,6,153,25.5,38,0
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+William Likely,2,11,5.5,6,0
+Team,2,11,5.5,6,0
+Indiana Punt Returns
+,NO,YDS,AVG,LG,TD
+Shane Wynn,1,-1,-1.0,0,0
+Team,1,-1,-1.0,0,0
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,3/3,100.0,48,4/4,13
+Team,3/3,100.0,48,4/4,13
+Indiana Kicking
+,FG,PCT,LG,XP,PTS
+Griffin Oakes,3/4,75.0,58,0/0,9
+Team,3/4,75.0,58,0/0,9
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,4,158,39.5,1,2,48
+Team,4,158,39.5,1,2,48
+Indiana Punting
+,NO,YDS,AVG,TB,-20,LG
+Erich Toth,4,182,45.5,1,1,50
+Team,4,182,45.5,1,1,50

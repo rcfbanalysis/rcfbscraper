@@ -1,0 +1,117 @@
+FIRST QUARTER,,BAY,TTU
+,TD,2:44,"Shock Linwood 8 Yd Run (Chris Callahan Kick)Drive info: 6 plays, 59 yds in 1:50",7,0
+SECOND QUARTER,,BAY,TTU
+,TD,13:12,"Jakeem Grant 27 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 5 plays, 53 yds in 1:24",7,7
+,TD,11:50,"Johnny Jefferson 4 Yd Run (Chris Callahan Kick)Drive info: 4 plays, 57 yds in 1:22",14,7
+,FG,8:21,"Ryan Bustin 40 Yd Field Goal  Drive info: 11 plays, 58 yds in 3:29",14,10
+,TD,7:58,"Corey Coleman 28 Yd pass from Bryce Petty (Chris Callahan Kick)Drive info: 2 plays, 47 yds in 0:23",21,10
+,TD,6:32,"Bradley Marquez 5 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 6 plays, 71 yds in 1:26",21,17
+,TD,4:10,"Shock Linwood 3 Yd Run (Chris Callahan Kick)Drive info: 6 plays, 81 yds in 2:22",28,17
+THIRD QUARTER,,BAY,TTU
+,TD,9:32,"Antwan Goodley 9 Yd pass from Bryce Petty (Chris Callahan Kick)Drive info: 9 plays, 32 yds in 3:23",35,17
+,TD,6:44,"Levi Norwood 27 Yd pass from Seth Russell (Chris Callahan Kick)Drive info: 7 plays, 70 yds in 1:59",42,17
+,FG,3:44,"Ryan Bustin 25 Yd Field Goal  Drive info: 9 plays, 71 yds in 3:00",42,20
+,FG,2:18,"Chris Callahan 38 Yd Field Goal  Drive info: 5 plays, 57 yds in 1:26",45,20
+,TD,1:38,"Devin Lauderdale 48 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 3 plays, 68 yds in 0:40",45,27
+FOURTH QUARTER,,BAY,TTU
+,TD,11:39,"Bradley Marquez 40 Yd pass from Patrick Mahomes (Ryan Bustin Kick)Drive info: 8 plays, 80 yds in 2:35",45,34
+,TD,8:13,"DeAndre Washington 49 Yd pass from Patrick Mahomes (Two-Point Pass Conversion Failed)Drive info: 4 plays, 85 yds in 1:05",45,40
+,FG,3:44,"Chris Callahan 36 Yd Field Goal  Drive info: 13 plays, 56 yds in 4:29",48,40
+,TD,1:42,"Bradley Marquez 40 Yd pass from Patrick Mahomes (Two-Point Run Conversion Failed)Drive info: 5 plays, 73 yds in 2:02",48,46
+,,BAY,TTU
+1st Downs,37,31
+3rd down efficiency,11-20,8-16
+4th down efficiency,0-1,1-2
+Total Yards,547,712
+Passing,292,609
+Comp-Att,26-42,31-57
+Yards per pass,7.0,10.7
+Rushing,255,103
+Rushing Attempts,54,26
+Yards per rush,4.7,4.0
+Penalties,8-80,11-125
+Turnovers,1,4
+Fumbles lost,1,3
+Interceptions thrown,0,1
+Possession,33:29,26:31
+Baylor Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Bryce Petty,18/25,210,8.4,2,0,78.1
+Seth Russell,8/17,82,4.8,1,0,39.2
+Team,26/42,292,7.0,3,0,--
+Texas Tech Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Patrick Mahomes,30/56,598,10.7,6,1,77.0
+Taylor Symmank,1/1,11,11.0,0,0,100.0
+Team,31/57,609,10.7,6,1,--
+Baylor Rushing
+,CAR,YDS,AVG,TD,LG
+Shock Linwood,24,158,6.6,2,46
+Johnny Jefferson,10,47,4.7,1,11
+Seth Russell,7,29,4.1,0,10
+Devin Chafin,3,17,5.7,0,8
+Bryce Petty,7,5,0.7,0,7
+Antwan Goodley,1,3,3.0,0,3
+Team,54,255,4.7,3,46
+Texas Tech Rushing
+,CAR,YDS,AVG,TD,LG
+DeAndre Washington,15,65,4.3,0,14
+Patrick Mahomes,9,27,3.0,0,9
+Jakeem Grant,1,6,6.0,0,6
+Quinton White,1,5,5.0,0,5
+Team,26,103,4.0,0,14
+Baylor Receiving
+,REC,YDS,AVG,TD,LG
+Levi Norwood,5,63,12.6,1,27
+Corey Coleman,6,57,9.5,1,28
+Clay Fuller,2,50,25.0,0,28
+Kd Cannon,6,39,6.5,0,11
+Jay Lee,2,26,13.0,0,14
+Antwan Goodley,2,25,12.5,1,16
+Devin Chafin,1,17,17.0,0,17
+Shock Linwood,2,15,7.5,0,13
+Team,26,292,11.2,3,28
+Texas Tech Receiving
+,REC,YDS,AVG,TD,LG
+Jakeem Grant,5,155,31.0,1,47
+Bradley Marquez,6,130,21.7,3,40
+DeAndre Washington,6,107,17.8,1,49
+Devin Lauderdale,4,85,21.3,1,48
+Dylan Cantrell,2,47,23.5,0,40
+Ian Sadler,3,45,15.0,0,18
+Kenny Williams,2,18,9.0,0,11
+Reginald Davis,1,13,13.0,0,13
+Cameron Batson,1,5,5.0,0,5
+Justin Stockton,1,4,4.0,0,4
+Team,31,609,19.6,6,49
+Baylor Interceptions
+,INT,YDS,TD
+Travon Blanchard,1,0,0
+Team,1,0,0
+Texas Tech Interceptions
+,INT,YDS,TD
+No Interception Information
+Baylor Kick Returns
+,NO,YDS,AVG,LG,TD
+Levi Norwood,5,111,22.2,28,0
+Team,5,111,22.2,28,0
+Texas Tech Kick Returns
+,NO,YDS,AVG,LG,TD
+Justin Stockton,6,105,17.5,30,0
+Team,6,105,17.5,30,0
+Baylor Kicking
+,FG,PCT,LG,XP,PTS
+Chris Callahan,2/2,100.0,38,6/6,12
+Team,2/2,100.0,38,6/6,12
+Texas Tech Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Bustin,2/3,66.7,40,4/4,10
+Team,2/3,66.7,40,4/4,10
+Baylor Punting
+,NO,YDS,AVG,TB,-20,LG
+Spencer Roth,5,233,46.6,2,3,68
+Team,5,233,46.6,2,3,68
+Texas Tech Punting
+,NO,YDS,AVG,TB,-20,LG
+Taylor Symmank,3,134,44.7,0,0,59
+Team,3,134,44.7,0,0,59

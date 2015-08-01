@@ -1,0 +1,117 @@
+FIRST QUARTER,,BUFF,OHIO
+,FG,11:11,"Josiah Yazdani 33 Yd Field Goal  Drive info: 8 plays, 64 yds in 3:49",0,3
+,TD,6:08,"A.J. Ouellette 2 Yd Run (Josiah Yazdani Kick)Drive info: 4 plays, 22 yds in 1:40",0,10
+SECOND QUARTER,,BUFF,OHIO
+,TD,9:12,"A.J. Ouellette 1 Yd Run (Josiah Yazdani Kick)Drive info: 8 plays, 80 yds in 3:46",0,17
+THIRD QUARTER,,BUFF,OHIO
+,FG,12:25,"Josiah Yazdani 28 Yd Field Goal  Drive info: 4 plays, 6 yds in 1:29",0,20
+,TD,11:57,"Derrius Vick 9 Yd Run (Josiah Yazdani Kick)Drive info: 3 plays, 9 yds in 0:18",0,27
+,TD,3:54,"Ron Willoughby 12 Yd pass from Joe Licata (Patrick Clarke Kick)Drive info: 4 plays, 19 yds in 1:37",7,27
+FOURTH QUARTER,,BUFF,OHIO
+,FG,12:57,"Josiah Yazdani 19 Yd Field Goal  Drive info: 14 plays, 64 yds in 5:57",7,30
+,TD,9:18,"Dorian Brown 3 Yd Run (Josiah Yazdani Kick)Drive info: 5 plays, 10 yds in 2:36",7,37
+,TD,1:16,Boise Ross 75 Yd Fumble Return (Patrick Clarke Kick),14,37
+,,BUFF,OHIO
+1st Downs,7,19
+3rd down efficiency,2-13,4-13
+4th down efficiency,2-3,0-0
+Total Yards,134,389
+Passing,106,156
+Comp-Att,12-25,8-19
+Yards per pass,4.2,8.2
+Rushing,28,233
+Rushing Attempts,25,55
+Yards per rush,1.1,4.2
+Penalties,3-21,1-5
+Turnovers,4,2
+Fumbles lost,2,2
+Interceptions thrown,2,0
+Possession,23:21,36:39
+Buffalo Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Joe Licata,9/20,74,3.7,1,1,14.5
+Tony Daniel,3/5,32,6.4,0,1,75.7
+Team,12/25,106,4.2,1,2,--
+Ohio Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Derrius Vick,7/18,118,6.6,0,0,58.5
+Jd Sprague,1/1,38,38.0,0,0,100.0
+Team,8/19,156,8.2,0,0,--
+Buffalo Rushing
+,CAR,YDS,AVG,TD,LG
+Anthone Taylor,17,37,2.2,0,9
+Tony Daniel,2,15,7.5,0,13
+Jordan Johnson,1,-1,-1.0,0,0
+Joe Licata,3,-12,-4.0,0,2
+Team,25,28,1.1,0,13
+Ohio Rushing
+,CAR,YDS,AVG,TD,LG
+A.J. Ouellette,29,155,5.3,2,26
+Derrius Vick,12,44,3.7,1,21
+Tim Edmond,5,23,4.6,0,9
+"u""Daz'mond Patterson""",2,8,4.0,0,4
+Dorian Brown,4,7,1.8,1,3
+Robbie Walker,1,-1,-1.0,0,0
+Team,55,233,4.2,4,26
+Buffalo Receiving
+,REC,YDS,AVG,TD,LG
+Ron Willoughby,3,37,12.3,1,13
+Devin Campbell,3,31,10.3,0,11
+Devon Hughes,2,15,7.5,0,13
+Malcolm Robinson,1,8,8.0,0,8
+John Dunmore,1,6,6.0,0,6
+Jacob Martinez,1,5,5.0,0,5
+Anthone Taylor,1,4,4.0,0,4
+Team,12,106,8.8,1,13
+Ohio Receiving
+,REC,YDS,AVG,TD,LG
+Chase Cochran,1,47,47.0,0,47
+Aaron Bradley,1,38,38.0,0,38
+Sebastian Smith,2,35,17.5,0,26
+Kawmae Sawyer,1,13,13.0,0,13
+Brendan Cope,1,12,12.0,0,12
+A.J. Ouellette,2,11,5.5,0,9
+Team,8,156,19.5,0,47
+Buffalo Interceptions
+,INT,YDS,TD
+No Interception Information
+Ohio Interceptions
+,INT,YDS,TD
+Toran Davis,1,16,0
+Jovon Johnson,1,11,0
+Team,2,27,0
+Buffalo Kick Returns
+,NO,YDS,AVG,LG,TD
+Devin Campbell,2,65,32.5,50,0
+Jamarl Eiland,1,17,17.0,17,0
+Jacob Martinez,1,7,7.0,7,0
+Kendall Patterson,1,6,6.0,6,0
+Team,5,95,19.0,50,0
+Ohio Kick Returns
+,NO,YDS,AVG,LG,TD
+"u""Daz'mond Patterson""",2,54,27.0,34,0
+Team,2,54,27.0,34,0
+Buffalo Punt Returns
+,NO,YDS,AVG,LG,TD
+Jacob Martinez,2,16,8.0,16,0
+Team,2,16,8.0,16,0
+Ohio Punt Returns
+,NO,YDS,AVG,LG,TD
+"u""Daz'mond Patterson""",1,6,6.0,6,0
+Team,1,6,6.0,6,0
+Buffalo Kicking
+,FG,PCT,LG,XP,PTS
+Patrick Clarke,0/1,0.0,0,2/2,2
+Team,0/1,0.0,0,2/2,2
+Ohio Kicking
+,FG,PCT,LG,XP,PTS
+Josiah Yazdani,3/3,100.0,33,4/4,13
+Team,3/3,100.0,33,4/4,13
+Buffalo Punting
+,NO,YDS,AVG,TB,-20,LG
+Tyler Grassman,6,252,42.0,0,4,53
+Team,6,252,42.0,0,4,53
+Ohio Punting
+,NO,YDS,AVG,TB,-20,LG
+Mitch Bonnstetter,5,192,38.4,1,0,44
+Team,5,192,38.4,1,0,44

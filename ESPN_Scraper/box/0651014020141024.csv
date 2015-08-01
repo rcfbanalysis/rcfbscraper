@@ -1,0 +1,116 @@
+FIRST QUARTER,,USF,CIN
+,TD,12:05,"Johnny Holton 38 Yd pass from Gunner Kiel (Andrew Gantz Kick)Drive info: 6 plays, 84 yds in 2:18",0,7
+,FG,7:41,"Andrew Gantz 20 Yd Field Goal  Drive info: 8 plays, 34 yds in 2:27",0,10
+,FG,0:21,"Marvin Kloss 44 Yd Field Goal  Drive info: 7 plays, 15 yds in 2:58",3,10
+SECOND QUARTER,,USF,CIN
+,TD,6:57,"Gunner Kiel 17 Yd Run (Andrew Gantz Kick)Drive info: 5 plays, 58 yds in 1:40",3,17
+,FG,0:00,"Andrew Gantz 23 Yd Field Goal  Drive info: 4 plays, 38 yds in 0:29",3,20
+FOURTH QUARTER,,USF,CIN
+,TD,14:56,"Munchie Legaux 9 Yd Run (Andrew Gantz Kick)Drive info: 8 plays, 65 yds in 2:52",3,27
+,TD,14:02,"Rodney Adams 67 Yd pass from Steven Bench (Marvin Kloss Kick)Drive info: 3 plays, 75 yds in 0:54",10,27
+,TD,12:55,"Mike Boone 7 Yd Run (Andrew Gantz Kick)Drive info: 3 plays, 75 yds in 1:07",10,34
+,TD,12:19,"Andre Davis 38 Yd pass from Steven Bench (Marvin Kloss Kick)Drive info: 2 plays, 46 yds in 0:36",17,34
+,,USF,CIN
+1st Downs,12,31
+3rd down efficiency,5-13,6-16
+4th down efficiency,0-0,3-3
+Total Yards,281,590
+Passing,239,317
+Comp-Att,20-33,27-37
+Yards per pass,7.2,8.6
+Rushing,42,273
+Rushing Attempts,22,50
+Yards per rush,1.9,5.5
+Penalties,7-95,4-37
+Turnovers,4,3
+Fumbles lost,2,3
+Interceptions thrown,2,0
+Possession,22:59,36:33
+South Florida Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Steven Bench,9/14,147,10.5,2,0,46.4
+Mike White,11/19,92,4.8,0,2,7.5
+Team,20/33,239,7.2,2,2,--
+Cincinnati Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Gunner Kiel,13/22,196,8.9,1,0,80.5
+Munchie Legaux,14/15,121,8.1,0,0,82.9
+Team,27/37,317,8.6,1,0,--
+South Florida Rushing
+,CAR,YDS,AVG,TD,LG
+Marlon Mack,12,54,4.5,0,17
+"u""D'Ernest Johnson""",4,14,3.5,0,8
+Steven Bench,2,-4,-2.0,0,2
+Mike White,2,-20,-10.0,0,0
+Team,22,42,1.9,0,17
+Cincinnati Rushing
+,CAR,YDS,AVG,TD,LG
+Mike Boone,19,212,11.2,1,63
+Rodriguez Moore,10,28,2.8,0,6
+Chad Banschbach,7,23,3.3,0,7
+Gunner Kiel,5,20,4.0,1,17
+Munchie Legaux,6,6,1.0,1,9
+Shaq Washington,1,2,2.0,0,2
+Team,50,273,5.5,3,63
+South Florida Receiving
+,REC,YDS,AVG,TD,LG
+Andre Davis,6,77,12.8,1,38
+Rodney Adams,2,68,34.0,1,67
+Mike McFarland,5,29,5.8,0,8
+Marlon Mack,3,26,8.7,0,11
+Kennard Swanson,2,16,8.0,0,9
+Sean Price,1,15,15.0,0,15
+Deonte Welch,1,8,8.0,0,8
+Team,20,239,12.0,2,67
+Cincinnati Receiving
+,REC,YDS,AVG,TD,LG
+Shaq Washington,12,163,13.6,0,34
+Max Morrison,5,42,8.4,0,13
+Johnny Holton,2,38,19.0,1,38
+Chris Moore,2,30,15.0,0,18
+Mekale McKay,3,22,7.3,0,10
+Nate Cole,2,12,6.0,0,8
+Alex Chisum,1,10,10.0,0,10
+Team,27,317,11.7,1,38
+South Florida Interceptions
+,INT,YDS,TD
+No Interception Information
+Cincinnati Interceptions
+,INT,YDS,TD
+Howard Wilder,1,0,0
+Linden Stephens,1,0,0
+Team,2,0,0
+South Florida Kick Returns
+,NO,YDS,AVG,LG,TD
+Darius Tice,1,32,32.0,32,0
+Rodney Adams,2,19,9.5,21,0
+"u""D'Ernest Johnson""",1,19,19.0,19,0
+Team,3,70,23.3,32,0
+Cincinnati Kick Returns
+,NO,YDS,AVG,LG,TD
+Johnny Holton,2,44,22.0,30,0
+Team,2,44,22.0,30,0
+South Florida Punt Returns
+,NO,YDS,AVG,LG,TD
+Hassan Childs,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Cincinnati Punt Returns
+,NO,YDS,AVG,LG,TD
+Shaq Washington,2,46,23.0,46,0
+Team,2,46,23.0,46,0
+South Florida Kicking
+,FG,PCT,LG,XP,PTS
+Marvin Kloss,1/1,100.0,44,2/2,5
+Team,1/1,100.0,44,2/2,5
+Cincinnati Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Gantz,2/2,100.0,23,4/4,10
+Team,2/2,100.0,23,4/4,10
+South Florida Punting
+,NO,YDS,AVG,TB,-20,LG
+Mattias Ciabatti,7,299,42.7,0,0,52
+Team,7,299,42.7,0,0,52
+Cincinnati Punting
+,NO,YDS,AVG,TB,-20,LG
+John Lloyd,5,159,31.8,0,3,38
+Team,5,159,31.8,0,3,38

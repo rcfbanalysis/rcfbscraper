@@ -1,0 +1,123 @@
+FIRST QUARTER,,UCLA,WASH
+,TD,9:27,"u""Brett Hundley 4 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 7 plays, 55 yds in 2:10",7,0
+,TD,7:44,"u""Kenneth Walker 57 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 1 plays, 57 yds in 0:09",14,0
+,FG,2:30,"Cameron Van Winkle 20 Yd Field Goal  Drive info: 13 plays, 77 yds in 5:14",14,3
+SECOND QUARTER,,UCLA,WASH
+,TD,14:22,"Cyler Miles 6 Yd Run (Cameron Van Winkle Kick)Drive info: 6 plays, 50 yds in 1:43",14,10
+,TD,9:35,"u""Brett Hundley 6 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 10 plays, 65 yds in 4:47",21,10
+,TD,5:23,"u""Myles Jack 28 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 8 plays, 58 yds in 2:06",28,10
+,FG,0:00,"u""Ka'imi Fairbairn 30 Yd Field Goal  "", Drive info: 14 plays, 73 yds in 3:41",31,10
+THIRD QUARTER,,UCLA,WASH
+,FG,8:40,"Cameron Van Winkle 47 Yd Field Goal  Drive info: 15 plays, 57 yds in 6:20",31,13
+,TD,6:02,"u""Mossi Johnson 15 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 8 plays, 74 yds in 2:38",38,13
+,TD,5:47,John Ross 100 Yd Kickoff Return (Cameron Van Winkle Kick),38,20
+,FG,2:27,"u""Ka'imi Fairbairn 37 Yd Field Goal  "", Drive info: 8 plays, 48 yds in 3:20",41,20
+FOURTH QUARTER,,UCLA,WASH
+,TD,13:57,"Dwayne Washington 12 Yd Run (Cameron Van Winkle Kick)Drive info: 11 plays, 75 yds in 3:30",41,27
+,FG,8:30,"u""Ka'imi Fairbairn 46 Yd Field Goal  "", Drive info: 10 plays, 35 yds in 5:27",44,27
+,FG,5:08,"Cameron Van Winkle 38 Yd Field Goal  Drive info: 11 plays, 54 yds in 3:22",44,30
+,,UCLA,WASH
+1st Downs,28,22
+3rd down efficiency,8-14,5-14
+4th down efficiency,0-0,1-1
+Total Yards,476,366
+Passing,302,155
+Comp-Att,29-37,14-24
+Yards per pass,8.2,6.5
+Rushing,174,211
+Rushing Attempts,40,48
+Yards per rush,4.3,4.4
+Penalties,4-37,7-65
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,30:03,28:27
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,29/36,302,8.4,2,0,93.3
+Team,29/37,302,8.2,2,0,--
+Washington Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cyler Miles,14/24,155,6.5,0,1,44.0
+Team,14/24,155,6.5,0,1,--
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,19,98,5.2,0,13
+Myles Jack,4,38,9.5,1,28
+JJ James,5,21,4.2,0,11
+Brett Hundley,7,18,2.6,2,12
+Nate Starks,1,4,4.0,0,4
+Team,40,174,4.4,3,28
+Washington Rushing
+,CAR,YDS,AVG,TD,LG
+Shaq Thompson,16,100,6.3,0,17
+Cyler Miles,17,62,3.6,1,19
+Dwayne Washington,7,33,4.7,1,12
+Deontae Cooper,6,29,4.8,0,15
+Jaydon Mickens,2,-13,-6.5,0,0
+Team,48,211,4.4,2,19
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Kenneth Walker III,2,65,32.5,1,57
+Jordan Payton,5,56,11.2,0,17
+Thomas Duarte,3,34,11.3,0,17
+Eldridge Massington,3,31,10.3,0,19
+JJ James,2,28,14.0,0,17
+Devin Fuller,6,28,4.7,0,10
+Mossi Johnson,2,25,12.5,1,15
+Paul Perkins,4,19,4.8,0,8
+Devin Lucien,1,9,9.0,0,9
+Ahmaad Harris,1,7,7.0,0,7
+Team,29,302,10.4,2,57
+Washington Receiving
+,REC,YDS,AVG,TD,LG
+Joshua Perkins,4,49,12.3,0,21
+Deontae Cooper,2,40,20.0,0,36
+Brayden Lenius,1,28,28.0,0,28
+Dante Pettis,2,15,7.5,0,9
+DiAndre Campbell,1,13,13.0,0,13
+Kendyl Taylor,2,12,6.0,0,8
+Jaydon Mickens,1,2,2.0,0,2
+Dwayne Washington,1,-4,-4.0,0,0
+Team,14,155,11.1,0,36
+UCLA Interceptions
+,INT,YDS,TD
+Fabian Morea,1,0,0
+Team,1,0,0
+Washington Interceptions
+,INT,YDS,TD
+No Interception Information
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,2,51,25.5,29,0
+Mossi Johnson,3,48,16.0,25,0
+Myles Jack,1,6,6.0,6,0
+Team,6,105,17.5,29,0
+Washington Kick Returns
+,NO,YDS,AVG,LG,TD
+John Ross,6,207,34.5,100,1
+Team,6,207,34.5,100,1
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,3,29,9.7,13,0
+Team,3,29,9.7,13,0
+Washington Punt Returns
+,NO,YDS,AVG,LG,TD
+Dante Pettis,1,5,5.0,5,0
+Team,1,5,5.0,5,0
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",3/3,100.0,46,5/5,14
+Team,3/3,100.0,46,5/5,14
+Washington Kicking
+,FG,PCT,LG,XP,PTS
+Cameron Van Winkle,3/3,100.0,47,3/3,12
+Team,3/3,100.0,47,3/3,12
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,3,108,36.0,0,2,52
+Team,3,108,36.0,0,2,52
+Washington Punting
+,NO,YDS,AVG,TB,-20,LG
+Korey Durkee,4,190,47.5,0,1,53
+Team,4,190,47.5,0,1,53

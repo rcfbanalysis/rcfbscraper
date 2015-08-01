@@ -1,0 +1,115 @@
+FIRST QUARTER,,CIN,CONN
+,TD,1:29,"Nate Cole 6 Yd pass from Gunner Kiel (Andrew Gantz Kick)Drive info: 14 plays, 82 yds in 5:13",7,0
+SECOND QUARTER,,CIN,CONN
+,TD,9:13,"Mike Boone 3 Yd Run (Andrew Gantz Kick)Drive info: 8 plays, 52 yds in 3:46",14,0
+,FG,7:06,"Andrew Gantz 32 Yd Field Goal  Drive info: 4 plays, -10 yds in 0:48",17,0
+,FG,3:39,"Andrew Gantz 44 Yd Field Goal  Drive info: 6 plays, 35 yds in 2:00",20,0
+,TD,0:36,"Jake Golic 2 Yd pass from Gunner Kiel (Andrew Gantz Kick)Drive info: 7 plays, 25 yds in 1:57",27,0
+THIRD QUARTER,,CIN,CONN
+,TD,12:49,"Johnny Holton 18 Yd pass from Gunner Kiel (Andrew Gantz Kick)Drive info: 3 plays, 20 yds in 1:22",34,0
+,TD,7:56,"Rod Moore 28 Yd Run (Andrew Gantz Kick)Drive info: 5 plays, 46 yds in 2:10",41,0
+,,CIN,CONN
+1st Downs,24,10
+3rd down efficiency,8-17,3-13
+4th down efficiency,2-2,0-2
+Total Yards,425,129
+Passing,176,81
+Comp-Att,20-36,14-27
+Yards per pass,4.9,3.0
+Rushing,249,48
+Rushing Attempts,48,27
+Yards per rush,5.2,1.8
+Penalties,2-25,2-20
+Turnovers,1,3
+Fumbles lost,0,2
+Interceptions thrown,1,1
+Possession,35:45,25:06
+Cincinnati Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Gunner Kiel,17/30,161,5.4,3,1,67.5
+Munchie Legaux,2/4,10,2.5,0,0,60.3
+Michael Colosimo,1/2,5,2.5,0,0,52.4
+Team,20/36,176,4.9,3,1,--
+Connecticut Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Tim Boyle,13/21,70,3.3,0,0,1.2
+Chandler Whitmer,1/5,11,2.2,0,1,0.4
+Deshon Foxx,0/1,0,0.0,0,0,0.8
+Team,14/27,81,3.0,0,1,--
+Cincinnati Rushing
+,CAR,YDS,AVG,TD,LG
+Rodriguez Moore,21,108,5.1,1,28
+Bobby Brown,10,67,6.7,0,30
+Mike Boone,9,52,5.8,1,12
+Gunner Kiel,5,28,5.6,0,11
+Team,48,249,5.2,2,30
+Connecticut Rushing
+,CAR,YDS,AVG,TD,LG
+Ron Johnson,9,33,3.7,0,8
+Josh Marriner,2,27,13.5,0,16
+Max DeLorenzo,5,17,3.4,0,8
+Deshon Foxx,1,0,0.0,0,0
+Chandler Whitmer,1,-1,-1.0,0,0
+Tim Boyle,8,-25,-3.1,0,4
+Team,27,48,1.8,0,16
+Cincinnati Receiving
+,REC,YDS,AVG,TD,LG
+Shaq Washington,6,63,10.5,0,22
+Johnny Holton,4,35,8.8,1,18
+Casey Gladney,4,25,6.3,0,14
+Nate Cole,3,20,6.7,1,7
+Mekale McKay,1,17,17.0,0,17
+Rodriguez Moore,1,14,14.0,0,14
+Jake Golic,1,2,2.0,1,2
+Team,20,176,8.8,3,22
+Connecticut Receiving
+,REC,YDS,AVG,TD,LG
+Noel Thomas,5,32,6.4,0,12
+Deshon Foxx,3,18,6.0,0,7
+Jazzmar Clax,1,15,15.0,0,15
+Sean McQuillan,1,11,11.0,0,11
+Dhameer Bradley,1,5,5.0,0,5
+Geremy Davis,2,1,0.5,0,4
+Max DeLorenzo,1,-1,-1.0,0,0
+Team,14,81,5.8,0,15
+Cincinnati Interceptions
+,INT,YDS,TD
+Leviticus Payne,1,0,0
+Team,1,0,0
+Connecticut Interceptions
+,INT,YDS,TD
+Andrew Adams,1,32,0
+Team,1,32,0
+Cincinnati Kick Returns
+,NO,YDS,AVG,LG,TD
+Johnny Holton,1,29,29.0,29,0
+Team,1,29,29.0,29,0
+Connecticut Kick Returns
+,NO,YDS,AVG,LG,TD
+Arkeel Newsome,5,106,21.2,35,0
+Josh Marriner,1,21,21.0,21,0
+Team,6,127,21.2,35,0
+Cincinnati Punt Returns
+,NO,YDS,AVG,LG,TD
+Shaq Washington,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Connecticut Punt Returns
+,NO,YDS,AVG,LG,TD
+Deshon Foxx,2,-4,-2.0,0,0
+Team,1,-4,-4.0,0,0
+Cincinnati Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Gantz,2/3,66.7,44,5/5,11
+Team,2/3,66.7,44,5/5,11
+Connecticut Kicking
+,FG,PCT,LG,XP,PTS
+Bobby Puyol,0/1,0.0,0,0/0,0
+Team,0/1,0.0,0,0/0,0
+Cincinnati Punting
+,NO,YDS,AVG,TB,-20,LG
+Sam Geraci,3,139,46.3,0,1,53
+Team,3,139,46.3,0,1,53
+Connecticut Punting
+,NO,YDS,AVG,TB,-20,LG
+Justin Wain,6,227,37.8,0,1,45
+Team,6,227,37.8,0,1,45

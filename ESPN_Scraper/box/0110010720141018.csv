@@ -1,0 +1,118 @@
+FIRST QUARTER,,UCLA,CAL
+,TD,3:33,"u""Paul Perkins 16 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 13 plays, 80 yds in 4:40",7,0
+SECOND QUARTER,,UCLA,CAL
+,TD,12:00,"Daniel Lasco 3 Yd Run (James Langford Kick)Drive info: 4 plays, 18 yds in 1:27",7,7
+,FG,9:44,"u""Ka'imi Fairbairn 37 Yd Field Goal  "", Drive info: 8 plays, 44 yds in 2:16",10,7
+,TD,5:46,"Chris Harper 7 Yd pass from Luke Rubenzer (James Langford Kick)Drive info: 5 plays, 20 yds in 1:30",10,14
+,TD,2:50,"u""Jordon James 11 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 9 plays, 66 yds in 2:56",17,14
+,TD,0:13,"u""Paul Perkins 49 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 7 plays, 95 yds in 1:04",24,14
+THIRD QUARTER,,UCLA,CAL
+,TD,12:48,"Daniel Lasco 2 Yd Run (James Langford Kick)Drive info: 3 plays, 54 yds in 0:46",24,21
+,FG,10:51,"u""Ka'imi Fairbairn 24 Yd Field Goal  "", Drive info: 6 plays, 16 yds in 1:57",27,21
+,TD,2:33,"Trevor Davis 24 Yd pass from Jared Goff (James Langford Kick)Drive info: 6 plays, 54 yds in 2:12",27,28
+,TD,0:12,"Brett Hundley 15 Yd Run (Two-Point Pass Conversion Failed)Drive info: 7 plays, 71 yds in 2:21",33,28
+FOURTH QUARTER,,UCLA,CAL
+,TD,6:50,"Kenny Lawler 23 Yd pass from Jared Goff (Two-Point Run Conversion Failed)Drive info: 2 plays, 32 yds in 1:07",33,34
+,FG,3:40,"u""Ka'imi Fairbairn 26 Yd Field Goal  "", Drive info: 8 plays, 55 yds in 3:10",36,34
+,,UCLA,CAL
+1st Downs,33,21
+3rd down efficiency,2-13,5-14
+4th down efficiency,2-3,1-1
+Total Yards,567,366
+Passing,330,310
+Comp-Att,31-42,26-42
+Yards per pass,7.9,7.4
+Rushing,237,56
+Rushing Attempts,47,31
+Yards per rush,5.0,1.8
+Penalties,6-63,4-40
+Turnovers,3,1
+Fumbles lost,2,0
+Interceptions thrown,1,1
+Possession,30:17,28:46
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,31/42,330,7.9,2,1,50.5
+Team,31/42,330,7.9,2,1,--
+California Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jared Goff,25/41,303,7.4,2,1,63.2
+Luke Rubenzer,1/1,7,7.0,1,0,83.0
+Team,26/42,310,7.4,3,1,--
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Brett Hundley,17,94,5.5,1,15
+Paul Perkins,15,86,5.7,0,15
+JJ James,9,28,3.1,1,11
+Myles Jack,2,18,9.0,0,14
+Mossi Johnson,1,6,6.0,0,6
+Nate Starks,2,3,1.5,0,3
+Caleb Benenoch,0,2,0.0,0,2
+Team,47,237,5.0,2,15
+California Rushing
+,CAR,YDS,AVG,TD,LG
+Daniel Lasco,19,44,2.3,2,7
+Luke Rubenzer,2,8,4.0,0,5
+Khalfani Muhammad,2,4,2.0,0,4
+Chris Harper,2,1,0.5,0,2
+Jared Goff,6,-1,-0.2,0,19
+Team,31,56,1.8,2,19
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Paul Perkins,4,75,18.8,2,49
+Jordan Payton,5,47,9.4,0,19
+Thomas Duarte,3,47,15.7,0,29
+Devin Lucien,2,37,18.5,0,21
+JJ James,1,31,31.0,0,31
+Mossi Johnson,4,30,7.5,0,11
+Devin Fuller,5,29,5.8,0,13
+Eldridge Massington,3,14,4.7,0,6
+Nate Iese,2,13,6.5,0,8
+Nate Starks,2,7,3.5,0,9
+Team,31,330,10.6,2,49
+California Receiving
+,REC,YDS,AVG,TD,LG
+Kenny Lawler,3,88,29.3,1,49
+Stephen Anderson,4,65,16.3,0,39
+Bryce Treggs,4,41,10.3,0,18
+Darius Powe,3,40,13.3,0,15
+Chris Harper,5,29,5.8,1,9
+Trevor Davis,3,29,9.7,1,24
+Daniel Lasco,3,17,5.7,0,12
+Khalfani Muhammad,1,1,1.0,0,1
+Team,26,310,11.9,3,49
+UCLA Interceptions
+,INT,YDS,TD
+Marcus Rios,1,0,0
+Team,1,0,0
+California Interceptions
+,INT,YDS,TD
+Cameron Walker,1,39,0
+Team,1,39,0
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Mossi Johnson,1,67,67.0,67,0
+Jayon Brown,2,13,6.5,7,0
+Nate Iese,1,12,12.0,12,0
+Anthony Jefferson,1,7,7.0,7,0
+Team,5,99,19.8,67,0
+California Kick Returns
+,NO,YDS,AVG,LG,TD
+Trevor Davis,3,88,29.3,45,0
+Team,3,88,29.3,45,0
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",3/3,100.0,37,3/3,12
+Team,3/3,100.0,37,3/3,12
+California Kicking
+,FG,PCT,LG,XP,PTS
+James Langford,0/0,0.0,0,4/4,4
+Team,0/0,0.0,0,4/4,4
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,3,111,37.0,0,1,40
+Team,3,111,37.0,0,1,40
+California Punting
+,NO,YDS,AVG,TB,-20,LG
+Cole Leininger,8,352,44.0,2,5,54
+Team,8,352,44.0,2,5,54

@@ -1,0 +1,116 @@
+FIRST QUARTER,,MIZZ,TAMU
+,FG,8:53,"Andrew Baggett 38 Yd Field Goal  Drive info: 9 plays, 60 yds in 4:36",3,0
+,FG,7:18,"Josh Lambo 40 Yd Field Goal  Drive info: 4 plays, 3 yds in 1:35",3,3
+SECOND QUARTER,,MIZZ,TAMU
+,TD,9:40,"Josh Reynolds 24 Yd pass from Kyle Allen (Josh Lambo Kick)Drive info: 5 plays, 64 yds in 1:20",3,10
+,FG,4:30,"Andrew Baggett 35 Yd Field Goal  Drive info: 13 plays, 58 yds in 5:10",6,10
+,FG,0:00,"Josh Lambo 31 Yd Field Goal  Drive info: 5 plays, 39 yds in 0:58",6,13
+THIRD QUARTER,,MIZZ,TAMU
+,TD,11:47,"Darius White 16 Yd pass from Maty Mauk (Andrew Baggett Kick)Drive info: 8 plays, 77 yds in 3:13",13,13
+,TD,10:46,"Josh Reynolds 56 Yd pass from Kyle Allen (Josh Lambo Kick)Drive info: 3 plays, 68 yds in 1:01",13,20
+,TD,9:07,"Russell Hansbrough 49 Yd Run (Andrew Baggett Kick)Drive info: 6 plays, 75 yds in 1:39",20,20
+,TD,5:41,"Russell Hansbrough 45 Yd Run (Andrew Baggett Kick)Drive info: 6 plays, 80 yds in 1:53",27,20
+,TD,0:43,"Ish Witter 16 Yd Run (Andrew Baggett Kick)Drive info: 8 plays, 80 yds in 3:18",34,20
+FOURTH QUARTER,,MIZZ,TAMU
+,TD,11:04,"Malcome Kennedy 4 Yd pass from Kyle Allen (Josh Lambo Kick)Drive info: 12 plays, 57 yds in 4:39",34,27
+,,MIZZ,TAMU
+1st Downs,32,18
+3rd down efficiency,13-21,4-14
+4th down efficiency,1-2,2-3
+Total Yards,587,341
+Passing,252,237
+Comp-Att,23-40,24-36
+Yards per pass,6.3,6.6
+Rushing,335,104
+Rushing Attempts,49,27
+Yards per rush,6.8,3.9
+Penalties,12-81,4-44
+Turnovers,1,1
+Fumbles lost,0,0
+Interceptions thrown,1,1
+Possession,37:30,22:30
+Missouri Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Maty Mauk,23/40,252,6.3,1,1,54.9
+Team,23/40,252,6.3,1,1,--
+Texas A&M Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Kyle Allen,24/35,237,6.8,3,1,70.4
+Tra Carson,0/1,0,0.0,0,0,2.7
+Team,24/36,237,6.6,3,1,--
+Missouri Rushing
+,CAR,YDS,AVG,TD,LG
+Russell Hansbrough,20,199,10.0,2,49
+Marcus Murphy,20,88,4.4,0,13
+Ish Witter,4,34,8.5,1,16
+Maty Mauk,3,18,6.0,0,7
+Team,49,335,6.8,3,49
+Texas A&M Rushing
+,CAR,YDS,AVG,TD,LG
+Tra Carson,10,56,5.6,0,20
+Trey Williams,4,35,8.8,0,18
+Brandon Williams,7,8,1.1,0,4
+Kyle Allen,6,5,0.8,0,10
+Team,27,104,3.9,0,20
+Missouri Receiving
+,REC,YDS,AVG,TD,LG
+Jimmie Hunt,5,85,17.0,0,27
+Bud Sasser,6,83,13.8,0,28
+Darius White,6,55,9.2,1,21
+Marcus Murphy,5,23,4.6,0,11
+Sean Culkin,1,6,6.0,0,6
+Team,23,252,11.0,1,28
+Texas A&M Receiving
+,REC,YDS,AVG,TD,LG
+Josh Reynolds,5,125,25.0,2,56
+Speedy Noil,3,36,12.0,0,17
+Malcome Kennedy,3,22,7.3,1,17
+Ricky Seals-Jones,4,20,5.0,0,9
+Tra Carson,1,10,10.0,0,10
+Brandon Williams,2,9,4.5,0,6
+Edward Pope,2,7,3.5,0,4
+Boone Niederhofer,1,7,7.0,0,7
+Trey Williams,2,2,1.0,0,5
+Cameron Clear,1,-1,-1.0,0,-1
+Team,24,237,9.9,3,56
+Missouri Interceptions
+,INT,YDS,TD
+Ian Simon,1,0,0
+Team,1,0,0
+Texas A&M Interceptions
+,INT,YDS,TD
+Armani Watts,1,36,0
+Team,1,36,0
+Missouri Kick Returns
+,NO,YDS,AVG,LG,TD
+John Gibson,1,22,22.0,22,0
+Team,1,22,22.0,22,0
+Texas A&M Kick Returns
+,NO,YDS,AVG,LG,TD
+Speedy Noil,2,95,47.5,70,0
+Tra Carson,1,24,24.0,24,0
+Brandon Alexander,1,10,10.0,10,0
+Team,4,129,32.3,70,0
+Missouri Punt Returns
+,NO,YDS,AVG,LG,TD
+Marcus Murphy,2,2,1.0,2,0
+Team,2,2,1.0,2,0
+Texas A&M Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Missouri Kicking
+,FG,PCT,LG,XP,PTS
+Andrew Baggett,2/3,66.7,38,4/4,10
+Team,2/3,66.7,38,4/4,10
+Texas A&M Kicking
+,FG,PCT,LG,XP,PTS
+Josh Lambo,2/2,100.0,40,3/3,9
+Team,2/2,100.0,40,3/3,9
+Missouri Punting
+,NO,YDS,AVG,TB,-20,LG
+Christian Brinser,2,70,35.0,0,1,40
+Team,2,70,35.0,0,1,40
+Texas A&M Punting
+,NO,YDS,AVG,TB,-20,LG
+Drew Kaser,5,216,43.2,1,1,55
+Team,5,216,43.2,1,1,55

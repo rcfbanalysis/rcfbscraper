@@ -1,0 +1,128 @@
+FIRST QUARTER,,EMU,FLA
+,FG,6:44,"Francisco Velez 33 Yd Field Goal  Drive info: 16 plays, 63 yds in 6:31",0,3
+,TD,6:00,"Kelvin Taylor 31 Yd Run (Francisco Velez Kick)Drive info: 1 plays, 31 yds in 0:06",0,10
+,TD,4:48,"Matt Jones 40 Yd Run (Francisco Velez Kick)Drive info: 1 plays, 55 yds in 0:15",0,17
+SECOND QUARTER,,EMU,FLA
+,TD,13:49,"Brandon Powell 12 Yd Run (Francisco Velez Kick)Drive info: 10 plays, 77 yds in 3:41",0,24
+,FG,6:30,"Francisco Velez 36 Yd Field Goal  Drive info: 10 plays, 25 yds in 4:03",0,27
+,FG,0:13,"Francisco Velez 29 Yd Field Goal  Drive info: 12 plays, 59 yds in 1:49",0,30
+THIRD QUARTER,,EMU,FLA
+,TD,9:18,"Matt Jones 4 Yd pass from Jeff Driskel (Francisco Velez Kick)Drive info: 13 plays, 75 yds in 5:42",0,37
+,TD,3:33,"Kelvin Taylor 6 Yd Run (Francisco Velez Kick)Drive info: 3 plays, 20 yds in 0:58",0,44
+,TD,2:51,Duke Dawson 36 Yd Interception Return (Francisco Velez Kick),0,51
+FOURTH QUARTER,,EMU,FLA
+,TD,14:47,"Demarcus Robinson 70 Yd pass from Treon Harris (Francisco Velez Kick)Drive info: 2 plays, 79 yds in 0:58",0,58
+,TD,12:08,"Mark Herndon 78 Yd pass from Treon Harris (Francisco Velez Kick)Drive info: 2 plays, 82 yds in 1:18",0,65
+,,EMU,FLA
+1st Downs,7,27
+3rd down efficiency,3-14,10-20
+4th down efficiency,0-0,2-4
+Total Yards,125,655
+Passing,45,396
+Comp-Att,9-21,33-47
+Yards per pass,2.1,8.4
+Rushing,80,259
+Rushing Attempts,34,39
+Yards per rush,2.4,6.6
+Penalties,4-40,10-100
+Turnovers,5,0
+Fumbles lost,4,0
+Interceptions thrown,1,0
+Possession,36:19,35:43
+Eastern Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brogan Roback,5/10,29,2.9,0,0,19.1
+Reginald Bell,2/6,12,2.0,0,0,3.8
+Rob Bolden,2/5,4,0.8,0,1,1.1
+Team,9/21,45,2.1,0,1,--
+Florida Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Jeff Driskel,31/45,248,5.5,1,0,72.9
+Treon Harris,2/2,148,74.0,2,0,1.2
+Team,33/47,396,8.4,3,0,--
+Eastern Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Reginald Bell,7,20,2.9,0,9
+Tyler Allen,2,20,10.0,0,16
+Darius Jackson,5,16,3.2,0,7
+Rob Bolden,6,13,2.2,0,8
+Ryan Brumfield,4,13,3.3,0,6
+Juwan Lewis,1,4,4.0,0,4
+Bronson Hill,7,0,0.0,0,4
+Kenny Jones,1,-1,-1.0,0,0
+Brogan Roback,1,-5,-5.0,0,0
+Team,34,80,2.4,0,16
+Florida Rushing
+,CAR,YDS,AVG,TD,LG
+Kelvin Taylor,8,68,8.5,2,31
+Matt Jones,8,65,8.1,1,40
+Mack Brown,6,58,9.7,0,47
+Darius Masline,7,25,3.6,0,13
+Brandon Powell,3,24,8.0,1,12
+Mark Herndon,3,11,3.7,0,9
+Jeff Driskel,1,7,7.0,0,7
+Treon Harris,3,1,0.3,0,1
+Team,39,259,6.6,4,47
+Eastern Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Tyreese Russell,2,16,8.0,0,13
+Dustin Creel,2,12,6.0,0,9
+Tyler Allen,1,7,7.0,0,7
+Ryan Brumfield,1,5,5.0,0,5
+Kenny Jones,1,4,4.0,0,4
+Darius Jackson,2,1,0.5,0,4
+Team,9,45,5.0,0,13
+Florida Receiving
+,REC,YDS,AVG,TD,LG
+Demarcus Robinson,6,123,20.5,1,70
+Quinton Dunbar,5,81,16.2,0,42
+Mark Herndon,1,78,78.0,1,78
+Clay Burton,7,42,6.0,0,9
+Ahmad Fulwood,4,22,5.5,0,8
+Latroy Pittman Jr.,3,20,6.7,0,8
+Mack Brown,2,10,5.0,0,8
+Matt Jones,2,9,4.5,1,5
+C.J. Worton,1,8,8.0,0,8
+Valdez Showers,1,3,3.0,0,3
+Brandon Powell,1,0,0.0,0,0
+Team,33,396,12.0,3,78
+Eastern Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Florida Interceptions
+,INT,YDS,TD
+Duke Dawson,1,36,1
+Team,1,36,1
+Eastern Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Tyler Allen,6,132,22.0,29,0
+Juwan Lewis,1,29,29.0,29,0
+Team,7,161,23.0,29,0
+Florida Kick Returns
+,NO,YDS,AVG,LG,TD
+No Kickoff Returns
+Eastern Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Tyler Allen,1,1,1.0,1,0
+Team,1,1,1.0,1,0
+Florida Punt Returns
+,NO,YDS,AVG,LG,TD
+Andre Debose,4,97,24.3,55,0
+Demarcus Robinson,1,1,1.0,1,0
+Team,5,98,19.6,55,0
+Eastern Michigan Kicking
+,FG,PCT,LG,XP,PTS
+No Kicking Information
+Florida Kicking
+,FG,PCT,LG,XP,PTS
+Francisco Velez,3/3,100.0,36,8/8,17
+Team,3/3,100.0,36,8/8,17
+Eastern Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Austin Barnes,7,310,44.3,0,1,49
+Owen Dubiel,3,122,40.7,0,1,45
+Team,10,432,43.2,0,2,49
+Florida Punting
+,NO,YDS,AVG,TB,-20,LG
+Kyle Christy,3,145,48.3,1,0,60
+Team,3,145,48.3,1,0,60

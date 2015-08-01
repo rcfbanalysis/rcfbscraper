@@ -1,0 +1,109 @@
+FIRST QUARTER,,MD,MICH
+,FG,9:35,"Matt Wile 22 Yd Field Goal  Drive info: 8 plays, 59 yds in 3:50",0,3
+SECOND QUARTER,,MD,MICH
+,FG,13:39,"Brad Craddock 38 Yd Field Goal  Drive info: 5 plays, 30 yds in 1:36",3,3
+,FG,7:41,"Matt Wile 33 Yd Field Goal  Drive info: 10 plays, 52 yds in 5:58",3,6
+,FG,3:32,"Brad Craddock 41 Yd Field Goal  Drive info: 8 plays, 43 yds in 4:09",6,6
+,FG,1:50,"Brad Craddock 21 Yd Field Goal  Drive info: 4 plays, 4 yds in 0:59",9,6
+,FG,0:00,"Matt Wile 26 Yd Field Goal  Drive info: 8 plays, 75 yds in 1:50",9,9
+THIRD QUARTER,,MD,MICH
+,TD,10:25,"Devin Gardner 15 Yd Run (Matt Wile Kick)Drive info: 10 plays, 66 yds in 4:35",9,16
+FOURTH QUARTER,,MD,MICH
+,TD,14:47,"C.J. Brown 8 Yd Run (Brad Craddock Kick)Drive info: 11 plays, 68 yds in 3:22",16,16
+,TD,5:59,"Wes Brown 1 Yd Run (Brad Craddock Kick)Drive info: 10 plays, 78 yds in 3:14",23,16
+,,MD,MICH
+1st Downs,17,23
+3rd down efficiency,3-12,5-13
+4th down efficiency,0-0,1-3
+Total Yards,312,398
+Passing,165,106
+Comp-Att,13-24,13-24
+Yards per pass,6.9,4.4
+Rushing,147,292
+Rushing Attempts,35,45
+Yards per rush,4.2,6.5
+Penalties,4-30,3-24
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,26:00,34:00
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+C.J. Brown,13/24,165,6.9,0,0,51.4
+Team,13/24,165,6.9,0,0,--
+Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Devin Gardner,13/24,106,4.4,0,1,40.8
+Team,13/24,106,4.4,0,1,--
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+C.J. Brown,18,87,4.8,1,30
+Wes Brown,11,39,3.5,1,9
+Brandon Ross,3,16,5.3,0,10
+Jacquille Veii,3,5,1.7,0,3
+Team,35,147,4.2,2,30
+Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Drake Johnson,14,94,6.7,0,17
+Devin Gardner,14,82,5.9,1,24
+Joe Kerridge,1,52,52.0,0,52
+Justice Hayes,6,36,6.0,0,13
+"u""De'Veon Smith""",10,28,2.8,0,10
+Team,45,292,6.5,1,52
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Jacquille Veii,3,45,15.0,0,21
+Amba Etta-Tawo,2,45,22.5,0,36
+Deon Long,4,39,9.8,0,15
+Marcus Leak,2,21,10.5,0,11
+Wes Brown,1,17,17.0,0,17
+Derrick Hayward,1,-2,-2.0,0,0
+Team,13,165,12.7,0,36
+Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Devin Funchess,5,30,6.0,0,7
+Amara Darboh,2,29,14.5,0,23
+Jake Butt,4,28,7.0,0,17
+A.J. Williams,1,12,12.0,0,12
+Joe Kerridge,1,7,7.0,0,7
+Team,13,106,8.2,0,23
+Maryland Interceptions
+,INT,YDS,TD
+William Likely,1,29,0
+Team,1,29,0
+Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+William Likely,1,31,31.0,31,0
+Joe Riddle,1,16,16.0,16,0
+Team,2,47,23.5,31,0
+Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Dennis Norfleet,3,74,24.7,31,0
+Team,3,74,24.7,31,0
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+William Likely,1,28,28.0,28,0
+Team,1,28,28.0,28,0
+Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Dennis Norfleet,2,17,8.5,9,0
+Team,2,17,8.5,9,0
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,3/3,100.0,41,2/2,11
+Team,3/3,100.0,41,2/2,11
+Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Matt Wile,3/4,75.0,33,1/1,10
+Team,3/4,75.0,33,1/1,10
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,4,154,38.5,0,0,43
+Team,4,154,38.5,0,0,43
+Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Will Hagerup,2,86,43.0,0,1,49
+Team,2,86,43.0,0,1,49

@@ -1,0 +1,121 @@
+FIRST QUARTER,,IDHO,GASO
+,FG,10:00,"Austin Rehkow 35 Yd Field Goal  Drive info: 13 plays, 57 yds in 5:00",3,0
+,TD,6:28,"Kevin Ellison 6 Yd Run (Alex Hanks Kick)Drive info: 8 plays, 86 yds in 3:28",3,7
+,TD,2:57,"BJ Johnson 22 Yd pass from Kevin Ellison (Alex Hanks PAT failed)Drive info: 4 plays, 76 yds in 1:18",3,13
+SECOND QUARTER,,IDHO,GASO
+,TD,14:25,"Elijhaa Penny 10 Yd Run (Austin Rehkow Kick)Drive info: 11 plays, 75 yds in 3:32",10,13
+,TD,10:37,"Matt Breida 17 Yd pass from Favian Upshaw (Alex Hanks Kick)Drive info: 10 plays, 90 yds in 3:40",10,20
+THIRD QUARTER,,IDHO,GASO
+,TD,12:31,"Kevin Ellison 14 Yd Run (Alex Hanks Kick)Drive info: 6 plays, 70 yds in 2:29",10,27
+,TD,6:29,"Alfred Ramsby 3 Yd Run (Alex Hanks PAT failed)Drive info: 11 plays, 80 yds in 4:46",10,33
+,TD,3:10,"Elijhaa Penny 4 Yd Run (Matt Linehan Pass to Deon Watson for Two-Point Conversion)Drive info: 10 plays, 83 yds in 3:12",18,33
+,TD,0:00,"Elijhaa Penny 1 Yd Run (Two-Point Pass Conversion Failed)Drive info: 7 plays, 19 yds in 2:21",24,33
+FOURTH QUARTER,,IDHO,GASO
+,TD,12:48,Matt Dobson 26 Yd Interception Return (Alex Hanks Kick),24,40
+,TD,0:12,"Ean Days 4 Yd Run (Alex Hanks Kick)Drive info: 9 plays, 43 yds in 4:14",24,47
+,,IDHO,GASO
+1st Downs,17,27
+3rd down efficiency,9-17,9-14
+4th down efficiency,1-4,1-1
+Total Yards,365,550
+Passing,271,201
+Comp-Att,20-32,11-15
+Yards per pass,8.5,13.4
+Rushing,94,349
+Rushing Attempts,40,58
+Yards per rush,2.3,6.0
+Penalties,3-23,6-48
+Turnovers,1,1
+Fumbles lost,0,1
+Interceptions thrown,1,0
+Possession,26:24,33:36
+Idaho Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Matt Linehan,19/31,230,7.4,0,1,32.4
+Chad Chalich,1/1,41,41.0,0,0,0.4
+Team,20/32,271,8.5,0,1,--
+Georgia Southern Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Favian Upshaw,4/4,105,26.3,1,0,100.0
+Kevin Ellison,7/11,96,8.7,1,0,88.4
+Team,11/15,201,13.4,2,0,--
+Idaho Rushing
+,CAR,YDS,AVG,TD,LG
+Elijhaa Penny,21,75,3.6,3,10
+Jerrel Brown,6,23,3.8,0,9
+Aaron Duckworth,3,8,2.7,0,5
+Richard Montgomery,2,4,2.0,0,5
+Jake Manley,1,0,0.0,0,0
+Chad Chalich,1,-4,-4.0,0,0
+Broc Westlake,1,-5,-5.0,0,0
+Matt Linehan,5,-7,-1.4,0,8
+Team,40,94,2.4,3,10
+Georgia Southern Rushing
+,CAR,YDS,AVG,TD,LG
+Matt Breida,19,155,8.2,0,52
+Alfred Ramsby,16,98,6.1,1,23
+Kevin Ellison,12,32,2.7,2,14
+Ean Days,6,24,4.0,1,7
+Zach Walker,1,19,19.0,0,19
+Devin Scott,3,12,4.0,0,5
+Favian Upshaw,1,9,9.0,0,9
+Team,58,349,6.0,4,52
+Idaho Receiving
+,REC,YDS,AVG,TD,LG
+Joshua McCain,6,97,16.2,0,41
+Jacob Sannon,3,71,23.7,0,44
+Richard Montgomery,6,63,10.5,0,41
+Deon Watson,3,20,6.7,0,10
+Justin Podrabsky,1,11,11.0,0,11
+Elijhaa Penny,1,9,9.0,0,9
+Team,20,271,13.6,0,44
+Georgia Southern Receiving
+,REC,YDS,AVG,TD,LG
+BJ Johnson,2,56,28.0,1,34
+Kentrellis Showers,3,49,16.3,0,40
+Alfred Ramsby,2,39,19.5,0,29
+Matt Breida,2,36,18.0,1,19
+Zach Walker,2,21,10.5,0,19
+Team,11,201,18.3,2,40
+Idaho Interceptions
+,INT,YDS,TD
+No Interception Information
+Georgia Southern Interceptions
+,INT,YDS,TD
+Matt Dobson,1,26,1
+Team,1,26,1
+Idaho Kick Returns
+,NO,YDS,AVG,LG,TD
+Richard Montgomery,3,60,20.0,24,0
+Elijhaa Penny,1,24,24.0,24,0
+Team,4,84,21.0,24,0
+Georgia Southern Kick Returns
+,NO,YDS,AVG,LG,TD
+Derek Keaton,2,40,20.0,20,0
+Montay Crockett,2,31,15.5,17,0
+Team,4,71,17.8,20,0
+Idaho Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+Georgia Southern Punt Returns
+,NO,YDS,AVG,LG,TD
+Tray Butler,1,21,21.0,21,0
+Brandan Thomas,1,7,7.0,7,0
+Team,2,28,14.0,21,0
+Idaho Kicking
+,FG,PCT,LG,XP,PTS
+Austin Rehkow,1/1,100.0,35,1/1,4
+Team,1/1,100.0,35,1/1,4
+Georgia Southern Kicking
+,FG,PCT,LG,XP,PTS
+Alex Hanks,0/1,0.0,0,5/7,5
+Team,0/1,0.0,0,5/7,5
+Idaho Punting
+,NO,YDS,AVG,TB,-20,LG
+Austin Rehkow,3,162,54.0,1,0,73
+Team,3,162,54.0,1,0,73
+Georgia Southern Punting
+,NO,YDS,AVG,TB,-20,LG
+Kevin Ellison,2,76,38.0,1,1,43
+Ryan Nowicki,1,43,43.0,0,1,43
+Team,3,119,39.7,1,2,43

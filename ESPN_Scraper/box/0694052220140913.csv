@@ -1,0 +1,111 @@
+FIRST QUARTER,,TENN,OKLA
+,FG,9:48,"Michael Hunnicutt 29 Yd Field Goal  Drive info: 10 plays, 45 yds in 3:53",0,3
+,TD,5:52,"Keith Ford 23 Yd pass from Trevor Knight (Michael Hunnicutt Kick)Drive info: 6 plays, 54 yds in 1:48",0,10
+,FG,0:04,"Michael Hunnicutt 27 Yd Field Goal  Drive info: 7 plays, 53 yds in 3:15",0,13
+SECOND QUARTER,,TENN,OKLA
+,TD,9:46,"Josh Smith 40 Yd pass from Justin Worley (Aaron Medley Kick)Drive info: 8 plays, 79 yds in 2:54",7,13
+,TD,1:33,"Keith Ford 11 Yd Run (Michael Hunnicutt Kick)Drive info: 9 plays, 81 yds in 3:49",7,20
+THIRD QUARTER,,TENN,OKLA
+,TD,12:25,"Trevor Knight 5 Yd Run (Michael Hunnicutt Kick)Drive info: 6 plays, 75 yds in 2:35",7,27
+,FG,2:29,"Aaron Medley 31 Yd Field Goal  Drive info: 7 plays, 17 yds in 2:55",10,27
+FOURTH QUARTER,,TENN,OKLA
+,TD,10:57,Julian Wilson 100 Yd Interception Return (Michael Hunnicutt Kick),10,34
+,,TENN,OKLA
+1st Downs,18,21
+3rd down efficiency,6-17,3-12
+4th down efficiency,0-1,0-1
+Total Yards,313,454
+Passing,201,308
+Comp-Att,21-44,20-33
+Yards per pass,4.6,9.3
+Rushing,112,146
+Rushing Attempts,33,34
+Yards per rush,3.4,4.3
+Penalties,1-10,5-41
+Turnovers,3,2
+Fumbles lost,1,1
+Interceptions thrown,2,1
+Possession,31:19,38:12
+Tennessee Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Justin Worley,21/44,201,4.6,1,2,9.6
+Team,21/44,201,4.6,1,2,--
+Oklahoma Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Trevor Knight,20/33,308,9.3,1,1,73.9
+Team,20/33,308,9.3,1,1,--
+Tennessee Rushing
+,CAR,YDS,AVG,TD,LG
+Jalen Hurd,14,97,6.9,0,43
+Marlin Lane,10,42,4.2,0,8
+Justus Pickett,1,1,1.0,0,1
+Josh Smith,1,-3,-3.0,0,0
+Justin Worley,6,-23,-3.8,0,10
+Team,33,112,3.4,0,43
+Oklahoma Rushing
+,CAR,YDS,AVG,TD,LG
+Samaje Perine,9,67,7.4,0,31
+Keith Ford,15,56,3.7,1,13
+Trevor Knight,5,17,3.4,1,9
+Alex Ross,5,6,1.2,0,3
+Team,34,146,4.3,2,31
+Tennessee Receiving
+,REC,YDS,AVG,TD,LG
+Marquez North,6,67,11.2,0,23
+Josh Smith,5,58,11.6,1,40
+Jalen Hurd,2,24,12.0,0,30
+Josh Malone,2,23,11.5,0,13
+Pig Howard,4,22,5.5,0,19
+Marlin Lane,2,7,3.5,0,4
+Team,21,201,9.6,1,40
+Oklahoma Receiving
+,REC,YDS,AVG,TD,LG
+Sterling Shepard,5,109,21.8,0,45
+Durron Neal,7,71,10.1,0,43
+Blake Bell,3,52,17.3,0,20
+Keith Ford,2,35,17.5,1,23
+K.J. Young,2,28,14.0,0,18
+Samaje Perine,1,13,13.0,0,13
+Team,20,308,15.4,1,45
+Tennessee Interceptions
+,INT,YDS,TD
+LaDarrell McNeil,1,0,0
+Team,1,0,0
+Oklahoma Interceptions
+,INT,YDS,TD
+Julian Wilson,1,100,1
+Zack Sanchez,1,0,0
+Team,2,100,1
+Tennessee Kick Returns
+,NO,YDS,AVG,LG,TD
+Devrin Young,3,60,20.0,24,0
+Team,3,60,20.0,24,0
+Oklahoma Kick Returns
+,NO,YDS,AVG,LG,TD
+Alex Ross,2,40,20.0,25,0
+Durron Neal,1,12,12.0,12,0
+Team,3,52,17.3,25,0
+Tennessee Punt Returns
+,NO,YDS,AVG,LG,TD
+Cameron Sutton,1,3,3.0,3,0
+Team,1,3,3.0,3,0
+Oklahoma Punt Returns
+,NO,YDS,AVG,LG,TD
+Sterling Shepard,1,-1,-1.0,-1,0
+Team,2,-7,-3.5,0,0
+Tennessee Kicking
+,FG,PCT,LG,XP,PTS
+Aaron Medley,1/1,100.0,31,1/1,4
+Team,1/1,100.0,31,1/1,4
+Oklahoma Kicking
+,FG,PCT,LG,XP,PTS
+Michael Hunnicutt,2/3,66.7,29,4/4,10
+Team,2/3,66.7,29,4/4,10
+Tennessee Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Darr,8,278,34.8,0,2,39
+Team,8,278,34.8,0,2,39
+Oklahoma Punting
+,NO,YDS,AVG,TB,-20,LG
+Jed Barnett,5,190,38.0,0,0,45
+Team,5,190,38.0,0,0,45

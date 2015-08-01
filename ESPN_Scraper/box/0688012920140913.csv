@@ -1,0 +1,126 @@
+FIRST QUARTER,,SYR,CMU
+,FG,7:43,"Brian Eavey 26 Yd Field Goal  Drive info: 15 plays, 66 yds in 7:17",0,3
+SECOND QUARTER,,SYR,CMU
+,FG,14:06,"Ryan Norton 23 Yd Field Goal  Drive info: 13 plays, 64 yds in 5:07",3,3
+,TD,10:43,"Marqez Hodge 36 Yd Fumble Return (Ryan Norton Kick)Drive info: 5 plays, 8 yds in 3:23",10,3
+,TD,1:52,"Brisly Estime 4 Yd pass from Terrel Hunt (Ryan Norton Kick)Drive info: 13 plays, 69 yds in 5:23",17,3
+THIRD QUARTER,,SYR,CMU
+,SF,12:47,Team Safety,19,3
+,TD,3:43,"T. Hunt run for 1 yd for a TDDrive info: 12 plays, 74 yds in 4:04",25,3
+,TD,3:43,"Terrel Hunt 1 Yd Run (Ryan Norton Kick)Drive info: 12 plays, 74 yds in 4:04",26,3
+,TD,3:10,"Terrel Hunt 3 Yd Run (Ryan Norton Kick)Drive info: 3 plays, 19 yds in 0:33",33,3
+FOURTH QUARTER,,SYR,CMU
+,TD,0:59,"Terrel Hunt 1 Yd Run (Ryan Norton Kick)Drive info: 7 plays, 86 yds in 3:52",40,3
+,,SYR,CMU
+1st Downs,25,14
+3rd down efficiency,8-15,1-10
+4th down efficiency,2-2,1-2
+Total Yards,464,217
+Passing,175,183
+Comp-Att,20-30,18-34
+Yards per pass,5.8,5.4
+Rushing,289,34
+Rushing Attempts,49,23
+Yards per rush,5.9,1.5
+Penalties,9-41,5-49
+Turnovers,0,2
+Fumbles lost,0,2
+Interceptions thrown,0,0
+Possession,33:22,26:38
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Terrel Hunt,20/30,175,5.8,1,0,89.9
+Team,20/30,175,5.8,1,0,--
+Central Michigan Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Cooper Rush,18/34,183,5.4,0,0,15.7
+Team,18/34,183,5.4,0,0,--
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+Adonis Ameen-Moore,9,106,11.8,0,53
+Terrel Hunt,13,92,7.1,3,36
+Ervin Philips,9,55,6.1,0,12
+Devante McFarlane,4,13,3.3,0,7
+Prince-Tyson Gulley,7,13,1.9,0,7
+George Morris,5,12,2.4,0,8
+Jamal Custis,1,1,1.0,0,1
+Adrian Flemming,1,-3,-3.0,0,0
+Team,49,289,5.9,3,53
+Central Michigan Rushing
+,CAR,YDS,AVG,TD,LG
+Saylor Lavallii,4,15,3.8,0,8
+Devon Spalding,7,14,2.0,0,11
+Martez Walker,3,11,3.7,0,10
+Maurice Shoemaker-Gilmore,3,10,3.3,0,5
+Jesse Kroll,1,8,8.0,0,8
+Cooper Rush,5,-24,-4.8,0,1
+Team,23,34,1.5,0,11
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Ashton Broyld,4,42,10.5,0,14
+Brisly Estime,3,36,12.0,1,20
+Alvin Cornelius,1,16,16.0,0,16
+Kendall Moore,2,16,8.0,0,12
+Steve Ishmael,1,16,16.0,0,16
+Adrian Flemming,1,15,15.0,0,15
+Jamal Custis,3,11,3.7,0,6
+Ben Lewis,2,10,5.0,0,7
+Devante McFarlane,1,9,9.0,0,9
+Prince-Tyson Gulley,1,3,3.0,0,3
+Ervin Philips,1,1,1.0,0,1
+Team,20,175,8.8,1,20
+Central Michigan Receiving
+,REC,YDS,AVG,TD,LG
+Jesse Kroll,5,86,17.2,0,35
+Deon Butler,1,20,20.0,0,20
+Maurice Shoemaker-Gilmore,2,14,7.0,0,10
+Anthony Rice,2,13,6.5,0,7
+Mike Kinville,1,11,11.0,0,11
+Corey Willis,2,10,5.0,0,6
+Saylor Lavallii,1,9,9.0,0,9
+Devon Spalding,1,6,6.0,0,6
+Ben McCord,1,6,6.0,0,6
+Courtney Williams,1,5,5.0,0,5
+Martez Walker,1,3,3.0,0,3
+Team,18,183,10.2,0,35
+Syracuse Interceptions
+,INT,YDS,TD
+No Interception Information
+Central Michigan Interceptions
+,INT,YDS,TD
+No Interception Information
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Ervin Philips,1,9,9.0,9,0
+Brisly Estime,1,0,0.0,0,0
+Team,2,9,4.5,9,0
+Central Michigan Kick Returns
+,NO,YDS,AVG,LG,TD
+Courtney Williams,3,45,15.0,18,0
+Devon Spalding,1,-6,-6.0,-6,0
+Team,4,39,9.8,18,0
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+Brisly Estime,1,12,12.0,12,0
+Ritchy Desir,1,-2,-2.0,-2,0
+Team,2,10,5.0,12,0
+Central Michigan Punt Returns
+,NO,YDS,AVG,LG,TD
+Saylor Lavallii,1,0,0.0,0,0
+Team,1,0,0.0,0,0
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Norton,1/3,33.3,23,5/5,8
+Team,1/3,33.3,23,5/5,8
+Central Michigan Kicking
+,FG,PCT,LG,XP,PTS
+Brian Eavey,1/1,100.0,26,0/0,3
+Team,1/1,100.0,26,0/0,3
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,3,118,39.3,0,3,47
+Team,3,118,39.3,0,3,47
+Central Michigan Punting
+,NO,YDS,AVG,TB,-20,LG
+Ron Coluzzi,6,241,40.2,0,2,43
+Team,6,241,40.2,0,2,43

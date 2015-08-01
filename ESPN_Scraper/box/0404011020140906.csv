@@ -1,0 +1,120 @@
+FIRST QUARTER,,MEM,UCLA
+,TD,4:17,"u""Paul Perkins 17 Yd Run (Ka'imi Fairbairn PAT failed)"", Drive info: 11 plays, 71 yds in 3:34",0,6
+,TD,0:25,"Paxton Lynch 8 Yd Run (Jake Elliott Kick)Drive info: 10 plays, 75 yds in 3:52",7,6
+,TD,0:09,"u""Kenneth Walker 62 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 1 plays, 62 yds in 0:16",7,13
+SECOND QUARTER,,MEM,UCLA
+,TD,10:39,"Sam Craft 7 Yd Run (Jake Elliott Kick)Drive info: 13 plays, 75 yds in 4:30",14,13
+,TD,9:46,"u""Thomas Duarte 14 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 4 plays, 75 yds in 0:53",14,20
+,TD,4:39,"Paul Perkins 4 Yd Run (Brett Hundley Pass to Tyler Scott for Two-Point Conversion)Drive info: 8 plays, 82 yds in 2:49",14,28
+,TD,3:05,"Brandon Hayes 18 Yd pass from Paxton Lynch (Jake Elliott Kick)Drive info: 4 plays, 85 yds in 1:34",21,28
+THIRD QUARTER,,MEM,UCLA
+,TD,4:51,"u""Myles Jack 4 Yd Run (Ka'imi Fairbairn Kick)"", Drive info: 13 plays, 77 yds in 5:06",21,35
+FOURTH QUARTER,,MEM,UCLA
+,TD,14:21,"Doroland Dorceus 40 Yd Run (Jake Elliott Kick)Drive info: 5 plays, 61 yds in 1:49",28,35
+,TD,13:44,Fritz Etienne 17 Yd Interception Return (Jake Elliott Kick),35,35
+,TD,10:52,"u""Thomas Duarte 33 Yd pass from Brett Hundley (Ka'imi Fairbairn Kick)"", Drive info: 9 plays, 75 yds in 2:52",35,42
+,,MEM,UCLA
+1st Downs,24,30
+3rd down efficiency,6-16,8-16
+4th down efficiency,1-1,1-1
+Total Yards,469,540
+Passing,305,396
+Comp-Att,27-42,33-44
+Yards per pass,7.3,9.0
+Rushing,164,144
+Rushing Attempts,39,41
+Yards per rush,4.2,3.5
+Penalties,10-110,9-85
+Turnovers,0,1
+Fumbles lost,0,0
+Interceptions thrown,0,1
+Possession,29:49,29:31
+Memphis Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Paxton Lynch,27/41,305,7.4,1,0,68.6
+Keiwone Malone,0/1,0,0.0,0,0,2.8
+Team,27/42,305,7.3,1,0,--
+UCLA Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Brett Hundley,33/44,396,9.0,3,1,73.9
+Team,33/44,396,9.0,3,1,--
+Memphis Rushing
+,CAR,YDS,AVG,TD,LG
+Doroland Dorceus,13,86,6.6,1,40
+Brandon Hayes,9,34,3.8,0,11
+Paxton Lynch,10,27,2.7,1,8
+Sam Craft,6,19,3.2,1,9
+Team,39,164,4.2,3,40
+UCLA Rushing
+,CAR,YDS,AVG,TD,LG
+Paul Perkins,23,98,4.3,2,17
+Brett Hundley,11,26,2.4,0,13
+Nate Starks,2,11,5.5,0,11
+Myles Jack,3,7,2.3,1,4
+JJ James,2,2,1.0,0,2
+Team,41,144,3.5,3,17
+Memphis Receiving
+,REC,YDS,AVG,TD,LG
+Tevin Jones,3,74,24.7,0,33
+Keiwone Malone,6,67,11.2,0,30
+Brandon Hayes,5,48,9.6,1,18
+Sam Craft,3,38,12.7,0,17
+Roderick Proctor,2,28,14.0,0,15
+Alan Cross,2,22,11.0,0,18
+Mose Frazier,3,15,5.0,0,6
+Joe Craig,1,12,12.0,0,12
+Daniel Montiel,1,3,3.0,0,3
+Doroland Dorceus,1,-2,-2.0,0,0
+Team,27,305,11.3,1,33
+UCLA Receiving
+,REC,YDS,AVG,TD,LG
+Thomas Duarte,4,110,27.5,2,52
+Jordan Payton,7,104,14.9,0,28
+Kenneth Walker III,1,62,62.0,1,62
+Devin Fuller,9,58,6.4,0,11
+Eldridge Massington,3,34,11.3,0,16
+Devin Lucien,3,13,4.3,0,6
+Tyler Scott,1,12,12.0,0,12
+Logan Sweet,1,2,2.0,0,2
+Paul Perkins,3,1,0.3,0,5
+JJ James,1,0,0.0,0,0
+Team,33,396,12.0,3,62
+Memphis Interceptions
+,INT,YDS,TD
+Fritz Etienne,1,17,1
+Team,1,17,1
+UCLA Interceptions
+,INT,YDS,TD
+No Interception Information
+Memphis Kick Returns
+,NO,YDS,AVG,LG,TD
+Joe Craig,3,46,15.3,17,0
+Bobby McCain,1,22,22.0,22,0
+Team,4,68,17.0,22,0
+UCLA Kick Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,4,95,23.8,38,0
+Team,4,95,23.8,38,0
+Memphis Punt Returns
+,NO,YDS,AVG,LG,TD
+No Punt Returns
+UCLA Punt Returns
+,NO,YDS,AVG,LG,TD
+Ishmael Adams,1,-3,-3.0,0,0
+Team,1,-3,-3.0,0,0
+Memphis Kicking
+,FG,PCT,LG,XP,PTS
+Jake Elliott,0/1,0.0,0,5/5,5
+Team,0/1,0.0,0,5/5,5
+UCLA Kicking
+,FG,PCT,LG,XP,PTS
+"u""Ka'imi Fairbairn""",0/0,0.0,0,4/5,4
+Team,0/0,0.0,0,4/5,4
+Memphis Punting
+,NO,YDS,AVG,TB,-20,LG
+Spencer Smith,7,276,39.4,0,4,49
+Team,7,276,39.4,0,4,49
+UCLA Punting
+,NO,YDS,AVG,TB,-20,LG
+Matt Mengel,7,238,34.0,0,2,45
+Team,7,238,34.0,0,2,45

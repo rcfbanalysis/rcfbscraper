@@ -1,0 +1,116 @@
+FIRST QUARTER,,MD,SYR
+,FG,11:37,"Ryan Norton 35 Yd Field Goal  Drive info: 11 plays, 59 yds in 3:23",0,3
+,TD,9:39,"Marcus Leak 25 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 5 plays, 59 yds in 1:58",7,3
+,TD,6:35,"Brandon Ross 90 Yd pass from C.J. Brown (Brad Craddock Kick)Drive info: 2 plays, 90 yds in 0:47",14,3
+,FG,3:48,"Cole Murphy 49 Yd Field Goal  Drive info: 7 plays, 44 yds in 2:47",14,6
+SECOND QUARTER,,MD,SYR
+,TD,14:56,"Terrel Hunt 8 Yd Run (Ryan Norton Kick)Drive info: 7 plays, 47 yds in 2:18",14,13
+,FG,12:38,"Brad Craddock 31 Yd Field Goal  Drive info: 8 plays, 63 yds in 2:18",17,13
+,TD,6:13,"Jacquille Veii 4 Yd Run (Brad Craddock Kick)Drive info: 4 plays, 28 yds in 1:35",24,13
+,TD,3:37,William Likely 88 Yd Interception Return (Brad Craddock Kick),31,13
+FOURTH QUARTER,,MD,SYR
+,FG,4:17,"Brad Craddock 44 Yd Field Goal  Drive info: 4 plays, -3 yds in 2:12",34,13
+,TD,0:48,"Terrel Hunt 1 Yd Run (Cole Murphy Kick)Drive info: 9 plays, 89 yds in 3:29",34,20
+,,MD,SYR
+1st Downs,17,26
+3rd down efficiency,4-13,4-14
+4th down efficiency,0-0,0-1
+Total Yards,369,589
+Passing,280,219
+Comp-Att,16-26,14-28
+Yards per pass,10.8,7.8
+Rushing,89,370
+Rushing Attempts,32,51
+Yards per rush,2.8,7.3
+Penalties,8-75,8-69
+Turnovers,0,2
+Fumbles lost,0,1
+Interceptions thrown,0,1
+Possession,27:46,32:14
+Maryland Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+C.J. Brown,16/26,280,10.8,2,0,51.9
+Team,16/26,280,10.8,2,0,--
+Syracuse Passing
+,C/ATT,YDS,AVG,TD,INT,QBR
+Terrel Hunt,14/28,219,7.8,0,1,46.9
+Team,14/28,219,7.8,0,1,--
+Maryland Rushing
+,CAR,YDS,AVG,TD,LG
+Jacquille Veii,8,42,5.3,1,15
+C.J. Brown,14,25,1.8,0,15
+Stefon Diggs,1,12,12.0,0,12
+Brandon Ross,3,6,2.0,0,4
+Wes Brown,2,6,3.0,0,4
+Kenneth Goins Jr.,2,2,1.0,0,2
+Team,32,89,2.8,1,15
+Syracuse Rushing
+,CAR,YDS,AVG,TD,LG
+Terrel Hunt,23,156,6.8,2,20
+Prince-Tyson Gulley,14,138,9.9,0,39
+Adonis Ameen-Moore,9,68,7.6,0,19
+George Morris,3,10,3.3,0,8
+Devante McFarlane,1,4,4.0,0,4
+Ervin Philips,1,-6,-6.0,0,0
+Team,51,370,7.3,2,39
+Maryland Receiving
+,REC,YDS,AVG,TD,LG
+Brandon Ross,2,97,48.5,1,90
+Marcus Leak,4,93,23.3,1,46
+Stefon Diggs,6,56,9.3,0,20
+Deon Long,1,13,13.0,0,13
+P.J. Gallo,1,11,11.0,0,11
+Wes Brown,1,7,7.0,0,7
+Andrew Isaacs,1,3,3.0,0,3
+Team,16,280,17.5,2,90
+Syracuse Receiving
+,REC,YDS,AVG,TD,LG
+Jarrod West,3,74,24.7,0,51
+Brisly Estime,2,45,22.5,0,25
+Ben Lewis,3,38,12.7,0,20
+Ashton Broyld,2,26,13.0,0,24
+Prince-Tyson Gulley,2,25,12.5,0,19
+Steve Ishmael,1,7,7.0,0,7
+Jamal Custis,1,4,4.0,0,4
+Team,14,219,15.6,0,51
+Maryland Interceptions
+,INT,YDS,TD
+William Likely,1,88,1
+Team,1,88,1
+Syracuse Interceptions
+,INT,YDS,TD
+No Interception Information
+Maryland Kick Returns
+,NO,YDS,AVG,LG,TD
+Stefon Diggs,2,39,19.5,23,0
+Jacquille Veii,1,20,20.0,20,0
+Team,3,59,19.7,23,0
+Syracuse Kick Returns
+,NO,YDS,AVG,LG,TD
+Ervin Philips,6,117,19.5,26,0
+Team,6,117,19.5,26,0
+Maryland Punt Returns
+,NO,YDS,AVG,LG,TD
+Anthony Nixon,1,12,12.0,12,0
+Team,1,12,12.0,12,0
+Syracuse Punt Returns
+,NO,YDS,AVG,LG,TD
+Brisly Estime,4,47,11.8,22,0
+Team,4,47,11.8,22,0
+Maryland Kicking
+,FG,PCT,LG,XP,PTS
+Brad Craddock,2/2,100.0,44,4/4,10
+Team,2/2,100.0,44,4/4,10
+Syracuse Kicking
+,FG,PCT,LG,XP,PTS
+Ryan Norton,1/2,50.0,35,1/1,4
+Cole Murphy,1/1,100.0,49,1/1,4
+Team,2/3,66.7,49,2/2,8
+Maryland Punting
+,NO,YDS,AVG,TB,-20,LG
+Nathan Renfro,7,313,44.7,1,3,53
+Team,7,313,44.7,1,3,53
+Syracuse Punting
+,NO,YDS,AVG,TB,-20,LG
+Riley Dixon,5,210,42.0,2,2,56
+Team,5,210,42.0,2,2,56
