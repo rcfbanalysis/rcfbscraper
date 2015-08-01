@@ -1,0 +1,6 @@
+Date: 20140920
+Home: Vanderbilt (736)
+Visitor: South Carolina (648)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548387
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548387
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548387

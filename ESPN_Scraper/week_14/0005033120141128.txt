@@ -1,0 +1,6 @@
+Date: 20141128
+Home: Kent State (331)
+Visitor: Akron (5)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548163
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548163
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548163

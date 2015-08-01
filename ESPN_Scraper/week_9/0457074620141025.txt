@@ -1,0 +1,6 @@
+Date: 20141025
+Home: UVA (746)
+Visitor: UNC (457)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547799
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547799
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547799

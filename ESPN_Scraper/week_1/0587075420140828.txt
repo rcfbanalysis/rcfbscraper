@@ -1,0 +1,6 @@
+Date: 20140828
+Home: Washington St (754)
+Visitor: Rutgers (587)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547993
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547993
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547993

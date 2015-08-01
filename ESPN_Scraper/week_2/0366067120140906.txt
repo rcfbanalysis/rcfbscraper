@@ -1,0 +1,6 @@
+Date: 20140906
+Home: LA-Lafayette (671)
+Visitor: LA Tech (366)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548014
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548014
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548014

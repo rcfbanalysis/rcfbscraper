@@ -1,0 +1,6 @@
+Date: 20141223
+Home: San Diego State (626)
+Visitor: Navy (726)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610199
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610199
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610199

@@ -1,0 +1,6 @@
+Date: 20140927
+Home: UAB (9)
+Visitor: FIU (231)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548033
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548033
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548033

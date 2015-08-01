@@ -1,0 +1,6 @@
+Date: 20150102
+Home: Tennessee (694)
+Visitor: Iowa (312)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610224
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610224
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610224

@@ -1,0 +1,6 @@
+Date: 20140927
+Home: UVA (746)
+Visitor: Kent State (331)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547823
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547823
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547823

@@ -1,0 +1,6 @@
+Date: 20141115
+Home: Stanford (674)
+Visitor: Utah (732)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548309
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548309
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548309

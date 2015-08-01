@@ -1,0 +1,6 @@
+Date: 20141112
+Home: Bowling Green (71)
+Visitor: Kent State (331)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548154
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548154
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548154

@@ -1,0 +1,6 @@
+Date: 20141115
+Home: San Jose State (630)
+Visitor: Hawaii (277)
+Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548240
+Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548240
+Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548240
