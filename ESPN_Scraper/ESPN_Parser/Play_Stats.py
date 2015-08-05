@@ -135,8 +135,8 @@ class Play_Stats:
 			# Print remaining characters
 			if len(play_desc):
 				print "\nThis play wasn't parsed: "
-				print play[1]
-				self.Unparsed = play[1]
+				print play_desc
+				self.Unparsed = play_desc
 				#raw_input(play_desc)
 			return True
 
@@ -191,8 +191,8 @@ class Play_Stats:
 			# Print remaining characters
 			if len(play_desc):
 				print "\nThis play wasn't parsed: "
-				print play[1]
-				self.Unparsed = play[1]
+				print play_desc
+				self.Unparsed = play_desc
 				#raw_input(play_desc)
 			return True
 

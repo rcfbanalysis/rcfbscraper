@@ -1,0 +1,981 @@
+
+
+
+# Parses all plays for data
+def Parse_Plays(game_num, data, team_arr, abbv_arr, visitor, home, approved_abbv):
+	# current data
+	quarter = 0
+	play_num = 0
+	offense = 0
+	defense = 0
+	home_score = 0
+	visitor_score = 0
+	red_zone = 0
+	# penalties
+	home_penalties = []
+	visitor_penalties = []
+	home_penalties_print = []
+	visitor_penalties_print = []
+	# rushing plays
+	home_rushing_plays = []
+	visitor_rushing_plays = []
+	home_rushing_plays_print = []
+	visitor_rushing_plays_print = []
+	# passing plays
+	home_passing_plays = []
+	visitor_passing_plays = []
+	home_passing_plays_print = []
+	visitor_passing_plays_print = []
+	# team-game-stats
+	home_team_game_stats = Team_Game_Stat(game_num, home)
+	visitor_team_game_stats = Team_Game_Stat(game_num, visitor)
+
+	# Read play by play data
+	for play in data:
+		quarter = Set_Quarter(play)		# check for new quarter
+		play_desc = play[1]
+
+		# =============================================================================================================
+		# Check for start of a new drive
+		# =============================================================================================================
+		m = re.match(r"(?P<offense>\D+) at (?P<time>\d{0,2}\:\d{0,2})", play[0])
+		if m:
+			(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("offense"), team_arr, abbv_arr, approved_abbv)
+			if offense == number and m.group("time") != "15:00":
+				print "\nWARNING: This drive may not have switched"
+				print play[0]
+			offense = number
+			defense = visitor if offense == home else home
+			red_zone = 0
+
+		# =============================================================================================================
+		# Check for red zone attempt
+		# =============================================================================================================
+		(down, dist, f_half, pos) = Get_Play_Info(play[0], offense)
+		if down > -1:
+			if pos != 50:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, f_half, team_arr, abbv_arr, approved_abbv)
+				pos = Get_Field_Pos(number, offense, pos)
+			if down > -1 and pos <= 20 and red_zone == 0:
+				red_zone = 1
+				if home == offense:
+					home_team_game_stats.Red_Zone_Att += 1
+				elif visitor == offense:
+					visitor_team_game_stats.Red_Zone_Att += 1
+
+		# =============================================================================================================
+		# Check for drive summary
+		# =============================================================================================================
+		m = re.match(r"((?P<team>\D+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?P<yards>\d+) (?:yards|yard|yds|yd)\, (?P<min>\d{1,2})\:(?P<sec>\d{2}))", play[0])
+		if m:
+			(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+			if home == number:
+				home_team_game_stats.Time_Of_Possession += Set_Clock(m.group("min"), m.group("sec"))
+			elif visitor == number:
+				visitor_team_game_stats.Time_Of_Possession += Set_Clock(m.group("min"), m.group("sec"))
+
+		# =============================================================================================================
+		# Check for coin toss
+		# =============================================================================================================
+		m = re.match(r"((?P<team>\D+) (?:wins|won).*toss.*)", play_desc)
+		if m:
+			#print m.group("team") + " wins toss.\n"
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+
+		# =============================================================================================================
+		# Check for end of quarter
+		# =============================================================================================================
+		m = re.match(r"(End of (?P<Qrt>\d)(?:st|nd|rd|th) Quarter)", play_desc)
+		if m:
+			quarter_end = int(m.group("Qrt"))
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+
+		# =============================================================================================================
+		# Check for timeout
+		# =============================================================================================================
+		m = re.match(r"(Timeout (?P<team>\D+), clock (?P<time>\d{2}\:\d{2}))", play_desc)
+		if m:
+			team_timeout = m.group("team")
+			timeout_time = m.group("time")
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+
+		# =============================================================================================================
+		# Check for no play
+		# =============================================================================================================
+		m = re.search(r"(NO PLAY\s*\W*\s*)", play_desc)
+		if m:
+			# remove everything before penalty
+			m = re.match(r"(?P<remove>.+)PENALTY", play_desc, re.IGNORECASE)
+			play_desc = re.sub(re.escape(m.group("remove")), "", play_desc)
+
+		# =============================================================================================================
+		# Check for kickoff
+		# =============================================================================================================
+		m = re.match("((?P<kicker>\D+) kickoff\s+)", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get kicker
+			kicker = m.group("kicker")
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# get yardage
+			m = re.match(r"(for (?P<yards>\d+) (?:yards|yard|yds|yd)\s*\W*\s*)", play_desc)
+			if m:
+				yards = int(m.group("yards"))
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				yards = "NA"
+			# get returner
+			m = re.match(r"((?P<returner>\D+) return\s*)", play_desc)
+			if m:
+				returner = m.group("returner")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				returner = ""
+			# get return yards
+			returned = 0
+			m = re.match(r"(for (?P<yards>\d+) (?:yards|yard|yds|yd)\s*\W*\s*)", play_desc)
+			if m:
+				returned = 1
+				ret_yards = int(m.group("yards"))
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				ret_yards = 0
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for touchback
+			m = re.match(r"(for a touchback)", play_desc)
+			if m:
+				touchback = 1
+				field_pos = 25
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				touchback = 0
+			# check for out of bounds
+			m = re.match(r"(out\-of\-bounds)", play_desc)
+			if m:
+				out_of_bounds = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				out_of_bounds = 0
+			# check for fumble
+			m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+			if m:
+				fumble = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble = 0
+			# chech for fumble lost
+			m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+			if m and fumble == 1:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+				if number != offense:
+					fumble_lost = 1
+				else:
+					fumble_lost = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble_lost = 0
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			if td:	# check extra point
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+			else:
+				extra_point = 0
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Kickoff_Stats(ret_yards, td, fumble, fumble_lost, extra_point, returned)
+				visitor_team_game_stats.Add_Def_Kickoff_Stats(yards, touchback, out_of_bounds, td, fumble, fumble_lost, extra_point)
+			else:
+				visitor_team_game_stats.Add_Off_Kickoff_Stats(ret_yards, td, fumble, fumble_lost, extra_point, returned)
+				home_team_game_stats.Add_Def_Kickoff_Stats(yards, touchback, out_of_bounds, td, fumble, fumble_lost, extra_point)
+
+		# =============================================================================================================
+		# Check for punt
+		# =============================================================================================================
+		m = re.match("((?P<punter>\D+) punt\s+)", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get kicker
+			punter = m.group("punter")
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# get yardage
+			m = re.match(r"(for (?P<yards>\d+) (?:yards|yard|yds|yd)\s*\W*\s*)", play_desc)
+			if m:
+				yards = int(m.group("yards"))
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				yards = 0
+			# get returner
+			returner = ""
+			m = re.match(r"((?P<returner>\D+) returns\s*)", play_desc)
+			if m:
+				returner = m.group("returner")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# fair catch
+			m = re.match(r"(fair catch by (?P<returner>\D+) at the\s*)", play_desc)
+			if m:
+				returner = m.group("returner")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				m = re.match(r"((?P<field_half>\D+) (?:(?P<yard_line>\d+))|((?P<fifty>50)\D*))", play_desc)
+				if m:
+					if m.group("field_half"):
+						(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+						if number == offense:
+							field_pos = int(m.group("yard_line"))
+						else:
+							field_pos = 100 - int(m.group("yard_line"))
+					elif m.group("fifty"):
+						field_pos = 50
+					play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for loss of yards
+			m = re.match(r"(for a (?P<loss>loss) of\W+)", play_desc)
+			if m:
+				loss = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				loss = 0
+			# get return yards
+			returned = 0
+			m = re.match(r"((?:for)?\s*((?P<yards>\d+) (?:(?:yards|yard|yds|yd)\W+)|(?P<no_gain>no gain))\W*)", play_desc)
+			if m:
+				returned = 1
+				if m.group("yards"):
+					ret_yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					ret_yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				ret_yards = 0
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+),?\s*)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for touchback
+			m = re.match(r"(for a touchback)", play_desc)
+			if m:
+				field_pos = 25
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for downed punt
+			m = re.match(r"(downed at the)", play_desc)
+			if m:
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				m = re.match(r"((?P<field_half>\D+) (?:(?P<yard_line>\d+))|((?P<fifty>50) (?:yard|yd) line\s*))", play_desc)
+				if m:
+					if m.group("field_half"):
+						(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+						if number == offense:
+							field_pos = int(m.group("yard_line"))
+						else:
+							field_pos = 100 - int(m.group("yard_line"))
+					elif m.group("fifty"):
+						field_pos = 50
+					play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for out of bounds
+			m = re.match(r"(punt out\-of\-bounds at the (?:(?P<field_half>\D+) (?P<yard_line>\d+)|(?P<fifty>50))\s*(?:(?:yard|yd) line)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for fumble
+			m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+			if m:
+				fumble = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble = 0
+			# chech for fumble lost
+			m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+			if m and fumble == 1:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+				if number != offense:
+					fumble_lost = 1
+				else:
+					fumble_lost = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble_lost = 0
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			if td:	# check extra point
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Def_Punt_Stats(yards, td, fumble, fumble_lost, extra_point)
+				visitor_team_game_stats.Add_Off_Punt_Stats(ret_yards, td, fumble, fumble_lost, extra_point, returned)
+			else:
+				visitor_team_game_stats.Add_Def_Punt_Stats(yards, td, fumble, fumble_lost, extra_point)
+				home_team_game_stats.Add_Off_Punt_Stats(ret_yards, td, fumble, fumble_lost, extra_point, returned)
+
+		# =============================================================================================================
+		# Check for punt (alt)
+		# =============================================================================================================
+		m = re.match(r"((?P<receiver>\D+) (?P<ret_yards>\d+) (?:yard|yd) Punt Return \((?P<punter>\D+) Kick\))", play_desc, re.IGNORECASE)
+		if m:
+			# inc play number
+			play_num += 1
+			# get info
+			receiver = m.group("receiver")
+			ret_yards = int(m.group("ret_yards"))
+			punter = m.group("punter")
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Def_Punt_Stats("NA", 0, 0, 0, 0)
+				visitor_team_game_stats.Add_Off_Punt_Stats(ret_yards, 0, 0, 0, 0, 1)
+			else:
+				visitor_team_game_stats.Add_Def_Punt_Stats("NA", 0, 0, 0, 0)
+				home_team_game_stats.Add_Off_Punt_Stats(ret_yards, 0, 0, 0, 0, 1)
+
+		# =============================================================================================================
+		# Check for field goal
+		# =============================================================================================================
+		m = re.match(r"((?P<kicker>\D+) (?:(?P<yardage>\d+) (?:yard|yd)) FG (?P<make>BLOCKED|MISSED|GOOD)\s*)", play_desc, re.IGNORECASE)
+		if m:
+			kicker = m.group("kicker")
+			distance = int(m.group("yardage"))
+			result = m.group("make")
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			if result == "BLOCKED":
+				print "BLOCKED"
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Field_Goal_Off_Stats(kicker, distance, result, red_zone)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Field_Goal_Off_Stats(kicker, distance, result, red_zone)
+
+		m = re.match(r"((?P<kicker>\D+) (?:(?P<yardage>\d+) (?:yard|yd)) Field Goal)", play_desc, re.IGNORECASE)
+		if m:
+			kicker = m.group("kicker")
+			distance = int(m.group("yardage"))
+			result = "GOOD"
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			if result == "BLOCKED":
+				print "BLOCKED"
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Field_Goal_Off_Stats(kicker, distance, result, red_zone)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Field_Goal_Off_Stats(kicker, distance, result, red_zone)
+
+		# =============================================================================================================
+		# Check for a run play
+		# =============================================================================================================
+		m = re.match(r"((?P<rusher>\D+) (?:run|rush) for\W+)", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get rusher
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			rusher = m.group("rusher")
+			# init rushing class
+			rush_play = Rushing_Play(0, play_num, offense, rusher)
+			# check for loss of yards
+			m = re.match(r"(a (?P<loss>loss) of\W+)", play_desc)
+			if m:
+				loss = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				loss = 0
+			# get yards gained
+			m = re.match(r"(((?P<yards>\d+) (?:yards|yard|yds|yd)\W+)|(?P<no_gain>no gain)\W+)", play_desc)
+			if m:
+				if m.group("yards"):
+					yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			rush_play.Yards = yards
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for first down
+			m = re.match(r"(for a (?P<fd>1ST down))", play_desc, re.IGNORECASE)
+			if m:
+				fd = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fd = 0
+			rush_play.First_down = fd
+			# check for safety
+			m = re.match(r"(for a (?P<safety>SAFETY)\s+)", play_desc)
+			if m:
+				safety = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				safety = 0
+			rush_play.Safety = safety
+			# check for fumble
+			m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+			if m:
+				fumble = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble = 0
+			rush_play.Fumble = fumble
+			# chech for fumble lost
+			m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+			if m and fumble == 1:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+				if number != offense:
+					fl = 1
+				else:
+					fl = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				rush_play.Fumble_Lost = fl
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			rush_play.Touchdown = td
+			if td:	# check extra point
+				if rush_play.Yards > dist:	# check for would be first down
+					rush_play.First_down = 1
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+			else:
+				extra_point = 0
+
+			if offense == home:
+				home_rushing_plays.append(rush_play)
+				home_rushing_plays_print.append(rush_play.Compile_Play())
+				#print home_rushing_plays[len(home_rushing_plays) - 1].Compile_Play()
+			else:
+				visitor_rushing_plays.append(rush_play)
+				visitor_rushing_plays_print.append(rush_play.Compile_Play())
+				#print visitor_rushing_plays[len(visitor_rushing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				visitor_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				home_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+
+		# =============================================================================================================
+		# Check for a run play
+		# =============================================================================================================
+		m = re.match(r"((?P<rusher>\D+) (?P<yards>\d+) (?:yd|yard|yds|yards) (?:run|rush)\s*)", play_desc, re.IGNORECASE)
+		if m:
+			# inc play number
+			play_num += 1
+			# get rusher
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			rusher = m.group("rusher")
+			# init rushing class
+			rush_play = Rushing_Play(0, play_num, offense, rusher)
+			# get yards gained
+			rush_play.Yards = int(m.group("yards"))
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			rush_play.Touchdown = td
+			if td:	# check extra point
+				if rush_play.Yards > dist:	# check for would be first down
+					rush_play.First_down = 1
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+			else:
+				extra_point = 0
+
+			if offense == home:
+				home_rushing_plays.append(rush_play)
+				home_rushing_plays_print.append(rush_play.Compile_Play())
+				#print home_rushing_plays[len(home_rushing_plays) - 1].Compile_Play()
+			else:
+				visitor_rushing_plays.append(rush_play)
+				visitor_rushing_plays_print.append(rush_play.Compile_Play())
+				#print visitor_rushing_plays[len(visitor_rushing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				visitor_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				home_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+
+		# =============================================================================================================
+		# check for a pass play
+		# =============================================================================================================
+		m = re.match(r"((?P<passer>\D+) pass (?P<completion>incomplete|complete)\W*)", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get passer
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			passer = m.group("passer")
+			# init passing class
+			completion = 1 if m.group("completion") == "complete" else 0
+			pass_play = Passing_Play(0, play_num, offense, passer, completion)
+			# get receiver (at end of string)
+			m = re.match(r"(to (?P<receiver>\D+)\Z)", play_desc)
+			if m:
+				pass_play.Receiver = m.group("receiver")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# get receiver (with yards gained)
+			m = re.match(r"(to (?P<receiver>\D+) for\W+)", play_desc)
+			if m:
+				pass_play.Receiver = m.group("receiver")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for loss of yards
+			m = re.match(r"(a (?P<loss>loss) of\W+)", play_desc)
+			if m:
+				loss = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				loss = 0
+			# get yards gained
+			yards = 0
+			m = re.match(r"(((?P<yards>\d+) (?:yards|yard|yds|yd)\W+)|(?P<no_gain>no gain)\W+)", play_desc)
+			if m:
+				if m.group("yards"):
+					yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			pass_play.Yards = yards
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for first down
+			m = re.search(r"(for a (?P<fd>1ST down)\s*)", play_desc, re.IGNORECASE)
+			if m:
+				fd = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fd = 0
+			pass_play.First_down = fd
+			# check for safety
+			m = re.match(r"(for a (?P<safety>SAFETY)\s*)", play_desc)
+			if m:
+				safety = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				safety = 0
+			pass_play.Safety = safety
+			# check for fumble
+			m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+			if m:
+				fumble = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble = 0
+			pass_play.Fumble = fumble
+			# chech for fumble lost
+			m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+			if m and fumble == 1:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+				if number != offense:
+					fl = 1
+				else:
+					fl = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				pass_play.Fumble_Lost = fl
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			pass_play.Touchdown = td
+			if td:	# check extra point
+				if pass_play.Yards > dist:	# check for would be first down
+					pass_play.First_down = 1
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+			else:
+				extra_point = 0
+
+			if offense == home:
+				home_passing_plays.append(pass_play)
+				home_passing_plays_print.append(pass_play.Compile_Play())
+				#print home_passing_plays[len(home_passing_plays) - 1].Compile_Play()
+			else:
+				visitor_passing_plays.append(pass_play)
+				visitor_passing_plays_print.append(pass_play.Compile_Play())
+				#print visitor_passing_plays[len(visitor_passing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Pass_Stats(pass_play, extra_point, play[0], red_zone)
+				visitor_team_game_stats.Add_Def_Pass_Stats(pass_play, td, extra_point)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Off_Pass_Stats(pass_play, extra_point, play[0], red_zone)
+				home_team_game_stats.Add_Def_Pass_Stats(pass_play, td, extra_point)
+
+		# =============================================================================================================
+		# Check for pass play interception
+		# =============================================================================================================
+		m = re.match(r"((?P<passer>\D+) pass intercepted\W*)", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get passer
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			passer = m.group("passer")
+			# init passing class
+			pass_play = Passing_Play(0, play_num, offense, passer, 0)
+			pass_play.Interception = 1
+			# get interceptor
+			m = re.match(r"((?P<interceptor>\D+) return )", play_desc)
+			if m:
+				interceptor = m.group("interceptor")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for loss of yards
+			m = re.match(r"(a (?P<loss>loss) of\W+)", play_desc)
+			if m:
+				loss = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				loss = 0
+			# get yards gained
+			yards = 0
+			m = re.match(r"(for (?P<yards>\d+) (?:yards|yard|yds|yd)\W+)|(for (?P<no_gain>no gain)\W*)", play_desc)
+			if m:
+				if m.group("yards"):
+					yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			#pass_play.Yards = yards
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for first down
+			m = re.match(r"(for a (?P<fd>1ST down))", play_desc, re.IGNORECASE)
+			if m:
+				fd = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fd = 0
+			pass_play.First_down = fd
+			# check for safety
+			m = re.match(r"(for a (?P<safety>SAFETY)\s+)", play_desc)
+			if m:
+				safety = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				safety = 0
+			pass_play.Safety = safety
+			# check for fumble
+		#	m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+		#	if m:
+		#		fumble = 1
+		#		play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+		#	else:
+		#		fumble = 0
+		#	pass_play.Fumble = fumble
+		#	# chech for fumble lost
+		#	m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+		#	if m and fumble == 1:
+		#		(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+		#		if number != offense:
+		#			fl = 1
+		#		else:
+		#			fl = 0
+		#		play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+		#		pass_play.Fumble_Lost = fl
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			#pass_play.Touchdown = td
+			if td:	# check extra point
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+
+			if offense == home:
+				home_passing_plays.append(pass_play)
+				home_passing_plays_print.append(pass_play.Compile_Play())
+				#print home_passing_plays[len(home_passing_plays) - 1].Compile_Play()
+			else:
+				visitor_passing_plays.append(pass_play)
+				visitor_passing_plays_print.append(pass_play.Compile_Play())
+				#print visitor_passing_plays[len(visitor_passing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Pass_Stats(pass_play, extra_point, play[0], red_zone)
+				visitor_team_game_stats.Add_Def_Pass_Stats(pass_play, td, extra_point)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Off_Pass_Stats(pass_play, extra_point, play[0], red_zone)
+				home_team_game_stats.Add_Def_Pass_Stats(pass_play, td, extra_point)
+
+		# =============================================================================================================
+		# Check for sack
+		# =============================================================================================================
+		m = re.match(r"((?P<passer>\D+) sacked by )", play_desc)
+		if m:
+			# inc play number
+			play_num += 1
+			# get passer
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			passer = m.group("passer")
+			# init passing class
+			rush_play = Rushing_Play(0, play_num, offense, passer)
+			rush_play.Sack = 1
+			# get sacker
+			m = re.match(r"((?:(?P<sacker>\D+)|(?P<sacker_group>\D+ and \D+)) for )", play_desc)
+			if m:
+				if m.group("sacker"):
+					sacker = m.group("sacker")
+				else:
+					sacker = m.group("sacker_group")
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for loss of yards
+			m = re.match(r"(a (?P<loss>loss) of\W+)", play_desc)
+			if m:
+				loss = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				loss = 0
+			# get yards gained
+			yards = 0
+			m = re.match(r"(((?P<yards>\d+) (?:yards|yard|yds|yd)\W+)|(?P<no_gain>no gain)\W+)", play_desc)
+			if m:
+				if m.group("yards"):
+					yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			rush_play.Yards = yards
+			# get new position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for first down
+			m = re.match(r"(for a (?P<fd>1ST down))", play_desc, re.IGNORECASE)
+			if m:
+				fd = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fd = 0
+			#rush_play.First_down = fd
+			# check for safety
+			m = re.match(r"(for a (?P<safety>SAFETY)\s+)", play_desc)
+			if m:
+				safety = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				safety = 0
+			rush_play.Safety = safety
+			# check for fumble
+			m = re.match(r"(\D+ (?P<fumble>fumbled)(?:\W\s)?)", play_desc)
+			if m:
+				fumble = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fumble = 0
+			rush_play.Fumble = fumble
+			# chech for fumble lost
+			m = re.match(r"(recovered by (?P<team>\w+)(?: (?P<player>\D+))?)", play_desc)
+			if m and fumble == 1:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team"), team_arr, abbv_arr, approved_abbv)
+				if number != offense:
+					fl = 1
+				else:
+					fl = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				rush_play.Fumble_Lost = fl
+			# check for touchdown
+			(td, play_desc) = Check_Touchdown(play_desc, play, home_score, visitor_score)
+			#rush_play.Touchdown = td
+			if td:	# check extra point
+				(play_desc, extra_point) = Check_Extra_Point(play_desc, td)
+
+			if offense == home:
+				home_rushing_plays.append(rush_play)
+				home_rushing_plays_print.append(rush_play.Compile_Play())
+				#print home_rushing_plays[len(home_passing_plays) - 1].Compile_Play()
+			else:
+				visitor_rushing_plays.append(rush_play)
+				visitor_rushing_plays_print.append(rush_play.Compile_Play())
+				#print visitor_rushing_plays[len(visitor_passing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if offense == home:
+				home_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				visitor_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+			elif offense == visitor:
+				visitor_team_game_stats.Add_Off_Rush_Stats(rush_play, extra_point, play[0], red_zone)
+				home_team_game_stats.Add_Def_Rush_Stats(rush_play, td, extra_point)
+
+		# =============================================================================================================
+		# Check for a penalty
+		# =============================================================================================================
+		m = re.match(r"((?P<team1>\D+) Penalty\W+)|(Penalty (?P<team2>\w+)\W+)", play_desc, re.IGNORECASE)
+		if m:
+			# inc play number
+			play_num += 1
+			play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# set penalty class
+			if m.group("team1"):
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team1"), team_arr, abbv_arr, approved_abbv)
+			else:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("team2"), team_arr, abbv_arr, approved_abbv)
+			penalty = Penalty(0, number, play_num)
+			# get type and yards/player
+			m = re.match(r"((?P<penalty_type>\D+) \(((?P<player>\D+)|(?P<loss>\-)?(?P<yards>\d+) Yards)\)\W*)", play_desc)
+			if m:
+				penalty.Type = m.group("penalty_type")
+				penalty.Player = m.group("player") if m.group("player") != None else ""
+				if m.group("yards"):
+					penalty.Yards = int(m.group("yards")) if m.group("loss") == None else -1 * int(m.group("yards"))
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			m = re.match(r"((?P<penalty_type>\D+) (?P<yards>\d+) Yards\W*)", play_desc, re.IGNORECASE)
+			if m:
+				penalty.Type = m.group("penalty_type")
+				penalty.Yards = int(m.group("yards"))
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# get yards
+			m = re.match(r"(((?P<yards>\d+) (?:yards|yard|yds|yd)\W+)|(?P<no_gain>no gain)\W+)", play_desc)
+			if m:
+				if m.group("yards"):
+					yards = -1*int(m.group("yards")) if loss == 1 else int(m.group("yards"))
+				elif m.group("no_gain"):
+					yards = 0
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+				penalty.Yards = yards
+			# get field position
+			m = re.match(r"(to the (?P<field_half>\D+) (?P<yard_line>\d+)(?:,)?(?:\s+)?)|(to the (?P<fifty>50) (?:yard|yd) line(?:,)?(?:\s+)?)", play_desc)
+			if m:
+				if m.group("field_half"):
+					(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+					if number == offense:
+						field_pos = int(m.group("yard_line"))
+					else:
+						field_pos = 100 - int(m.group("yard_line"))
+				elif m.group("fifty"):
+					field_pos = 50
+				penalty.Field_Pos = field_pos
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			m = re.match(r"(to the (?P<field_half>\D+)(?P<yard_line>\d+))", play_desc)
+			if m:
+				(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("field_half"), team_arr, abbv_arr, approved_abbv)
+				if number == offense:
+					field_pos = int(m.group("yard_line"))
+				else:
+					field_pos = 100 - int(m.group("yard_line"))
+				penalty.Field_Pos = field_pos
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# check for first down
+			m = re.search(r"(for a (?P<fd>1ST down))", play_desc, re.IGNORECASE)
+			if m:
+				fd = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			else:
+				fd = 0
+			penalty.First_down = fd
+			# get declined
+			m = re.match(r"declined", play_desc, re.IGNORECASE)
+			if m:
+				penalty.Declined = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+			# get no play
+			m = re.match(r"(\D+NO PLAY\D+)", play_desc, re.IGNORECASE)
+			if m:
+				penalty.No_Play = 1
+				play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
+
+			if penalty.Team_Code == home:
+				home_penalties.append(penalty)
+				home_penalties_print.append(penalty.Compile_Play())
+				#print home_rushing_plays[len(home_rushing_plays) - 1].Compile_Play()
+			else:
+				visitor_penalties.append(penalty)
+				visitor_penalties_print.append(penalty.Compile_Play())
+				#print visitor_rushing_plays[len(visitor_rushing_plays) - 1].Compile_Play()
+
+			# Add to team-game-stats
+			if penalty.Team_Code == home:
+				home_team_game_stats.Add_Def_Penalty_Stats(penalty)
+				visitor_team_game_stats.Add_Off_Penalty_Stats(penalty)
+			else:
+				visitor_team_game_stats.Add_Def_Penalty_Stats(penalty)
+				home_team_game_stats.Add_Off_Penalty_Stats(penalty)
+
+		# check the score
+		try:
+			visitor_score = int(play[2])
+			visitor_team_game_stats.Points = visitor_score
+		except:
+			pass
+		try:
+			home_score = int(play[3])
+			home_team_game_stats.Points = home_score
+		except:
+			pass
+
+		# check for full parsing
+		if len(play_desc):
+			print "\nWARNING: I couldn't parse this play!" 
+			print "---------------------------------------------------------------------"
+			print play_desc + "\n"
+			print play[1]
+			print "---------------------------------------------------------------------"
+			#raw_input()
+
+	# Return outputs
+	vtgs = visitor_team_game_stats.Compile_Stats()
+	htgs = home_team_game_stats.Compile_Stats()
+	vrush = visitor_rushing_plays_print
+	hrush = home_rushing_plays_print
+	vpass = visitor_passing_plays_print
+	hpass = home_passing_plays_print
+	vpenl = visitor_penalties_print
+	hpenl = home_penalties_print
+	return (vtgs, htgs, vrush, hrush, vpass, hpass, vpenl, hpenl)
