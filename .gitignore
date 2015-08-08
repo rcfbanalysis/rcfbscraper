@@ -3,6 +3,8 @@
 *~
 #*.csv
 #*.CSV
+*.txt
+*.TXT
 
 # History files
 .Rhistory

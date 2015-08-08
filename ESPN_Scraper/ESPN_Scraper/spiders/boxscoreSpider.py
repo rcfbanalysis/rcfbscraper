@@ -36,10 +36,31 @@ def Write_CSV(data, file_name):
 		data_writer.writerows(data)
 		csvfile.close()
 
+
+# Checks all stat markers for a match
+def CheckAll(row):
+	rush_team = re.search(r"(?P<team>.+) Rushing", row)
+	pass_team = re.search(r"(?P<team>.+) Passing", row)
+	ret_team1 = re.search(r"(?P<team>.+) Kick Returns", row)
+	ret_team2 = re.search(r"(?P<team>.+) Punt Returns", row)
+	ret_team3 = re.search(r"(?P<team>.+) Interceptions", row)
+	ret_team4 = re.search(r"(?P<team>.+) Kicking", row)
+	punt = re.search(r"(?P<team>.+) Punting", row)
+	if rush_team or pass_team or ret_team1 or ret_team2 or ret_team3 or ret_team4 or punt:
+		return True
+	else:
+		return False
+
 def Parse_Box(rows, team_TGS, team_abbvs):
 	debug = False
 	for i in range(0, len(rows)):
 		rush_team = re.search(r"(?P<team>.+) Rushing", rows[i][0])
+		pass_team = re.search(r"(?P<team>.+) Passing", rows[i][0])
+		ret_team1 = re.search(r"(?P<team>.+) Kick Returns", rows[i][0])
+		ret_team2 = re.search(r"(?P<team>.+) Punt Returns", rows[i][0])
+		ret_team3 = re.search(r"(?P<team>.+) Interceptions", rows[i][0])
+		ret_team4 = re.search(r"(?P<team>.+) Kicking", rows[i][0])
+		punt = re.search(r"(?P<team>.+) Punting", rows[i][0])
 		if rush_team:
 			for team_abbv in team_abbvs:
 				team_name = rush_team.group("team").lower().replace("-", "")
@@ -56,11 +77,15 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Rush_Yard = 0
 						team_TGS.Rush_TD = 0
 						break
-					team_TGS.Rush_Att = rows[i][1]
-					team_TGS.Rush_Yard = rows[i][2]
-					team_TGS.Rush_TD = rows[i][4]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 5:
+							team_TGS.Rush_Att = rows[i][1]
+							team_TGS.Rush_Yard = rows[i][2]
+							team_TGS.Rush_TD = rows[i][4]
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		pass_team = re.search(r"(?P<team>.+) Passing", rows[i][0])
 		if pass_team:
 			for team_abbv in team_abbvs:
 				team_name = pass_team.group("team").lower().replace("-", "")
@@ -79,17 +104,21 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Pass_TD = 0
 						team_TGS.Pass_Int = 0
 						break
-					cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[i][1])
-					team_TGS.Pass_Att = cmp_att.group("att")
-					team_TGS.Pass_Comp = cmp_att.group("cmp")
-					team_TGS.Pass_Yard = rows[i][2]
-					team_TGS.Pass_TD = rows[i][4]
-					team_TGS.Pass_Int = rows[i][5]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 6:
+							cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[i][1])
+							team_TGS.Pass_Att = cmp_att.group("att")
+							team_TGS.Pass_Comp = cmp_att.group("cmp")
+							team_TGS.Pass_Yard = rows[i][2]
+							team_TGS.Pass_TD = rows[i][4]
+							team_TGS.Pass_Int = rows[i][5]
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		ret_team = re.search(r"(?P<team>.+) Kick Returns", rows[i][0])
-		if ret_team:
+		if ret_team1:
 			for team_abbv in team_abbvs:
-				team_name = ret_team.group("team").lower().replace("-", "")
+				team_name = ret_team1.group("team").lower().replace("-", "")
 				team_name = team_name.lower().replace(" ", "")
 				team_abbv[0] = team_abbv[0].lower().replace("-", "")
 				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
@@ -103,14 +132,18 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Kickoff_Ret_Yard = 0
 						team_TGS.Kickoff_Ret_TD = 0
 						break
-					team_TGS.Kickoff_Ret = rows[i][1]
-					team_TGS.Kickoff_Ret_Yard = rows[i][2]
-					team_TGS.Kickoff_Ret_TD = rows[i][5]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 6:
+							team_TGS.Kickoff_Ret = rows[i][1]
+							team_TGS.Kickoff_Ret_Yard = rows[i][2]
+							team_TGS.Kickoff_Ret_TD = rows[i][5]
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		ret_team = re.search(r"(?P<team>.+) Punt Returns", rows[i][0])
-		if ret_team:
+		if ret_team2:
 			for team_abbv in team_abbvs:
-				team_name = ret_team.group("team").lower().replace("-", "")
+				team_name = ret_team2.group("team").lower().replace("-", "")
 				team_name = team_name.lower().replace(" ", "")
 				team_abbv[0] = team_abbv[0].lower().replace("-", "")
 				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
@@ -124,14 +157,18 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Punt_Ret_Yard = 0
 						team_TGS.Punt_Ret_TD = 0
 						break
-					team_TGS.Punt_Ret = rows[i][1]
-					team_TGS.Punt_Ret_Yard = rows[i][2]
-					team_TGS.Punt_Ret_TD = rows[i][5]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 6:
+							team_TGS.Punt_Ret = rows[i][1]
+							team_TGS.Punt_Ret_Yard = rows[i][2]
+							team_TGS.Punt_Ret_TD = rows[i][5]
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		ret_team = re.search(r"(?P<team>.+) Interceptions", rows[i][0])
-		if ret_team:
+		if ret_team3:
 			for team_abbv in team_abbvs:
-				team_name = ret_team.group("team").lower().replace("-", "")
+				team_name = ret_team3.group("team").lower().replace("-", "")
 				team_name = team_name.lower().replace(" ", "")
 				team_abbv[0] = team_abbv[0].lower().replace("-", "")
 				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
@@ -145,14 +182,18 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Int_Ret_Yard = 0
 						team_TGS.Int_Ret_TD = 0
 						break
-					team_TGS.Int_Ret = rows[i][1]
-					team_TGS.Int_Ret_Yard = rows[i][2]
-					team_TGS.Int_Ret_TD = rows[i][3]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 4:
+							team_TGS.Int_Ret = rows[i][1]
+							team_TGS.Int_Ret_Yard = rows[i][2]
+							team_TGS.Int_Ret_TD = rows[i][3]
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		ret_team = re.search(r"(?P<team>.+) Kicking", rows[i][0])
-		if ret_team:
+		if ret_team4:
 			for team_abbv in team_abbvs:
-				team_name = ret_team.group("team").lower().replace("-", "")
+				team_name = ret_team4.group("team").lower().replace("-", "")
 				team_name = team_name.lower().replace(" ", "")
 				team_abbv[0] = team_abbv[0].lower().replace("-", "")
 				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
@@ -161,14 +202,18 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
 					while rows[i][0] != "Team":
 						i += 1
-					fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][1])
-					xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][4])
-					team_TGS.Field_Goal_Att = fg_att.group("att")
-					team_TGS.Field_Goal_Made = fg_att.group("good")
-					team_TGS.Off_XP_Kick_Att = xp_att.group("att")
-					team_TGS.Off_XP_Kick_Made = xp_att.group("good")
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 5:
+							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][1])
+							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][4])
+							team_TGS.Field_Goal_Att = fg_att.group("att")
+							team_TGS.Field_Goal_Made = fg_att.group("good")
+							team_TGS.Off_XP_Kick_Att = xp_att.group("att")
+							team_TGS.Off_XP_Kick_Made = xp_att.group("good")
+						i += 1
+						if i >= len(rows):
+							break
 					break
-		punt = re.search(r"(?P<team>.+) Punting", rows[i][0])
 		if punt:
 			for team_abbv in team_abbvs:
 				team_name = punt.group("team").lower().replace("-", "")
@@ -184,8 +229,13 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						team_TGS.Punt = 0
 						team_TGS.Punt_Yard = 0
 						break
-					team_TGS.Punt = rows[i][1]
-					team_TGS.Punt_Yard = rows[i][2]
+					while not CheckAll(rows[i][0]):
+						if len(rows[i]) >= 3:
+							team_TGS.Punt = rows[i][1]
+							team_TGS.Punt_Yard = rows[i][2]
+						i += 1
+						if i >= len(rows):
+							break
 					break
 	return team_TGS
 
@@ -346,7 +396,7 @@ class boxscoreSpider(scrapy.Spider):
 		# END DEBUG --
 
 		if os.path.isfile("2014 Stats/team-game-statistics.csv"):
-			f = open("2014 Stats/team-game-statistics.csv",'a')
+			f = open("2014 Stats/team-game-statistics.csv","a")
 			data_writer = csv.writer(f, lineterminator = '\n')
 			new_rows = []
 			new_rows.append(visitor_TGS.Compile())

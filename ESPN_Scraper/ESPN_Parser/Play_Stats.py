@@ -317,11 +317,21 @@ class Play_Stats:
 	def Check_TD(self, play_desc, prev_play, td_regex, expt_regex1):
 		td = td_regex.search(play_desc)
 		if td:
-			if self.Off_Points >= prev_play.Off_Points + 6:
+			# offesive TD
+			if self.Off_Points >= prev_play.Off_Points + 6 and self.Offense == prev_play.Offense:
 				self.Off_Touchdown = 1
 				if self.Yards_Gained >= self.Distance:
 					self.First_Down = 1
-			elif self.Def_Points >= prev_play.Def_Points + 6:
+			# offensive TD on first play
+			elif self.Off_Points >= prev_play.Def_Points + 6 and self.Offense == prev_play.Defense:
+				self.Off_Touchdown = 1
+				if self.Yards_Gained >= self.Distance:
+					self.First_Down = 1
+			# defensive TD
+			elif self.Def_Points >= prev_play.Def_Points + 6 and self.Defense == prev_play.Defense:
+				self.Def_Touchdown = 1
+			# defensive TD on first play
+			elif self.Def_Points >= prev_play.Off_Points + 6 and self.Defense == prev_play.Offense:
 				self.Def_Touchdown = 1
 			play_desc = re.sub(re.escape(td.group(0)), "", play_desc)
 			# check for extra point

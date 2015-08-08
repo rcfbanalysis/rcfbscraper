@@ -5,7 +5,15 @@ class Game:
 
     # Constructor
     def __init__(self, pbp_data):
+        self.Code = pbp_data[0][0]
+        self.Date = int(long(self.Code) % 1e8)
+        self.Current_Qrt = 1
+        self.Visitor_Pts = 0
+        self.Home_Pts = 0
 
+
+    # Set home/visitor with score
+    def Set_Home_Visitor(self, pbp_data):
         # Find home and visitor team; set code
         for play in pbp_data:
             if len(play) > 2:
@@ -15,11 +23,6 @@ class Game:
                     m = re.search(r"t(?P<home>\d+)", play[3])
                     self.Home = int(m.group("home"))
                     break
-
-        self.Code = pbp_data[0][0]
-        self.Current_Qrt = 1
-        self.Visitor_Pts = 0
-        self.Home_Pts = 0
 
 
     # Sets the quarter if a new one occurs
