@@ -1,6 +1,0 @@
-Date: 20141104
-Home: Kent State (331)
-Visitor: Toledo (709)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548148
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548148
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548148

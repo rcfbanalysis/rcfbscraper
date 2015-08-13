@@ -1,6 +1,0 @@
-Date: 20150101
-Home: OSU (518)
-Visitor: Alabama (8)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610178
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610178
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610178

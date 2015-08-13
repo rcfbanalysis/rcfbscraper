@@ -1,6 +1,0 @@
-Date: 20141004
-Home: Nevada (466)
-Visitor: Boise State (66)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548206
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548206
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548206

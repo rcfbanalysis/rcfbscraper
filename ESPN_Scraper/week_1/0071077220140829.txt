@@ -1,6 +1,0 @@
-Date: 20140829
-Home: W Kentucky (772)
-Visitor: Bowling Green (71)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548003
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548003
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548003

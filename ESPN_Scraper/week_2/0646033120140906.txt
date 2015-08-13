@@ -1,6 +1,0 @@
-Date: 20140906
-Home: Kent State (331)
-Visitor: South Alabama (646)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548104
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548104
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548104

@@ -1,6 +1,0 @@
-Date: 20141121
-Home: San Diego State (626)
-Visitor: Air Force (721)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548243
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548243
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548243

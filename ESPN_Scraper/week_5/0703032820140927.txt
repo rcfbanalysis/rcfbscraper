@@ -1,6 +1,0 @@
-Date: 20140927
-Home: Kansas (328)
-Visitor: Texas (703)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547862
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547862
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547862

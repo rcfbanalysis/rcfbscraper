@@ -1,6 +1,0 @@
-Date: 20141101
-Home: Syracuse (688)
-Visitor: NC State (490)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547806
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547806
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547806

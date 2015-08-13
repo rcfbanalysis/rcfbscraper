@@ -1,6 +1,0 @@
-Date: 20141220
-Home: Bowling Green (71)
-Visitor: South Alabama (646)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610201
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610201
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610201

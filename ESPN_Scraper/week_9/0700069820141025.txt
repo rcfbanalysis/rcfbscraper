@@ -1,6 +1,0 @@
-Date: 20141025
-Home: TCU (698)
-Visitor: Texas Tech (700)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547880
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547880
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547880

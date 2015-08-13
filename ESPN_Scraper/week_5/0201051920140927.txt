@@ -1,6 +1,0 @@
-Date: 20140927
-Home: Ohio (519)
-Visitor: E Illinois (201)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548118
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548118
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548118
