@@ -45,6 +45,14 @@ def Convert_PBP_Data(pbp_file):
 	# Find and replace team names
 	teams = []
 	(team1_code, team1_name, team2_code, team2_name, abbv_arr) = Define_Team_Names(pbp_data, team_arr, abbv_arr)
+
+	for play in pbp_data:
+		start = re.match(r"(?P<offense>\D+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
+		if start:
+			print play[0]
+			(code, name, abbv_arr) = New_Find_Abbv_Team(start.group("offense"), team_arr, abbv_arr)
+			pbp_data = Replace_All_Names(pbp_data, str(start.group("offense")), "t" + code)
+
 	pbp_data = Replace_All_Names(pbp_data, team1_name, "t" + team1_code)
 	pbp_data = Replace_All_Names(pbp_data, team2_name, "t" + team2_code)
 	teams.append([team1_code, team1_name])
@@ -60,10 +68,27 @@ def Convert_PBP_Data(pbp_file):
 	visitor_name = team1_name
 	home_code = team2_code
 	home_name = team2_name
-	for play in pbp_data:
+	# flag = 0
+	# if int(team1_code) == 30 and int(team2_code) == 27:
+	# 	print "1: " + str(team1_code)
+	# 	print "2: " + str(team2_code)
+	# 	print "Home: " + str(home_code)
+	# 	print "Visitor: " + str(visitor_code)
+	# 	flag = raw_input()
+	# elif int(team1_code) == 27 and int(team2_code) == 30:
+	# 	print "1: " + str(team1_code)
+	# 	print "2: " + str(team2_code)
+	# 	print "Home: " + str(home_code)
+	# 	print "Visitor: " + str(visitor_code)
+	# 	flag = raw_input()
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
 		if len(play) > 3 and play[2] != "" and not is_number(play[2]):
-			pbp_data = Replace_All_Names(pbp_data, play[2], "t" + visitor_code)
-			pbp_data = Replace_All_Names(pbp_data, play[3], "t" + home_code)
+			if play[2] != play[3]:
+				pbp_data = Replace_All_Names(pbp_data, str(play[2]), "t" + visitor_code)
+				pbp_data = Replace_All_Names(pbp_data, str(play[3]), "t" + home_code)
+			pbp_data[i][2] = "t" + visitor_code
+			pbp_data[i][3] = "t" + home_code
 
 	# Find and replace home/visitor spot abbreviations
 	for play in pbp_data:
@@ -80,17 +105,36 @@ def Convert_PBP_Data(pbp_file):
 				(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("team"), teams, abbv_arr)
 				pbp_data = Replace_All_Names(pbp_data, str(m.group("team")), "t" + code)
 
+	# if int(flag) == 1:
+	# 	for play in pbp_data:
+	# 		print play
+	# 	raw_input()
+
 	return pbp_data
 
 
 # Locates the names of the two teams in this game (uses team name in drive switching)
 def Define_Team_Names(pbp_data, team_arr, abbv_arr):
+
+	# Try game code first
+	team1_name = ""
+	team2_name = ""
+	try:
+		team1_code = str(Extract_Team_Code(pbp_data[0][0],"v"))
+		team2_code = str(Extract_Team_Code(pbp_data[0][0],"h"))
+		for team in team_arr:
+			if int(team[0]) == int(team1_code):
+				team1_name = team[1]
+			if int(team[0]) == int(team2_code):
+				team2_name = team[1]
+	except:
+		pass
+	if team1_name != "" and team2_name != "":
+		return (team1_code, team1_name, team2_code, team2_name, abbv_arr)
 	
 	# Find the two teams
 	team1_code = pbp_data[0][2]
 	team2_code = pbp_data[0][3]
-	team1_name = ""
-	team2_name = ""
 	for team in team_arr:
 		if int(team[0]) == int(team1_code):
 			team1_name = team[1]
@@ -100,6 +144,7 @@ def Define_Team_Names(pbp_data, team_arr, abbv_arr):
 		return (team1_code, team1_name, team2_code, team2_name, abbv_arr)
 	else:
 		print pbp_data[0]
+		raw_input()
 
 	for play in pbp_data:
 		m = re.match(r"(?P<offense>\D+) at \d+\:\d+", play[0])
@@ -226,6 +271,9 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr):
 		for team in abbv_arr:
 			if abbv == team[0]:
 				return (team[1], team[2], abbv_arr)
+	for team in team_arr:
+		if abbv == team[1]:
+			return (team[0], team[1], abbv_arr)
 	team_sort = []
 	for i in range(0, len(team_arr)):
 		team_sort_tmp = [0] * 3					# naming correlation
@@ -306,10 +354,16 @@ def Compile_Drives(pbp_data, game):
 	drives = []
 	cur_drive = Drive(0, 0, 0, 0, 0, 0)
 	cur_drive.Finished = 1
+	new_Quarter = False
 	for play in pbp_data:
+
 		game.Set_Quarter(play)
 		start = re.match(r"t(?P<offense>\d+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
 		stop = re.match(r"t(?P<team>\d+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?:\-)?(?P<yards>\d+) (?:yards|yard|yds|yd)\, (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
+		quarter_start = re.search("Quarter Play-by-Play",play[0],re.IGNORECASE)
+		if quarter_start:
+			new_Quarter = True
+
 		if start:	# Check for the start of a new drive
 			if int(start.group("offense")) == game.Home:
 				offense = game.Home
@@ -322,10 +376,13 @@ def Compile_Drives(pbp_data, game):
 				print game.Home
 				print game.Visitor
 			start_time = Set_Clock(start.group("min"), start.group("sec"))
-			if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
-				print "WARNING: Drive summary never produced"
-				drives.append(cur_drive)
-			cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
+			if new_Quarter:
+				new_Quarter = False
+			else:
+				if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
+					# print "WARNING: Drive summary never produced"
+					drives.append(cur_drive)
+				cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
 		elif stop:	# Check for the end of a drive
 			plays = int(stop.group("plays"))
 			yards = int(stop.group("yards"))
@@ -544,6 +601,17 @@ def Get_Field_Pos(team, offense, pos):
 		return 100 - pos
 
 
+def Extract_Team_Code(game_code, team):
+	if team == "v":
+		return int(int(math.floor(float(game_code)/1e12)))
+	elif team == "h":
+		return int(int(math.floor(float(game_code)/1e8)) % 1e4)
+	else:
+		flag = raw_input("h or v?")
+		return Extract_Team_Code(game_code, flag)
+
+
+
 # ==================================================================
 # ===== MAIN FUNCTION ==============================================
 # ==================================================================
@@ -561,9 +629,23 @@ for game_file in game_files:
 	# Read raw play-by-play
 	pbp_file = path + game_file
 	pbp_data = Convert_PBP_Data(pbp_file)
+	Write_CSV(pbp_data, "../tmpfiles/" + str(game_file))
 
 	# Create game and collect drive data
 	game = Game(pbp_data)
+	if game.Date == 0:
+		print "Bad game code"
+		print pbp_data[0][0]
+		raw_input()
+	try:
+		game.Visitor = int(Extract_Team_Code(game.Code, "v"))
+		game.Home = int(Extract_Team_Code(game.Code, "h"))
+	except:
+		game.Set_Home_Visitor(pbp_data)
+		print pbp_data[0][0]
+		for play in pbp_data:
+			print play
+			raw_input()
 	drives = Compile_Drives(pbp_data, game)
 
 	# Parse data into play form
@@ -598,8 +680,19 @@ for game_file in game_files:
 				allPlays.append(cur_play)
 				drive.Play_List.append(cur_play)
 
+		play_count = 0
+		for play in drive.Play_List:
+			if play.Play_Type in ['PASS','RUSH','SACK']:
+				play_count += 1
+		if drive.Plays != play_count and drive.Plays > 0:
+			print "Play number mismatch"
+
 	# Go back and fill in remaining drive data
 	for drive in drives:
+		new_Play_List = list(set(drive.Play_List))
+		if len(new_Play_List) != len (drive.Play_List):
+			print "Duplicate items in drive possible error"
+
 		for i in range(0, len(drive.Play_List)):
 			play = drive.Play_List[i]
 			# get start spot
@@ -652,8 +745,8 @@ for play in allPlays:
 		if prev_game_code != 0:
 			allTGS.append(home_tgs)
 			allTGS.append(visitor_tgs)
-		home_code = int(math.floor(float(play.Game_Code)/1e12))
-		visitor_code = int(math.floor(float(play.Game_Code)/1e8)) % 1e4
+		visitor_code = int(math.floor(float(play.Game_Code)/1e12))
+		home_code = int(math.floor(float(play.Game_Code)/1e8)) % 1e4
 		home_tgs = Team_Game_Statistics(play.Game_Code, home_code)
 		visitor_tgs = Team_Game_Statistics(play.Game_Code, visitor_code)
 		prev_game_code = float(play.Game_Code)
