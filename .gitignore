@@ -14,3 +14,5 @@
 
 # R data files from past sessions
 .Rdata
+*.csv
+ESPN_Scraper/tmpfiles/httpscoresespngocomncfboxscoregameId400547838.txt
