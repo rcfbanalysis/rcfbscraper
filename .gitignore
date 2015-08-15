@@ -1,10 +1,10 @@
 *.pyc
 
 *~
-*.csv
-*.CSV
-*.txt
-*.TXT
+#*.csv
+#*.CSV
+#*.txt
+#*.TXT
 
 # History files
 .Rhistory
