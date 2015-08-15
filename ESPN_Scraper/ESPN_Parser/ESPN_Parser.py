@@ -354,10 +354,16 @@ def Compile_Drives(pbp_data, game):
 	drives = []
 	cur_drive = Drive(0, 0, 0, 0, 0, 0)
 	cur_drive.Finished = 1
+	new_Quarter = False
 	for play in pbp_data:
+
 		game.Set_Quarter(play)
 		start = re.match(r"t(?P<offense>\d+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
 		stop = re.match(r"t(?P<team>\d+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?:\-)?(?P<yards>\d+) (?:yards|yard|yds|yd)\, (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
+		quarter_start = re.search("Quarter Play-by-Play",play[0],re.IGNORECASE)
+		if quarter_start:
+			new_Quarter = True
+
 		if start:	# Check for the start of a new drive
 			if int(start.group("offense")) == game.Home:
 				offense = game.Home
@@ -370,10 +376,20 @@ def Compile_Drives(pbp_data, game):
 				print game.Home
 				print game.Visitor
 			start_time = Set_Clock(start.group("min"), start.group("sec"))
+<<<<<<< HEAD
 			if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
 				# print "WARNING: Drive summary never produced"
 				drives.append(cur_drive)
 			cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
+=======
+			if new_Quarter:
+				new_Quarter = False
+			else:
+				if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
+					# print "WARNING: Drive summary never produced"
+					drives.append(cur_drive)
+				cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
+>>>>>>> 835e79768a2a2b9e240a551d2eac984d1ba9b0a9
 		elif stop:	# Check for the end of a drive
 			plays = int(stop.group("plays"))
 			yards = int(stop.group("yards"))
@@ -671,8 +687,19 @@ for game_file in game_files:
 				allPlays.append(cur_play)
 				drive.Play_List.append(cur_play)
 
+		play_count = 0
+		for play in drive.Play_List:
+			if play.Play_Type in ['PASS','RUSH','SACK']:
+				play_count += 1
+		if drive.Plays != play_count and drive.Plays > 0:
+			print "Play number mismatch"
+
 	# Go back and fill in remaining drive data
 	for drive in drives:
+		new_Play_List = list(set(drive.Play_List))
+		if len(new_Play_List) != len (drive.Play_List):
+			print "Duplicate items in drive possible error"
+
 		for i in range(0, len(drive.Play_List)):
 			play = drive.Play_List[i]
 			# get start spot
