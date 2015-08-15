@@ -1,6 +1,0 @@
-Date: 20141127
-Home: Texas A&M (697)
-Visitor: LSU (365)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548327
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548327
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548327

@@ -1,6 +1,0 @@
-Date: 20141018
-Home: Bowling Green (71)
-Visitor: W Michigan (774)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548138
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548138
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548138

@@ -1,6 +1,0 @@
-Date: 20141115
-Home: W Michigan (774)
-Visitor: E Michigan (204)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548155
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548155
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548155

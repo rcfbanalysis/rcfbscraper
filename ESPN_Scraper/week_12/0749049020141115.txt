@@ -1,6 +1,0 @@
-Date: 20141115
-Home: NC State (490)
-Visitor: Wake Forest (749)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547807
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547807
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547807

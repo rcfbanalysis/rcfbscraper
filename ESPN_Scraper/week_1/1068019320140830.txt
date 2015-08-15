@@ -1,6 +1,0 @@
-Date: 20140830
-Home: Duke (193)
-Visitor: Elon (1068)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547751
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547751
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547751

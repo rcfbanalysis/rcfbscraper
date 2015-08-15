@@ -1,6 +1,0 @@
-Date: 20141226
-Home: UNC (457)
-Visitor: Rutgers (587)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610212
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610212
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610212

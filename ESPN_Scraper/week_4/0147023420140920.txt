@@ -1,6 +1,0 @@
-Date: 20140920
-Home: FSU (234)
-Visitor: Clemson (147)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547742
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547742
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547742

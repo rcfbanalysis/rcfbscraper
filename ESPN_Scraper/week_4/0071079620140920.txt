@@ -1,6 +1,0 @@
-Date: 20140920
-Home: Wisconsin (796)
-Visitor: Bowling Green (71)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548002
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548002
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548002

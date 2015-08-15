@@ -1,6 +1,0 @@
-Date: 20141222
-Home: Memphis (404)
-Visitor: BYU (77)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610225
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610225
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610225

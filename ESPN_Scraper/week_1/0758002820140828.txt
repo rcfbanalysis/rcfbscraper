@@ -1,6 +1,0 @@
-Date: 20140828
-Home: Arizona State (28)
-Visitor: Weber State (758)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548255
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548255
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548255

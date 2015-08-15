@@ -29,17 +29,17 @@ Penalties,6-50,3-25
 Turnovers,0,1
 Fumbles lost,0,1
 Interceptions thrown,0,0
-Possession,25:20,46:52
+Possession,25:20,34:40
 Southern Mississippi Passing
 ,C/ATT,YDS,AVG,TD,INT,QBR
 Nick Mullens,19/35,207,5.9,0,0,36.4
 Cole Weeks,0/2,0,0.0,0,0,0.7
-Team,19/37,207,5.6,0,0,--
+Team,19/37,207,5.4,0,0,--
 Alabama Passing
 ,C/ATT,YDS,AVG,TD,INT,QBR
 Blake Sims,12/17,168,9.9,2,0,97.4
 Jake Coker,5/7,46,6.6,0,0,52.6
-Team,17/24,214,8.9,2,0,--
+Team,17/24,214,8.6,2,0,--
 Southern Mississippi Rushing
 ,CAR,YDS,AVG,TD,LG
 Tez Parks,3,25,8.3,0,24
@@ -79,12 +79,6 @@ Brian Vogler,1,5,5.0,1,5
 Chris Black,1,5,5.0,0,5
 Robert Foster,1,1,1.0,0,1
 Team,17,214,12.6,2,27
-Southern Mississippi Interceptions
-,INT,YDS,TD
-No Interception Information
-Alabama Interceptions
-,INT,YDS,TD
-No Interception Information
 Southern Mississippi Kick Returns
 ,NO,YDS,AVG,LG,TD
 Emmanuel Johnson,2,40,20.0,25,0

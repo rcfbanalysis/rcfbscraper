@@ -1,6 +1,0 @@
-Date: 20141004
-Home: West Virginia (768)
-Visitor: Kansas (328)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547866
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547866
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547866

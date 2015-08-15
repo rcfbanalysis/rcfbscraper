@@ -1,6 +1,0 @@
-Date: 20140829
-Home: Syracuse (688)
-Visitor: Villanova (739)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547815
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547815
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547815

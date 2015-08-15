@@ -1,6 +1,0 @@
-Date: 20140830
-Home: Iowa State (311)
-Visitor: North Dakota St (493)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547840
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547840
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547840

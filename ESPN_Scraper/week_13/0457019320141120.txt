@@ -1,6 +1,0 @@
-Date: 20141120
-Home: Duke (193)
-Visitor: UNC (457)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547760
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547760
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547760

@@ -1,6 +1,0 @@
-Date: 20140830
-Home: LSU (365)
-Visitor: Wisconsin (796)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548000
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548000
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548000

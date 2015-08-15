@@ -1,6 +1,0 @@
-Date: 20140927
-Home: Texas A&M (697)
-Visitor: Arkansas (31)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548382
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548382
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548382

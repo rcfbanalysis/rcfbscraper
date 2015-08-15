@@ -1,6 +1,0 @@
-Date: 20141129
-Home: Wisconsin (796)
-Visitor: Minnesota (428)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547967
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547967
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547967

@@ -1,6 +1,0 @@
-Date: 20140906
-Home: Auburn (37)
-Visitor: San Jose State (630)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548186
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548186
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548186

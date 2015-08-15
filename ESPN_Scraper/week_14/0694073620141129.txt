@@ -1,6 +1,0 @@
-Date: 20141129
-Home: Vanderbilt (736)
-Visitor: Tennessee (694)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548326
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548326
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548326

@@ -1,6 +1,0 @@
-Date: 20140906
-Home: Florida (235)
-Visitor: E Michigan (204)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548101
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548101
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548101

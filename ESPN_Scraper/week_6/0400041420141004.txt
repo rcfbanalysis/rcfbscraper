@@ -1,6 +1,0 @@
-Date: 20141004
-Home: Miami (OH) (414)
-Visitor: UMass (400)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548126
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548126
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548126

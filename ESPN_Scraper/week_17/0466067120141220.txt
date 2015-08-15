@@ -1,6 +1,0 @@
-Date: 20141220
-Home: LA-Lafayette (671)
-Visitor: Nevada (466)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400610197
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400610197
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400610197

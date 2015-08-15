@@ -6,6 +6,8 @@ import errno
 import csv
 from ESPN_Scraper.items import PBP_GameItem
 
+year = 2013
+
 # Make sure os path exists, create it if not
 def make_sure_path_exists(path):
     try:
@@ -28,9 +30,9 @@ class playbyplaySpider(scrapy.Spider):
 
 	# Build URLs from scraped data
 	start_urls = []
-	for i in range(1, 17):
-		make_sure_path_exists("week_" + str(i))
-		folder = "week_" + str(i)
+	for i in range(1, 18):
+		make_sure_path_exists(str(year) + "/week_" + str(i))
+		folder = str(year) + "/week_" + str(i)
 		os.chdir(folder)
 		for filename in os.listdir(os.getcwd()):
 			new_game = PBP_GameItem()
@@ -52,14 +54,14 @@ class playbyplaySpider(scrapy.Spider):
 				m = re.search(r"Visitor: \D+ \((?P<code>\d+)\)", data)
 				new_game['visitor_code'] = m.group("code")
 			infofile = ''.join(e for e in new_game['link'] if e.isalnum())
-			make_sure_path_exists(os.getcwd() + "/../tmpfiles/")
-			with open(os.getcwd() + "/../tmpfiles/" + infofile + ".txt", 'w') as f:
+			make_sure_path_exists(os.getcwd() + "/../../tmpfiles/")
+			with open(os.getcwd() + "/../../tmpfiles/" + infofile + ".txt", 'w') as f:
 				f.write(new_game['link'] + "\n")
 				f.write("Code: " + str(new_game['visitor_code']).zfill(4))
 				f.write(str(new_game['home_code']).zfill(4))
 				f.write(new_game['date'])
 				f.close()
-		os.chdir("..")
+		os.chdir("../..")
 
 	def parse(self, response):
 		# Get this game code from file

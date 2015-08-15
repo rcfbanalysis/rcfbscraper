@@ -1,6 +1,0 @@
-Date: 20141101
-Home: Appalachian St (27)
-Visitor: Georgia State (254)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548435
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548435
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548435

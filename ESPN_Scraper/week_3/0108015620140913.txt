@@ -1,6 +1,0 @@
-Date: 20140913
-Home: Colorado State (156)
-Visitor: UC Davis (108)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548190
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548190
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548190

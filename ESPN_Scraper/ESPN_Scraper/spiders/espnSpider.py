@@ -13,6 +13,8 @@ months = {"January": 1, "Febuary": 2, "March": 3,
 			"August": 8, "September": 9, "October": 10, 
 			"November": 11, "December": 12}
 
+year = 2013
+
 # Returns the contents of a .csv file in an array
 def Read_CSV(file_name):
 	print "Reading " + str(file_name) + "..."
@@ -92,7 +94,7 @@ def Find_Abbv_Team(abbv, team_arr, abbv_arr):
 			if user_in == name[1]:
 				if abbv_arr != 0:
 					abbv_arr.append([abbv, name[0], name[1]])
-					Write_CSV(abbv_arr, "2014 Stats/abbrevations.csv")
+					Write_CSV(abbv_arr, str(year) + " Stats/abbrevations.csv")
 				return (name[0], name[1], abbv_arr)
 		if user_in == "":
 			print "Please enter 1 or 0"
@@ -109,7 +111,7 @@ def Find_Abbv_Team(abbv, team_arr, abbv_arr):
 			i = 0
 	if abbv_arr != 0:
 		abbv_arr.append([abbv, team_sort[i][1], team_sort[i][2]])
-		Write_CSV(abbv_arr, "2014 Stats/abbrevations.csv")
+		Write_CSV(abbv_arr, str(year) + " Stats/abbrevations.csv")
 	return (team_sort[i][1], team_sort[i][2], abbv_arr)
 
 # Make sure os path exists, create it if not
@@ -125,30 +127,30 @@ class espnSpider(scrapy.Spider):
 	name = "espn"
 	allowed_domains = ["espn.go.com"]
 	start_urls = [
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=1",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=2",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=3",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=4",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=5",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=6",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=7",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=8",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=9",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=10",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=11",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=12",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=13",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=14",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=15",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=2&weekNumber=16",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2014&seasonType=3&weekNumber=17"
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=1",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=2",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=3",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=4",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=5",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=6",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=7",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=8",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=9",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=10",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=11",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=12",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=13",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=14",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=15",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=16",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=3&weekNumber=17"
 	]
 
 	def parse(self, response):
 		# Read team abbv data
-		team_names = Read_CSV("2014 Stats/team.csv")
+		team_names = Read_CSV(str(year) + " Stats/team.csv")
 		team_names = team_names[1:]
-		team_abbvs = Read_CSV("2014 Stats/abbrevations.csv")
+		team_abbvs = Read_CSV(str(year) + " Stats/abbrevations.csv")
 		# Parse the days of the week
 		raw_days = response.xpath('//h4[contains(@class, "games-date")]/text()').extract()
 		days = []
@@ -179,7 +181,7 @@ class espnSpider(scrapy.Spider):
 				games.append(new_game)
 		# Write page to file
 		weekNum = response.url.split("=")[-1]
-		newPath = os.getcwd() + "/week_" + weekNum
+		newPath = os.getcwd() + "/" + str(year) + "/week_" + weekNum
 		make_sure_path_exists(newPath)
 		for game in games:
 			home = game['home'][3:len(game['home'])-2]				# strip home name

@@ -1,6 +1,0 @@
-Date: 20141108
-Home: Minnesota (428)
-Visitor: Iowa (312)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400547933
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400547933
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400547933

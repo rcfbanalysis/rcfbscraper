@@ -1,6 +1,0 @@
-Date: 20141108
-Home: Utah (732)
-Visitor: Oregon (529)
-Plays: http://scores.espn.go.com/ncf/playbyplay?gameId=400548304
-Drives: http://scores.espn.go.com/ncf/drivechart?gameId=400548304
-Box: http://scores.espn.go.com/ncf/boxscore?gameId=400548304
