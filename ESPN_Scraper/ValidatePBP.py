@@ -16,13 +16,13 @@ def FindGame(game_id):
 
 
 	#basePath = '../rcfbScraper/ESPN_Scraper/'
-	basePath = ''
+	basePath = '2014'
 	filename = str(game_id)
 	while len(filename) != 16:
 		filename = "0"+filename
 
 	for x in range (1,18):
-		path = basePath+"week_"+str(x)+"/"+filename+".txt"
+		path = basePath+"/week_"+str(x)+"/"+filename+".txt"
 		if os.path.isfile(path):
 			break
 

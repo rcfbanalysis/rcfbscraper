@@ -13,7 +13,7 @@ months = {"January": 1, "Febuary": 2, "March": 3,
 			"August": 8, "September": 9, "October": 10, 
 			"November": 11, "December": 12}
 
-year = 2013
+year = 2014
 
 # Returns the contents of a .csv file in an array
 def Read_CSV(file_name):
@@ -127,23 +127,23 @@ class espnSpider(scrapy.Spider):
 	name = "espn"
 	allowed_domains = ["espn.go.com"]
 	start_urls = [
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=1",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=2",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=3",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=4",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=5",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=6",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=7",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=8",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=9",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=10",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=11",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=12",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=13",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=14",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=15",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=2&weekNumber=16",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=2013&seasonType=3&weekNumber=17"
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=1",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=2",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=3",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=4",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=5",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=6",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=7",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=8",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=9",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=10",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=11",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=12",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=13",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=14",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=15",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=16",
+		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=3&weekNumber=17"
 	]
 
 	def parse(self, response):

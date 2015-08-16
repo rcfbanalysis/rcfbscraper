@@ -9,7 +9,7 @@ from ESPN_Scraper.items import BOX_GameItem
 from Team_Game_Statistics import *
 import ESPNSpiderFunctions
 
-year = 2013
+year = 2014
 
 # Make sure os path exists, create it if not
 def make_sure_path_exists(path):

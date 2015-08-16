@@ -25,16 +25,12 @@ class Team_Game_Statistics:
         self.Punt_Ret = 0
         self.Punt_Ret_Yard = 0
         self.Punt_Ret_TD = 0
-        # NOT DONE END ----------------------
-
         self.Fum_Ret = 0
         self.Fum_Ret_Yard = 0
         self.Fum_Ret_TD = 0
         self.Int_Ret = 0
         self.Int_Ret_Yard = 0
         self.Int_Ret_TD = 0
-
-        # NOT DONE START --------------------
         self.Misc_Ret = 0
         self.Misc_Ret_Yard = 0
         self.Misc_Ret_TD = 0
@@ -46,9 +42,9 @@ class Team_Game_Statistics:
         self.Off_2XP_Made = 0
         self.Def_2XP_Att = 0
         self.Def_2XP_Made = 0
+        self.Safety = 0
         # NOT DONE END ----------------------
 
-        self.Safety = 0
         self.Points = 0
 
         # NOT DONE START --------------------
@@ -69,12 +65,8 @@ class Team_Game_Statistics:
         self.Tackle_Assist = 0
         self.Tackle_For_Loss = 0
         self.Tackle_For_Loss_Yard = 0
-        # NOT DONE END ----------------------
-
         self.Sack = 0
         self.Sack_Yard = 0
-
-        # NOT DONE START --------------------
         self.QB_Hurry = 0
         self.Fum_Forced = 0
         self.Pass_Broken_Up = 0
@@ -83,10 +75,10 @@ class Team_Game_Statistics:
         
         self.First_Down_Rush = 0
         self.First_Down_Pass = 0
-        self.First_Down_Penalty = 0
-        self.Time_Of_Possession = 0
 
         # NOT DONE START --------------------
+        self.First_Down_Penalty = 0
+        self.Time_Of_Possession = 0
         self.Penalty = 0
         self.Penalty_Yard = 0
         # NOT DONE END ----------------------
@@ -95,9 +87,12 @@ class Team_Game_Statistics:
         self.Third_Down_Conv = 0
         self.Fourth_Down_Att = 0
         self.Fourth_Down_Conv = 0
+
+        # NOT DONE START --------------------
         self.Red_Zone_Att = 0
         self.Red_Zone_TD = 0
         self.Red_Zone_Field_Goal = 0
+        # NOT DONE END ----------------------
 
 
     # Adds a play's stats to the overall game stats

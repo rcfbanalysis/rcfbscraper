@@ -1,6 +1,3 @@
-
-
-
 def Extract_Team_Code(game_code, team):
 	if team == "v":
 		return int(int(math.floor(float(game_code)/1e12)))

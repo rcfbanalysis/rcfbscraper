@@ -25,6 +25,41 @@ def is_number(s):
     except ValueError:
         return False
 
+
+# Determines whether to add a team to the replacement array
+def Add_To_Replacement(to_be_replaced, abbv):
+	for prev_abbv in to_be_replaced:
+		if prev_abbv[0] == abbv:
+			return False
+	return True
+
+
+# Sorts array by length of string in first column
+def Sort_Replacement(to_be_replaced):
+	# init sort array
+	sort_TBR = []
+	for TBR in to_be_replaced:
+		sort_TBR.append("NULL_NULL")
+	# loop through all unsorted
+	for TBR in to_be_replaced:
+		i = 0
+		# find correct spot
+		while i < len(sort_TBR) - 1:
+			if len(TBR[0]) > len(sort_TBR[i][0]) or sort_TBR[i][0] == "NULL_NULL":
+				break
+			else:
+				i += 1
+		# shift down
+		j = len(sort_TBR) - 1
+		while j > i:
+			sort_TBR[j] = sort_TBR[j-1]
+			j -= 1
+		sort_TBR[i] = TBR
+	# for TBR in sort_TBR:
+	# 	print TBR
+	return sort_TBR
+
+
 # Converts pbp date from ESPN to my format
 def Convert_PBP_Data(pbp_file):
 
@@ -45,70 +80,67 @@ def Convert_PBP_Data(pbp_file):
 	# Find and replace team names
 	teams = []
 	(team1_code, team1_name, team2_code, team2_name, abbv_arr) = Define_Team_Names(pbp_data, team_arr, abbv_arr)
+	to_be_replaced = []
 
-	for play in pbp_data:
-		start = re.match(r"(?P<offense>\D+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
-		if start:
-			print play[0]
-			(code, name, abbv_arr) = New_Find_Abbv_Team(start.group("offense"), team_arr, abbv_arr)
-			pbp_data = Replace_All_Names(pbp_data, str(start.group("offense")), "t" + code)
-
-	pbp_data = Replace_All_Names(pbp_data, team1_name, "t" + team1_code)
-	pbp_data = Replace_All_Names(pbp_data, team2_name, "t" + team2_code)
+	# pbp_data = Replace_All_Names(pbp_data, team1_name, "t" + team1_code)
+	# pbp_data = Replace_All_Names(pbp_data, team2_name, "t" + team2_code)
+	to_be_replaced.append([team1_name, "t" + team1_code])
+	to_be_replaced.append([team2_name, "t" + team2_code])
 	teams.append([team1_code, team1_name])
 	teams.append([team2_code, team2_name])
 
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
+		start = re.match(r"(?P<offense>\D+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
+		if start:
+			if Add_To_Replacement(to_be_replaced, str(start.group("offense"))):
+				(code, name, abbv_arr) = New_Find_Abbv_Team(start.group("offense"), teams, abbv_arr, pbp_data, i)
+				# pbp_data = Replace_All_Names(pbp_data, str(start.group("offense")), "t" + code)
+				to_be_replaced.append([str(start.group("offense")), "t" + code])
+
 	# Find and replace home/visitor score abbreviations
-	#for play in pbp_data:
-	#	if len(play) > 3 and play[2] != "" and not is_number(play[2]):
-	#		(visitor_code, visitor_name, abbv_arr) = New_Find_Abbv_Team(play[2], teams, abbv_arr)
-	#		(home_code, home_name, abbv_arr) = New_Find_Abbv_Team(play[3], teams, abbv_arr)
-	#		break
 	visitor_code = team1_code
 	visitor_name = team1_name
 	home_code = team2_code
 	home_name = team2_name
-	# flag = 0
-	# if int(team1_code) == 30 and int(team2_code) == 27:
-	# 	print "1: " + str(team1_code)
-	# 	print "2: " + str(team2_code)
-	# 	print "Home: " + str(home_code)
-	# 	print "Visitor: " + str(visitor_code)
-	# 	flag = raw_input()
-	# elif int(team1_code) == 27 and int(team2_code) == 30:
-	# 	print "1: " + str(team1_code)
-	# 	print "2: " + str(team2_code)
-	# 	print "Home: " + str(home_code)
-	# 	print "Visitor: " + str(visitor_code)
-	# 	flag = raw_input()
 	for i in range(0,len(pbp_data)):
 		play = pbp_data[i]
 		if len(play) > 3 and play[2] != "" and not is_number(play[2]):
 			if play[2] != play[3]:
-				pbp_data = Replace_All_Names(pbp_data, str(play[2]), "t" + visitor_code)
-				pbp_data = Replace_All_Names(pbp_data, str(play[3]), "t" + home_code)
+				# pbp_data = Replace_All_Names(pbp_data, str(play[2]), "t" + visitor_code)
+				# pbp_data = Replace_All_Names(pbp_data, str(play[3]), "t" + home_code)
+				if Add_To_Replacement(to_be_replaced, str(play[2])):
+					to_be_replaced.append([str(play[2]), "t" + visitor_code])
+				if Add_To_Replacement(to_be_replaced, str(play[3])):
+					to_be_replaced.append([str(play[3]), "t" + home_code])
 			pbp_data[i][2] = "t" + visitor_code
 			pbp_data[i][3] = "t" + home_code
 
 	# Find and replace home/visitor spot abbreviations
-	for play in pbp_data:
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
 		m = re.match(r"((?P<down>\d)(?:st|nd|rd|th) and (?P<dist>\d+|Goal) at (?P<team>\D+) (?P<pos>\d+))", play[0])
 		if m:
-			(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("team"), teams, abbv_arr)
-			pbp_data = Replace_All_Names(pbp_data, str(m.group("team")), "t" + code)
+			if Add_To_Replacement(to_be_replaced, str(m.group("team"))):
+				(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("team"), teams, abbv_arr, pbp_data, i)
+				# pbp_data = Replace_All_Names(pbp_data, str(m.group("team")), "t" + code)
+				to_be_replaced.append([str(m.group("team")), "t" + code])
 
 	# Find and replace field position abbreviations
-	for play in pbp_data:
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
 		if len(play) > 1:
 			m = re.search(r"to the (?P<team>\D+) \d{1,2}", play[1])
 			if m:
-				(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("team"), teams, abbv_arr)
-				pbp_data = Replace_All_Names(pbp_data, str(m.group("team")), "t" + code)
+				if Add_To_Replacement(to_be_replaced, str(m.group("team"))):
+					(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("team"), teams, abbv_arr, pbp_data, i)
+					# pbp_data = Replace_All_Names(pbp_data, str(m.group("team")), "t" + code)
+					to_be_replaced.append([str(m.group("team")), "t" + code])
 
-	# if int(flag) == 1:
-	# 	for play in pbp_data:
-	# 		print play
-	# 	raw_input()
+	# Replace all abbreviations (in order of abbreviation length to prevent misclassifications)
+	to_be_replaced = Sort_Replacement(to_be_replaced)
+	for abbv in to_be_replaced:
+		pbp_data = Replace_All_Names(pbp_data, abbv[0], abbv[1])
 
 	return pbp_data
 
@@ -146,10 +178,11 @@ def Define_Team_Names(pbp_data, team_arr, abbv_arr):
 		print pbp_data[0]
 		raw_input()
 
-	for play in pbp_data:
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
 		m = re.match(r"(?P<offense>\D+) at \d+\:\d+", play[0])
 		if m:
-			(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("offense"), team_arr, abbv_arr)
+			(code, name, abbv_arr) = New_Find_Abbv_Team(m.group("offense"), team_arr, abbv_arr, pbp_data, i)
 			if team1_code == 0:
 				team1_code = code
 				team1_name = name
@@ -160,120 +193,17 @@ def Define_Team_Names(pbp_data, team_arr, abbv_arr):
 			return (team1_code, team1_name, team2_code, team2_name, abbv_arr)
 
 
-# Locates correct teams for a given abbreviation
-def Define_Team_Abbreviation(data, abbv, team_arr, abbv_arr):
-
-	# Look through all abbreviations for a match
-	try:
-		for i in range(0, len(abbv_arr)):
-			if abbv == abbv_arr[i][0]:
-				team_num = abbv_arr[i][1]
-				team_name = abbv_arr[i][2]
-				return (team_num, team_name, abbv_arr)
-	except:
-		pass
-
-	# If only 2 teams are on the team array, look for the abbreviation under their names
-	if len(team_arr) == 2:
-		team_abbv_exist = [False] * 2
-		for i in range(0, len(team_arr)):
-			team = team_arr[i]					# look for this team in the abbreviation array
-			for team_abbv in abbv_arr:
-				if team[0] == team_abbv[1]:		# this team has available abbreviations
-					for j in range(3, len(team_abbv)):
-						if team_abbv[j] == abbv:
-							team_abbv_exist[i] = True
-		# If this abbreviation was filed under one team, return it
-		if team_abbv_exist[0] and not team_abbv_exist[1]:
-			return (team_arr[0][0], team_arr[0][1], abbv_arr)		# returns (code, name, abbv_arr)
-		elif not team_abbv_exist[0] and team_abbv_exist[1]:
-			return (team_arr[1][0], team_arr[1][1], abbv_arr)		# returns (code, name, abbv_arr)
-
-	# Rank each team
-	team_sort = []
-	for i in range(0, len(team_arr)):
-		team_sort_tmp = [0] * 3
-		team_sort_tmp[1] = team_arr[i][0]
-		team_sort_tmp[2] = team_arr[i][1]
-		abbv_ltrs = list(abbv)
-		team_ltrs = list(team_arr[i][1])
-		pos = 0
-		tot = 0
-
-		# Find the correlation in naming
-		for j in range(0, len(abbv_ltrs)):
-			ltr = abbv_ltrs[j]
-			if ltr == "U" or None == re.search(r"[a-zA-Z]", ltr):
-				continue
-			inc = 0
-			while None == re.search(ltr, team_ltrs[pos], re.IGNORECASE):
-				inc += 1
-				pos += 1
-				if pos >= len(team_ltrs):
-					break
-			if pos >= len(team_ltrs):
-				tot = 1000
-				break
-			else:
-				tot += inc
-		team_sort_tmp[0] = tot
-		team_sort.append(team_sort_tmp)
-	team_sort = sorted(team_sort, key=lambda arr: arr[0])
-
-	# Check the sorted teams for the correct match
-	i = 0
-	while i < len(team_sort):
-		print "\nGuess: " + str(abbv) + " = " + str(team_sort[i][2])
-		if len(team_arr) == 2:
-			print str(team_arr[0][1]) + " vs " + str(team_arr[1][1])
-		user_in = raw_input("Enter 0 for incorrect match, 1 for correct match, or 2 for unknown: ")
-		if user_in == "":		# blank
-			print "Please enter 1 or 0"
-			continue
-		elif user_in == "1":	# correct
-			break
-		elif user_in == "2":	# not sure
-			print "The next option is " + str(team_sort[i + 1][2])
-			continue
-		elif user_in == "0":	# no match
-			i += 1
-		else:
-			for name in team_arr:	# team name entered
-				if user_in == name[1]:
-					if abbv_arr != 0:
-						abbv_arr.append([abbv, name[0], name[1]])
-						Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
-					return (name[0], name[1], abbv_arr)
-			print user_in + " not found in team array."
-		if i == len(team_sort):
-			i = 0
-	team_code = team_sort[i][1]
-	team_name = team_sort[i][2]
-
-	# Check if this team already has an abbreviation set
-	for j in range(0, len(abbv_arr)):
-		if abbv_arr[j][1] == team_code:
-			abbv_arr[j].append(abbv)
-			Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
-			return (team_code, team_name, abbv_arr)		# returns (code, name, abbv_arr)
-
-	# Save abbreviation array and return team
-	if abbv_arr != 0:
-		abbv_arr.append([abbv, team_code, team_name])
-		Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
-	return (team_code, team_name, abbv_arr)		# returns (code, name, abbv_arr)
-
-
 # Changes an abbreviated team name to its team number
-def New_Find_Abbv_Team(abbv, team_arr, abbv_arr):
+def New_Find_Abbv_Team(abbv, team_arr, abbv_arr, data, data_pos):
 	# Check if it is already matched
 	if abbv_arr != 0:
 		for team in abbv_arr:
-			if abbv == team[0]:
+			if re.sub("[\(\)]", "", abbv).lower() == re.sub("[\(\)]", "", team[0]).lower():
 				return (team[1], team[2], abbv_arr)
 	for team in team_arr:
-		if abbv == team[1]:
+		if re.sub("[\(\)]", "", abbv).lower() == re.sub("[\(\)]", "", team[1]).lower():
 			return (team[0], team[1], abbv_arr)
+	# Sort teams
 	team_sort = []
 	for i in range(0, len(team_arr)):
 		team_sort_tmp = [0] * 3					# naming correlation
@@ -309,20 +239,29 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr):
 			break
 		print "\nGuess: " + str(abbv) + " = " + str(team_sort[i][2])
 		user_in = raw_input("Enter 0 for incorrect match, 1 for correct match, or 2 for unknown: ")
+		# check in team array
 		for name in team_arr:
-			if user_in == name[1]:
-				if abbv_arr != 0:
-					abbv_arr.append([abbv, name[0], name[1]])
-					Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
+			if user_in == "t" + name[0] or user_in == name[1]:
+				if user_in == name[1]:
+					save_abbvs = raw_input("Save abbrevations?")
+					if abbv_arr != 0 and save_abbvs == "1":
+						abbv_arr.append([abbv, name[0], name[1]])
+						Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
 				return (name[0], name[1], abbv_arr)
+		# check in abbv array
+		for name in abbv_arr:
+			if re.match(re.sub("[\(\)]", "", user_in), re.sub("[\(\)]", "", name[0]), re.IGNORECASE):
+				return (name[1], name[2], abbv_arr)
+		# other options
 		if user_in == "":
 			print "Please enter 1 or 0"
 			continue
-		if user_in == "":
+		elif user_in == "1":
 			break
-		if user_in == "1":
-			break
-		if user_in == "2":
+		elif user_in == "2":
+			print "Previous: " + str(data[data_pos-1])
+			print "This:     " + str(data[data_pos])
+			print "Current:  " + str(data[data_pos+1])
 			print "The next option is " + str(team_sort[i + 1][2])
 			continue
 		i += 1
@@ -376,12 +315,10 @@ def Compile_Drives(pbp_data, game):
 				print game.Home
 				print game.Visitor
 			start_time = Set_Clock(start.group("min"), start.group("sec"))
-<<<<<<< HEAD
 			if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
 				# print "WARNING: Drive summary never produced"
 				drives.append(cur_drive)
 			cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
-=======
 			if new_Quarter:
 				new_Quarter = False
 			else:
@@ -389,7 +326,6 @@ def Compile_Drives(pbp_data, game):
 					# print "WARNING: Drive summary never produced"
 					drives.append(cur_drive)
 				cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
->>>>>>> 835e79768a2a2b9e240a551d2eac984d1ba9b0a9
 		elif stop:	# Check for the end of a drive
 			plays = int(stop.group("plays"))
 			yards = int(stop.group("yards"))
@@ -422,158 +358,6 @@ def Write_CSV(data, file_name):
 		data_writer.writerows(data)
 
 
-# Changes an abbreviated team name to its team number
-def Find_Abbv_Team(data, abbv, team_arr, abbv_arr, approved_abbv):
-	for i in range(0, len(abbv_arr)):
-		if abbv == abbv_arr[i][0]:
-			approved = False
-			for abbv_app in approved_abbv:
-				if abbv_app == abbv:
-					approved = True
-			if len(abbv) > 4 or approved:
-				team_num = abbv_arr[i][1]
-				team_name = abbv_arr[i][2]
-				return (team_num, team_name, abbv_arr)
-			print "\nGuess: " + str(abbv) + " = " + str(abbv_arr[i][2])
-			user_in = raw_input("Enter 0 for incorrect match or 2 for unknown: ")
-			if user_in == "2":
-				dataline = 0
-				while None == re.match(r"(?P<team>.+) at \d{0,2}\:\d{2}", data[dataline][0]):
-					dataline += 1
-				while user_in == "2":
-					print data[dataline][0]
-					user_in = raw_input("Enter 0 for incorrect match or 2 for unknown: ")
-					dataline += 1
-					while None == re.match(r"(?P<team>.+) at \d{0,2}\:\d{2}", data[dataline][0]):
-						dataline += 1
-			if user_in != 0:
-				approved_abbv.append(abbv)
-				team_num = abbv_arr[i][1]
-				team_name = abbv_arr[i][2]
-				return (team_num, team_name, abbv_arr)
-
-	team_sort = []
-	for i in range(0, len(team_arr)):
-		team_sort_tmp = [0] * 3
-		team_sort_tmp[1] = team_arr[i][0]
-		team_sort_tmp[2] = team_arr[i][1]
-		abbv_ltrs = list(abbv)
-		team_ltrs = list(team_arr[i][1])
-		pos = 0
-		tot = 0
-		for j in range(0, len(abbv_ltrs)):
-			ltr = abbv_ltrs[j]
-			if ltr == "U" or None == re.search(r"[a-zA-Z]", ltr):
-				continue
-			inc = 0
-			while None == re.search(ltr, team_ltrs[pos], re.IGNORECASE):
-				inc += 1
-				pos += 1
-				if pos >= len(team_ltrs):
-					break
-			if pos >= len(team_ltrs):
-				tot = 1000
-				break
-			else:
-				tot += inc
-		team_sort_tmp[0] = tot
-		team_sort.append(team_sort_tmp)
-	team_sort = sorted(team_sort, key=lambda arr: arr[0])
-	i = 0
-	dataline = 3
-	while None == re.match(r"(?P<team>.+) at \d{0,2}\:\d{2}", data[dataline][0]):
-		dataline += 1
-	while i < len(team_sort):
-		print "\nGuess: " + str(abbv) + " = " + str(team_sort[i][2])
-		user_in = raw_input("Enter 1 for correct match or 2 for unknown: ")
-		if user_in == "":
-			print "Please enter 1 or 0"
-			continue
-		if user_in == "":
-			break
-		while user_in == "2":
-			print data[dataline][0]
-			user_in = raw_input("Enter 1 for correct match or 2 for unknown: ")
-			dataline += 1
-			while None == re.match(r"(?P<team>.+) at \d{0,2}\:\d{2}", data[dataline][0]):
-				dataline += 1
-		if user_in == "1":
-			break
-		i += 1
-	abbv_arr.append([abbv, team_sort[i][1], team_sort[i][2]])
-	Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
-	return (team_sort[i][1], team_sort[i][2], abbv_arr)
-
-
-# Finds the two teams in this game
-def Find_Teams(data, abbv_arr):
-	# Fin the two teams
-	team1 = 0
-	team2 = 0
-	team1_name = 0
-	team2_name = 0
-	for play in data:
-		m = re.match(r"(?P<offense>\D+) at \d+\:\d+", play[0])
-		if m:
-			(number, name, abbv_arr) = Find_Abbv_Team(data, m.group("offense"), team_arr, abbv_arr, approved_abbv)
-			if team1 == 0:
-				team1 = number
-				team1_name = name
-			elif team2 == 0:
-				team2 = number
-				team2_name = name
-		if team1 > 0 and team2 > 0:
-			break
-	# Which is home/visitor?
-	home_team = 0
-	visitor_team = 0
-	for play in data:
-		if play[2] != "":
-			(number1, name1, abbv_arr) = Find_Abbv_Team(data, play[2], team_arr, abbv_arr, approved_abbv)
-			(number2, name2, abbv_arr) = Find_Abbv_Team(data, play[3], team_arr, abbv_arr, approved_abbv)
-			if number1 == team1:
-				return (team1, team1_name, team2, team2_name)	# return (visitor, home)
-			else:
-				return (team2, team2_name, team1, team1_name)	# return (visitor, home)
-
-
-# Checks for a touchdown
-def Check_Touchdown(play_desc, play, home_score, visitor_score):
-	try:
-		visitor_new_score = int(play[2])
-	except:
-		visitor_new_score = visitor_score
-	try:
-		home_new_score = int(play[3])
-	except:
-		home_new_score = home_score
-	m = re.match(r"(for a (?P<td>TD))", play_desc)
-	if m:
-		td = 1
-		play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
-	if visitor_new_score >= 6 + visitor_score or home_new_score >= 6 + home_score:
-		td = 1
-	else:
-		td = 0
-	return (td, play_desc)
-
-
-# Checks for extra point
-def Check_Extra_Point(play_desc, td):
-	m = re.match(r"(, \((?P<kicker>\D+) KICK\))", play_desc, re.IGNORECASE)
-	m2 = re.match(r"(\((?P<kicker>\D+) Kick\))", play_desc, re.IGNORECASE)
-	if m:
-		extra_point = 1
-		play_desc = re.sub(re.escape(m.group(0)), "", play_desc)
-		return (play_desc, extra_point)
-	elif m2:
-		extra_point = 1
-		play_desc = re.sub(re.escape(m2.group(0)), "", play_desc)
-		return (play_desc, extra_point)
-	else:
-		return (play_desc, -1)
-
-
 # Sets the quarter if a new one occurs
 def Set_Quarter(play):
 	m = re.match(r"(?P<qrt>\d)(?:st|nd|rd|th) Quarter Play-by-Play", play[0])
@@ -584,28 +368,6 @@ def Set_Quarter(play):
 # Finds the time in input string and sets the clock
 def Set_Clock(minutes, sec):
 	return 60*int(minutes) + int(sec)
-
-
-def Get_Play_Info(play_info, offense):
-    m = re.match(r"((?P<down>\d)(?:st|nd|rd|th) and (?P<dist>\d+|Goal) at (?:(?P<team>\D+) (?P<pos>\d+)|(?P<fifty>50)))", play_info)
-    if m == None:
-        return (-1, -1, -1, -1)
-    down = int(m.group("down"))
-    dist = m.group("dist")
-    if None == m.group("fifty"):
-        team = m.group("team")
-        pos = int(m.group("pos"))
-    else:
-        pos = 50
-    if m.group("dist") == "Goal":
-        dist = pos
-    return (down, int(dist), m.group("team"), pos)
-
-def Get_Field_Pos(team, offense, pos):
-	if team != offense:
-		return pos
-	else:
-		return 100 - pos
 
 
 def Extract_Team_Code(game_code, team):
