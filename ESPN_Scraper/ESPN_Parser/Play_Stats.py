@@ -80,7 +80,7 @@ class Play_Stats:
 		frcd_regex = re.compile(r"(forced by (?P<forcer>\D+),\s)")
 		flost_regex = re.compile(r"(recovered by t(?P<team>\d+)(?: (?P<player>[^,]+))?(?:\W\s)?)")
 		fret_regex = re.compile(r"(return for (?P<yards>\d+) (?:yards|yard|yds|yd)\s*)")
-		td_regex = re.compile(r"(for a (?P<td>TD))")
+		td_regex = re.compile(r"(for a (?P<td>TD|TOUCHDOWN))", re.IGNORECASE)
 		expt_regex1 = re.compile(r"((?:, )?(?: )?\((?P<kicker>\D+) KICK\))", re.IGNORECASE)
 		rcvr1_regex = re.compile(r"(to (?P<receiver>\D+)\Z)")
 		rcvr2_regex = re.compile(r"(to (?P<receiver>\D+) for\W+)")
@@ -133,11 +133,7 @@ class Play_Stats:
 			play_desc = self.Check_TD(play_desc, prev_play, td_regex, expt_regex1)
 
 			# Print remaining characters
-			if len(play_desc):
-				print "\nThis play wasn't parsed: "
-				print play_desc
-				self.Unparsed = play_desc
-				#raw_input(play_desc)
+			self.Print_Remaining(play_desc)
 			return True
 
 		elif pass_cmp or pass_inc or pass_int:
@@ -189,12 +185,19 @@ class Play_Stats:
 				return True
 
 			# Print remaining characters
-			if len(play_desc):
-				print "\nThis play wasn't parsed: "
-				print play_desc
-				self.Unparsed = play_desc
-				#raw_input(play_desc)
+			self.Print_Remaining(play_desc)
 			return True
+
+
+
+	# Prints unparsed characters
+	def Print_Remaining(self, play_desc):
+		play_desc = re.sub(" .\Z|\.", "", play_desc)
+		if len(play_desc) > 1:
+			print "\nThis play wasn't parsed: "
+			print play_desc
+			self.Unparsed = play_desc
+			# raw_input(play_desc)
 
 
 	# Gets the down/distance/spot
@@ -262,7 +265,7 @@ class Play_Stats:
 
 	# Checks for a safety
 	def Check_First_Down(self, play_desc, first_regex):
-		first = first_regex.match(play_desc)
+		first = first_regex.search(play_desc)
 		if first:
 			self.First_Down = 1
 			play_desc = re.sub(re.escape(first.group(0)), "", play_desc)

@@ -12,6 +12,8 @@ from Drive import *
 from Play_Stats import *
 from Team_Game_Statistics import *
 
+year = 2013
+
 
 # ==================================================================
 # ===== FUNCTIONS ==================================================
@@ -69,10 +71,10 @@ def Convert_PBP_Data(pbp_file):
 	print "Done"
 
 	# Read in team and abbreviation data
-	team_arr = Read_CSV("../2014 Stats/team.csv")
+	team_arr = Read_CSV("../" + str(year) + " Stats/team.csv")
 	team_arr = team_arr[1:]
 	try:
-		abbv_arr = Read_CSV("../2014 Stats/abbrevations.csv")
+		abbv_arr = Read_CSV("../" + str(year) + " Stats/abbrevations.csv")
 	except:
 		print "WARNING: abbrevations.csv not found\n"
 		abbv_arr = []
@@ -198,10 +200,10 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr, data, data_pos):
 	# Check if it is already matched
 	if abbv_arr != 0:
 		for team in abbv_arr:
-			if re.sub("[\(\)]", "", abbv).lower() == re.sub("[\(\)]", "", team[0]).lower():
+			if abbv.lower() == team[0].lower():
 				return (team[1], team[2], abbv_arr)
 	for team in team_arr:
-		if re.sub("[\(\)]", "", abbv).lower() == re.sub("[\(\)]", "", team[1]).lower():
+		if abbv.lower() == team[1].lower():
 			return (team[0], team[1], abbv_arr)
 	# Sort teams
 	team_sort = []
@@ -246,7 +248,7 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr, data, data_pos):
 					save_abbvs = raw_input("Save abbrevations?")
 					if abbv_arr != 0 and save_abbvs == "1":
 						abbv_arr.append([abbv, name[0], name[1]])
-						Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
+						Write_CSV(abbv_arr, "../" + str(year) + " Stats/abbrevations.csv")
 				return (name[0], name[1], abbv_arr)
 		# check in abbv array
 		for name in abbv_arr:
@@ -269,17 +271,17 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr, data, data_pos):
 			i = 0
 	if abbv_arr != 0:
 		abbv_arr.append([abbv, team_sort[i][1], team_sort[i][2]])
-		Write_CSV(abbv_arr, "../2014 Stats/abbrevations.csv")
+		Write_CSV(abbv_arr, "../" + str(year) + " Stats/abbrevations.csv")
 	return (team_sort[i][1], team_sort[i][2], abbv_arr)
 
 
 # Replaces all occurrances of a string with another
 def Replace_All_Names(pbp_data, name, number):
-	k = re.compile(r"\b%s\b" % name, re.I)						# replaces whole word abbreviations
+	k = re.compile(r"%s" % re.escape(name), re.I)						# replaces whole word abbreviations
 	for i in range(0, len(pbp_data)):
 		for j in range(0, len(pbp_data[i])):
 			pbp_data[i][j] = k.sub(number, pbp_data[i][j])
-	k = re.compile(r"\b%s(?P<spot>\d{1,2})\b" % name, re.I)		# replaces spot abbreviations (ex: BAYLOR49)
+	k = re.compile(r"%s(?P<spot>\d{1,2})" % re.escape(name), re.I)		# replaces spot abbreviations (ex: BAYLOR49)
 	for i in range(0, len(pbp_data)):
 		for j in range(0, len(pbp_data[i])):
 			m = k.search(pbp_data[i][j])
@@ -393,6 +395,11 @@ allTGS = []
 game_files = [f for f in listdir(path) if isfile(join(path, f))]
 
 for game_file in game_files:
+
+	# check to make sure it is from this year
+	file_year = int(game_file[8:12])
+	if file_year != year:
+		continue
 	print "Analyzing " + str(game_file)
 
 	# Read raw play-by-play
@@ -495,14 +502,14 @@ drive_data = []
 drive_data.append(drives[0].Header())
 for drive in allDrives:
 	drive_data.append(drive.Compile_Stats())
-Write_CSV(drive_data, "2014 Stats temp/drive.csv")
+Write_CSV(drive_data, str(year) + " Stats temp/drive.csv")
 
 # Write plays to file
 play_data = []
 play_data.append(plays[0].Header())
 for play in allPlays:
 	play_data.append(play.Compile_Stats())
-Write_CSV(play_data, "2014 Stats temp/play.csv")
+Write_CSV(play_data, str(year) + " Stats temp/play.csv")
 
 # Build team-game-statistics
 prev_game_code = 0
@@ -530,7 +537,7 @@ tgs_data = []
 tgs_data.append(allTGS[0].Header())
 for tgs in allTGS:
 	tgs_data.append(tgs.Compile_Stats())
-Write_CSV(tgs_data, "2014 Stats temp/team_game_statistics.csv")
+Write_CSV(tgs_data, str(year) + " Stats temp/play_TGS.csv")
 
 # END
 raw_input("Press ENTER to finish...")

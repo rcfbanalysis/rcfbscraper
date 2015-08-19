@@ -9,7 +9,7 @@ from ESPN_Scraper.items import BOX_GameItem
 from Team_Game_Statistics import *
 import ESPNSpiderFunctions
 
-year = 2014
+year = 2013
 
 # Make sure os path exists, create it if not
 def make_sure_path_exists(path):
@@ -78,7 +78,14 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
 					j = i
+					tmpA = 0 # sums stats rather than pulling from the last line
+					tmpY = 0
+					tmpT = 0
 					while rows[j][0] != "Team" and rows[j][0] != "No Rush Information":
+						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
+							tmpA += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][4])
 						j += 1
 					if rows[j][0] == "No Rush Information":
 						team_TGS.Rush_Att = 0
@@ -87,12 +94,26 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						break
 					while not CheckAll(rows[j][0]):
 						if len(rows[j]) >= 5 and rows[j][0] == "Team":
+							tmpA += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][4])
 							team_TGS.Rush_Att = rows[j][1]
 							team_TGS.Rush_Yard = rows[j][2]
 							team_TGS.Rush_TD = rows[j][4]
 						j += 1
 						if j >= len(rows):
+							print "WARNING, row limit exceeded, rush data may be bad"
 							break
+					tmpA -= int(rows[j-1][1])
+					tmpY -= int(rows[j-1][2])
+					tmpT -= int(rows[j-1][4])
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Rush_Att == 0 and tmpA > 0:
+						team_TGS.Rush_Att = tmpA
+					if team_TGS.Rush_Yard == 0 and tmpY > 0:
+						team_TGS.Rush_Yard = tmpY
+					if team_TGS.Rush_TD == 0 and tmpT > 0:
+						team_TGS.Rush_TD = tmpT
 					break
 		if pass_team:
 			for team_abbv in team_abbvs:
@@ -104,7 +125,19 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
 					j = i
+					tmpA = 0 # sums stats rather than pulling from the last line
+					tmpC = 0
+					tmpY = 0
+					tmpT = 0
+					tmpI = 0
 					while rows[j][0] != "Team" and rows[j][0] != "No Pass Information":
+						if len(rows[j]) >= 6 and len(rows[j][0]) > 0:
+							cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j][1])
+							tmpA += int(cmp_att.group("att"))
+							tmpC += int(cmp_att.group("cmp"))
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][4])
+							tmpI += int(rows[j][5])
 						j += 1
 					if rows[j][0] == "No Pass Information":
 						team_TGS.Pass_Att = 0
@@ -116,6 +149,11 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 					while not CheckAll(rows[j][0]):
 						if len(rows[j]) >= 6:
 							cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j][1])
+							tmpA += int(cmp_att.group("att"))
+							tmpC += int(cmp_att.group("cmp"))
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][4])
+							tmpI += int(rows[j][5])
 							team_TGS.Pass_Att = cmp_att.group("att")
 							team_TGS.Pass_Comp = cmp_att.group("cmp")
 							team_TGS.Pass_Yard = rows[j][2]
@@ -124,6 +162,23 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 						j += 1
 						if j >= len(rows):
 							break
+					cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j-1][1])
+					tmpA -= int(cmp_att.group("att"))
+					tmpC -= int(cmp_att.group("cmp"))
+					tmpY -= int(rows[j-1][2])
+					tmpT -= int(rows[j-1][4])
+					tmpI -= int(rows[j-1][5])
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Pass_Att == 0 and tmpA > 0:
+						team_TGS.Pass_Att = tmpA
+					if team_TGS.Pass_Comp == 0 and tmpC > 0:
+						team_TGS.Pass_Comp = tmpC
+					if team_TGS.Pass_Yard == 0 and tmpY > 0:
+						team_TGS.Pass_Yard = tmpY
+					if team_TGS.Pass_TD == 0 and tmpT > 0:
+						team_TGS.Pass_TD = tmpT
+					if team_TGS.Pass_Int == 0 and tmpI > 0:
+						team_TGS.Pass_Int = tmpI
 					break
 		if ret_team1:
 			for team_abbv in team_abbvs:
@@ -134,21 +189,51 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace("-", "")
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					while rows[i][0] != "Team" and rows[i][0] != "No Kickoff Returns":
-						i += 1
-					if rows[i][0] == "No Kickoff Returns":
+					j = i
+					tmpR = 0 # sums stats rather than pulling from the last line
+					tmpY = 0
+					tmpT = 0
+					while rows[j][0] != "Team" and rows[j][0] != "No Kickoff Returns":
+						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							try: # TDs not included prior to 2014
+								tmpT += int(rows[j][5])
+							except:
+								pass
+						j += 1
+					if rows[j][0] == "No Kickoff Returns":
 						team_TGS.Kickoff_Ret = 0
 						team_TGS.Kickoff_Ret_Yard = 0
 						team_TGS.Kickoff_Ret_TD = 0
 						break
-					while not CheckAll(rows[i][0]):
-						if len(rows[i]) >= 6:
-							team_TGS.Kickoff_Ret = rows[i][1]
-							team_TGS.Kickoff_Ret_Yard = rows[i][2]
-							team_TGS.Kickoff_Ret_TD = rows[i][5]
-						i += 1
-						if i >= len(rows):
+					while not CheckAll(rows[j][0]):
+						if len(rows[j]) >= 5:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							team_TGS.Kickoff_Ret = rows[j][1]
+							team_TGS.Kickoff_Ret_Yard = rows[j][2]
+							try: # TDs not included prior to 2014
+								tmpT -= int(rows[j-1][5])
+								team_TGS.Kickoff_Ret_TD = rows[j][5]
+							except:
+								pass
+						j += 1
+						if j >= len(rows):
 							break
+					tmpR -= int(rows[j-1][1])
+					tmpY -= int(rows[j-1][2])
+					try: # TDs not included prior to 2014
+						tmpT -= int(rows[j-1][5])
+					except:
+						pass
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Kickoff_Ret == 0 and tmpR > 0:
+						team_TGS.Kickoff_Ret = tmpR
+					if team_TGS.Kickoff_Ret_Yard == 0 and tmpY > 0:
+						team_TGS.Kickoff_Ret_Yard = tmpY
+					if team_TGS.Kickoff_Ret_TD == 0 and tmpT > 0:
+						team_TGS.Kickoff_Ret_TD = tmpT
 					break
 		if ret_team2:
 			for team_abbv in team_abbvs:
@@ -159,21 +244,51 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace("-", "")
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					while rows[i][0] != "Team" and rows[i][0] != "No Punt Returns":
-						i += 1
-					if rows[i][0] == "No Punt Returns":
+					j = i
+					tmpR = 0 # sums stats rather than pulling from the last line
+					tmpY = 0
+					tmpT = 0
+					while rows[j][0] != "Team" and rows[j][0] != "No Punt Returns":
+						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							try: # TDs not included prior to 2014
+								tmpT += int(rows[j][5])
+							except:
+								pass
+						j += 1
+					if rows[j][0] == "No Punt Returns":
 						team_TGS.Punt_Ret = 0
 						team_TGS.Punt_Ret_Yard = 0
 						team_TGS.Punt_Ret_TD = 0
 						break
-					while not CheckAll(rows[i][0]):
-						if len(rows[i]) >= 6:
-							team_TGS.Punt_Ret = rows[i][1]
-							team_TGS.Punt_Ret_Yard = rows[i][2]
-							team_TGS.Punt_Ret_TD = rows[i][5]
-						i += 1
-						if i >= len(rows):
+					while not CheckAll(rows[j][0]):
+						if len(rows[j]) >= 5:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							team_TGS.Punt_Ret = rows[j][1]
+							team_TGS.Punt_Ret_Yard = rows[j][2]
+							try: # TDs not included prior to 2014
+								tmpT -= int(rows[j-1][5])
+								team_TGS.Punt_Ret_TD = rows[j][5]
+							except:
+								pass
+						j += 1
+						if j >= len(rows):
 							break
+					tmpR -= int(rows[j-1][1])
+					tmpY -= int(rows[j-1][2])
+					try: # TDs not included prior to 2014
+						tmpT -= int(rows[j-1][5])
+					except:
+						pass
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Kickoff_Ret == 0 and tmpR > 0:
+						team_TGS.Kickoff_Ret = tmpR
+					if team_TGS.Kickoff_Ret_Yard == 0 and tmpY > 0:
+						team_TGS.Kickoff_Ret_Yard = tmpY
+					if team_TGS.Kickoff_Ret_TD == 0 and tmpT > 0:
+						team_TGS.Kickoff_Ret_TD = tmpT
 					break
 		if ret_team3:
 			for team_abbv in team_abbvs:
@@ -184,21 +299,42 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace("-", "")
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					while rows[i][0] != "Team" and rows[i][0] != "No Interception Information":
-						i += 1
-					if rows[i][0] == "No Interception Information":
+					j = i
+					tmpR = 0 # sums stats rather than pulling from the last line
+					tmpY = 0
+					tmpT = 0
+					while rows[j][0] != "Team" and rows[j][0] != "No Interception Information":
+						if len(rows[j]) >= 4 and len(rows[j][0]) > 0:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][3])
+						j += 1
+					if rows[j][0] == "No Interception Information":
 						team_TGS.Int_Ret = 0
 						team_TGS.Int_Ret_Yard = 0
 						team_TGS.Int_Ret_TD = 0
 						break
-					while not CheckAll(rows[i][0]):
-						if len(rows[i]) >= 4:
-							team_TGS.Int_Ret = rows[i][1]
-							team_TGS.Int_Ret_Yard = rows[i][2]
-							team_TGS.Int_Ret_TD = rows[i][3]
-						i += 1
-						if i >= len(rows):
+					while not CheckAll(rows[j][0]):
+						if len(rows[j]) >= 4:
+							tmpR += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							tmpT += int(rows[j][3])
+							team_TGS.Int_Ret = rows[j][1]
+							team_TGS.Int_Ret_Yard = rows[j][2]
+							team_TGS.Int_Ret_TD = rows[j][3]
+						j += 1
+						if j >= len(rows):
 							break
+					tmpR -= int(rows[j-1][1])
+					tmpY -= int(rows[j-1][2])
+					tmpT -= int(rows[j-1][3])
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Int_Ret == 0 and tmpR > 0:
+						team_TGS.Int_Ret = tmpR
+					if team_TGS.Int_Ret_Yard == 0 and tmpY > 0:
+						team_TGS.Int_Ret_Yard = tmpY
+					if team_TGS.Int_Ret_TD == 0 and tmpT > 0:
+						team_TGS.Int_Ret_TD = tmpT
 					break
 		if ret_team4:
 			for team_abbv in team_abbvs:
@@ -209,19 +345,50 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace("-", "")
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					while rows[i][0] != "Team":
-						i += 1
-					while not CheckAll(rows[i][0]):
-						if len(rows[i]) >= 5:
-							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][1])
-							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[i][4])
+					j = i
+					tmpFA = 0 # sums stats rather than pulling from the last line
+					tmpFM = 0
+					tmpXA = 0
+					tmpXM = 0
+					while rows[j][0] != "Team":
+						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
+							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][1])
+							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][4])
+							tmpFA += int(fg_att.group("att"))
+							tmpFM += int(fg_att.group("good"))
+							tmpXA += int(xp_att.group("att"))
+							tmpXM += int(xp_att.group("good"))
+						j += 1
+					while not CheckAll(rows[j][0]):
+						if len(rows[j]) >= 5:
+							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][1])
+							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][4])
+							tmpFA += int(fg_att.group("att"))
+							tmpFM += int(fg_att.group("good"))
+							tmpXA += int(xp_att.group("att"))
+							tmpXM += int(xp_att.group("good"))
 							team_TGS.Field_Goal_Att = fg_att.group("att")
 							team_TGS.Field_Goal_Made = fg_att.group("good")
 							team_TGS.Off_XP_Kick_Att = xp_att.group("att")
 							team_TGS.Off_XP_Kick_Made = xp_att.group("good")
-						i += 1
-						if i >= len(rows):
+						j += 1
+						if j >= len(rows):
 							break
+					fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j-1][1])
+					xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j-1][4])
+					tmpFA -= int(fg_att.group("att"))
+					tmpFM -= int(fg_att.group("good"))
+					tmpXA -= int(xp_att.group("att"))
+					tmpXM -= int(xp_att.group("good"))
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Field_Goal_Att == 0 and tmpFA > 0:
+						team_TGS.Field_Goal_Att = tmpFA
+					if team_TGS.Field_Goal_Made == 0 and tmpFM > 0:
+						team_TGS.Field_Goal_Made = tmpFM
+					if team_TGS.Off_XP_Kick_Att == 0 and tmpXA > 0:
+						team_TGS.Off_XP_Kick_Att = tmpXA
+					if team_TGS.Off_XP_Kick_Made == 0 and tmpXM > 0:
+						team_TGS.Off_XP_Kick_Made = tmpXM
 					break
 		if punt:
 			for team_abbv in team_abbvs:
@@ -232,19 +399,34 @@ def Parse_Box(rows, team_TGS, team_abbvs):
 				team_abbv[2] = team_abbv[2].lower().replace("-", "")
 				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
 				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					while rows[i][0] != "Team" and rows[i][0] != "No Punts":
-						i += 1
-					if rows[i][0] == "No Punts":
+					j = i
+					tmpP = 0 # sums stats rather than pulling from the last line
+					tmpY = 0
+					while rows[j][0] != "Team" and rows[j][0] != "No Punts":
+						if len(rows[j]) >= 3 and len(rows[j][0]) > 0:
+							tmpP += int(rows[j][1])
+							tmpY += int(rows[j][2])
+						j += 1
+					if rows[j][0] == "No Punts":
 						team_TGS.Punt = 0
 						team_TGS.Punt_Yard = 0
 						break
-					while not CheckAll(rows[i][0]):
-						if len(rows[i]) >= 3:
-							team_TGS.Punt = rows[i][1]
-							team_TGS.Punt_Yard = rows[i][2]
-						i += 1
-						if i >= len(rows):
+					while not CheckAll(rows[j][0]):
+						if len(rows[j]) >= 3:
+							tmpP += int(rows[j][1])
+							tmpY += int(rows[j][2])
+							team_TGS.Punt = rows[j][1]
+							team_TGS.Punt_Yard = rows[j][2]
+						j += 1
+						if j >= len(rows):
 							break
+					tmpP -= int(rows[j-1][1])
+					tmpY -= int(rows[j-1][2])
+					# if ESPN didn't add stats up, do it manually
+					if team_TGS.Punt == 0 and tmpP > 0:
+						team_TGS.Punt = tmpP
+					if team_TGS.Punt_Yard == 0 and tmpY > 0:
+						team_TGS.Punt_Yard = tmpY
 					break
 	return team_TGS
 
@@ -318,6 +500,9 @@ class boxscoreSpider(scrapy.Spider):
 		team_names = Read_CSV(str(year) + " Stats/team.csv")
 		team_names = team_names[1:]
 		team_abbvs = Read_CSV(str(year) + " Stats/abbrevations.csv")
+		# Add team names to abbreviations list
+		for team in team_names:
+			team_abbvs.append([team[1], team[0], team[1]])
 		# Get score
 		for i in range(0, len(rows)):
 			first_qtr = re.search(r"\AFIRST QUARTER\Z", rows[i][0])
@@ -344,6 +529,14 @@ class boxscoreSpider(scrapy.Spider):
 					i += 1
 				visitor_TGS.Points = rows[i][4]
 				home_TGS.Points = rows[i][5]
+			overtimes = ["", "2ND ", "3RD ", "4TH ", "5TH ", "6TH ", "7TH ", "8TH ", "9TH "]
+			for per in overtimes:
+				over_qtr = re.search(r"\A" + per + "OVERTIME\Z", rows[i][0])
+				if over_qtr:
+					while len(rows[i+1]) >= 5:
+						i += 1
+					visitor_TGS.Points = rows[i][4]
+					home_TGS.Points = rows[i][5]
 		# Box score stats
 		for i in range(0, len(rows)):
 			# Total 1st downs
@@ -369,7 +562,7 @@ class boxscoreSpider(scrapy.Spider):
 				eff = re.match(r"(?P<conv>\d+)\-(?P<att>\d+)", rows[i][2])
 				home_TGS.Fourth_Down_Att = eff.group("att")
 				home_TGS.Fourth_Down_Conv = eff.group("conv")
-			# Rushing
+			# Rushing (replaced later)
 			rush_yds = re.search(r"\ARushing\Z", rows[i][0])
 			if rush_yds:
 				visitor_TGS.Rush_Yard = int(rows[i][1])
@@ -377,7 +570,12 @@ class boxscoreSpider(scrapy.Spider):
 			rush_att = re.search(r"\ARushing Attempts\Z", rows[i][0])
 			if rush_att:
 				visitor_TGS.Rush_Att = int(rows[i][1])
-				home_TGS.Rush_Att = int(rows[i][2])		
+				home_TGS.Rush_Att = int(rows[i][2])
+			# Passing (replaced later)
+			pass_yds = re.search(r"\APassing\Z", rows[i][0])
+			if pass_yds:
+				visitor_TGS.Pass_Yard = int(rows[i][1])
+				home_TGS.Pass_Yard = int(rows[i][2])
 			# Penalties
 			penalties = re.search(r"\APenalties\Z", rows[i][0])
 			if penalties:
