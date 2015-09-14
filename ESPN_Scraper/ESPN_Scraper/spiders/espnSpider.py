@@ -13,7 +13,7 @@ months = {"January": 1, "Febuary": 2, "March": 3,
 			"August": 8, "September": 9, "October": 10, 
 			"November": 11, "December": 12}
 
-year = 2013
+year = 2015
 
 # Returns the contents of a .csv file in an array
 def Read_CSV(file_name):
@@ -127,23 +127,23 @@ class espnSpider(scrapy.Spider):
 	name = "espn"
 	allowed_domains = ["espn.go.com"]
 	start_urls = [
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=1",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=2",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=3",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=4",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=5",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=6",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=7",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=8",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=9",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=10",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=11",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=12",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=13",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=14",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=15",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=2&weekNumber=16",
-		"http://scores.espn.go.com/ncf/scoreboard?confId=80&seasonYear=" + str(year) + "&seasonType=3&weekNumber=17"
+		"http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/1",
+		"http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/2"#,
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/3",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/4",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/5",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/6",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/7",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/8",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/9",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/10",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/11",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/12",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/13",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/14",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/15",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/2/week/16",
+		# "http://espn.go.com/college-football/scoreboard/_/group/80/year/" + str(year) + "/seasontype/3/week/1"
 	]
 
 	def parse(self, response):
@@ -151,49 +151,53 @@ class espnSpider(scrapy.Spider):
 		team_names = Read_CSV(str(year) + " Stats/team.csv")
 		team_names = team_names[1:]
 		team_abbvs = Read_CSV(str(year) + " Stats/abbrevations.csv")
-		# Parse the days of the week
-		raw_days = response.xpath('//h4[contains(@class, "games-date")]/text()').extract()
-		days = []
-		for day in raw_days:
-			day_split = day.split(',')
-			days.append(day_split[0])
-		# Get game containers
-		gameDays = response.xpath('//div[contains(@class, "gameDay-Container")]')
-		gameDates = response.xpath('//h4[contains(@class, "games-date")]/text()').extract()
-		# Begin to set game items
-		games = []
-		for i in range(0, len(gameDays)):
-			day = gameDays[i]
-			date = gameDates[i].split()
-			date = str(date[3]) + str(months[date[1]]).zfill(2) + str(date[2]).zfill(2)
-			for game in day.xpath('.//div[contains(@id, "gameContainer")]'):
-				new_game = GameItem()
-				tmpID = game.re(r'\d+-gameContainer')	# must remove letters from ID
-				table = string.maketrans('','')
-				digits = table.translate(table, string.digits)
-				new_game['gameID'] = str(tmpID).translate(table, digits)
-				new_game['date'] = date
-				new_game['home'] = str(game.xpath('.//div[@class="team home"]/div[@class="team-capsule"]/p[@class="team-name"]/span/a/text()').extract())
-				new_game['visitor'] = str(game.xpath('.//div[@class="team visitor"]/div[@class="team-capsule"]/p[@class="team-name"]/span/a/text()').extract())
-				new_game['play_link'] = str(game.xpath('.//li/a[contains(@href, "playbyplay")]/@href').extract())
-				new_game['drive_link'] = str(game.xpath('.//li/a[contains(@href, "drivechart")]/@href').extract())
-				new_game['box_link'] = str(game.xpath('.//li/a[contains(@href, "boxscore")]/@href').extract())
-				games.append(new_game)
+		# Get boxscore links
+		name_re = '\"location\"\:\"(\D+?(?:\\u00e9)?\D+?)\"'
+		box_re = '\"href\"\:\"(http\:\/\/espn\.go\.com\/college\-football\/boxscore\?.*?)\"'
+		date_re = '\"date\"\:\"(\d+\-\d+\-\d+)'
+		regex_str = name_re + '.*?' + name_re + '.*?' + box_re + '.*?' + date_re
+		script_blocks = response.xpath('//script[not(@*)]')
+		# game info storage
+		boxscore_links = []
+		home = []
+		away = []
+		dates = []
+		# find games and links
+		for block in script_blocks:
+			block_links = block.re(regex_str)
+			counter = 0
+			for link in block_links:
+				if counter == 0:
+					home.append(re.sub('\\\u00e9','e',link))
+				elif counter == 1:
+					away.append(re.sub('\\\u00e9','e',link))
+				elif counter == 2:
+					boxscore_links.append(link)
+				elif counter == 3:
+					dates.append(re.sub('-','',link))
+				# count to track what data type (uuugly)
+				counter += 1
+				if counter == 4:
+					counter = 0
+		# Get week number
+		if response.url.split("/")[-3] == "3":
+			weekNum = "17" # bowl season
+		else:
+			weekNum = response.url.split("/")[-1]
+
 		# Write page to file
-		weekNum = response.url.split("=")[-1]
 		newPath = os.getcwd() + "/" + str(year) + "/week_" + weekNum
 		make_sure_path_exists(newPath)
-		for game in games:
-			home = game['home'][3:len(game['home'])-2]				# strip home name
-			(home_code, home_off, team_abbvs) = Find_Abbv(home, team_names, team_abbvs)				# find home code
-			visitor = game['visitor'][3:len(game['visitor'])-2]		# strip visitor name
-			(visitor_code, visitor_off, team_abbvs) = Find_Abbv(visitor, team_names, team_abbvs)	# find visitor code
-			filename = newPath + "/" + str(visitor_code).zfill(4) + str(home_code).zfill(4) + str(game['date']) + ".txt"
+		for idx, box in enumerate(boxscore_links):
+			# find codes
+			(home_code, home_off, team_abbvs) = Find_Abbv(home[idx], team_names, team_abbvs)
+			(away_code, away_off, team_abbvs) = Find_Abbv(away[idx], team_names, team_abbvs)
+			filename = newPath + "/" + str(away_code).zfill(4) + str(home_code).zfill(4) + str(dates[idx]) + ".txt"
 			with open(filename, 'w') as f:
-				f.write("Date: " + game['date'] + "\n")
-				f.write("Home: " + home + " (" + str(home_code) + ")" + "\n")
-				f.write("Visitor: " + visitor + " (" + str(visitor_code) + ")" + "\n")
-				f.write("Plays: " + "http://scores.espn.go.com" + game['play_link'][3:len(game['play_link'])-2] + "\n")
-				f.write("Drives: " + "http://scores.espn.go.com" + game['drive_link'][3:len(game['drive_link'])-2] + "\n")
-				f.write("Box: " + "http://scores.espn.go.com" + game['box_link'][3:len(game['box_link'])-2] + "\n")
+				f.write("Date: " + dates[idx] + "\n")
+				f.write("Home: " + home[idx] + " (" + str(home_code) + ")" + "\n")
+				f.write("Away: " + away[idx] + " (" + str(away_code) + ")" + "\n")
+				f.write("Box: " + box + "\n")
+				f.write("Matchup: " + re.sub('boxscore','matchup',box) + "\n")
+				f.write("PBP: " + re.sub('boxscore','playbyplay',box) + "\n")
 				f.close()

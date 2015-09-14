@@ -7,7 +7,7 @@ class Game:
     def __init__(self, pbp_data):
         self.Code = pbp_data[0][0]
         self.Date = int(long(self.Code) % 1e8)
-        self.Current_Qrt = 1
+        self.Current_Qrt = 0
         self.Visitor_Pts = 0
         self.Home_Pts = 0
 
@@ -28,9 +28,14 @@ class Game:
     # Sets the quarter if a new one occurs
     def Set_Quarter(self, play):
         if len(play) > 0:
-            m = re.match(r"(?P<qrt>\d)(?:st|nd|rd|th) Quarter Play-by-Play", play[0])
+            m = re.match(r"(?P<qrt>\d)(?:st|nd|rd|th) Quarter Play-by-Play", play[0], re.IGNORECASE)
             if m:
-                self.Current_Qrt = int(m.group("qrt"))
+                if self.Current_Qrt == int(m.group("qrt")):
+                    return False
+                else:
+                    self.Current_Qrt = int(m.group("qrt"))
+                    return True
+            return True
 
 
     # Sets the point totals

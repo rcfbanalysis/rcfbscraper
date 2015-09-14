@@ -25,43 +25,43 @@ def Write_CSV(data, file_name):
 
 # SPIDER
 class driveSpider(scrapy.Spider):
-	name = "drive"
-	allowed_domains = ["espn.go.com"]
+	# name = "drive"
+	# allowed_domains = []#["espn.go.com"]
 
-	# Build URLs from scraped data
-	start_urls = []
-	for i in range(1, 18):
-		make_sure_path_exists(str(year) + "/week_" + str(i))
-		folder = str(year) + "/week_" + str(i)
-		os.chdir(folder)
-		for filename in os.listdir(os.getcwd()):
-			new_game = PBP_GameItem()
-			with open (filename, "r") as f:
-				data = f.read()
-				# Get start URL
-				m = re.search(r"Drives: (?P<url>\S+)", data)
-				if ''.join(e for e in m.group("url") if e.isalnum()) == "httpscoresespngocom":
-					continue
-				start_urls.append(m.group("url"))
-				new_game['link'] = m.group("url")
-				# Get date
-				m = re.search(r"Date: (?P<date>\d+)", data)
-				new_game['date'] = m.group("date")
-				# Get home
-				m = re.search(r"Home: \D+ \((?P<code>\d+)\)", data)
-				new_game['home_code'] = m.group("code")
-				# Get visitor
-				m = re.search(r"Visitor: \D+ \((?P<code>\d+)\)", data)
-				new_game['visitor_code'] = m.group("code")
-			infofile = ''.join(e for e in new_game['link'] if e.isalnum())
-			make_sure_path_exists(os.getcwd() + "/../../tmpfiles/")
-			with open(os.getcwd() + "/../../tmpfiles/" + infofile + ".txt", 'w') as f:
-				f.write(new_game['link'] + "\n")
-				f.write("Code: " + str(new_game['visitor_code']).zfill(4))
-				f.write(str(new_game['home_code']).zfill(4))
-				f.write(new_game['date'])
-				f.close()
-		os.chdir("../..")
+	# # Build URLs from scraped data
+	# start_urls = []
+	# for i in range(1, 18):
+	# 	make_sure_path_exists(str(year) + "/week_" + str(i))
+	# 	folder = str(year) + "/week_" + str(i)
+	# 	os.chdir(folder)
+	# 	for filename in os.listdir(os.getcwd()):
+	# 		new_game = PBP_GameItem()
+	# 		with open (filename, "r") as f:
+	# 			data = f.read()
+	# 			# Get start URL
+	# 			m = re.search(r"Drives: (?P<url>\S+)", data)
+	# 			if ''.join(e for e in m.group("url") if e.isalnum()) == "httpscoresespngocom":
+	# 				continue
+	# 			start_urls.append(m.group("url"))
+	# 			new_game['link'] = m.group("url")
+	# 			# Get date
+	# 			m = re.search(r"Date: (?P<date>\d+)", data)
+	# 			new_game['date'] = m.group("date")
+	# 			# Get home
+	# 			m = re.search(r"Home: \D+ \((?P<code>\d+)\)", data)
+	# 			new_game['home_code'] = m.group("code")
+	# 			# Get visitor
+	# 			m = re.search(r"Visitor: \D+ \((?P<code>\d+)\)", data)
+	# 			new_game['visitor_code'] = m.group("code")
+	# 		infofile = ''.join(e for e in new_game['link'] if e.isalnum())
+	# 		make_sure_path_exists(os.getcwd() + "/../../tmpfiles/")
+	# 		with open(os.getcwd() + "/../../tmpfiles/" + infofile + ".txt", 'w') as f:
+	# 			f.write(new_game['link'] + "\n")
+	# 			f.write("Code: " + str(new_game['visitor_code']).zfill(4))
+	# 			f.write(str(new_game['home_code']).zfill(4))
+	# 			f.write(new_game['date'])
+	# 			f.close()
+	# 	os.chdir("../..")
 
 	def parse(self, response):
 		# Get this game code from file

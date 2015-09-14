@@ -2,11 +2,12 @@
 path = 'C:\Users\Dylan\Documents\GitHub\rcfbscraper\ESPN_Scraper\2013 Stats\';
 file1 = [path, 'team-game-statistics_cfbstats.csv'];
 % file1 = [path, 'play_TGS.csv'];
-file2 = [path, 'team-game-statistics.csv'];
+file2 = [path, 'team-game-statistics_new.csv'];
 % Find shared stats
 goodStats1 = [1:68];
 % goodStats1 = [1:10, 36, 45:46, 56:57, 62:65];
-goodStats2 = [1:10, 18, 21:23, 27:30, 36:38, 45, 59:65, 69:70];
+% goodStats2 = [1:10, 18, 21:23, 27:30, 36:38, 45, 59:65, 69:70];
+goodStats2 = [1:17, 69:70];
 statVecTmp = max(min(goodStats1),min(goodStats2)):min(max(goodStats1),max(goodStats2));
 statVec = zeros(size(statVecTmp));
 for i = statVecTmp

@@ -9,7 +9,8 @@ from ESPN_Scraper.items import BOX_GameItem
 from Team_Game_Statistics import *
 import ESPNSpiderFunctions
 
-year = 2013
+year = 2015
+num_weeks = 2
 
 # Make sure os path exists, create it if not
 def make_sure_path_exists(path):
@@ -39,405 +40,117 @@ def Write_CSV(data, file_name):
 		data_writer.writerows(data)
 		csvfile.close()
 
+# Extracts passing stats from boxscore
+def Extract_Passing(TGS, div):
+	pass_totals = div.xpath('.//tr[@class="highlight"]')
+	try:
+		catt = pass_totals.xpath('.//td[@class="c-att"]/text()').extract()[0]
+		m = re.search(r'(?P<c>\d+)/(?P<a>\d+)', catt)
+		TGS.Pass_Att = m.group('a')
+		TGS.Pass_Comp = m.group('c')
+	except:
+		TGS.Pass_Att = 0
+		TGS.Pass_Comp = 0
+	TGS.Pass_Yard = pass_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+	TGS.Pass_TD = pass_totals.xpath('.//td[@class="td"]/text()').extract()[0]
+	TGS.Pass_Int = pass_totals.xpath('.//td[@class="int"]/text()').extract()[0]
+	return TGS
 
-# Checks all stat markers for a match
-def CheckAll(row):
-	chk = False
-	chk = chk or re.search(r"(?P<team>.+) Rushing", row)
-	chk = chk or re.search(r"(?P<team>.+) Receiving", row)
-	chk = chk or re.search(r"(?P<team>.+) Passing", row)
-	chk = chk or re.search(r"(?P<team>.+) Kick Returns", row)
-	chk = chk or re.search(r"(?P<team>.+) Punt Returns", row)
-	chk = chk or re.search(r"(?P<team>.+) Interceptions", row)
-	chk = chk or re.search(r"(?P<team>.+) Kicking", row)
-	chk = chk or re.search(r"(?P<team>.+) Punting", row)
-	chk = chk or re.search(r"(?P<team>.+) Fumbles", row)
-	chk = chk or re.search(r"(?P<team>.+) Tackles", row)
-	if chk:
-		return True
-	else:
-		return False
+# Extracts rushing stats from boxscore
+def Extract_Rushing(TGS, div):
+	rush_totals = div.xpath('.//tr[@class="highlight"]')
+	TGS.Rush_Att = rush_totals.xpath('.//td[@class="car"]/text()').extract()[0]
+	TGS.Rush_Yard = rush_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+	TGS.Rush_TD = rush_totals.xpath('.//td[@class="td"]/text()').extract()[0]
+	return TGS
 
-def Parse_Box(rows, team_TGS, team_abbvs):
-	debug = False
-	for i in range(0, len(rows)):
-		rush_team = re.search(r"(?P<team>.+) Rushing", rows[i][0])
-		pass_team = re.search(r"(?P<team>.+) Passing", rows[i][0])
-		ret_team1 = re.search(r"(?P<team>.+) Kick Returns", rows[i][0])
-		ret_team2 = re.search(r"(?P<team>.+) Punt Returns", rows[i][0])
-		ret_team3 = re.search(r"(?P<team>.+) Interceptions", rows[i][0])
-		ret_team4 = re.search(r"(?P<team>.+) Kicking", rows[i][0])
-		punt = re.search(r"(?P<team>.+) Punting", rows[i][0])
-		if rush_team:
-			for team_abbv in team_abbvs:
-				team_name = rush_team.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpA = 0 # sums stats rather than pulling from the last line
-					tmpY = 0
-					tmpT = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Rush Information":
-						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
-							tmpA += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][4])
-						j += 1
-					if rows[j][0] == "No Rush Information":
-						team_TGS.Rush_Att = 0
-						team_TGS.Rush_Yard = 0
-						team_TGS.Rush_TD = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 5 and rows[j][0] == "Team":
-							tmpA += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][4])
-							team_TGS.Rush_Att = rows[j][1]
-							team_TGS.Rush_Yard = rows[j][2]
-							team_TGS.Rush_TD = rows[j][4]
-						j += 1
-						if j >= len(rows):
-							print "WARNING, row limit exceeded, rush data may be bad"
-							break
-					tmpA -= int(rows[j-1][1])
-					tmpY -= int(rows[j-1][2])
-					tmpT -= int(rows[j-1][4])
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Rush_Att == 0 and tmpA > 0:
-						team_TGS.Rush_Att = tmpA
-					if team_TGS.Rush_Yard == 0 and tmpY > 0:
-						team_TGS.Rush_Yard = tmpY
-					if team_TGS.Rush_TD == 0 and tmpT > 0:
-						team_TGS.Rush_TD = tmpT
-					break
-		if pass_team:
-			for team_abbv in team_abbvs:
-				team_name = pass_team.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpA = 0 # sums stats rather than pulling from the last line
-					tmpC = 0
-					tmpY = 0
-					tmpT = 0
-					tmpI = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Pass Information":
-						if len(rows[j]) >= 6 and len(rows[j][0]) > 0:
-							cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j][1])
-							tmpA += int(cmp_att.group("att"))
-							tmpC += int(cmp_att.group("cmp"))
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][4])
-							tmpI += int(rows[j][5])
-						j += 1
-					if rows[j][0] == "No Pass Information":
-						team_TGS.Pass_Att = 0
-						team_TGS.Pass_Comp = 0
-						team_TGS.Pass_Yard = 0
-						team_TGS.Pass_TD = 0
-						team_TGS.Pass_Int = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 6:
-							cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j][1])
-							tmpA += int(cmp_att.group("att"))
-							tmpC += int(cmp_att.group("cmp"))
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][4])
-							tmpI += int(rows[j][5])
-							team_TGS.Pass_Att = cmp_att.group("att")
-							team_TGS.Pass_Comp = cmp_att.group("cmp")
-							team_TGS.Pass_Yard = rows[j][2]
-							team_TGS.Pass_TD = rows[j][4]
-							team_TGS.Pass_Int = rows[j][5]
-						j += 1
-						if j >= len(rows):
-							break
-					cmp_att = re.match(r"(?P<cmp>\d+)\/(?P<att>\d+)", rows[j-1][1])
-					tmpA -= int(cmp_att.group("att"))
-					tmpC -= int(cmp_att.group("cmp"))
-					tmpY -= int(rows[j-1][2])
-					tmpT -= int(rows[j-1][4])
-					tmpI -= int(rows[j-1][5])
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Pass_Att == 0 and tmpA > 0:
-						team_TGS.Pass_Att = tmpA
-					if team_TGS.Pass_Comp == 0 and tmpC > 0:
-						team_TGS.Pass_Comp = tmpC
-					if team_TGS.Pass_Yard == 0 and tmpY > 0:
-						team_TGS.Pass_Yard = tmpY
-					if team_TGS.Pass_TD == 0 and tmpT > 0:
-						team_TGS.Pass_TD = tmpT
-					if team_TGS.Pass_Int == 0 and tmpI > 0:
-						team_TGS.Pass_Int = tmpI
-					break
-		if ret_team1:
-			for team_abbv in team_abbvs:
-				team_name = ret_team1.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpR = 0 # sums stats rather than pulling from the last line
-					tmpY = 0
-					tmpT = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Kickoff Returns":
-						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							try: # TDs not included prior to 2014
-								tmpT += int(rows[j][5])
-							except:
-								pass
-						j += 1
-					if rows[j][0] == "No Kickoff Returns":
-						team_TGS.Kickoff_Ret = 0
-						team_TGS.Kickoff_Ret_Yard = 0
-						team_TGS.Kickoff_Ret_TD = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 5:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							team_TGS.Kickoff_Ret = rows[j][1]
-							team_TGS.Kickoff_Ret_Yard = rows[j][2]
-							try: # TDs not included prior to 2014
-								tmpT -= int(rows[j-1][5])
-								team_TGS.Kickoff_Ret_TD = rows[j][5]
-							except:
-								pass
-						j += 1
-						if j >= len(rows):
-							break
-					tmpR -= int(rows[j-1][1])
-					tmpY -= int(rows[j-1][2])
-					try: # TDs not included prior to 2014
-						tmpT -= int(rows[j-1][5])
-					except:
-						pass
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Kickoff_Ret == 0 and tmpR > 0:
-						team_TGS.Kickoff_Ret = tmpR
-					if team_TGS.Kickoff_Ret_Yard == 0 and tmpY > 0:
-						team_TGS.Kickoff_Ret_Yard = tmpY
-					if team_TGS.Kickoff_Ret_TD == 0 and tmpT > 0:
-						team_TGS.Kickoff_Ret_TD = tmpT
-					break
-		if ret_team2:
-			for team_abbv in team_abbvs:
-				team_name = ret_team2.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpR = 0 # sums stats rather than pulling from the last line
-					tmpY = 0
-					tmpT = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Punt Returns":
-						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							try: # TDs not included prior to 2014
-								tmpT += int(rows[j][5])
-							except:
-								pass
-						j += 1
-					if rows[j][0] == "No Punt Returns":
-						team_TGS.Punt_Ret = 0
-						team_TGS.Punt_Ret_Yard = 0
-						team_TGS.Punt_Ret_TD = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 5:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							team_TGS.Punt_Ret = rows[j][1]
-							team_TGS.Punt_Ret_Yard = rows[j][2]
-							try: # TDs not included prior to 2014
-								tmpT -= int(rows[j-1][5])
-								team_TGS.Punt_Ret_TD = rows[j][5]
-							except:
-								pass
-						j += 1
-						if j >= len(rows):
-							break
-					tmpR -= int(rows[j-1][1])
-					tmpY -= int(rows[j-1][2])
-					try: # TDs not included prior to 2014
-						tmpT -= int(rows[j-1][5])
-					except:
-						pass
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Kickoff_Ret == 0 and tmpR > 0:
-						team_TGS.Kickoff_Ret = tmpR
-					if team_TGS.Kickoff_Ret_Yard == 0 and tmpY > 0:
-						team_TGS.Kickoff_Ret_Yard = tmpY
-					if team_TGS.Kickoff_Ret_TD == 0 and tmpT > 0:
-						team_TGS.Kickoff_Ret_TD = tmpT
-					break
-		if ret_team3:
-			for team_abbv in team_abbvs:
-				team_name = ret_team3.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpR = 0 # sums stats rather than pulling from the last line
-					tmpY = 0
-					tmpT = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Interception Information":
-						if len(rows[j]) >= 4 and len(rows[j][0]) > 0:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][3])
-						j += 1
-					if rows[j][0] == "No Interception Information":
-						team_TGS.Int_Ret = 0
-						team_TGS.Int_Ret_Yard = 0
-						team_TGS.Int_Ret_TD = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 4:
-							tmpR += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							tmpT += int(rows[j][3])
-							team_TGS.Int_Ret = rows[j][1]
-							team_TGS.Int_Ret_Yard = rows[j][2]
-							team_TGS.Int_Ret_TD = rows[j][3]
-						j += 1
-						if j >= len(rows):
-							break
-					tmpR -= int(rows[j-1][1])
-					tmpY -= int(rows[j-1][2])
-					tmpT -= int(rows[j-1][3])
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Int_Ret == 0 and tmpR > 0:
-						team_TGS.Int_Ret = tmpR
-					if team_TGS.Int_Ret_Yard == 0 and tmpY > 0:
-						team_TGS.Int_Ret_Yard = tmpY
-					if team_TGS.Int_Ret_TD == 0 and tmpT > 0:
-						team_TGS.Int_Ret_TD = tmpT
-					break
-		if ret_team4:
-			for team_abbv in team_abbvs:
-				team_name = ret_team4.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpFA = 0 # sums stats rather than pulling from the last line
-					tmpFM = 0
-					tmpXA = 0
-					tmpXM = 0
-					while rows[j][0] != "Team":
-						if len(rows[j]) >= 5 and len(rows[j][0]) > 0:
-							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][1])
-							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][4])
-							tmpFA += int(fg_att.group("att"))
-							tmpFM += int(fg_att.group("good"))
-							tmpXA += int(xp_att.group("att"))
-							tmpXM += int(xp_att.group("good"))
-						j += 1
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 5:
-							fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][1])
-							xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j][4])
-							tmpFA += int(fg_att.group("att"))
-							tmpFM += int(fg_att.group("good"))
-							tmpXA += int(xp_att.group("att"))
-							tmpXM += int(xp_att.group("good"))
-							team_TGS.Field_Goal_Att = fg_att.group("att")
-							team_TGS.Field_Goal_Made = fg_att.group("good")
-							team_TGS.Off_XP_Kick_Att = xp_att.group("att")
-							team_TGS.Off_XP_Kick_Made = xp_att.group("good")
-						j += 1
-						if j >= len(rows):
-							break
-					fg_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j-1][1])
-					xp_att = re.match(r"(?P<good>\d+)\/(?P<att>\d+)", rows[j-1][4])
-					tmpFA -= int(fg_att.group("att"))
-					tmpFM -= int(fg_att.group("good"))
-					tmpXA -= int(xp_att.group("att"))
-					tmpXM -= int(xp_att.group("good"))
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Field_Goal_Att == 0 and tmpFA > 0:
-						team_TGS.Field_Goal_Att = tmpFA
-					if team_TGS.Field_Goal_Made == 0 and tmpFM > 0:
-						team_TGS.Field_Goal_Made = tmpFM
-					if team_TGS.Off_XP_Kick_Att == 0 and tmpXA > 0:
-						team_TGS.Off_XP_Kick_Att = tmpXA
-					if team_TGS.Off_XP_Kick_Made == 0 and tmpXM > 0:
-						team_TGS.Off_XP_Kick_Made = tmpXM
-					break
-		if punt:
-			for team_abbv in team_abbvs:
-				team_name = punt.group("team").lower().replace("-", "")
-				team_name = team_name.lower().replace(" ", "")
-				team_abbv[0] = team_abbv[0].lower().replace("-", "")
-				team_abbv[0] = team_abbv[0].lower().replace(" ", "")
-				team_abbv[2] = team_abbv[2].lower().replace("-", "")
-				team_abbv[2] = team_abbv[2].lower().replace(" ", "")
-				if (int(team_abbv[1]) == int(team_TGS.Team_Code)) and (team_abbv[0] == team_name or team_abbv[2] == team_name):
-					j = i
-					tmpP = 0 # sums stats rather than pulling from the last line
-					tmpY = 0
-					while rows[j][0] != "Team" and rows[j][0] != "No Punts":
-						if len(rows[j]) >= 3 and len(rows[j][0]) > 0:
-							tmpP += int(rows[j][1])
-							tmpY += int(rows[j][2])
-						j += 1
-					if rows[j][0] == "No Punts":
-						team_TGS.Punt = 0
-						team_TGS.Punt_Yard = 0
-						break
-					while not CheckAll(rows[j][0]):
-						if len(rows[j]) >= 3:
-							tmpP += int(rows[j][1])
-							tmpY += int(rows[j][2])
-							team_TGS.Punt = rows[j][1]
-							team_TGS.Punt_Yard = rows[j][2]
-						j += 1
-						if j >= len(rows):
-							break
-					tmpP -= int(rows[j-1][1])
-					tmpY -= int(rows[j-1][2])
-					# if ESPN didn't add stats up, do it manually
-					if team_TGS.Punt == 0 and tmpP > 0:
-						team_TGS.Punt = tmpP
-					if team_TGS.Punt_Yard == 0 and tmpY > 0:
-						team_TGS.Punt_Yard = tmpY
-					break
-	return team_TGS
+# Extracts kick return stats from boxscore
+def Extract_KickReturns(TGS, div):
+	kr_totals = div.xpath('.//tr[@class="highlight"]')
+	try:
+		TGS.Kickoff_Ret = kr_totals.xpath('.//td[@class="no"]/text()').extract()[0]
+		TGS.Kickoff_Ret_Yard = kr_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+		TGS.Kickoff_Ret_TD = kr_totals.xpath('.//td[@class="td"]/text()').extract()[0]
+	except:
+		TGS.Kickoff_Ret = "0"
+		TGS.Kickoff_Ret_Yard = "0"
+		TGS.Kickoff_Ret_TD = "0"
+	return TGS
+
+# Extracts punt return stats from boxscore
+def Extract_PuntReturns(TGS, div):
+	pr_totals = div.xpath('.//tr[@class="highlight"]')
+	try:
+		TGS.Punt_Ret = pr_totals.xpath('.//td[@class="no"]/text()').extract()[0]
+		TGS.Punt_Ret_Yard = pr_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+		TGS.Punt_Ret_TD = pr_totals.xpath('.//td[@class="td"]/text()').extract()[0]
+	except:
+		TGS.Punt_Ret = "0"
+		TGS.Punt_Ret_Yard = "0"
+		TGS.Punt_Ret_TD = "0"
+	return TGS
+
+# Extracts points from boxscore
+def Extract_Points(TGS, div):
+	score_box = div.xpath('.//div[@class="score-container"]')
+	TGS.Points = score_box.xpath('.//div[contains(@class,"score")]/text()').extract()[0]
+	return TGS
+
+# Extracts interception stats from boxscore
+def Extract_Interceptions(TGS, div):
+	int_totals = div.xpath('.//tr[@class="highlight"]')
+	try:
+		TGS.Int_Ret = int_totals.xpath('.//td[@class="int"]/text()').extract()[0]
+		TGS.Int_Ret_Yard = int_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+		TGS.Int_Ret_TD = int_totals.xpath('.//td[@class="td"]/text()').extract()[0]
+	except:
+		TGS.Int_Ret = "0"
+		TGS.Int_Ret_Yard = "0"
+		TGS.Int_Ret_TD = "0"
+	return TGS
+
+# Extracts kicking stats from boxscore
+def Extract_Kicking(TGS, div):
+	kick_totals = div.xpath('.//tr[@class="highlight"]')
+	# field goals
+	try:
+		fatt = kick_totals.xpath('.//td[@class="fg"]/text()').extract()[0]
+		m = re.search(r'(?P<f>\d+)/(?P<a>\d+)', fatt)
+		TGS.Field_Goal_Made = m.group('f')
+		TGS.Field_Goal_Att = m.group('a')
+	except:
+		TGS.Field_Goal_Made = "0"
+		TGS.Field_Goal_Att = "0"
+	# extra points
+	try:
+		xatt = kick_totals.xpath('.//td[@class="xp"]/text()').extract()[0]
+		m = re.search(r'(?P<x>\d+)/(?P<a>\d+)', xatt)
+		TGS.Off_XP_Kick_Made = m.group('x')
+		TGS.Off_XP_Kick_Att = m.group('a')
+	except:
+		TGS.Off_XP_Kick_Made = "0"
+		TGS.Off_XP_Kick_Att = "0"
+	return TGS
+
+# Extracts kicking stats from boxscore
+def Extract_Punting(TGS, div):
+	punt_totals = div.xpath('.//tr[@class="highlight"]')
+	try:
+		TGS.Punt = punt_totals.xpath('.//td[@class="no"]/text()').extract()[0]
+		TGS.Punt_Yard = punt_totals.xpath('.//td[@class="yds"]/text()').extract()[0]
+	except:
+		TGS.Punt = "0"
+		TGS.Punt_Yard = "0"
+	return TGS
+
 
 # SPIDER
 class boxscoreSpider(scrapy.Spider):
 	name = "boxscore"
 	allowed_domains = ["espn.go.com"]
-
 	# Build URLs from scraped data
 	start_urls = []
-	for i in range(1, 18):
+	for i in range(1, num_weeks+1):
 		make_sure_path_exists(str(year) + "/week_" + str(i))
 		folder = str(year) + "/week_" + str(i)
 		os.chdir(folder)
@@ -447,8 +160,9 @@ class boxscoreSpider(scrapy.Spider):
 				data = f.read()
 				# Get start URL
 				m = re.search(r"Box: (?P<url>\S+)", data)
-				if ''.join(e for e in m.group("url") if e.isalnum()) == "httpscoresespngocom":
+				if ''.join(e for e in m.group("url") if e.isalnum()) == "httpespngocomcollegefootball":
 					continue
+				# Save boxscore link and team stats link
 				start_urls.append(m.group("url"))
 				new_game['link'] = m.group("url")
 				# Get date
@@ -457,18 +171,19 @@ class boxscoreSpider(scrapy.Spider):
 				# Get home
 				m = re.search(r"Home: \D+ \((?P<code>\d+)\)", data)
 				new_game['home_code'] = m.group("code")
-				# Get visitor
-				m = re.search(r"Visitor: \D+ \((?P<code>\d+)\)", data)
-				new_game['visitor_code'] = m.group("code")
+				# Get away
+				m = re.search(r"Away: \D+ \((?P<code>\d+)\)", data)
+				new_game['away_code'] = m.group("code")
 			infofile = ''.join(e for e in new_game['link'] if e.isalnum())
 			make_sure_path_exists(os.getcwd() + "/../../tmpfiles/")
 			with open(os.getcwd() + "/../../tmpfiles/" + infofile + ".txt", 'w') as f:
 				f.write(new_game['link'] + "\n")
-				f.write("Code: " + str(new_game['visitor_code']).zfill(4))
+				f.write("Code: " + str(new_game['away_code']).zfill(4))
 				f.write(str(new_game['home_code']).zfill(4))
 				f.write(new_game['date'])
 				f.close()
 		os.chdir("../..")
+
 
 	def parse(self, response):
 		# Get this game code from file
@@ -476,154 +191,98 @@ class boxscoreSpider(scrapy.Spider):
 			data = f.read()
 			m = re.search(r"Code: (?P<code>\d+)", data)
 			code = str(m.group('code')).zfill(16)
-		# Scrape box score and save raw file
-		table = response.xpath('//table[contains(@class, "mod-data")]')
-		rows = []
-		visitor = int(code) / 1000000000000
-		home = (int(code) / 100000000) % 1000
-		date = int(code) % 100000000
-		for row in table.xpath('.//tr'):
-			new_rows1 = [x.xpath('.//text()').extract() for x in row.xpath('.//td')]
-			if len(new_rows1) > 0:
-				rows.append(new_rows1)
-			new_rows2 = [x.xpath('.//text()').extract() for x in row.xpath('.//th')]
-			if len(new_rows2) > 0:
-				if len(new_rows2) == 3:
-					new_rows2 = [new_rows2[0], "", new_rows2[1], new_rows2[2]]
-				rows.append(new_rows2)
-			for i in range(0, len(rows[len(rows)-1])):
-				rows[len(rows)-1][i] = ''.join([re.sub(r"\[u'\\xa0'\]|', |\[u'|u'|'\]|\[|\]", '', str(rows[len(rows)-1][i]))])
-		Write_CSV(rows, "box/" + str(visitor).zfill(4) + str(home).zfill(4) + str(date) + ".csv")
-		# Convert to team-game-statistics format
-		visitor_TGS = Team_Game_Statistics(code, visitor)
-		home_TGS = Team_Game_Statistics(code, home)
-		team_names = Read_CSV(str(year) + " Stats/team.csv")
-		team_names = team_names[1:]
-		team_abbvs = Read_CSV(str(year) + " Stats/abbrevations.csv")
-		# Add team names to abbreviations list
-		for team in team_names:
-			team_abbvs.append([team[1], team[0], team[1]])
-		# Get score
-		for i in range(0, len(rows)):
-			first_qtr = re.search(r"\AFIRST QUARTER\Z", rows[i][0])
-			if first_qtr:
-				while len(rows[i+1]) >= 5:
-					i += 1
-				visitor_TGS.Points = rows[i][4]
-				home_TGS.Points = rows[i][5]
-			second_qtr = re.search(r"\ASECOND QUARTER\Z", rows[i][0])
-			if second_qtr:
-				while len(rows[i+1]) >= 5:
-					i += 1
-				visitor_TGS.Points = rows[i][4]
-				home_TGS.Points = rows[i][5]
-			third_qtr = re.search(r"\ATHIRD QUARTER\Z", rows[i][0])
-			if third_qtr:
-				while len(rows[i+1]) >= 5:
-					i += 1
-				visitor_TGS.Points = rows[i][4]
-				home_TGS.Points = rows[i][5]
-			fourth_qtr = re.search(r"\AFOURTH QUARTER\Z", rows[i][0])
-			if fourth_qtr:
-				while len(rows[i+1]) >= 5:
-					i += 1
-				visitor_TGS.Points = rows[i][4]
-				home_TGS.Points = rows[i][5]
-			overtimes = ["", "2ND ", "3RD ", "4TH ", "5TH ", "6TH ", "7TH ", "8TH ", "9TH "]
-			for per in overtimes:
-				over_qtr = re.search(r"\A" + per + "OVERTIME\Z", rows[i][0])
-				if over_qtr:
-					while len(rows[i+1]) >= 5:
-						i += 1
-					visitor_TGS.Points = rows[i][4]
-					home_TGS.Points = rows[i][5]
-		# Box score stats
-		for i in range(0, len(rows)):
-			# Total 1st downs
-			first_downs = re.search(r"\A1st Downs\Z", rows[i][0])
-			if first_downs:
-				visitor_TGS.First_Down_Total = rows[i][1]
-				home_TGS.First_Down_Total = rows[i][2]
-			# 3rd down conversions
-			third_downs = re.search(r"\A3rd down efficiency\Z", rows[i][0])
-			if third_downs:
-				eff = re.match(r"(?P<conv>\d+)\-(?P<att>\d+)", rows[i][1])
-				visitor_TGS.Third_Down_Att = eff.group("att")
-				visitor_TGS.Third_Down_Conv = eff.group("conv")
-				eff = re.match(r"(?P<conv>\d+)\-(?P<att>\d+)", rows[i][2])
-				home_TGS.Third_Down_Att = eff.group("att")
-				home_TGS.Third_Down_Conv = eff.group("conv")
-			# 4th down conversions
-			fourth_downs = re.search(r"\A4th down efficiency\Z", rows[i][0])
-			if fourth_downs:
-				eff = re.match(r"(?P<conv>\d+)\-(?P<att>\d+)", rows[i][1])
-				visitor_TGS.Fourth_Down_Att = eff.group("att")
-				visitor_TGS.Fourth_Down_Conv = eff.group("conv")
-				eff = re.match(r"(?P<conv>\d+)\-(?P<att>\d+)", rows[i][2])
-				home_TGS.Fourth_Down_Att = eff.group("att")
-				home_TGS.Fourth_Down_Conv = eff.group("conv")
-			# Rushing (replaced later)
-			rush_yds = re.search(r"\ARushing\Z", rows[i][0])
-			if rush_yds:
-				visitor_TGS.Rush_Yard = int(rows[i][1])
-				home_TGS.Rush_Yard = int(rows[i][2])
-			rush_att = re.search(r"\ARushing Attempts\Z", rows[i][0])
-			if rush_att:
-				visitor_TGS.Rush_Att = int(rows[i][1])
-				home_TGS.Rush_Att = int(rows[i][2])
-			# Passing (replaced later)
-			pass_yds = re.search(r"\APassing\Z", rows[i][0])
-			if pass_yds:
-				visitor_TGS.Pass_Yard = int(rows[i][1])
-				home_TGS.Pass_Yard = int(rows[i][2])
-			# Penalties
-			penalties = re.search(r"\APenalties\Z", rows[i][0])
-			if penalties:
-				num_yrds = re.search(r"(?P<num>\d+)\-(?P<yrds>\d+)", rows[i][1])
-				visitor_TGS.Penalty = num_yrds.group("num")
-				visitor_TGS.Penalty_Yard = num_yrds.group("yrds")
-				num_yrds = re.search(r"(?P<num>\d+)\-(?P<yrds>\d+)", rows[i][2])
-				home_TGS.Penalty = num_yrds.group("num")
-				home_TGS.Penalty_Yard = num_yrds.group("yrds")
-			# Possession
-			possession = re.search(r"\APossession\Z", rows[i][0])
-			if possession:
-				vToP = rows[i][1].split(":")
-				visitor_TGS.Time_Of_Possession = int(60*float(vToP[0]) + float(vToP[1]))
-				hToP = rows[i][2].split(":")
-				home_TGS.Time_Of_Possession = int(60*float(hToP[0]) + float(hToP[1]))
-			# Fumbles Lost
-			fum_lost = re.search(r"\AFumbles lost\Z", rows[i][0])
-			if fum_lost:
-				visitor_TGS.Fum_Lost = rows[i][1]
-				home_TGS.Fum_Lost = rows[i][2]
-				visitor_TGS.Fum_Ret = home_TGS.Fum_Lost
-				home_TGS.Fum_Ret = visitor_TGS.Fum_Lost
-		# Find stats
-		visitor_TGS = Parse_Box(rows, visitor_TGS, team_abbvs)
-		# START DEBUG --
-		#if int(visitor_TGS.Rush_Att) + int(visitor_TGS.Pass_Att) == 0:
-			#pdb.set_trace()
-			#visitor_TGS = Parse_Box(rows, visitor_TGS, team_abbvs)
-		# END DEBUG --
-		home_TGS = Parse_Box(rows, home_TGS, team_abbvs)
-		# START DEBUG --
-		#if int(home_TGS.Rush_Att) + int(home_TGS.Pass_Att) == 0:
-			#pdb.set_trace()
-			#home_TGS = Parse_Box(rows, visitor_TGS, team_abbvs)
-		# END DEBUG --
 
-		if os.path.isfile(str(year) + " Stats/team-game-statistics.csv"):
-			f = open(str(year) + " Stats/team-game-statistics.csv","a")
+		# Scrape box score
+		away = int(long(code) / 1e12)
+		home = int((long(code) / 1e8) % 1e3)
+		date = int(long(code) % 1e8)
+		away_TGS = Team_Game_Statistics(code, away)
+		home_TGS = Team_Game_Statistics(code, home)
+
+		# MOVE SOME OF THESE TO MATCHUP SCRAPER
+
+		# Scrape passing
+		pass_div = response.xpath('//div[@id="gamepackage-passing"]')
+		# away
+		away_pass_div = pass_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_Passing(away_TGS, away_pass_div)
+		# home
+		home_pass_div = pass_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_Passing(home_TGS, home_pass_div)
+
+		# Scrape rushing
+		rush_div = response.xpath('//div[@id="gamepackage-rushing"]')
+		# away
+		away_rush_div = rush_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_Rushing(away_TGS, away_rush_div)
+		# home
+		home_rush_div = rush_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_Rushing(home_TGS, home_rush_div)
+
+		# Scrape kick returns
+		kr_div = response.xpath('//div[@id="gamepackage-kickReturns"]')
+		# away
+		away_kr_div = kr_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_KickReturns(away_TGS, away_kr_div)
+		# home
+		home_kr_div = kr_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_KickReturns(home_TGS, home_kr_div)
+
+		# Scrape punt returns
+		pr_div = response.xpath('//div[@id="gamepackage-puntReturns"]')
+		# away
+		away_pr_div = pr_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_PuntReturns(away_TGS, away_pr_div)
+		# home
+		home_pr_div = pr_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_PuntReturns(home_TGS, home_pr_div)
+
+		# Scrape interception returns
+		int_div = response.xpath('//div[@id="gamepackage-interceptions"]')
+		# away
+		away_int_div = int_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_Interceptions(away_TGS, away_int_div)
+		# home
+		home_int_div = int_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_Interceptions(home_TGS, home_int_div)
+
+		# Scrape kicking
+		kick_div = response.xpath('//div[@id="gamepackage-kicking"]')
+		# away
+		away_kick_div = kick_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_Kicking(away_TGS, away_kick_div)
+		# home
+		home_kick_div = kick_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_Kicking(home_TGS, home_kick_div)
+
+		# Scrape punting
+		punt_div = response.xpath('//div[@id="gamepackage-punting"]')
+		# away
+		away_punt_div = punt_div.xpath('.//div[contains(@class,"gamepackage-away-wrap")]')
+		away_TGS = Extract_Punting(away_TGS, away_punt_div)
+		# home
+		home_punt_div = punt_div.xpath('.//div[contains(@class,"gamepackage-home-wrap")]')
+		home_TGS = Extract_Punting(home_TGS, home_punt_div)
+
+		# Get points
+		points_div = response.xpath('//div[@class="competitors"]')
+		away_points = points_div.xpath('.//div[contains(@class,"away")]')
+		away_TGS = Extract_Points(away_TGS, away_points)
+		home_points = points_div.xpath('.//div[contains(@class,"home")]')
+		home_TGS = Extract_Points(home_TGS, home_points)
+
+		# Write stats to file
+		if os.path.isfile(str(year) + " Stats/boxscore-stats.csv"):
+			f = open(str(year) + " Stats/boxscore-stats.csv","a")
 			data_writer = csv.writer(f, lineterminator = '\n')
 			new_rows = []
-			new_rows.append(visitor_TGS.Compile())
+			new_rows.append(away_TGS.Compile())
 			new_rows.append(home_TGS.Compile())
 			data_writer.writerows(new_rows)
 			f.close()
 		else:
 			new_rows = []
-			new_rows.append(visitor_TGS.Header())
-			new_rows.append(visitor_TGS.Compile())
+			new_rows.append(away_TGS.Header())
+			new_rows.append(away_TGS.Compile())
 			new_rows.append(home_TGS.Compile())
-			Write_CSV(new_rows, str(year) + " Stats/team-game-statistics.csv")
+			Write_CSV(new_rows, str(year) + " Stats/boxscore-stats.csv")

@@ -93,12 +93,21 @@ def Convert_PBP_Data(pbp_file):
 
 	for i in range(0,len(pbp_data)):
 		play = pbp_data[i]
-		start = re.match(r"(?P<offense>\D+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
+		start = re.match(r"(?P<offense>\D+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0], re.IGNORECASE)
 		if start:
 			if Add_To_Replacement(to_be_replaced, str(start.group("offense"))):
 				(code, name, abbv_arr) = New_Find_Abbv_Team(start.group("offense"), teams, abbv_arr, pbp_data, i)
 				# pbp_data = Replace_All_Names(pbp_data, str(start.group("offense")), "t" + code)
 				to_be_replaced.append([str(start.group("offense")), "t" + code])
+
+	for i in range(0,len(pbp_data)):
+		play = pbp_data[i]
+		stop = re.match(r"(?P<offense>\D+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?:\-)?(?P<yards>\d+) (?:yards|yard|yds|yd)(\, (?P<min>\d{1,2})\:(?P<sec>\d{2}))?", play[0], re.IGNORECASE)
+		if stop:
+			if Add_To_Replacement(to_be_replaced, str(stop.group("offense"))):
+				(code, name, abbv_arr) = New_Find_Abbv_Team(stop.group("offense"), teams, abbv_arr, pbp_data, i)
+				# pbp_data = Replace_All_Names(pbp_data, str(stop.group("offense")), "t" + code)
+				to_be_replaced.append([str(stop.group("offense")), "t" + code])
 
 	# Find and replace home/visitor score abbreviations
 	visitor_code = team1_code
@@ -277,11 +286,23 @@ def New_Find_Abbv_Team(abbv, team_arr, abbv_arr, data, data_pos):
 
 # Replaces all occurrances of a string with another
 def Replace_All_Names(pbp_data, name, number):
-	k = re.compile(r"%s" % re.escape(name), re.I)						# replaces whole word abbreviations
+	# middle of string
+	k = re.compile(r" %s " % re.escape(name), re.IGNORECASE)						# replaces whole word abbreviations
 	for i in range(0, len(pbp_data)):
 		for j in range(0, len(pbp_data[i])):
-			pbp_data[i][j] = k.sub(number, pbp_data[i][j])
-	k = re.compile(r"%s(?P<spot>\d{1,2})" % re.escape(name), re.I)		# replaces spot abbreviations (ex: BAYLOR49)
+			pbp_data[i][j] = k.sub(" " + number + " ", pbp_data[i][j])
+	# beginning of string
+	k = re.compile(r"\A%s " % re.escape(name), re.IGNORECASE)						# replaces whole word abbreviations
+	for i in range(0, len(pbp_data)):
+		for j in range(0, len(pbp_data[i])):
+			pbp_data[i][j] = k.sub(number + " ", pbp_data[i][j])
+	# end of string
+	k = re.compile(r" %s\Z" % re.escape(name), re.IGNORECASE)						# replaces whole word abbreviations
+	for i in range(0, len(pbp_data)):
+		for j in range(0, len(pbp_data[i])):
+			pbp_data[i][j] = k.sub(" " + number, pbp_data[i][j])
+	# replaces spot abbreviations (ex: BAYLOR49)
+	k = re.compile(r"%s(?P<spot>\d{1,2})" % re.escape(name), re.IGNORECASE)
 	for i in range(0, len(pbp_data)):
 		for j in range(0, len(pbp_data[i])):
 			m = k.search(pbp_data[i][j])
@@ -296,44 +317,70 @@ def Compile_Drives(pbp_data, game):
 	cur_drive = Drive(0, 0, 0, 0, 0, 0)
 	cur_drive.Finished = 1
 	new_Quarter = False
+	ignore_start = False
+	new_Half = False
+	prev_off = 0
+	prev_start = ""
 	for play in pbp_data:
 
-		game.Set_Quarter(play)
 		start = re.match(r"t(?P<offense>\d+) at (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
-		stop = re.match(r"t(?P<team>\d+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?:\-)?(?P<yards>\d+) (?:yards|yard|yds|yd)\, (?P<min>\d{1,2})\:(?P<sec>\d{2})", play[0])
-		quarter_start = re.search("Quarter Play-by-Play",play[0],re.IGNORECASE)
-		if quarter_start:
+		stop = re.match(r"t(?P<team>\d+) DRIVE TOTALS\: (?P<plays>\d+) play(?:s)?\, (?:\-)?(?P<yards>\d+) (?:yards|yard|yds|yd)(\, (?P<min>\d{1,2})\:(?P<sec>\d{2}))?", play[0], re.IGNORECASE)
+
+		quarter_start1 = game.Set_Quarter(play)
+		quarter_start2 = re.match(r"(?P<qrt>\d)(?:st|nd|rd|th) Quarter Play-by-Play", play[0], re.IGNORECASE)
+		if quarter_start1 and quarter_start2:
 			new_Quarter = True
+			if game.Current_Qrt == 1 or game.Current_Qrt == 3:
+				new_Half = True
+		elif not quarter_start1 and quarter_start2:
+			ignore_start = True
 
 		if start:	# Check for the start of a new drive
-			if int(start.group("offense")) == game.Home:
-				offense = game.Home
-				defense = game.Visitor
-			elif int(start.group("offense")) == game.Visitor:
-				offense = game.Visitor
-				defense = game.Home
-			else:
-				print int(start.group("offense"))
-				print game.Home
-				print game.Visitor
-			start_time = Set_Clock(start.group("min"), start.group("sec"))
-			if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
-				# print "WARNING: Drive summary never produced"
-				drives.append(cur_drive)
-			cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
-			if new_Quarter:
-				new_Quarter = False
-			else:
-				if cur_drive.Finished != 1 and cur_drive.Game_Code != 0:
-					# print "WARNING: Drive summary never produced"
+			if ignore_start:
+				ignore_start = False
+			elif prev_start == play[0] and cur_drive.Finished == 0 and cur_drive.Game_Code != 0:
+				continue
+			elif not new_Quarter or (new_Quarter and prev_off != int(start.group("offense"))) or new_Half:
+				if int(start.group("offense")) == game.Home:
+					offense = game.Home
+					defense = game.Visitor
+				elif int(start.group("offense")) == game.Visitor:
+					offense = game.Visitor
+					defense = game.Home
+				else:
+					print int(start.group("offense"))
+					print game.Home
+					print game.Visitor
+					print "Couldn't find who the offense is"
+					raw_input()
+				start_time = Set_Clock(start.group("min"), start.group("sec"))
+
+				if cur_drive.Finished == 0 and cur_drive.Game_Code != 0:
+					print "WARNING: Drive summary never produced"
+					print play[0]
+					print game.Current_Qrt
+					print new_Quarter
+					print new_Half
+					print prev_off
+					print int(start.group("offense"))
+					# raw_input()
 					drives.append(cur_drive)
+
+				prev_start = play[0]
+				prev_off = offense
+				new_Quarter = False
+				new_Half = False
 				cur_drive = Drive(game.Code, offense, defense, start_time, game.Current_Qrt, len(drives) + 1)
 		elif stop:	# Check for the end of a drive
 			plays = int(stop.group("plays"))
 			yards = int(stop.group("yards"))
-			stop_time = Set_Clock(stop.group("min"), stop.group("sec"))
+			try:
+				stop_time = Set_Clock(stop.group("min"), stop.group("sec"))
+			except:
+				stop_time = cur_drive.Start_Time
 			cur_drive.Set_Summary(plays, yards, stop_time, game.Current_Qrt)
 			if cur_drive.Game_Code != 0:
+				# print "Summary produced"
 				drives.append(cur_drive)
 		else:		# Add play to drives
 			cur_drive.Raw_Pbp_Data.append(play)
@@ -392,6 +439,7 @@ path = "../pbp/"
 allPlays = []
 allDrives = []
 allTGS = []
+unparsed_plays = []
 game_files = [f for f in listdir(path) if isfile(join(path, f))]
 
 for game_file in game_files:
@@ -427,6 +475,8 @@ for game_file in game_files:
 	# Parse data into play form
 	plays = []
 	game.Current_Qrt = 1
+	replica = False
+	nReplica = 0
 	for drive in drives:	# loop through all drives in the game
 		for play in drive.Raw_Pbp_Data:		# loop through all plays in the drive
 			game.Check_Points(play)
@@ -452,9 +502,25 @@ for game_file in game_files:
 						cur_play.Drive_Play = plays[len(plays) - 1].Drive_Play + 1
 				except:
 					cur_play.Drive_Play = 1
-				plays.append(cur_play)
-				allPlays.append(cur_play)
-				drive.Play_List.append(cur_play)
+
+				# check to make sure this play isn't a replica
+				if replica:
+					# if previous was a replica
+					cur_play.Play_Number -= nReplica
+					cur_play.Drive_Play -= nReplica
+					replica = False
+					nReplica = 0
+				for dr_play in drive.Play_List:
+					if dr_play.Distance == cur_play.Distance and dr_play.Down == cur_play.Down and dr_play.Spot == cur_play.Spot and dr_play.Play_Desc == cur_play.Play_Desc:
+						replica = True
+						nReplica += 1
+						break
+				if not replica:
+					plays.append(cur_play)
+					allPlays.append(cur_play)
+					drive.Play_List.append(cur_play)
+			else:
+				unparsed_plays.append(play)
 
 		play_count = 0
 		for play in drive.Play_List:
@@ -496,6 +562,7 @@ for game_file in game_files:
 	for drive in drives:
 		allDrives.append(drive)
 
+print "\nFinishing up..."
 
 # Write drives to file
 drive_data = []
@@ -510,6 +577,12 @@ play_data.append(plays[0].Header())
 for play in allPlays:
 	play_data.append(play.Compile_Stats())
 Write_CSV(play_data, str(year) + " Stats temp/play.csv")
+
+# Write plays to file
+play_data = []
+for play in unparsed_plays:
+	play_data.append(play)
+Write_CSV(play_data, str(year) + " Stats temp/unparsed_plays.csv")
 
 # Build team-game-statistics
 prev_game_code = 0

@@ -20,7 +20,7 @@ class GameItem(scrapy.Item):
 	gameID = scrapy.Field()
 	date = scrapy.Field()
 	home = scrapy.Field()
-	visitor = scrapy.Field()
+	away = scrapy.Field()
 	play_link = scrapy.Field()
 	drive_link = scrapy.Field()
 	box_link = scrapy.Field()
@@ -30,7 +30,7 @@ class PBP_GameItem(scrapy.Item):
 	code = scrapy.Field()
 	date = scrapy.Field()
 	home_code = scrapy.Field()
-	visitor_code = scrapy.Field()
+	away_code = scrapy.Field()
 	link = scrapy.Field()
 
 # Top level game item
@@ -38,5 +38,5 @@ class BOX_GameItem(scrapy.Item):
 	code = scrapy.Field()
 	date = scrapy.Field()
 	home_code = scrapy.Field()
-	visitor_code = scrapy.Field()
+	away_code = scrapy.Field()
 	link = scrapy.Field()
